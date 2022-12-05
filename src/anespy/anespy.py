@@ -17,12 +17,15 @@ class ANES(pd.DataFrame):
     
     
 def load_ANES_data(year): 
+
+    var_path = (f"https://raw.githubusercontent.com/jer164/ANESPy/main/src/anespy/var_lists/{year}_varlist.csv")
+    data_path = (f"https://raw.githubusercontent.com/jer164/ANESPy/main/src/anespy/data/anes_timeseries_{year}.csv")
     
-    vars = pd.read_csv(f"anespy/src/anespy/var_lists/{year}_varlist.csv") #get vars
+    vars = pd.read_csv(var_path) #get vars
     vars = dict(zip(vars['Number'], vars['Name']))
     vars = {k.upper():v for k,v in vars.items()}
 
-    data = pd.read_csv(f'anespy/src/anespy/data/anes_timeseries_{year}.csv', low_memory=False) 
+    data = pd.read_csv(data_path, low_memory=False) 
 
     data.drop(columns=[col for col in data if col not in vars.keys()], inplace=True)
     data.rename(columns=vars, inplace=True) 
@@ -37,13 +40,3 @@ def load_ANES_data(year):
     data = ANES(data)
     
     return data
-
-def split_pre_post(df_in):
-
-    pre, post = [col for col in df_in.columns if any(match in col for match in ['PRE:', 'PRE ADMIN:'])], [col for col in df_in.columns if any(match in col for match in ['POST:', 'POST ADMIN:'])]
-
-    df_pre = df_in[pre]
-    df_post = df_in[post]
-
-    return(df_pre, df_post)
-    
