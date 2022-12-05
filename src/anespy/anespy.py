@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import re
 
 class ANES(pd.DataFrame):
 
@@ -28,7 +29,31 @@ def load_ANES_data(year):
     data = pd.read_csv(data_path, low_memory=False) 
 
     data.drop(columns=[col for col in data if col not in vars.keys()], inplace=True)
-    data.rename(columns=vars, inplace=True) 
+
+    if year <= 2008:
+        duped_vars = [r'[a-zA-Z]\d\.\s', 
+        r'[a-zA-Z]\d[a-zA-Z]\.\s', 
+        r'[a-zA-Z]\d[a-zA-Z]\d\.\s', 
+        r'[a-zA-Z][0-9]+[a-zA-Z]\.\s', 
+        r'[a-zA-Z][0-9]+[a-zA-Z]\d[a-zA-Z]\.\s', 
+        r'[a-zA-Z]\d[a-zA-Z]\.\s', 
+        r'[a-zA-Z]\d[a-zA-Z]\.\s', 
+        r'[a-zA-Z]\d\d\.\s']
+        
+        vars_vals = list(vars.values())
+
+        fixed_vals = []
+        for idx, name in enumerate(vars_vals):
+                if idx >= 402 and idx <= 817 :
+                        fixed_vals.append(re.sub('|'.join(duped_vars),'PRE: ', str(name)))
+                else: 
+                        fixed_vals.append(re.sub('|'.join(duped_vars),'POST: ', str(name)))
+
+        fixed_vars = dict(zip(vars.keys(), fixed_vals))
+        data.rename(columns=fixed_vars, inplace=True) 
+    else:
+        data.rename(columns=vars, inplace=True) 
+
     data.replace(" ", np.nan, inplace=True)
     
     data_obj = data.select_dtypes(['object'])
@@ -40,3 +65,12 @@ def load_ANES_data(year):
     data = ANES(data)
     
     return data
+
+def split_pre_post(df_in):
+
+    pre, post = [col for col in df_in.columns if any(match in col for match in ['PRE:', 'PRE ADMIN:'])], [col for col in df_in.columns if any(match in col for match in ['POST:', 'POST ADMIN:'])]
+
+    df_pre = df_in[pre]
+    df_post = df_in[post]
+
+    return(df_pre, df_post)
