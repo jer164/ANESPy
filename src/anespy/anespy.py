@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from importlib.resources import files, as_file
+from pandas.core.common import SettingWithCopyWarning
 import pickle
 import re
 import requests 
@@ -11,6 +12,7 @@ import warnings
 ######### Suppress FutureWarnings
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.simplefilter(action='ignore', category=SettingWithCopyWarning)
 
 ######### DICTIONARIES AND RE-USED VALUES
 

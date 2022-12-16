@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "anespy"
-version = "0.1.5.0"
+version = "0.1.5.1"
 description = "A package for using ANES data in Python"
 authors = ["Jackson Rudoff"]
 license = "MIT"
