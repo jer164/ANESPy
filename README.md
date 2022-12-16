@@ -5,7 +5,7 @@ A package for easy import and cleaning of ANES data.
 ## Installation
 
 ```bash
-$ pip install anespy
+$ pip install -i https://test.pypi.org/simple/ anespy
 ```
 
 ## Usage
