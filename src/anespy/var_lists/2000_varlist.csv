@@ -1,0 +1,1857 @@
+﻿Number,Name
+CASEID,
+vversion,Process.1. NES VERSION NUMBER OF DATA
+vdsetno,Process.2. NES DATASET NUMBER
+vicpsrno,Process.2a. ICPSR ARCHIVE NUMBER 3131
+v000001,Process.4. Case ID
+v000001a,Process.4a. Post ID
+v000002,Process.5. Sample weight
+v000002a,Process.5a. Post weight
+v000003,Process.6. Pre only or Pre-and-Post
+v000004,Pre.Admin.1. Mode of Pre IW
+v000005a,Pre.Admin.2a. Form - E section
+v000005b,Pre.Admin.2b. Form - F6-F9 half sample
+v000005c,Pre.Admin.2c. Form - Q1-Q11 or Q14-15
+v000005d,Pre.Admin.2d. Form - G section lib-con
+v000005e,Pre.Admin.2e. Form - H1 or H1.E
+v000005f,Pre.Admin.2f. Form - H2 or H2.E
+v000005g,Pre.Admin.2g. Form - H4 or H4.E
+v000005h,Pre.Admin.2h. Form - H11 or H11.E
+v000005j,Pre.Admin.2j. Form - H12 or H12.E
+v000005k,Pre.Admin.2k. Form - L3 medical insur.
+v000005m,Pre.Admin.2m. Form - L6 or L6.E
+v000005n,Pre.Admin.2n. Form - M4 env vs. jobs
+v000005p,Pre.Admin.2p. Form - N1 or N1.E
+v000005q,Pre.Admin.2q. Form - P1 women's role
+v000006,Pre.Admin.3. Month of IW
+v000007,Pre.Admin.4. Day of IW
+v000008,Pre.Admin.5. Month and day (MMDD)
+v000009,Pre.Admin.6. No. days after election
+v000010,Pre.Admin.7. IW length
+v000011,Pre.Admin.8. IW number
+v000012,Pre.Admin.9. Date of beginning VQ file
+v000013,Pre.Admin.10. Date of ending VQ file
+v000014,Pre.Admin.11. Flag- change in VQ
+v000015,Pre.Admin.12. Advance letter sent?
+v000016,Pre.Admin.13. Payment amount
+v000017,Pre.Admin.14. Payment mode
+v000018,Pre.Admin.15. Payment date
+v000019,Pre.Admin.16. Tape recorded?
+v000020,Pre.Admin.17. Verification
+v000021,Pre.Admin.18. Evaluation
+v000022,Pre.Admin.19. Conversion indicator
+v000023,Pre.Admin.20. Persuasion letter
+v000024,Pre.Admin.21. Date per letter requested
+v000025,Pre.Admin.22. Date persuasion sent
+v000026,Pre.Admin.23. Type of persuasion letter
+v000027,Pre.Admin.24. Telephone calls
+v000028,Pre.Admin.25. FTF calls
+v000029,Pre.Admin.26. Final result
+v000030,Pre.Admin.27. Sample release (all 1)
+v000031,Pre.Admin.28. Lang of IW (all English)
+v000032,Pre.CSheet.1. Flag- missing CS
+v000033,Pre.CSheet.2. Color of coversheet
+v000034,Pre.CSheet.3. PH- type phone #
+v000035,Pre.CSheet.4. PH- business with residenc
+v000036,Pre.CSheet.5. PH- bus res has personal#
+v000037,Pre.CSheet.6. FTF- HH listing from
+v000038,Pre.CSheet.7. Selection table
+v000039,Pre.CSheet.8. Number of elig adults
+v000040,Pre.CSheet.9. Number inelig adults
+v000041,Pre.CSheet.10. Household composition
+v000042,Pre.CSheet.11. R person number
+v000043,Pre.CSheet.12. FTF- type structure
+v000044,Pre.CSheet.13. FTF- gatekeeper
+v000045,Pre.CSheet.14. FTF- type gatekeeper
+v000046,Pre.CSheet.15. Resistance from contact?
+v000047,Pre.CSheet.16. Contact resist-waste time
+v000048,Pre.CSheet.17. Contact resist-too person
+v000049,Pre.CSheet.18. Contact resist-confidenti
+v000050,Pre.CSheet.19. Contact resist-not intere
+v000051,Pre.CSheet.20. Contact resist-too busy
+v000052,Pre.CSheet.21. Contact resist-health
+v000053,Pre.CSheet.22. Contact resist-other
+v000054,Pre.CSheet.23. R refuse initially?
+v000055,Pre.CSheet.24. R break appointments
+v000056,Pre.CSheet.25. Was R contact resister?
+v000057,Pre.CSheet.26. SUMMARY: did R resist
+v000058,Pre.CSheet.27. R resist-waste time
+v000059,Pre.CSheet.28. R resist-too personal
+v000060,Pre.CSheet.29. R resist-confidentiality
+v000061,Pre.CSheet.30. R resist-not interested i
+v000062,Pre.CSheet.31. R resist-too busy
+v000063,Pre.CSheet.32. R resist-health
+v000064,Pre.CSheet.33. R resist-other
+v000065,Pre.CSheet.34. IWR est income (CSMS)
+v000066,Pre.CSheet.35. IWR est race (CSMS)
+v000067,Pre.CSheet.36. Certainty of race (CSMS)
+v000068,Pre.CSheet.37. Hispanic HH? (CSMS)
+v000069,Pre.CSheet.38. Certainty if Hisp (CSMS)
+v000070,Pre.IWR.1. Interviewer of record
+v000071,Pre.IWR.2. Supervisor
+v000072,Pre.IWR.3. Interviewer gender
+v000073,Pre.IWR.4. Interviewer education
+v000074,Pre.IWR.5. Interviewer race
+v000075,Pre.IWR.6. Interviewer ethnicity
+v000076,Pre.IWR.7. Interviewer languages
+v000077,Pre.IWR.8. Yrs Interviewer experience
+v000078,Pre.IWR.9. Interviewer age (bracketed)
+v000079,Pre.Sample.1. ICPSR state code
+v000080,Pre.Sample.2. FIPS state code
+v000081,Pre.Sample.3. 2000 state abbr and CD
+v000082,Pre.Sample.4. 2000 FIPS state and CD
+v000083,Pre.Sample.5. Congressional district no.
+v000084,Pre.Sample.6. ICPSR state and CD
+v000085,Pre.Sample.7. Did R vote outside IW CD?
+v000086,Pre.Sample.8. State/CD -vote outside CD
+v000087,Pre.Sample.9. FIPS state and county
+v000087a,Pre.Sample.9a. County (alpha)
+v000088,Pre.Sample.10. Primary area name
+v000089,Pre.Sample.11. Primary area code
+v000090,Pre.Sample.12. Segment number (blanked)
+v000090a,Pre.Sample.13. Segment name (blanked)
+v000091,Pre.Sample.14. Number of HH units
+v000092,Pre.Sample.15. Census region
+v000093,Pre.Sample.16. Belt code
+v000094,Pre.Sample.17. Population in 1000s
+v000095,Pre.Sample.18. Census size of place
+v000096,Pre.Sample.19. Census tract/ed indicator
+v000097,Pre.Sample.20. 2000 Sampling Error code
+v000097a,Sampling Error Stratum Code
+v000097b,Sampling Error Half-Sample Code
+v000098,Pre.Sample.21. 2000 Census NECMA/SMSA
+v000099,Pre.Sample.22. 2000 CMSA
+v000100,Pre.Sample.23. 2000 Census Tract 1
+v000101,Pre.Sample.24. 2000 Census Tract 2
+v000102,Pre.Sample.25. 2000 Block 1
+v000103,Pre.Sample.26. 2000 Block 2
+v000104,Pre.Sample.27. 2000 MCD
+v000105,Pre.Sample.28. 2000 CDP
+v000106,Pre.Sample.29. 2000 FIPS place code
+v000107,Pre.Summary.1. Pre timing - section A
+v000108,Pre.Summary.2. Pre timing - section B
+v000109,Pre.Summary.3. Pre timing - section C
+v000110,Pre.Summary.4. Pre timing - section D
+v000111,Pre.Summary.5. Pre timing - section E
+v000112,Pre.Summary.6. Pre timing - section F
+v000113,Pre.Summary.7. Pre timing - section G
+v000114,Pre.Summary.8. Pre timing - section H
+v000115,Pre.Summary.9. Pre timing - section K
+v000116,Pre.Summary.10. Pre timing - section L
+v000117,Pre.Summary.11. Pre timing - section M
+v000118,Pre.Summary.12. Pre timing - section N
+v000119,Pre.Summary.13. Pre timing - section P
+v000120,Pre.Summary.14. Pre timing - section Q
+v000121,Pre.Summary.15. Pre timing - section R
+v000122,Pre.Summary.16. Pre timing - section S
+v000123,Pre.Summary.17. Pre timing - section X
+v000124,Pre.Summary.18. Pre timing - section Y
+v000125,Pre.Summary.19. Pre timing - section Z
+v000126,Post.Admin.1. Mode of Interview
+v000126a,Post.Admin.1a. Mode switch flag
+v000127a,Post.Admin.2a. Form desc 1 - H in Post
+v000127b,Post.Admin.2b. Form desc 2 - K format
+v000128,Post.Admin.3. Mo. IW
+v000129,Post.Admin.4. Day IW
+v000130,Post.Admin.5. Month and day (MMDD)
+v000131,Post.Admin.6. No. days after election
+v000132,Post.Admin.7. IW bef/aft Gore concession
+v000133,Post.Admin.8. IW length
+v000134,Post.Admin.9. IW no.
+v000135,Post.Admin.10. Date of beg VQ file
+v000136,Post.Admin.11. Date of end VQ file
+v000137,Post.Admin.12. Flag- change in VQ
+v000138,Post.Admin.13. Release
+v000139,Post.Admin.14. Payment amt
+v000139a,Post.Admin.14a. Interviewer incentive
+v000140,Post.Admin.15. Payment mode
+v000141,Post.Admin.16. Payment date
+v000142,Post.Admin.17. Tape recorded
+v000143,Post.Admin.18. Verification
+v000144,Post.Admin.19. Evaluation
+v000145,Post.Admin.20. Conversion ind.
+v000146,Post.Admin.21. Persuasion letter
+v000147,Post.Admin.22. Date requested
+v000148,Post.Admin.23. Date sent
+v000149,Post.Admin.24. Type letter
+v000150,Post.Admin.25. Tel calls
+v000151,Post.Admin.26. FTF calls
+v000152,Post.Admin.27. Final result
+v000153,Post.Admin.28. Result date (NI)
+v000154,Post.Admin. 29. Flag - mode switch
+v000155,Post.Admin.30. Lang of IW (all English)
+v000156,Post.CSheet.1. Flag- missing CS
+v000157,Post.CSheet.2. Color of coversheet
+v000158,Post.CSheet.3. Item 1. R at samp addr
+v000159,Post.CSheet.4. Item 2b. PHONE: New phone
+v000160,Post.CSheet.5. Item 2b. FTF: Addr status
+v000161,Post.CSheet.6. FTF type structure
+v000162,Post.CSheet.7. FTF gatekeeper
+v000163,Post.CSheet.8. FTF type gatekeeper
+v000164,Post.CSheet.9. Resist from contact
+v000165,Post.CSheet.10. Contct resist-waste time
+v000166,Post.CSheet.11. Contct resist-too person
+v000167,Post.CSheet.12. Contct resist-confidenti
+v000168,Post.CSheet.13. Contct resist-not intere
+v000169,Post.CSheet.14. Contct resist-too busy
+v000170,Post.CSheet.15. Contct resist-health
+v000171,Post.CSheet.16. Contct resist-other
+v000172,Post.CSheet.17. R refuse initially
+v000173,Post.CSheet.18. R break appts
+v000174,Post.CSheet.19. Was R contact resister?
+v000175,Post.CSheet.20. SUMMARY: did R resist
+v000176,Post.CSheet.21. R resist- waste time
+v000177,Post.CSheet.22. R resist- too personal
+v000178,Post.CSheet.23. R resist- confidentialit
+v000179,Post.CSheet.24. R resist- not interested
+v000180,Post.CSheet.25. R resist- too busy
+v000181,Post.CSheet.26. R resist- health
+v000182,Post.CSheet.27. R resist- other
+v000183,Post.CSheet.28. Ever make contact (NI)
+v000183a,Post.CSheet.28a. Ever contact R (NI)
+v000184,Post.CSheet.29. Reason no contact (NI)
+v000184a,Post-CSheet.30. CSMS estimated income
+v000184b,Post-CSheet.31. CSMS estimated HH race
+v000184c,Post-CSheet.32. CSMS est HH race certain
+v000184d,Post-CSheet.33. CSMS estimated Hispanic
+v000184e,Post-CSheet.34. CSMS est Hispanic certai
+v000185,Post.IWR.1. Interviewer of record
+v000186,Post.IWR.2. Supervisor
+v000187,Post.IWR.3. Interviewer gender
+v000188,Post.IWR.4. Interviewer education
+v000189,Post.IWR.5. Interviewer race
+v000190,Post.IWR.6. Interviewer ethnicity
+v000191,Post.IWR.7. Interviewer languages
+v000192,Post.IWR.8. Yrs Interviewer experience
+v000193,Post.IWR.9. Interviewer age (bracketed)
+v000194,Post.Cand.1. House race type
+v000194a,Post.Cand.1a. Retiring House Repr name
+v000194b,Post.Cand.1b. Retiring House Repr code
+v000194c,Post.Cand.1c. Retiring House Repr gender
+v000194d,Post.Cand.1d. Winner of House election
+v000194e,Post.Cand.1e. Winner of Senate election
+v000194f,Post.Cand.1f. Competitiveness of CD
+v000194g,Post.Cand.1g. Open seat in 1998?
+v000195,Post.Cand.2. House Democratic cand name
+v000196,Post.Cand.3. House Democratic cand code
+v000197,Post.Cand.4. House Democratic cand gendr
+v000198,Post.Cand.5. House Republican cand name
+v000199,Post.Cand.6. House Republican cand code
+v000200,Post.Cand.7. House Republican cand gendr
+v000201,Post.Cand.8. House Ind cand name
+v000202,Post.Cand.9. House Ind cand code
+v000202a,Post.Cand.9a. House Ind cand party
+v000203,Post.Cand.10. House Ind cand gender
+v000204,Post.Cand.11. Senate race type
+v000205,Post.Cand.12. Senate Democr cand name
+v000206,Post.Cand.13. Senate Democr cand code
+v000207,Post.Cand.14. Senate Democr cand gender
+v000208,Post.Cand.15. Senate Repub cand name
+v000209,Post.Cand.16. Senate Repub cand code
+v000210,Post.Cand.17. Senate Repub cand gender
+v000211,Post.Cand.18. Senate Ind 1 cand name
+v000212,Post.Cand.19. Senate Ind 1 cand code
+v000212a,Post.Cand.19a. Senate Ind 1 cand party
+v000213,Post.Cand.20. Senate Ind 1 cand gender
+v000214,Post.Cand.21. Senate Ind 2 cand name
+v000215,Post.Cand.22. Senate Ind 2 cand code
+v000215a,Post.Cand.22a. Senate Ind 2 cand party
+v000216,Post.Cand.23. Senate Ind 2 cand gender
+v000217,Post.Cand.24. Outside Hse Dem cand name
+v000218,Post.Cand.25. Outside Hse Dem cand code
+v000219,Post.Cand.26. Outside Hse Dem cand gendr
+v000220,Post.Cand.27. Outside Hse Rep cand name
+v000221,Post.Cand.28. Outside Hse Rep cand code
+v000222,Post.Cand.29. Outside Hse Rep cand gendr
+v000223,Post.Cand.30. Outside Hse Ind cand name
+v000224,Post.Cand.31. Outside Hse Ind cand code
+v000225,Post.Cand.32. Outside Hse Ind cand gendr
+v000226,Post.Cand.33. Outside Hse race type
+v000226a,Post.Cand.33a. Outside Sen race type
+v000227,Post.Cand.34. Outside Sen Dem cand name
+v000228,Post.Cand.35. Outside Sen Dem cand code
+v000229,Post.Cand.36. Outside Sen Dem cand gendr
+v000230,Post.Cand.37. Outside Sen Rep cand name
+v000231,Post.Cand.38. Outside Sen Rep cand code
+v000232,Post.Cand.39. Outside Sen Rep cand gendr
+v000233,Post.Cand.40. Outside Sen Ind1 cand name
+v000234,Post.Cand.41. Outside Sen Ind1 cand code
+v000235,Post.Cand.42. Outside Sen Ind1 cand gend
+v000236,Post.Cand.43. Outside Sen Ind2 cand name
+v000237,Post.Cand.44. Outside Sen Ind2 cand code
+v000238,Post.Cand.45. Outside Sen Ind2 cand gend
+v000239,Post.Summary.1. Post timing - section A
+v000240,Post.Summary.2. Post timing - section B
+v000241,Post.Summary.3. Post timing - section C
+v000242,Post.Summary.4. Post timing - section D
+v000243,Post.Summary.5. Post timing - section E
+v000244,Post.Summary.6. Post timing - section F
+v000245,Post.Summary.7. Post timing - section G
+v000246,Post.Summary.8. Post timing - section H
+v000247,Post.Summary.9. Post timing - section J
+v000248,Post.Summary.10. Post timing - section K
+v000249,Post.Summary.11. Post timing - section L
+v000250,Post.Summary.12. Post timing - section M
+v000251,Post.Summary.13. Post timing - section N
+v000252,Post.Summary.14. Post timing - section P
+v000253,Post.Summary.15. Post timing - section Q
+v000254,Post.Summary.16. Post timing - section R
+v000255,Post.Summary.17. Post timing - section S
+v000256,Post.Summary.18. Post timing - section T
+v000257,Post.Summary.19. Post timing - section V
+v000258,Post.Summary.20. Post timing - section Y
+v000259,Post.Summary.21. Post timing - section Z
+v000260,Post.Summary.22. Wrong CD admin(preload)
+v000261,Post.Summary.23. Type error in preload
+v000262,Post.Summary.24. Flag-Post rand failure
+v000301,A1. Attention R paid to campaigns
+v000302,A2. Does R care about Pres election
+v000303,A3. Did R vote in 1996 election
+v000304,A3a. Who did R vote for in 1996
+v000305,A4a. Does R like anything about Gore
+v000306,A4b(1). #1 detail about Gore R likes
+v000307,A4b(2). #2 detail about Gore R likes
+v000308,A4b(3). #3 detail about Gore R likes
+v000309,A4b(4). #4 detail about Gore R likes
+v000310,A4b(5). #5 detail about Gore R likes
+v000311,A4c. Does R dislike anything about Gore
+v000312,A4d(1). #1 detail about Gore R dislikes
+v000313,A4d(2). #2 detail about Gore R dislikes
+v000314,A4d(3). #3 detail about Gore R dislikes
+v000315,A4d(4). #4 detail about Gore R dislikes
+v000316,A4d(5). #5 detail about Gore R dislikes
+v000317,A5a. Does R like anything about Bush
+v000318,A5b(1). #1 detail about Bush R likes
+v000319,A5b(2). #2 detail about Bush R likes
+v000320,A5b(3). #3 detail about Bush R likes
+v000321,A5b(4). #4 detail about Bush R likes
+v000322,A5b(5). #5 detail about Bush R likes
+v000323,A5c. Does R dislike anything about Bush
+v000324,A5d(1). #1 detail about Bush R dislikes
+v000325,A5d(2). #2 detail about Bush R dislikes
+v000326,A5d(3). #3 detail about Bush R dislikes
+v000327,A5d(4). #4 detail about Bush R dislikes
+v000328,A5d(5). #5 detail about Bush R dislikes
+v000329,A6. Number of days R watched nat'l news
+v000330,A6a/A6a.T. Attention to national news
+v000331,A7. Days R watched early local news
+v000332,A8. Days R watched late local news
+v000333,A8a/A8a.T. Attention to local news
+v000334,A9. Does R have cable or satellite tv
+v000335,A10. Days R read a daily newspaper
+v000336,A10a. Did R read about campaign in paper
+v000337,A10b/A10b.T. Attention to newspaper arti
+v000338,A11. Did R see ads for candidates on tv
+v000339,A12. Approve/disappr Clinton job
+v000340,A12a. Strength of approval/disapproval o
+v000341,A12x. Summary app/disapp Clinton job
+v000342,B1. Did R care about House election
+v000343,B2. Does R remember names of House cands
+v000344,"B2a. #1 recalled name, House cand"
+v000345,"B2a1. #1 recall party, House cand"
+v000346,B2ax1. #1 House cand recall-actual party
+v000347,B2ax2. #1 House cand recall- accuracy
+v000348,"B2b. #2 recalled name, House cand"
+v000349,"B2b1. #2 recall party, House cand"
+v000350,B2bx1. #2 House cand recall-actual party
+v000351,B2bx2. #2 House cand recall- accuracy
+v000352,"B2c. #3 recalled name, House cand"
+v000353,"B2c1. #3 recall party, House cand"
+v000354,B2cx1. #3 House cand recall-actual party
+v000355,B2cx2. #3 House cand recall-accuracy
+v000356,B3. Congress job approve/dissapr
+v000357,B3a. Strength of approval/disapproval of
+v000358,B3x. Summary R approval of US Congress
+v000359,C1a/C1a.T. Thermometer Bill Clinton
+v000360,C1b/C1b.T. Thermometer Gore
+v000361,C1c/C1c.T. Thermometer George W Bush
+v000362,C1d/C1d.T. Thermometer Buchanan
+v000363,C1e/C1e.T. Thermometer Nader
+v000364,C1f/C1f.T. Thermometer Mccain
+v000365,C1g/C1g.T. Thermometer Bradley
+v000366,C1h/C1h.T. Thermometer Lieberman
+v000367,C1j/C1j.T. Thermometer Cheney
+v000368,C1k/C1k.T. Thermometer Hillary Clinton
+v000369,C2a. Thermometer Dem Party
+v000370,C2b. Thermometer Rep Party
+v000371,C2c. Thermometer Reform Party
+v000372,C2d. Thermometer parties in general
+v000373,D1. Like anything- Dem Party
+v000374,D1a(1). #1 like Dem Party
+v000375,D1a(2). #2 like Dem Party
+v000376,D1a(3). #3 like Dem Party
+v000377,D1a(4). #4 like Dem Party
+v000378,D1a(5). #5 like Dem Party
+v000379,D2. Dislike anything- Dem Party
+v000380,D2a(1). #1 dislike Dem Party
+v000381,D2a(2). #2 dislike Dem Party
+v000382,D2a(3). #3 dislike Dem Party
+v000383,D2a(4). #4 dislike Dem Party
+v000384,D2a(5). #5 dislike Dem Party
+v000385,D3. Like anything- Rep Party
+v000386,D3a(1). #1 like Rep Party
+v000387,D3a(2). #2 like Rep Party
+v000388,D3a(3). #3 like Rep Party
+v000389,D3a(4). #4 like Rep Party
+v000390,D3a(5). #5 like Rep Party
+v000391,D4. Dislike anything- Rep Party
+v000392,D4a(1). #1 dislike Rep Party
+v000393,D4a(2). #2 dislike Rep Party
+v000394,D4a(3). #3 dislike Rep Party
+v000395,D4a(4). #4 dislike Rep Party
+v000396,D4a(5). #5 dislike Rep Party
+v000397,D5. Preference for divided government
+v000398,E1/E1.T. Better/worse off in last year
+v000399,E1a. How much better off- last year
+v000400,E1b. How much worse off- last year
+v000401,E1x. Summary R econ situation last year
+v000402,E2/E2.T. Did R delay med/dent treatment
+v000403,E3/E3.T. Expect better/worse in next yea
+v000404,E3a. How much better off- next year
+v000405,E3b. How much worse off- next year
+v000406,E3x. Summary R econ situation next year
+v000407,F1a. Angry- Gore affect
+v000408,F1aa. Angry- how often Gore affect
+v000409,F1b. Hopeful- Gore affect
+v000410,F1bb. Hopeful- how often Gore affect
+v000411,F1c. Afraid- Gore affect
+v000412,F1cc. Afraid- how often Gore affect
+v000413,F1d. Proud- Gore affect
+v000414,F1dd. Proud- how often Gore affect
+v000415,F2a. Angry- Bush affect
+v000416,F2aa. Angry- how often Bush affect
+v000417,F2b. Hopeful- Bush affect
+v000418,F2bb. Hopeful- how often Bush affect
+v000419,F2c. Afraid- Bush affect
+v000420,F2cc. Afraid- how often Bush affect
+v000421,F2d. Proud- Bush affect
+v000422,F2dd. Proud- how often Bush affect
+v000423,F3a. Angry- Buchanan affect
+v000424,F3aa. Angry- how often Buchanan affect
+v000425,F3b. Hopeful- Buchanan affect
+v000426,F3bb. Hopeful- how often Buchanan affect
+v000427,F3c. Afraid- Buchanan affect
+v000428,F3cc. Afraid- how often Buchanan affect
+v000429,F3d. Proud- Buchanan affect
+v000430,F3dd. Proud- how often Buchanan affect
+v000431,F6(1). #1 most important problem
+v000432,F6(2). #2 most important problem
+v000433,F6(3). #3 most important problem
+v000434,F6(4). #4 most important problem
+v000435,F6x. Checkpoint for # of mentions
+v000436,F7. Choice - most important problem
+v000437,F8. Gov't performance on most imp proble
+v000438,F9. Party performance on most imp proble
+v000439,G1a. Self placement lib-con scale
+v000439a,G1a.T. Self placement lib-con scale phon
+v000440,G1ax. Summary: combined FTF/ph
+v000441,G1b. Had to choose lib-con self-placemt
+v000441a,G1bx. Summary: comb FTF/phone-lib-con
+v000442,G6.E. Self placement lib-con branching
+v000443,G6a.E. Had to choose lib-con branching
+v000444,G6b.E. R strong liberal or not
+v000445,G6c.E. R strong conservative or not
+v000446,G6x1. Summary self plcmnt lib-con scale
+v000446a,G6x1a. 7pt lib-con summary - FTF
+v000446b,G6x1b. 7pt lib-con summary - PHONE
+v000447,G6x2. Comb.7pt & branching summ
+v000448,G2. Clinton placement lib-con scale FTF
+v000448a,G2.T. Clinton plcmnt lib-con scale phone
+v000449,G2x. Combined FTF/ph Clinton lib-con
+v000450,G7.E. Clinton placement lib-con branch
+v000451,G7a.E. Clinton strong liberal or not
+v000452,G7b.E. Clinton strong conservtive or not
+v000453,G7x1.E. 5-pt br summary Clinton lib-con
+v000454,G7x2. Comb.7pt/br summ Clinton lib-con
+v000455,G3. Gore placement lib-con scale FTF
+v000455a,G3.T. Gore placement lib-con scale phone
+v000456,G3x. Combined FTF/ph Gore lib-con scale
+v000457,G3a. Gore-certain lib-con placement FTF
+v000458,G3a.T. Gore-certain lib-con plcmnt phone
+v000458a,G3ax.T. Gore-certain lib-con plcmnt
+v000459,G8.E. Gore placement lib-con branch
+v000460,G8a.E. Gore strong liberal or not
+v000461,G8b.E. Gore strong conservative or not
+v000462,G8x1.E. 5-pt br summary Gore lib-con
+v000463,G8x2. Comb.7pt/br summ Gore lib-con
+v000464,G8c.E. Gore-certain lib-con placement br
+v000464a,G8cx 7pt/branching summary Gore crtn l-c
+v000465,G4. Bush placement lib-con scale FTF
+v000465a,G4.T. Bush placement lib-con scale phone
+v000466,G4x. Combined FTF/ph Bush lib-con scale
+v000467,G4a. Bush-certain lib-con placement FTF
+v000468,G4a.T. Bush-certain plcmnt lib-con phone
+v000468a,G4ax.T. Certain Bush lib-con placement
+v000469,G9.E. Bush placement lib-con branch
+v000470,G9a.E. Bush strong liberal or not
+v000471,G9b.E. Bush strong conservative or not
+v000472,G9x1.E. 5-pt br summary Bush lib-con
+v000473,G9x2. Comb.7pt/br summ Bush lib-con
+v000474,G9c.E. Bush-certain lib-con placement br
+v000474a,G9cx 7pt/branching summary Bush crtn l-c
+v000475,G5. Buchanan placement lib-con scale FTF
+v000475a,G5.T. Buchan plcmnt lib-con scale phon
+v000476,G5x. Combined FTF/ph Buchan lib-con scl
+v000477,G5a. Buchan-crtn lib-con plcemnt FTF
+v000478,G5a.T. Buchan-crtn lib-con plcemnt phone
+v000478a,G5ax.T. Certain Buchnn lib-con placement
+v000479,G10.E. Buchanan placement lib-con branch
+v000480,G10a.E. Buchanan strong liberal or not
+v000481,G10b.E. Buchan strong conserv or not
+v000482,G10x1.E. 5-pt br summary Buchan lib-con
+v000483,G10x2. Comb.7pt/br summ Buchan lib-con
+v000484,G10c.E. Certain-Buchan plcmnt lib-con br
+v000484a,G10cx. 7pt/branching summ Buchan l-c crt
+v000485,G11. Who does R think will be elected
+v000486,G11a. Race close or not- cand named
+v000487,G11b. Race close or not- cand not named
+v000488a,H1. US econ bttr/worse in last year stan
+v000488b,H1.E. US econ bttr/worse in last year ex
+v000489,H1a. How much better US econ next year
+v000490,H1b. How much worse US econ next year
+v000491,H1x. Summary US econ btr/worse last year
+v000492a,H2. Esr/hrdr to find work last year stan
+v000492b,H2.E. Esr/hrdr to find work last year ex
+v000493,H2a. How much harder to find work lst yr
+v000494,H2b. How much easier to find work lst yr
+v000495,H2x. Summary employ opps in last year
+v000496a,H4. US econ bttr/worse in next year stan
+v000496b,H4.E. US econ bttr/worse in next year ex
+v000497,H4a. How much better US econ in nxt year
+v000498,H4b. How much worse US econ in nxt year
+v000499,H4x. Summary US econ in next year
+v000500,H5. Approve/dissap Clinton w/economy
+v000501,H5a. How much approve Clinton w/economy
+v000502,H5b. How much dissprv Clinton w/economy
+v000503,H5x. Summary Clinton w/economy
+v000504,H6. Is R invested in stock market
+v000505,H7. Which party R thinks best to handle
+v000506,H8. Which party R thinks would avoid war
+v000507,H9. Us position in world weaker/stronger
+v000508,H10. Increase/decrease immigratration
+v000509,H10a. Inc/dec immigratn little or a lot
+v000510,H10x. Summary immigration level
+v000511a,H11. Favor/oppose import limits stan
+v000511b,H11.E. Favor/opp import limits ex
+v000512,H11x. Combined versions import limits
+v000513a,H12. US better off to stay at home stan
+v000513b,H12.E. US better off to stay at home ex
+v000514,H12x. Combined versions isolationism
+v000515,H13. Clinton foreign rel approve/disapp
+v000516,H13a. Strength appove Clinton frgn rel
+v000517,H13b. Strength dissapr Clinton frgn rel
+v000518,H13x. Summary Clinton foreign relations
+v000519,K1. Does R consider self Rep Dem or Ind
+v000520,K1a. Is R a strong Democrat or not
+v000521,K1b. Is R a strong Republican or not
+v000522,K1c. Is R closer to Rep or Dem Party
+v000523,K1x. Party ID summary
+v000524,K2a. Gore trait - moral
+v000525,K2b. Gore trait - really cares
+v000526,K2c. Gore trait - knowledgeable
+v000527,K2d. Gore trait - strong leader
+v000528,K2e. Gore trait - dishonest
+v000529,K2f. Gore trait - intelligent
+v000530,K2g. Gore trait - out of touch
+v000531,K3a. Bush trait - moral
+v000532,K3b. Bush trait - really cares
+v000533,K3c. Bush trait - knowledgeable
+v000534,K3d. Bush trait - strong leader
+v000535,K3e. Bush trait - dishonest
+v000536,K3f. Bush trait - intelligent
+v000537,K3g. Bush trait - out of touch
+v000538,K4a. Buchanan trait - moral
+v000539,K4b. Buchanan trait - really cares
+v000540,K4c. Buchanan trait- knowledgeable
+v000541,K4d. Buchanan trait - strong leader
+v000542,K4e. Buchanan trait - dishonest
+v000543,K4f. Buchanan trait - intelligent
+v000544,K4g. Buchanan trait - out of touch
+v000545,L1a. Self plcmnt-services/spend scl FTF
+v000546,L1a.T. Self plcmnt-services/spend scl ph
+v000547,L1a1.T. How much reduce serv/spend phone
+v000548,L1a2.T. How much incr serv/spend phone
+v000549,L1ax1. 5-pt br summary of self on serv/s
+v000550,L1ax2. Comb.7pt/br summ of self on serv
+v000551,L1b. Clinton- serv/spend scale FTF
+v000552,L1b.T. Clinton- serve/spend scale phone
+v000553,L1b1.T. Clinton- how much red srv/spd ph
+v000554,L1b2.T. Clinton- how much inc srv/spd ph
+v000555,L1bx1. 5-pt br summary Clinton srv/spnd
+v000556,L1bx2. Comb.7pt/br summ Clinton srv/spnd
+v000557,L1c. Gore- serv/spend scale FTF
+v000558,L1c.T. Gore- serv/spend scale phone
+v000559,L1c1.T. Gore- how much red serv/spend ph
+v000560,L1c2.T. Gore- how much inc serv/spend ph
+v000561,L1cx1. 5-pt br summary Gore serv/spend
+v000562,L1cx2. Comb.7pt/br summ Gore serv/spend
+v000563,L1d. Bush- serv/spend scale FTF
+v000564,L1d.T. Bush- serv/spend scale phone
+v000565,L1d1.T. Bush- how much reduce serv/spend
+v000566,L1d2.T. Bush- how much increase serv/spe
+v000567,L1dx1. 5-pt br summary Bush serv/spend
+v000568,L1dx2. Comb.7pt/br summ Bush serv/spend
+v000569,L1e. Dem Party- serv/spend scale FTF
+v000570,L1e.T. Dem Party- serv/spend scale phone
+v000571,L1e1.T. Dem Party-how much red srv/sp ph
+v000572,L1e2.T. Dem Party-how much inc srv/sp ph
+v000573,L1ex1. 5-pt br summary Dem Party srv/spd
+v000574,L1ex2. Comb.7pt/br summ Dem Party srv/sp
+v000575,L1f. Rep Party- serv/spend scale FTF
+v000576,L1f.T. Rep Party- serv/spend scale phone
+v000577,L1f1.T. Rep Party-how much red srv/sp ph
+v000578,L1f2.T. Rep Party-how much inc srv/sp ph
+v000579,L1fx1. 5-pt br summary Rep Party srv/spd
+v000580,L1fx2. Comb.7pt/br summ Rep Party srv/sp
+v000581,L2a. Self plcemnt-def spending scale FTF
+v000582,L2a.T. Self plcemnt-def spending scale p
+v000583,L2a1.T. Govt inc/dec def spending phone
+v000584,L2a1a.T. How much reduce def spending ph
+v000585,L2a1b.T. How much incres def spending ph
+v000586,L2ax1. 5-pt br summary defense spending
+v000587,L2ax2. Comb.7pt/br summ defense spending
+v000588,L2b. Gore- defense spending scale FTF
+v000589,L2b.T. Gore- defense spending scale ph
+v000590,L2b1.T. Gore-how much red/inc def spn ph
+v000591,L2bx1. 5-pt br summary Gore def spend
+v000592,L2bx2. Comb.7pt/br summ Gore def spend
+v000593,L2c. Bush- defense spending scale FTF
+v000594,L2c.T. Bush- defense spending scale ph
+v000595,L2c1.T. Bush-how much red/inc def spd ph
+v000596,L2cx1. 5-pt br summary Bush def spend
+v000597,L2cx2. Comb.7pt/br summ Bush def spend
+v000598,L2d. Dem Party-def spending scale FTF
+v000599,L2d.T. Dem Party-def spend scale phone
+v000600,L2d1.T. Dem Party-how much red/inc ds ph
+v000601,L2dx1. 5-pt br summary Dem Party def sp
+v000602,L2dx2. Comb.7pt/br summ Dem Party def sp
+v000603,L2e. Rep Party-def spending scale FTF
+v000604,L2e.T. Rep Party-def spend scale phone
+v000605,L2e1.T. Rep Party-how much inc/red ds ph
+v000606,L2ex1. 5-pt br summary Rep Party def sp
+v000607,L2ex2. Comb.7pt/br summ Rep Party def sp
+v000608,"L3(1). Ckpt: FTF/ph, reg/exp."
+v000608a,L3a. Self placement-private or govt insu
+v000608b,L3a.E. Self placement-insur scale FTF ex
+v000609,L3ax. Comb. FTF versions R insurnc scale
+v000610a,L3a.T. Self placement-insur scale phone
+v000610b,L3a.TE. Self placement-insur scale phone
+v000611,L3ax.TE. Comb. Ph versions R insur scale
+v000612,L3a1/a2.T. Strength of insurance plan
+v000613,L3x1. 5-pt br summary R on pri/govt insu
+v000614,L3x2. Comb.7pt/br summ of R on pri/govt
+v000615,L4a. R plcmnt-guar job/std liv scl FTF
+v000616,L4a.T. R plcmnt-guar job/std liv scl ph
+v000617,L4a1.T. How much should gov guar jobs
+v000618,L4a2t. How much should ppl get by on own
+v000619,L4x1. 5-pt br summary guaranteed jobs
+v000620,L4x2. Comb.7pt/br summ guaranteed jobs
+v000621,L4b. Gore-guar job/std liv scl FTF
+v000622,L4b.T. Gore-guar job/std liv scl phone
+v000623,L4b1/b2.T. Gore-strength of guar job
+v000624,L4bx1. 5-pt br summary Gore guar job
+v000625,L4bx2. Comb.7pt/br summ Gore guar job
+v000626,L4c. Bush-guar job/std liv scl FTF
+v000627,L4c.T. Bush-guar job/std liv scl phone
+v000628,L4c1/c2.T. Bush-strength guar job
+v000629,L4cx1. 5-pt br summary Bush guar job
+v000630,L4cx2. Comb.7pt/br summ Bush guar job
+v000631,L4d. Dem Party-guar job/std liv scl FTF
+v000632,L4d.T. Dem Party-guar job/std liv scl ph
+v000633,L4d1/d2.T. Dem Party-strength guar job
+v000634,L4dx1. 5-pt br summary Dem Party guar jb
+v000635,L4dx2. Comb.7pt/br summ Dem Party gua jb
+v000636,L4e. Rep Party-guar job/std liv FTF
+v000637,L4e.T. Rep Party-guar job/std liv phone
+v000638,L4e1/e2.T. Rep Party-strength guar job
+v000639,L4ex1. 5-pt br summ Rep Party guar job
+v000640,L4ex2. Comb.7pt/br summ Rep Party guar j
+v000641,L5a. R plcmnt-aid to blacks scale FTF
+v000642,L5a.T. R plcmnt-aid to blacks scale phon
+v000643,L5a1/a2.T. R-strength aid to blacks
+v000644,L5ax1. 5-pt br summary R aid to blacks
+v000645,L5ax2. Comb.7pt/br summ R aid to blacks
+v000646,L5b. Clinton plcmnt-aid to blacks scale
+v000647,L5b.T. Clinton-aid to blacks scale phone
+v000648,L5b1/b2.T. Clinton-strength aid to black
+v000649,L5bx1. 5-pt br summary Clinton aid to bl
+v000650,L5bx2. Comb.7pt/br summ Clinton aid to b
+v000651,L5c. Gore plcmnt-aid to blacks scale FTF
+v000652,L5c.T. Gore-aid to blacks scale phone
+v000653,L5c1/c2.T. Gore-strength aid to blacks
+v000654,L5cx1. 5-pt br summary Gore aid to blks
+v000655,L5cx2. Comb.7pt/br summ Gore aid to blks
+v000656,L5d. Bush plcmnt-aid to blacks scale FTF
+v000657,L5d.T. Bush-aid to blacks scale phone
+v000658,L5d1/d2.T. Bush-strength aid to blacks
+v000659,L5dx1. 5-pt br summary Bush aid to blks
+v000660,L5dx2. Comb.7pt/br summ Bush aid to blks
+v000661,L5e. Dem Party plcmnt-aid to blks scale
+v000662,L5e.T. Dem Party-aid to blks scale phone
+v000663,L5e1/e2.T. Dem Party-strgth aid to blks
+v000664,L5ex1. 5-pt br summary Dem Party aid blk
+v000665,L5ex2. Comb.7pt/br summ Dem Party aid bl
+v000666,L5f. Rep Party plcmnt-aid to blks scale
+v000667,L5f.T. Rep Party-aid to blks scale phone
+v000668,L5f1/f2.T. Rep Party-strgth aid to blks
+v000669,L5fx1. 5-pt br summary Rep Party aid blk
+v000670,L5fx2. Comb.7pt/br summ Rep Party aid bl
+v000671a,L6. Appr/disappr affirmative action stan
+v000671b,L6.E. Appr/disappr affirmative action ex
+v000672,L6a. Strength for affirmative action
+v000673,L6b. Strength against affirmative action
+v000674,L6x. Summary affirmative action
+v000674a,L6x1. Affirm action -all cases
+v000675,L7a. Inc/dec build and repair highways
+v000676,L7b. Inc/dec welfare programs
+v000677,L7c. Inc/dec spending on aids research
+v000678,L7d. Inc/dec foreign aid
+v000679,L7e. Inc/dec food stamps
+v000680,L7f. Inc/dec aid to poor people
+v000681,L7g. Inc/dec Social Security
+v000682,L7h. Inc/dec environmental protection
+v000683,L7j. Inc/dec public schools
+v000684,L7k. Inc/dec dealing with crime
+v000685,L7m. Inc/dec child care
+v000686,L7n. Inc/dec against illegal immigrants
+v000687,L7p. Inc/dec aid to blacks
+v000688,L8. App/dis using surplus for tax cuts
+v000689,L8a/b. Strength app/dis tax cuts
+v000690,L8x. Summary tax cuts from surplus
+v000691,L9. App/dis surplus for Soc Sec medicare
+v000692,L9a/b. Strength app/dis Soc Sec medicare
+v000693,L9x. Summary surplus for Soc Sec medcare
+v000694,M1/M1.T. Abortion self-placement
+v000695,M1a. Importance of abortion to R
+v000696,M1b/M1b.T. Gore-abortion scale
+v000697,M1b1. Gore-certain abortion placement
+v000698,M1c/M1c.T. Bush-abortion scale
+v000699,M1c1. Bush-certain abortion placement
+v000700,M2. App/dis abortion parental consent
+v000701,M2a. Strength abortion parental consent
+v000702,M2x. Summary abortion parental consent
+v000703,M3. Fav/oppose prtl-birth abortion ban
+v000704,M3a/b. Strength fav/opp p-b abortion ban
+v000705,M3x. Summary partial-birth abortion ban
+v000706,"M4. Ckpt: FTF/ph, reg/exp."
+v000707a,M4a. R-jobs/envir scale FTF stan
+v000707b,M4a.E. R-jobs/envir scale FTF ex
+v000708,M4ax. Comb. FTF versions jobs/envir
+v000709a,M4a.T. R-jobs/envir br phone stan
+v000709b,M4a.TE. R-jobs/envir phone ex
+v000710,M4ax.T. Comb. Ph versions jobs/envir
+v000711,M4a1/a2.T. Strength jobs/envir
+v000712,M4a1x1. 5-pt br summary jobs/envir
+v000713,M4a1x2. Comb.7pt/br summ jobs/envir
+v000714,M4b. Gore-jobs/envir scale FTF
+v000715,M4b.T. Gore-jobs/envir scale phone
+v000716,M4b1/b2.T. Gore-strength jobs/envir
+v000717,M4bx1. 5-pt br summary jobs/envir
+v000718,M4bx2. Comb.7pt/br summ Gore jobs/envir
+v000719,M4c. Bush-jobs/envir scale FTF
+v000720,M4c.T. Bush-jobs/envir scale phone
+v000721,M4c1/c2.T. Bush-strength jobs/envir
+v000722,M4cx1. 5-pt br summary Bush jobs/envir
+v000723,M4cx2. Comb.7pt/br summ Bush jobs/envir
+v000724,M5. Fav/oppose homosexuals in military
+v000725,M5a. Strngth fav homosexuals in military
+v000726,M5b. Strngth opp homosexuals in military
+v000727,M5x. Summary homosexuals in military
+v000728,M6a. R-gun control scale
+v000729,M6a1. R-strength more gun control
+v000730,M6a2. R-strength less gun control
+v000731,M6ax. Summary gun control
+v000732,M6a3. R-importance of gun control
+v000733,M6b. Gore plcmnt-gun control scale
+v000734,M6b1/b2. Gore-strength more/less gun ctl
+v000735,M6bx. Summary Gore gun control
+v000736,M6b3. Gore-certain gun control placement
+v000737,M6c. Bush plcmnt-gun control scale
+v000738,M6c1/c2. Bush-strength more/less gun ctl
+v000739,M6cx. Summary Bush gun control
+v000740,M6c3. Bush-certain gun control placement
+v000741a,N1. Fav/opp school voucher program stan
+v000741b,N1.E. Fav/opp school voucher program ex
+v000742,N1x. Combined versions school vouchers
+v000743,N1a/b. Strength fav/opp school vouchers
+v000744,N1ax. Summary school vouchers
+v000745,N2. R fav/opp English official language
+v000746,N3. R interest in school integration
+v000747,N3a. Fav/opp gov help school integration
+v000748,N4. Fav/opp h-sexual couples adopt chldn
+v000749,N5. Fav/opp death penalty
+v000750,N5a. How much favor death penalty
+v000751,N5b. How much oppose death penalty
+v000752,N5x. Summary R position on death penalty
+v000753,"P1. Ckpt: FTF/ph, reg/exp."
+v000754a,P1a. R plcmnt equal role scale FTF
+v000754b,P1a.E. R plcmnt equal role scale
+v000755,P1ax. Comb. FTF versions R equal role sc
+v000756a,P1a.T. R equal role branch stan
+v000756b,P1a.TE. R equal role branch ex
+v000757,P1ax.T. Comb. Ph. Versions R eql role br
+v000758,P1a1/a2.T. R strength equal roles
+v000759,P1a1x1. 5-pt br summary R equal role
+v000760,P1a1x2. Comb.7pt/br summ R equal role
+v000761,P1b. Gore-equal role scale FTF
+v000762,P1b.T. Gore-equal role scale phone
+v000763,P1b1/b2.T. Gore-strength equal role
+v000764,P1bx1. 5-pt br summary Gore equal role
+v000765,P1bx2. Comb.7pt/br summ Gore equal role
+v000766,P1c. Bush-equal role scale FTF
+v000767,P1c.T. Bush-equal role scale phone
+v000768,P1c1/c2.T. Bush-strength equal role
+v000769,P1cx1. 5-pt br summary Bush equal role
+v000770,P1cx2. Comb.7pt/br summ Bush equal role
+v000771,P2a. self placmnt-envir regulation scale
+v000772,P2a.T. R-envir regulation branch
+v000773,P2a1.T. How much tougher regulation
+v000774,P2a2.T. How much are regulatns a burden
+v000775,P2ax1. 5-pt br summary R envir regul
+v000776,P2ax2. Comb.7pt/br summ R envir regul
+v000777,P2aa. How important is envir regulation
+v000778,P2b. Gore placmnt-envir regulation scale
+v000779,P2b.T. Gore-envir regulation branch
+v000780,P2b1.T. Gore-strength tougher regulation
+v000781,P2b2.T. Gore-strength regulation burden
+v000782,P2bx1. 5-pt br summary Gore envir regul
+v000783,P2bx2. Comb.7pt/br summ Gore envir regul
+v000784,P2bb. Gore-certain envir regulation
+v000785,P2c. Bush placemnt-envir regulation scal
+v000786,P2c.T. Bush-envir regulation branch
+v000787,P2c1.T. Bush-strength tougher regulation
+v000788,P2c2.T. Bush-strength regulation burden
+v000789,P2cx1. 5-pt br summary Bush envir regul
+v000790,P2cx2. Comb.7pt/br summ Bush envir regul
+v000791,P2cc. Bush-certain envir regulation
+v000792,P3. R expect to vote in Nov election
+v000793,P3a. Who will R vote for President
+v000794,P3b. Strength of preference for candidat
+v000795,"P3c. If R voted, who would R vote for Pr"
+v000796,P3d. Strength of preference for candidat
+v000797,P4. Which party will control the House
+v000798,P5. Which party will control the Senate
+v000799,P6. Interest in fair treatment in jobs
+v000800,P6a. Govt should ensure Blacks equ trtme
+v000801,P6a1. Strength blacks equal trtmnt jobs
+v000802,P6x. Summary blacks equal treatment jobs
+v000803,P7. Preferences for blacks in jobs
+v000804,P7a. Strength for preference blks jobs
+v000805,P7b. Strength against preference blks jo
+v000806,P7x. Summary preference for blacks jobs
+v000807,Q1. Budget deficit lg/sm since 1992
+v000808,Q1a. Deficit much/somewhat smaller
+v000809,Q1b. Deficit much/somewhat larger
+v000810,Q1x. Summary budget deficit since 1992
+v000811,Q2. Spending on poor inc/dec since 1992
+v000812,Q2a. How much inc/dec aid to poor
+v000813,Q2x. Summary assistance to poor
+v000814,Q3. Economy better/worse compared to 19
+v000815,Q3a. Economy much/somewhat better
+v000816,Q3b. Economy much/somewhat worse
+v000817,Q3x. Summary economy since 1992
+v000818,Q4. Clinton made economy better/worse
+v000819,Q4a. Clinton made econ much/somewhat bet
+v000820,Q4b. Clinton made econ much/somewhat wor
+v000821,Q4x. Summary Clinton effect on US econ
+v000822,Q5. Clinton admin hurt/help R personall
+v000823,Q6. U.S. more/less secure since 1992
+v000824,Q6a. U.S. much more secure from enemies
+v000825,Q6b. U.S much less secure from enemies
+v000826,Q6x. Summary US secure from for enemies
+v000827,Q7. Clinton made U.S. more/less secure
+v000828,Q7a. Clinton made U.S. much/smwhat more
+v000829,Q7b. Clinton made U.S. much/smwhat less
+v000830,Q7x. Summ- Clinton impact on U.S. securi
+v000831,Q8. U.S. crime rate better/worse since
+v000832,Q8a. U.S. crime rate much or smwhat bett
+v000833,Q8b. U.S. crime rate much or smwhat wors
+v000834,Q8x. Summary - U.S. crime rate since 199
+v000835,Q9. Clinton made crime rate better/wors
+v000836,Q9a. Clinton made crime rate much/smwhat
+v000837,Q9b. Clinton made crime rate much/smwhat
+v000838,Q9x. Summary - Clinton impact on crime r
+v000839,Q10. Moral climate btr/worse since 1992
+v000840,Q10a.Moral climate much/smwhat better
+v000841,Q10b.Moral climate much/smwhat worse
+v000842,Q10x. Summary moral climate since 1992
+v000843,Q11. Clinton made moral climate btr/wors
+v000844,Q11a.Clinton made moral climate much/swh
+v000845,Q11b.Clinton made moral climate much/swh
+v000846,Q11x. Summary - Clinton impact on moral
+v000847,Q14a. Angry- Clinton affect
+v000848,Q14a1. Angry- how oft Clinton affect
+v000849,Q14b. Hopeful- Clinton affect
+v000850,Q14b1. Hopeful- how oft Clinton affect
+v000851,Q14c. Afraid- Clinton affect
+v000852,Q14c1. Afraid- how often Clinton affect
+v000853,Q14d. Proud- Clinton affect
+v000854,Q14d1. Proud- how oft Clinton affect
+v000855,Q15a/Q15a.T. Clinton trait-moral
+v000856,Q15b/Q15b.T. Clinton trait-really cares
+v000857,Q15c/Q15c.T. Clinton trait-knowledgeable
+v000858,Q15d/Q15d.T. Clinton trait-strong leader
+v000859,Q15e/Q15e.T. Clitnon trait-dishonest
+v000860,Q15f/Q15f.T. Clinton trait-intelligent
+v000861,Q15g/Q15g.T. Clinton trait-out of touch
+v000862,R1. How opinionated is R
+v000863,R1a. Fewer or more opinions than avg
+v000864,R1a1. How much more opinions than avg
+v000865,R1a2. More much fewer opinions than avg
+v000866,R1x. Summary degree R opinionated
+v000867,R2. Does R like respnsbty for thinking
+v000868,R2a. How much like respnbty for thinking
+v000869,R2b. How much dislike rsbty for thinking
+v000870,R2x. Summary like/dislike thinking
+v000871,R3. Like simple or complex problems
+v000872,S1. Is religion important to R
+v000873,S2. How much guidance from religion
+v000874,S3/S3.T. How often does R pray
+v000875,S4/S4.T. How often does R read the bible
+v000876,S5/S5.T. Bible is word of God or men
+v000877,X1. Attend religious services
+v000878,X1a. Part of a church or denomination
+v000879,X2. Attend religious services how often
+v000880,X2a. Attend relig serv > once/week
+v000881,X3. Attend church checkpoint
+v000882,X3a. Attend protestant/Cath/Jewish/other
+v000883,X3b. Belong protestant/Cath/Jewish/other
+v000884,X4. Denomination/other specify
+v000885,X4(1). (blanked) denomination other
+v000886,X4a. Baptist group
+v000887,X4b. Independent Baptist group
+v000888,X4c. Lutheran group
+v000889,X4d. Methodist group
+v000890,X4e. Presbyterian group
+v000891,X4f. Reformed group
+v000892,X4g. Brethren group
+v000893,X4h. Christian group
+v000894,X4i. Church of Christ group
+v000895,X4j. Church of God group
+v000896,X4k. (blanked) holiness/pentacostal
+v000897,X4a-j. (blanked) other
+v000898,X4m. (blanked) other group/denomination
+v000899,X4m1. Is other group christian
+v000900,X6a. Attend Jewish group
+v000901,X6b. Jewish denomination
+v000902,X7. Member place of worship
+v000903,X8. Born-again christian
+v000904,X9x. Religion summary
+v000905,Y1(1). Month of birth
+v000906,Y1(2). Day of birth (blanked)
+v000907,Y1(3). Year of birth
+v000908,Y1x. Respondent age
+v000909,Y2. Marital status
+v000910,Y3. Highest grade completed
+v000911,Y3a. Diploma/GED
+v000912,Y3b. Highest degree earned
+v000913,Y3x. R educ summary
+v000914,Y4. Highest grade of partner
+v000915,Y4a. Partner diploma/GED
+v000916,Y4b. Partner highest degree
+v000917,Y4x. Sp educ. Summary
+v000918,Y6(1). Assigned employment status
+v000919,Y6(2). 2 digit employment status
+v000920,Y6(3). 1 digit employment status
+v000921,Y9. R unemp: ever worked for pay
+v000922,Y10a(1). 2-digit occup
+v000922a,Y10a(2). 3-digit occup (blanked)
+v000923,Y10a(3). 1-digit occup summary
+v000924,Y10a(4). Prestige code (blanked)
+v000925,Y10b. R unemp: past industry code
+v000926,Y10c. R unemp: past self employed
+v000927,Y10d. R unemp: past employed by govt
+v000928,Y10e. R unemp: work last 6 months
+v000929,Y10f. R unemp: hrs/wk 6 months
+v000930,Y10g. R unemp: looking for work now
+v000931,Y10h. R unemp: worry about find job
+v000932,Y11(1). Retired: month of retirement
+v000933,Y11(2). Retired: year of retirement
+v000934,Y12a(1). 2-digit occup retired
+v000934a,Y12a(2). 3-digit occup (blanked) retired
+v000935,Y12a(3). 1-digit occup summary retired
+v000936,Y12a(4). Prestige code (blanked) retired
+v000937,Y12b. R ret: industry code
+v000938,Y12c. R ret: self employed
+v000939,Y12d. R ret: employed by govt
+v000940,Y12e. R ret: work last 6 months
+v000941,Y12f. R ret: hours/wk work 6 months
+v000942,Y12g. R ret: working for pay
+v000943,Y12h. R ret: looking for work now
+v000944,Y12j. R ret: worry about finding job
+v000945,Y13. R disabled: ever worked for pay
+v000946,Y14a(1). 2-digit occup disabled
+v000946a,Y14a(2). 3-digit occup (blanked) disable
+v000947,Y14a(3). 1-digit occup summary disabled
+v000948,Y14a(4). Prestige code (blanked) disable
+v000949,Y14b. R dis: industry code
+v000950,Y14c. R dis: self employed
+v000951,Y14d. R dis: work for govt
+v000952,Y14e. R dis: work last 6 months
+v000953,Y14f. R dis: hours/wk work 6 mnths
+v000954,Y14g. R dis: working for pay now
+v000955,Y14h. R dis: looking for work now
+v000956,Y14j. R dis: worry about finding job
+v000957,Y15. Homemaker/student: work for pay
+v000958,Y15a. Hmk/stu: work last 6 mon
+v000959,Y16a(1). 2-digit occup hmk/stu
+v000959a,Y16a(2). 3-digit occup (blanked) hmk/stu
+v000960,Y16a(3). 1-digit occup summary hmk/stu
+v000961,Y16a(4). Prestige code (blanked) hmk/stu
+v000962,Y16b. Hmk/stu: industry code
+v000963,Y16c. Hmk/stu: self employed
+v000964,Y16d. Hmk/stu: worked for govt
+v000965,Y16f. Hmk/stu: hrs/wk wrk last 6 months
+v000966,Y16h. Hmk/stu: looking for work
+v000967,Y16j. Hmk/stu: worry about finding job
+v000968,Y7a(1). 2-digit occup R work now
+v000968a,Y7a(2). 3-digit occup (blanked) R wk now
+v000969,Y7a(3). 1-digit occup summary R work now
+v000970,Y7a(4). Prestige code (blanked) R wk now
+v000971,Y7b. Work now/TLO: industry code
+v000972,Y7c. Work now/TLO: self employed
+v000973,Y7d. Work now/TLO: work for govt
+v000974,Y7e. Work now/TLO: hours work
+v000975,Y7f. Work now/TLO: work hours right
+v000976,Y7g. Work now/TLO: worry lose job
+v000977,Y7h. Work now: out work/layoff last 6mo
+v000978,Y7j. Work now: reduction in hrs/pay
+v000979,Y17(1). Stacked - 2 digit occup
+v000979a,Y17(1a). Stacked - 3 dig occup (blanked)
+v000980,Y17(2). Stacked - 1 digit occup
+v000981,Y17(3). Stacked - occ prestige (blanked)
+v000982,Y17(4). Stacked - industry
+v000983,Y17(5). Stacked - work for self
+v000984,Y17(6). Stacked - employed by govt
+v000985,Y17(7). Stacked - hours per week
+v000986,Y17(8). Stacked - worr abt los/find job
+v000987,Y17(9). Stacked - job in past 6 mos.
+v000988,Y17(10). Stacked - looking for work
+v000989,Y17(11). Stacked - ever work for pay
+v000990,Y25. Anyone in HH belong to union
+v000991a,Y25a1. Who belongs to union #1
+v000991b,Y25a2. Who belongs to union #2
+v000991c,Y25a3. Who belongs to union #3
+v000992,Y26. IWR chkpt: # of Persons age 14+
+v000993,Y27/Y27.T. HH income - others in HH 14+
+v000994,Y27x. HH income -all HHs
+v000995,Y27a/Y27a.T. R income - others in HH 14+
+v000996,Y28/Y28.T. R income - only HH member 14+
+v000997,Y28x. R income -all HHs
+v000998,Y29. Ever think of self as wrk/mid class
+v000999,Y29a. Which one (workng or middle class)
+v001000,Y29b. If had to choose class
+v001001,Y29c. Middle class- avg or upper
+v001002,Y29d. Middle class - feel close to class
+v001003,Y29e. Working class - avg or upper
+v001004,Y29f. Working class -feel close to class
+v001005,Y29x. Soc.class summary
+v001006a,Y30(1). Racial group #1 self-description
+v001006b,Y30(2). Racial group #2 self-description
+v001006c,Y30(3). Racial group #3 self-description
+v001007,Y30a. Both parents born in U.S.?
+v001008,Y30b(1). Ethnic/nationality group #1
+v001009,Y30b(2). Ethnic/nationality group #2
+v001010,Y30bx. IWR ckpt: >2 ethnic mentions?
+v001010a,Y30bx2. Number of ethnic groups mentione
+v001011,Y30c. Choice of ethnic/nationality group
+v001012,Y30x/Y31. Spanish or Hispanic descent
+v001013,Y31a/Y31a.T. Category of Hispanic descnt
+v001014,Z1. Where R grew up-ICPSR st/cntry code
+v001015,Z2. FTF- urbanicity where grew up
+v001016,Z2.T. Phone -urbanicity where grew up
+v001017,Z2a. Phone -urbanicity where grew up
+v001018,Z2b. Phone - urbanicity where grew up
+v001019,Z2x. Comb. Summary where R grew up
+v001020a,Z3(1). Mos. -how long lived in community
+v001020b,Z3(2). Yrs. -how long lived in community
+v001020c,Z3x. Summ. - how long lived in community
+v001021a,Z4(1)/Z4(1).T. Mos.-length resid in home
+v001021b,Z4(2)/Z4(1).T. Yrs.-length resid in home
+v001021c,Z4x. Summ. - length residence in home
+v001022,Z5. Does R family own/rent home
+v001023,Z8. Does R have children
+v001024,Z8a. How many children R has under 18
+v001025,Z8b. R's children under 18 living w/R
+v001026a,Z8c(1). Mention 1 minor child age
+v001026b,Z8c(2). Mention 2 minor child age
+v001026c,Z8c(3). Mention 3 minor child age
+v001026d,Z8c(4). Mention 4 minor child age
+v001026e,Z8c(5). Mention 5 minor child age
+v001026f,Z8c(6). Mention 6 minor child age
+v001026g,Z8c(7). Mention 7 minor child age
+v001026h,Z8c(8). Mention 8 minor child age
+v001027,Z9. How many miles R drives per day
+v001028,ZZ0. Education estimate if missed in IW
+v001029,ZZ1. IWR obs: R gender
+v001030,ZZ2. FTF IWR obs: R race
+v001031a,ZZ3(1). FTF: #1 others present during IW
+v001031b,ZZ3(2). FTF: #2 others present during IW
+v001031c,ZZ3(3). FTF: #3 others present during IW
+v001031d,ZZ3(4). FTF: #4 others present during IW
+v001031e,ZZ3(5). FTF: #5 others present during IW
+v001032,ZZ4. IWR obs: R cooperation
+v001033,ZZ5. IWR obs: R informed about politics
+v001034,ZZ6. IWR obs: R intelligence
+v001035,ZZ7. IWR obs: R suspicious
+v001036,ZZ8. IWR obs: R interest in IW
+v001037,ZZ9. IWR obs: R sincerity
+v001038,ZZ9a. IWR: obs: insincere in what part(b
+v001039,ZZ10. IWR obs: R report income correctly
+v001040,ZZ10a. IWR obs: est income -surv inc off
+v001041a,ZZ11(1). Mention 1 - R reaction to IW
+v001041b,ZZ11(2). Mention 2 - R reaction to IW
+v001041c,ZZ11(3). Mention 3 - R reaction to IW
+v001041d,ZZ11(4). Mention 4 - R reaction to IW
+v001041e,ZZ11(5). Mention 5 - R reaction to IW
+v001041f,ZZ11(6). Mention 6 - R reaction to IW
+v001041g,ZZ11(7). Mention 7 - R reaction to IW
+v001041h,ZZ11(8). Mention 8 - R reaction to IW
+v001041j,ZZ11(9). Mention 9 - R reaction to IW
+v001042,"Pre.Rand.A4/A5. Order-Gore,GWB lik/dis"
+v001043,Pre.Rand.C1b. Pos-Gore in therms
+v001044,Pre.Rand.C1c. Pos-GW Bush in therms
+v001045,Pre.Rand.C1d. Pos-Buchanan in therms
+v001046,Pre.Rand.C1e. Pos-Nader in thermoms
+v001047,"Pre.Rand.C1f/g. Pos-Mccain, Bradley ther"
+v001048,"Pre.Rand.C1h/k. Pos-Cheney,Liebermn ther"
+v001049,Pre.Rand.C2. Order-parties in therms
+v001050,Pre.Rand.D1/D3. Order-parties in lik/dis
+v001051,"Pre.Rand.F1-F3. Order-Gore, GWB, Buchn"
+v001052,Pre.Rand.F1a. Pos-angry -Gore affects
+v001053,Pre.Rand.F1b. Pos-hopeful -Gore affects
+v001054,Pre.Rand.F1c. Pos-afraid -Gore affects
+v001055,Pre.Rand.F1d. Pos-proud -Gore affects
+v001056,Pre.Rand.F2a. Pos-angry -GW Bush affects
+v001057,Pre.Rand.F2b. Pos-hopeful -GWB affects
+v001058,Pre.Rand.F2c. Pos-afraid -GWB affects
+v001059,Pre.Rand.F2d. Pos-proud -GWB affects
+v001060,Pre.Rand.F3a. Pos-angry -Buchnn affects
+v001061,Pre.Rand.F3b. Pos-hopeful -Buchnn affcts
+v001062,Pre.Rand.F3c. Pos-afraid -Buchnn affcts
+v001063,Pre.Rand.F3d. Pos-proud -Buchnn affcts
+v001064,"Pre.Rand.G3-G5. Ord-Gore,GWB,Buch lib/co"
+v001065,"Pre.Rand.G8-G10.E. Ord-Gore,GWB,Buch lib"
+v001066,"Pre.Rand.K2-K4. Ord-Gore,GWB,Buch traits"
+v001067,Pre.Rand.K2a. Order-moral -Gore traits
+v001068,Pre.Rand.K2b. Order-cares -Gore traits
+v001069,Pre.Rand.K2c. Order-knowldg -Gore traits
+v001070,Pre.Rand.K2d. Order-leader -Gore traits
+v001071,Pre.Rand.K2e. Order-dishon -Gore traits
+v001072,Pre.Rand.K2f. Order-intell -Gore traits
+v001073,Pre.Rand.K2g. Ord-out touch -Gore traits
+v001074,Pre.Rand.K3a. Order-moral -GWB traits
+v001075,Pre.Rand.K3b. Order-cares -GWB traits
+v001076,Pre.Rand.K3c. Order-knowldg -GWB traits
+v001077,Pre.Rand.K3d. Order-leader -GWB traits
+v001078,Pre.Rand.K3e. Order-dishon -GWB traits
+v001079,Pre.Rand.K3f. Order-intell -GWB traits
+v001080,Pre.Rand.K3g. Ord-out touch -GWB traits
+v001081,Pre.Rand.K4a. Ord-moral -Buchanan traits
+v001082,Pre.Rand.K4b. Ord-cares -Buchanan traits
+v001083,Pre.Rand.K4c. Ord-knowl -Buchanan traits
+v001084,Pre.Rand.K4d. Ord-leader -Buchann traits
+v001085,Pre.Rand.K4e. Ord-dishon -Buchann traits
+v001086,Pre.Rand.K4f. Ord-intell -Buchann traits
+v001087,Pre.Rand.K4g. Ord-out touch-Buchnn trait
+v001088,"Pre.Rand.L1c/L1d. Order-Gore,GWB serv/sp"
+v001089,"Pre.Rand.L1e/L1f. Order-Gore,GWB serv/sp"
+v001090,"Pre.Rand.L2b/L2c. Order-Gore,GWB def sp"
+v001091,Pre.Rand.L2d/L2e. Order-parties defse sp
+v001092,"Pre.Rand.L4b/L4c. Order-Gore,GWB guarjob"
+v001093,Pre.Rand.L4d/L4e. Order-parties guar job
+v001094,"Pre.Rand.L5c/L5d. Ord-Gore,GWB aid blcks"
+v001095,Pre.Rand.L5e/L5f. Order-parties aid blks
+v001096,Pre.Rand.L7b. Order-welfare -fed spendng
+v001097,Pre.Rand.L7c. Order-aids resch-fed spend
+v001098,Pre.Rand.L7d. Order-forgn aid -fed spend
+v001099,Pre.Rand.L7e. Order-food stps -fed spend
+v001100,Pre.Rand.L7f. Order-aid poor -fed spend
+v001101,Pre.Rand.L7g. Order-soc sec -fed spend
+v001102,Pre.Rand.L7h. Ord-env protect -fed spend
+v001103,Pre.Rand.L7j. Ord-publ schls -fed spend
+v001104,Pre.Rand.L7k. Ord-deal w/crime-fed spend
+v001105,Pre.Rand.L7m. Order-child care-fed spend
+v001106,Pre.Rand.L7n. Order-border sec-fed spend
+v001107,Pre.Rand.L7p. Order-aid blacks-fed spend
+v001108,Pre.Rand.M1b/M1c. Ord-Gore-GWB abortion
+v001109,Pre.Rand.M4b/M4c. Ord-Gore-envir/jobs
+v001110,Pre.Rand.M6b/M6c. Ord-Gore-gun restrictn
+v001111,Pre.Rand.P1b/P1c. Ord-Gore-women's role
+v001112,Pre.Rand.P2b/P2c. Ord-Gore-envir reg
+v001113,Pre.Rand.Q14a. Ord-angry-Clinton affcts
+v001114,Pre.Rand.Q14b. Ord-hopeful-Clinton affct
+v001115,Pre.Rand.Q14c. Ord-afraid -Clinton affct
+v001116,Pre.Rand.Q14d. Ord-proud-Clinton affcts
+v001117,Pre.Rand.Q15a. Ord-moral-Clinton traits
+v001118,Pre.Rand.Q15b. Ord-cares-Clinton traits
+v001119,Pre.Rand.Q15c. Ord-knowl-Clinton traits
+v001120,Pre.Rand.Q15d. Ord-leader-Clinton traits
+v001121,Pre.Rand.Q15e. Ord-dishon-Clinton traits
+v001122,Pre.Rand.Q15f. Ord-intell-Clinton traits
+v001123,Pre.Rand.Q15g. Ord-out touch-Clint trait
+v001201,A1. R interest in campaigns
+v001202,A2. R watched programs about campaign
+v001203,A2a. How many programs R watched about c
+v001204,A3. Does R ever discuss politics
+v001205,A3a. How often does R discuss politics
+v001206,A4. Does R recall names of House candida
+v001207,A4a1. Hse name recall 1 - cand code
+v001208,A4b1. Hse party recall 1
+v001209,A4(1)x1. Actual party of recall 1
+v001210,A4(2)x2. Accuracy of recall 1
+v001211,A4a2. Hse name recall 2 - cand code
+v001212,A4b2. Hse party recall 2
+v001213,A4(2)x1. Actual party of recall 2
+v001214,A4(2)x2. Accuracy of recall 2
+v001215,A4a3. Hse name recall 3 - cand code
+v001216,A4b3. Hse party recall 3
+v001217,A4(3)x1. Actual party of recall 3
+v001218,A4(3)x2. Accuracy of recall 3
+v001219,B1. Party talked to R about campaign
+v001220,B1a. Party that spoke to R about campgn
+v001221,B1b. Anyone else talk to R about cands
+v001222,B1c. Party send R mail about campaign
+v001223,B1c1. Party that sent mail about campaig
+v001224,B1d. Anyone else send mail about campaig
+v001225,B2. Did R try to influence vote of other
+v001226,B3. Did R display button/sticker/sign
+v001227,B4. Did R go to meetings/rallies etc.
+v001228,B5. Did R do any other campaign work
+v001229,B6. Did R contribute to candidate
+v001230,B6a. Party of candidate - R contribution
+v001231,B7. Did R give money to party
+v001232,B7a. Party - R contribution
+v001233,B8. Did R give to group for/against cand
+v001234,B9. Did anyone talk to R about registeri
+v001235,B10. Did moral/relig groups discuss cmpa
+v001236,B11. Clergy provide election information
+v001237,B12. Did clergy encourage R to vote for
+v001238,B12a1. Clergy endorsement 1
+v001239,B12a2. Clergy endorsement 2
+v001240,B12a3. Clergy endorsement 3
+v001241,C1. Did R vote
+v001242,C2. Was R registered
+v001243,C3. Registered in county of IW?
+v001244,C3a1. State of registration
+v001244a,C3a2. County of registration (blank)
+v001245,C4. Did R vote on election day or before
+v001246,C4a. How long before election did R vote
+v001247,C4b. Did R vote in person or absentee
+v001248,C5. Did R vote for President?
+v001249,C6. R vote cast for President
+v001250,C6a. How strong R support Pres cand
+v001251,C7. Timing of Pres vote decision
+v001252a,C8(1). If R cld have cast more than one
+v001252b,C8(2). If R cld have cast more than one
+v001252c,C8(3). If R cld have cast more than one
+v001253a,C9(1). Hse ckpt: vote in/out county
+v001253b,C9(2). Hse ckpt: order of Dem/Rep names
+v001254,C9a/C11a.T. In-county: vote for House?
+v001255,C9b(1)/C11bx1.T. In-county House vote
+v001256,C9b/(2)/C11bx2.T. In-Hse vote-cand code
+v001257,C9b(3)/C11bx.T. In-House vote - party
+v001258,C10a/C12a.T. Out-county: vote for House?
+v001259,C10b1/C12b1.T. Out- House vote - cand co
+v001260,C10b2/C12b2.T. Out- House vote - party
+v001261,C10c/C12c.T. Out- party ment of Hse vote
+v001262,C10x1/C12x1.T. Summ- Hose vote cand code
+v001263,C10x2/C12x2.T. Summary- House vote party
+v001264,C13(1). Sen ckpt: vote in/out county
+v001265,C13(2). Sen ckpt: order of Dem/Rep names
+v001266,C13a/C15a.T. In-county: vote for Senate?
+v001267,C13b1/C15bx1.T. In county - Senate vote
+v001268,C13b2/C15bx2.T. In county -Sen vote - ca
+v001269,C13b3/C15bx3.T. In county- Sen vote - pa
+v001270,C14a/C16a.T. Out-county:vote for Senate?
+v001271,C14b1/C16b1.T. Out of county - Sen vote
+v001272,C14b2/C16b2.T. Out of county - Senate vo
+v001273,C14c/C16c.T. Out of county- party of Sen
+v001274,C14x1/C16x1.T. Summ- Sen vote - cand cod
+v001275,C14x2/C16x2.T. Summary- Sen vote - party
+v001276,C17. Nonvoter - prefer any Pres cand?
+v001277,C17a. Nonvoter- Pres cand preferred
+v001278,C17b. Nonvoter-strength Pres cand pref
+v001279,C18/C18.T. Nonvoter-prefer Hse cand?
+v001280,C18a/C18a.T. Nonvoter-Hse cand pref
+v001281,C18a1/C18a1.T.Nonvotr-Hse cand pref code
+v001282,C18a2/C18a2.T.Nonvoter-Hse cand pref pty
+v001283,C19a/C19.T. Nonvoter-pref Senate cand?
+v001284,C19b/C19a.T. Nonvoter-Sen cand pref
+v001285,C19b1/C19a1.T. Nonvotr-Sen cand pref cod
+v001286,C19b2/C19a2.T. Nonvoter-Sen cand pref pt
+v001287,(Blank)
+v001288,(Blank)
+v001289,(Blank)
+v001290,(Blank)
+v001291,C20. How fair was November election
+v001292,D1a/D1a.T. Thermometer Clinton
+v001293,D1b/D1b.T. Thermometer Gore
+v001294,D1c/D1c.T. Thermometer GW Bush
+v001295,D1d/D1d.T. Thermometer Nader
+v001296,D1e/D1e.T. Thermometer Jesse Jackson
+v001297,D1f/D1f.T. Thermometer former Pres Bush
+v001298,D1g/D1g.T. Thermometer Dem House cand
+v001299,D1h/D1h.T. Thermometer Rep House cand
+v001300,D1j/D1j.T. Thermometer retiring Hse rep
+v001300a,D1jx. Checkpt:Hse retiree also Sen cand?
+v001301,D1k/D1k.T. Thermometer Dem Senate cand
+v001302,D1m/D1m.T. Thermometer Rep Senate cand
+v001303,D1n/D1n.T. Thermometer Ind House cand
+v001303a,D1nx. Checkpoint: VT01 or VA05
+v001304,D2a. Thermometer supreme court
+v001305,D2b. Thermometer Congress
+v001306,D2c. Thermometer military
+v001307,D2d. Thermometer federal govt in Wash DC
+v001308,D2e. Thermometer blacks
+v001309,D2f. Thermometer whites
+v001310,D2g. Thermometer conservatives
+v001311,D2h. Thermometer liberals
+v001312,D2j. Thermometer labor unions
+v001313,D2k. Thermometer big business
+v001314,D2m. Thermometer poor people
+v001315,D2n. Thermometer people on welfare
+v001316,D2p. Thermometer Hispanics
+v001317,D2q. Thermometer Chrstn Fundamentalists
+v001318,D2r. Thermometer women's movement
+v001319,D2s. Thermometer older people
+v001320,D2t. Thermometer environmentalists
+v001321,D2u. Thermometer homosexuals
+v001322,D2v. Thermometer Christian Coalition
+v001323,D2w. Thermometer Catholics
+v001324,D2x. Thermometer Jews
+v001325,D2xx. Thermometer Protestants
+v001326,D2y. Thermometer feminists
+v001327,D2z. Thermometer Asian-americans
+v001328,E1. Like anything- Dem House cand
+v001329,E1a(1). #1 like Dem House candidate
+v001330,E1a(2). #2 like Dem House candidate
+v001331,E1a(3). #3 like Dem House candidate
+v001332,E1a(4). #4 like Dem House candidate
+v001333,E1a(5). #5 like Dem House candidate
+v001334,E2. Dislike anything- Dem House cand
+v001335,E2a(1). #1 dislike Dem House candidate
+v001336,E2a(2). #2 dislike Dem House candidate
+v001337,E2a(3). #3 dislike Dem House candidate
+v001338,E2a(4). #4 dislike Dem House candidate
+v001339,E2a(5). #5 dislike Dem House candidate
+v001340,E3. Like anything- Repub House cand
+v001341,E3a(1). #1 like Repub House candidate
+v001342,E3a(2). #2 like Repub House candidate
+v001343,E3a(3). #3 like Repub House candidate
+v001344,E3a(4). #4 like Repub House candidate
+v001345,E3a(5). #5 like Repub House candidate
+v001346,E4. Dislike anything- Repub House cand
+v001347,E4a(1). #1 dislike Repub House candidate
+v001348,E4a(2). #2 dislike repun House candidate
+v001349,E4a(3). #3 dislike Repub House candidate
+v001350,E4a(4). #4 dislike Repub House candidate
+v001351,E4a(5). #5 dislike Repub House candidate
+v001352,E5. Checkpt: number of Hse cands
+v001353a,E5a(1). 2 cands- either cand incumbent
+v001353b,E5a(2). Cand iden as incum- 2 cand race
+v001354,E5b(1). 1 cand- is candidate incumbent
+v001355,E5b(2). Cand iden as incum- 1 cand race
+v001356,E6. Party control House before election
+v001357,E7. Party control Senate before election
+v001358,F1. Appr/dissapr House incumbent
+v001359,F1a. Strength approve House incumbent
+v001360,F1b. Strength disappr House incumbent
+v001361,F1x. Summary- approve/disapp Hse incumb
+v001362,F2. Special action by incumbent
+v001363,F3. R know #yrs Hse incumbent has serv
+v001364,F3a. #yrs House incumbent has been in of
+v001365,F3b. Incumbent more/less 12 yrs in offic
+v001366,F4. House incumb kept in touch w/distric
+v001367,F5. R follows govt and public affairs
+v001368,G1a/G1a.T. R placement lib-con scale
+v001369,G1b. Had to choose lib-con self-placemt
+v001370,G1x. 3-category lib-con summary
+v001371,G2/G2.T. Clinton placement lib-con scale
+v001372,G3/G3.T. Gore placement lib-con scale
+v001373,G3a/G3a.T. Gore-certain lib-con placemnt
+v001374,G4/G4.T. Bush placement lib-con scale
+v001375,G4a/G4a.T. Bush-certain lib-con placemnt
+v001376,G5/G5.T. Buchanan placemnt lib-con scale
+v001377,G5a/G5a.T. Buchanan-certain lib-con
+v001378,G6. Ckpt: number of cands/VT01/VA05
+v001378a,G6(1)/G6(1).T. Dem Hse cand placemt-lib
+v001378b,G6.(2)/G6(2).T. #1 incum Ind cand place
+v001379a,G6a1/G6a1.T. Dem Hse cand-crtn lib-con
+v001379b,G6a2/G6a2.T. #1 incum Ind cand-crtn lib
+v001380a,G7.(1)/G7(1).T. Rep Hse cand placmnt-lib
+v001380b,G7.(2)/G7(2).T. #2 incum Ind cand-lib
+v001381a,G7a1/G7a1.T. Rep Hse cand-certn lib-con
+v001381b,G7a2/G7a2.T. #2 incum Ind cand lib-con
+v001382,G8/G8.T. Dem Party placemnt lib-con scal
+v001383,G9/G9.T. Repub Party placement lib-con
+v001384,G10/G10.T. Reform Party placemnt lib-con
+v001385,G11a. R placement- services/spend scale
+v001386,G11a.T. R placemnt-services/spend branch
+v001387,G11a1.T. How much reduce services/spend
+v001388,G11a2.T. How much increase servics/spend
+v001389,"G11a3.T. If serv/spend changed, would fa"
+v001390,G11ax. PH Summary R serv/spend scale
+v001390a,G11ax. Summary R serv/spend scale
+v001391,G11b. Ckpt: number of cands/VT01/VA05
+v001391a,G11b1. Dem Hse candidate on services/spe
+v001391b,G11b2. #1 Ind incumbent Hse cand on serv
+v001392a,G11b(1).T. Dem Hse cand on services/spen
+v001392b,G11b(2).T. #1 Ind incumbent Hse cand on
+v001393a,G11b1(1).T. Dem cand- how much reduce se
+v001393b,G11b1(2).T. #2 Ind incumbnt Hse cand- ho
+v001394a,G11b2(1).T. Dem Hse cand-how much incrse
+v001394b,G11b2(2).T. #1 Ind incumbent Hse cand- h
+v001395a,G11b3(1).T. Dem Hse cnd- if serv/spnd ch
+v001395b,G11b3(2).T. #1 Ind inc Hse cand- if chng
+v001396,G11bx1. PH Dem cand serv/spend summary
+v001396a,G11bx2. PH Dem cand serv/spend summary
+v001397a,G11c1. Repub House candidate on services
+v001397b,G11c2. #2 Ind inc Hse cand on services/s
+v001398a,G11c(1).T. Rep Hse cand on services/spen
+v001398b,G11c(2).T. #2 Ind incumbent Hse cand on
+v001399a,G11c1(1).T. Rep Hse cand- how much reduc
+v001399b,G11c1(2).T. #2 Ind incumbent Hse cand- h
+v001400a,G11c2(1).T. Rep Hse cand-how much incrse
+v001400b,G11c2(2).T. #2 Ind incumbent Hse cand- h
+v001401a,G11c3(1).T. Rep Hse cand- if serv/spend
+v001401b,G11c3(2).T. #2 Ind incumbt Hse cand- if
+v001402,G11cx1. PH Summary Rep cand serv/spend
+v001402a,G11cx2. Summary Rep cand serv/spend
+v001403,G12/G12.T. R placement- abortion scale
+v001404,G12a. How important is abortion issue to
+v001405,G12b. Checkpoint: number of cands/VT01/V
+v001405a,G12b1/G12b1.T. Dem Hse cand placmt on ab
+v001405b,G12b2/G12b2.T. #1 Ind inc cand plac on a
+v001406a,G12b1(1)/G12b1(1).T. Dem Hse cand-cetain
+v001406b,G12b1(2)/G12b1(2).T. #1 Ind inc cnd-cert
+v001407a,G12c1/G12c1.T. Rep Hse cand placmt on ab
+v001407b,G12c2/G12c2.T. #2 Ind inc cand placmt on
+v001408a,G12c1(1)/G12c1(1).T. Rep Hse cand-certai
+v001408b,G12c1(2)/G12c1(2).T. #2 Ind inc cnd-cert
+v001409,G13. R thinks of themself as Republican
+v001410,H1. R better/worse off in last year fina
+v001411a,H1a. How much better off in last yer fin
+v001411b,H1b. How much worse off last year financ
+v001412,H1x. Summary of R's financial situation
+v001412a,H1x1. Pre/Po Summary of R fin situation
+v001413,H2. Put off medical or dental treatmnt i
+v001413a,H2x. Pre/Po: Put off medical or dental
+v001414,H3. R expects next year to be better/wor
+v001415,H3a. How much better off next year finan
+v001416,H3b. How much worse off next year financ
+v001417,H3x. Summary: R financial expectations i
+v001417a,H3x1. Pre/Po:Financial situation next yr
+v001418,H4. How afraid is R of assault in next y
+v001419,J1. R's attitude about serving on jury d
+v001420,"J2a. Less govt, or more things governmen"
+v001421,J2b. Strong govt to handle cmplx prbls o
+v001422,J2c. Reason govt is bigger- meddlesome o
+v001423,J2d. Better cooperative or self-reliant
+v001424,J3. # times R watched jeopardy
+v001425,J4. # times R watched wheel of fortune
+v001426,J5. # times R watched morning news
+v001427,J6. # times R watched daytime talk show
+v001428,J7. Network news program R watches most
+v001429,J8. How much can you trust the media
+v001430,J9. Does R listen to political talk radi
+v001431,J9a. How often does R listen to talk rad
+v001432,J9b. How closely does R listen to talk r
+v001433,J10. Does R have Internet or WWW access
+v001434,J10a. Has R seen election info on Intern
+v001435,J11. Important differences b/w Reps/Dems
+v001436a,J11a1(1). #1 difference b/w Reps/Dems
+v001436b,J11a1(2). #1 party refnce b/w Reps/Dems
+v001436c,J11a2(1). #2 difference b/w Reps/Dems
+v001436d,J11a2(2). #2 party refnce b/w Reps/Dems
+v001436e,J11a3(1). #3 difference b/w Reps/Dems
+v001436f,J11a3(2). #3 party refnce b/w Reps/Dems
+v001436g,J11a4(1). #4 difference b/w Reps/Dems
+v001436h,J11a4(2). #4 party refnce b/w Reps/Dems
+v001436j,J11a5(1). #5 difference b/w Reps/Dems
+v001436k,J11a5(2). #5 party refnce b/w Reps/Dems
+v001436m,J11a6(1). #6 difference b/w Reps/Dems
+v001436n,J11a6(2). #6 party refnce b/w Reps/Dems
+v001437,K1a. Whites influence
+v001438,K1b. Blacks influence
+v001439,K1c. Hispanics influence
+v001440,K1d. Asian-Americans influence
+v001441,K1e. Jews influence
+v001442,K1f. Protestants influence
+v001443,K1g. Catholics influence
+v001444,K1h. Men influence
+v001445,K1j. Women influence
+v001446a,K2a. Identify Trent Lott -standard
+v001446b,K2a.E. Identify Trent Lott -experimental
+v001447,K2ax. Summary identify Trent Lott
+v001448,K2a1.E. Identify Trent Lott- DK probe us
+v001449a,K2b. Identify William Rehnquist -standar
+v001449b,K2b.E. Identify William Rehnquist -exper
+v001450,K2bx. Summary identify William Rehnquist
+v001451,K2b1.E. Identify William Rehnquist - DK
+v001452a,K2c. Identify Tony Blair -standard
+v001452b,K2c.E. Identify Tony Blair-experimental
+v001453,K2cx. Summary identify Tony Blair
+v001454,K2c1.E. Identify Tony Blair - DK probe u
+v001455a,K2d. Identify Janet Reno -standard
+v001455b,K2d.E. Identify Janet Reno -experimental
+v001456,K2dx. Summary identify Janet Reno
+v001457,K2d1.E. Identify Janet Reno -DK probe us
+v001458,K3a. In what state does Bush live
+v001459,K3a1. Respondent was probed for DK answe
+v001460,K3b. What is Bush's religion
+v001461,K3b1. Respondent was probed for DK answe
+v001462,K4a. What state is Gore from
+v001463,K4a1. Respondent was probed for DK answe
+v001464,K4b. What is Gore's religion
+v001465,K4b1. Respondent was probed for DK answe
+v001466,K5a. In what state does Cheney live
+v001467,K5a1. Respondent was probed for DK answe
+v001468,K5b. What is Cheney's religion
+v001469,K5b1. Respondent was probed for DK answe
+v001470,K6a. In what state does Lieberman live
+v001471,K6a1. Respondent was probed for DK answe
+v001472,K6b. What is Lieberman's religion
+v001473,K6b1. Respondent was probed for DK answe
+v001474,K7. Volunteer work in last year
+v001475,K8. Are people trustworthy
+v001476,K9. People take advantage or act fairly
+v001477,K10. People helpful or selfish
+v001478,K11. Fav/opp laws protect against job di
+v001479,K11a. How much favor law protecting homo
+v001480,K11b. How much oppose law protecting hom
+v001481,K11x. Summary protctng homosxls against
+v001482,K12a. R placmnt crime -address social pr
+v001482a,K12a.T. R placmnt crime -address social
+v001483,K12a1.T. How much btr is approach -adres
+v001484,K12a2.T. How much btr is approach -punis
+v001485,"K12a3.T. If had to choose, which approac"
+v001486,K12ax1. PH Summary- R placement on crime
+v001486a,K12ax2. Summary- R placement on crime
+v001487,K13. How worried is R about nuclear war
+v001488,K14. How worried is R about conventional
+v001489,K15a. Campn fin- protect govt from infl
+v001490,K16. How should the financing of campaig
+v001491,L5. Worked on community issue in last ye
+v001492,L6. Contacted public official to express
+v001493,L7. Attend commun meeting about issue in
+v001494,L8. Is R a member of any organizations
+v001495,L8a. How many organizations is R current
+v001496,L8b. 1 org-how many hours per week spent
+v001497,L8c. 1 org-do orgs try to influence gove
+v001498,L8d. 1 org-does org try to influence sch
+v001499,L8bb. 2+ org-how many hours per week spe
+v001500,L8cc. 2+ org-does org try to inflnce gov
+v001501,L8dd. 2+ org-does org try to inflnce sch
+v001502,L8x1. Summary hours per week spent for o
+v001503,L8x2. Summary org influence schools
+v001504,L8x3. Summary org influence government
+v001505,L9. Contributed to church or charity in
+v001506,L10. Taken part in Protest or march in l
+v001507,L10a. How many times protested/marched
+v001508,M3a/M3a.T. Blks should overcome prejudic
+v001509,M3b/M3b.T. Blacks have gotten less than
+v001510,M3c/M3c.T. If blks wld try harder they c
+v001511,M3d/M3d.T. Past discrim impacts blks tod
+v001512,N1. R have opinion on strength of federa
+v001513,N1a. Govt is getting too powerful or not
+v001514,N1a1. Should govt become more powerful
+v001515,N1b. Which party favors a strong federal
+v001516,N2a/N2a.T. Does R have good undrstdg of
+v001517,N2b/N2b.T. R well-qulfd to participate i
+v001518,N2c/N2c.T. Could do good job in public o
+v001519,N2d/N2d.T. Better informed about govt th
+v001520,N3. Does R believe their vote matters
+v001521,P1a/P1a.T. Society needs to give everyon
+v001522,P1b/P1b.T. We've pushed equal rights too
+v001523,P1c/P1c.T. We don't give everyone equal
+v001524,P1d/P1d.T. Better if we worried less abo
+v001525,P1e/P1e.T. OK if some people have more c
+v001526,P1f/P1f.T. We'd have fewr probs if peopl
+v001527,Q1a/Q1a.T. Public officials don't care
+v001528,Q1b/Q1b.T. People dont have say in govt
+v001529,Q1c/Q1c.T. Politics too complicated
+v001530,Q2a/Q2a.T. New morals are causing societ
+v001531,Q2b/Q2b.T. Should adjust views to chgd m
+v001532,Q2c/Q2c.T. Less prblms if emphasize trad
+v001533,Q2d/Q2d.T. Should tolerate other's moral
+v001534,Q3a. How much can govt be trusted
+v001535,Q4. How much of taxes does govt waste
+v001536,Q5. Govt run by big intersts or for bene
+v001537,Q6. How many in govt are crooked
+v001538,Q7. Elections make govt pay attention
+v001539,Q8. Attn govt pays to people when making
+v001574,R2a/R2a.T. Hardworking- whites
+v001575,R2b/R2b.T. Hardworking- blacks
+v001576,R2c/R2c.T. Hardworking- Hispanic-America
+v001577,R2d/R2d.T. Hardworking- Asian-American
+v001578,R3a/R3a.T. Intelligence- whites
+v001579,R3b/R3b.T. Intelligence- blacks
+v001580,R3c/R3c.T. Intelligence- Hispanic-Americ
+v001581,R3d/R3d.T. Intelligence- Asian-American
+v001582,R4a/R4a.T. Trustworthy- whites
+v001583,R4b/R4b.T. Trustworthy- blacks
+v001584,R4c/R4c.T. Trustworthy- Hispanic-America
+v001585,R4d/R4d.T. Trustworthy- Asian-American
+v001586,R5a. Independence or respect for elders
+v001587,R5b. Obedience or self-reliance
+v001588,R5c. Curiosity or good manners
+v001589,R5d. Considerate or well behaved
+v001590,S1. Budget deficit lar/smal since 1992
+v001591,S1a. Deficit much/somewhat smaller
+v001591a,S1b. Deficit much/somewhat larger
+v001592,S1x. Summary - budget deficit since 92
+v001592a,S1x1. Summary pre & post - budget defici
+v001593,S2. Spending on poor inc/dec since 92
+v001594,S2a. Spend poor a lot/somwhat more/less
+v001595,S2x. Summary - spending on poor since 92
+v001595a,S2x1. Summary pre & post - spending on p
+v001596,S3. Economy better/worse since 1992
+v001597,S3a. Economy much/somewhat better
+v001598,S3b. Economy much/somewhat worse
+v001599,S3x. Summary - economy since 1992
+v001599a,S3x1. Summary pre & post - econ since 92
+v001600,S4. Clinton made economy better/worse si
+v001601,S4a. Clinton made econ much/somewhat bet
+v001602,S4b. Clinton made econ much/somewhat wor
+v001603,S4x. Summary - Clinton made econ better
+v001603a,S4x1. Summary pre & post - Clinton made
+v001604,S5. Clinton admin hurt/help R personally
+v001604a,S5x. Clinton admin hurt/help R
+v001605,S6. U.S. more/less secure since 1992
+v001606,S6a. U.S. much/somewhat more secure
+v001607,S6b. U.S. much/somewhat less secure
+v001608,S6x. Summary - U.S. security
+v001608a,S6x1. Summary pre & post - U.S. security
+v001609,S7. Clinton made U.S. more/less secure
+v001610,S7a. Clinton made much/smwht more secure
+v001611,S7b. Clinton made much/smwhat less secur
+v001612,S7x. Summ-Clinton impact on U.S. securit
+v001612a,S7x1. Summ pre & post- Clinton impact on
+v001613,S8. U.S. crime rate better/wors since 92
+v001614,S8a. U.S. crime rate much/smwht better
+v001615,S8b. U.S. crime rate much/smwht worse
+v001616,S8x. Summary - U.S. crime rate
+v001616a,S8x1. Summary pre & post - U.S. crime ra
+v001617,S9. Clinton made crime rate better/worse
+v001618,S9a. Clinton made crime rate much/smwht
+v001619,S9b. Clinton made crime rate much/smwht
+v001620,S9x. Summ-Clinton impact on crime rate
+v001620a,S9x1.Summ pre & post - Clinton impact on
+v001621,S10. Moral climate better/worse since 92
+v001622,S10a.Moral climate much/smwht better
+v001623,S10b. Moral climate much/smwht worse
+v001624,S10x. Summary - moral climate since 92
+v001624a,S10x1. Summ pre & post - moral climate s
+v001625,S11. Clinton made moral climate better/w
+v001626,S11a. Clinton made moral clim mch/s bett
+v001627,S11b. Clinton made moral clim mch/s wors
+v001628,S11x. Summ-Clinton impact on moral clima
+v001628a,S11x1.Summ pre & post- Clinton impact on
+v001629,S14a. Clinton makes R angry
+v001629a,S14ax. Summ pre & post Clinton - angry
+v001630,S14a1. How often Clinton makes R angry
+v001630a,S14a1x. Summ pre & post - how often angr
+v001631,S14b. Clinton makes R hopeful
+v001631a,S14bx. Summ pre & post Clinton -hopeful
+v001632,S14b1. How often Clinton make R hopeful
+v001632a,S14b1x. Summ pre & post - how often hope
+v001633,S14c. Clinton makes R afraid
+v001633a,S14cx. Summ pre & post Clinton - afraid
+v001634,S15c1. How often Clinton makes R afraid
+v001634a,S14c1x. Summ pre & post - how often afra
+v001635,S14d. Clinton makes R proud
+v001635a,S14dx. Summ pre & post Clinton - proud
+v001636,S14d1. How often Clinton makes R proud
+v001636a,S14d1x. Summ pre & post - how often prou
+v001637,S15a. Clinton trait - moral
+v001637a,S15ax. Summ pre & post-Clinton trait - m
+v001638,S15b. Clinton trait-cares about people
+v001638a,S15bx. Summ pre & post-Clinton trait-car
+v001639,S15c. Clinton trait - knowledgeable
+v001639a,S15cx. Summ pre & post-Clinton knowledge
+v001640,S15d. Clinton trait-strong leadership
+v001640a,S15dx. Summ pre & post-Clinton leadershi
+v001641,S15e. Clinton trait - dishonest
+v001641a,S15ex. Summ pre & post-Clinton dishonest
+v001642,S15f. Clinton trait - intelligent
+v001642a,S15fx. Summ pre & post-Clinton-intellige
+v001643,S15g. Clinton trait - out of touch
+v001643a,S15gx. Summ pre & post-Clinton out of to
+v001644,T1. Did R watch a Pres debate on tv
+v001645,T1a. Did R watch an entire or just part
+v001646,T2. Did R listen to campaign speeches or
+v001647,T2a. How much did R listen to radio spee
+v001648,T3/T3.T. How much attention to Pres camp
+v001649,T4/T4.T. How much attention to Cong camp
+v001650,"T5/T5.T. Two parties, no labels, or new"
+v001651,T6. Is R satisfied with US Democracy
+v001652,V1. Bush effect on US economy
+v001653,V1a. How much better Bush made economy
+v001654,V1b. How much worse Bush made economy
+v001655,V1x. Summary: Bush effect on economy
+v001656,V2. Bush made US more secure
+v001657,V2a. Bush made US how much more secure
+v001658,V2b. Bush made US how much less secure
+v001659,V2x. Summary: Bush effect on security
+v001660,V3. Bush effect on US crime rate
+v001661,V3a. Bush made crime rate how mch better
+v001662,V3b. Bush made crime rate how much worse
+v001663,V3x. Summary: Bush effect on crime
+v001664,V4. Bush effect on moral climate
+v001665,V4a. Bush moral climate how much better
+v001666,V4b. Bush moral climate how much worse
+v001667,V4x. Summary: Bush effect on moral clima
+v001668,V5a. Bush trait - moral
+v001669,V5b. Bush trait - cares about people
+v001670,V5c. Bush trait - knowledgeable
+v001671,V5d. Bush trait - strong leadership
+v001672,V5e. Bush trait - dishonest
+v001673,V5f. Bush trait - intelligent
+v001674,V5g. Bush trait - out of touch
+v001675,Y5. Is R currently working
+v001676a,"Y6a. Why is R not working, reason 1"
+v001676b,"Y6b. Why is R not working, reason 2"
+v001676c,"Y6c. Why is R not working, reason 3"
+v001677,Y7. Workers: How satisfied is R with wor
+v001678,Y7a. WRKS: Does R spend work time with p
+v001679,Y8. WRKS: Rs coworkers looking out for
+v001680,Y8a. WRKS: Do Rs coworkers try to take a
+v001681,Y8b. WRKS: Do Rs coworkers treat others
+v001682,Y8c. WRKS: Does honest describe Rs cowor
+v001683,Y8d. WRKS:Racial diversity of Rs coworke
+v001684,Y10. Laid off:Does R spend days alone/wi
+v001685,Y11. LOff: Rs coworkers just looking ou
+v001686,Y11a. LOff: Do Rs coworkers try to take
+v001687,Y11b. LOff:Do Rs coworkers treat others
+v001688,Y11c. LOFF: Does honest describe Rs cowo
+v001689,Y15. Retired:Does R spend days alone/wit
+v001690,Y16. RET:Rs coworker look out for thems
+v001691,Y16a. RET:Did Rs coworkers try to take a
+v001692,Y16b. RET:Were Rs coworkers respectful
+v001693,Y16c. RET: Does honest describe Rs cowor
+v001694,Y17x. Summary: R work with others
+v001695,Y18x. Summary: co-workers look out for s
+v001696,Y18ax. Summary: co-workers try to take a
+v001697,Y18bx. Summary: co-workers treat others
+v001698,Y18cx. Summary: co-workers honest
+v001699,Z1. Person R discusses politics with: na
+v001700,Z3. Person R discusses politics with: na
+v001701,Z5. Person R discusses politics with: na
+v001702,Z7. Person R discusses politics with: na
+v001703,Z9. Is name 1 relative
+v001704,Z9a. Is name 1 male or female
+v001705,Z9b. Is name 1 coworker
+v001706,Z9c. Does name 1 go to church with R
+v001707,Z9d. Is name 1 a neighbor
+v001708,Z10. How often does R discuss politics w
+v001709,Z11. How much does name 1 know about pol
+v001710,Z12. How name 1 voted in election
+v001711,Z13. Is name 2 relative
+v001712,Z13a. Is name 2 male or female
+v001713,Z13b. Is name 2 coworker
+v001714,Z13c. Does name 2 go to church with R
+v001715,Z13d. Is name 2 a neighbor
+v001716,Z14. How often does R discuss politics w
+v001717,Z15. How much does name 2 know about pol
+v001718,Z16. How name 2 voted in election
+v001719,Z17. Is name 3 relative
+v001720,Z17a. Is name 3 male or female
+v001721,Z17b. Is name 3 coworker
+v001722,Z17c. Does name 3 go to church with R
+v001723,Z17d. Is name 3 a neighbor
+v001724,Z18. How often does R discuss politics w
+v001725,Z19. How much does name 3 know about pol
+v001726,Z20. How name 3 voted in election
+v001727,Z21. Is name 4 relative
+v001728,Z21a. Is name 4 male or female
+v001729,Z21b. Is name 4 coworker
+v001730,Z21c. Does name 4 go to church with R
+v001731,Z21d. Is name 4 a neighbor
+v001732,Z22. How often does R discuss politics w
+v001733,Z23. How much does name 4 know about pol
+v001734,Z24. How name 4 voted in election
+v001735,Z25. Has R worked with neighbor on commo
+v001736,Z26. How satisfied is R with neighbrhood
+v001737,Z27. Are neighbors just looking out for
+v001738,Z27a. Do neighbors try to take advantage
+v001739,Z27b. Do neighbors treat others w/respec
+v001740,Z27c. Does honest describe neighbors
+v001741,Z27d. What is the racial diversity of ne
+v001742,Z28. How satisfying is Rs life
+v001743a,ZZ1(1). Others present for interview
+v001743b,ZZ1(2). Others present for interview
+v001743c,ZZ1(3). Others present for interview
+v001744,ZZ2. Rs cooperation
+v001745,ZZ3. Rs knowledge of politics
+v001746,ZZ4. Rs apparent intelligence
+v001747,ZZ5. How suspicious did R seem
+v001748,ZZ6. How great Rs interest in IW
+v001749,ZZ7. How sincere did R seem
+v001750,ZZ7a. Areas IWR doubted sincerity
+v001751a,ZZ11(1). Rs reaction to IW
+v001751b,ZZ11(2). Rs reaction to IW
+v001751c,ZZ11(3). Rs reaction to IW
+v001751d,ZZ11(4). Rs reaction to IW
+v001751e,ZZ11(5). Rs reaction to IW
+v001751f,ZZ11(6). Rs reaction to IW
+v001751g,ZZ11(7). Rs reaction to IW
+v001752,Post-Rand.C9(2).
+v001753,Post-Rand.D2b-D2d.
+v001754,Post-Rand.D2g.
+v001755,Post-Rand.D2h.
+v001756,Post-Rand.D2j.
+v001757,Post-Rand.D2k.
+v001758,Post-Rand.D2m.
+v001759,Post-Rand.D2n.
+v001760,Post-Rand.D3a.
+v001761,Post-Rand.D3b.
+v001762,Post-Rand.D3c.
+v001763,Post-Rand.D3d.
+v001764,Post-Rand.D3e.
+v001765,Post-Rand.D3f.
+v001766,Post-Rand.D3g.
+v001767,Post-Rand.D3h.
+v001768,Post-Rand.D3j.
+v001769,Post-Rand.D3k.
+v001770,Post-Rand.D3m.
+v001771,Post-Rand.D3n.
+v001772,Post-Rand.D3p.
+v001773,Post-Rand.D3q.
+v001774,Post-Rand.D3r.
+v001775,Post-Rand.D3s.
+v001776,Post-Rand.D3t.
+v001777,Post-Rand.D3u.
+v001778,Post-Rand.D3v.
+v001779,Post-Rand.D3w.
+v001780,Post-Rand.D3x.
+v001781,Post-Rand.D3xx.
+v001782,Post-Rand.D3y.
+v001783,Post-Rand.D3z.
+v001784,Post-Rand.E1/E3.
+v001785,Post-Rand.G3-G5.
+v001786,Post-Rand.G6-G7.
+v001787,Post-Rand.G8-G10.
+v001788,Post-Rand.G11b/c.
+v001789,Post-Rand.G12b/c.
+v001790,Post-Rand.R2b-R2d.
+v001791,Post-Rand.R3b-R3d.
+v001792,Post-Rand.R4b-R4d.
+v001793,Post-Rand.S14a.
+v001794,Post-Rand.S14b.
+v001795,Post-Rand.S14c.
+v001796,Post-Rand.S14d.
+v001797,Post-Rand.S15a.
+v001798,Post-Rand.S15b.
+v001799,Post-Rand.S15c.
+v001800,Post-Rand.S15d.
+v001801,Post-Rand.S15e.
+v001802,Post-Rand.S15f.
+v001803,Post-Rand.S15g.
+v001804,Post-Rand.V5a.
+v001805,Post-Rand.V5b.
+v001806,Post-Rand.V5c.
+v001807,Post-Rand.V5d.
+v001808,Post-Rand.V5e.
+v001809,Post-Rand.V5f.
+v001810,Post-Rand.V5g.
