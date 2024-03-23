@@ -20,7 +20,7 @@ By using ```ANESPy```, you can bring in data for a selected year (going back to 
 Say you wanted to get the 2012 version of the ANES Time Series, but you only wanted the Pre-Election variables. This can be done simply:
 
 ```python
-import anespy.anespy
+from anespy import *
 
 data = anespy.load_ANES_data(2012)
 data.conver_var_names()
