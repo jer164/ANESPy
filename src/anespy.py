@@ -1,22 +1,27 @@
 import pandas as pd
 import numpy as np
 from importlib.resources import files, as_file
-from pandas.core.common import SettingWithCopyWarning
 import pickle
 import re
 import requests 
 import zipfile
 import io
 import warnings
+from dataclasses import dataclass, field
 
 ######### Suppress FutureWarnings
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
-warnings.simplefilter(action='ignore', category=SettingWithCopyWarning)
+pd.options.mode.chained_assignment = None 
 
-######### DICTIONARIES AND RE-USED VALUES
+######### ANES CLASS
 
-data_dict = {
+@dataclass(repr=False)
+class ANES:
+    year: int | str = 'cumulative'
+    data: pd.DataFrame  = field(default_factory=pd.DataFrame)
+
+    data_dict = {
         'cumulative': ['2022/09/anes_timeseries_cdf_csv_20220916.zip', 'anes_timeseries_cdf_csv_20220916.csv'],
         2020: ['2022/02/anes_timeseries_2020_csv_20220210.zip', 'anes_timeseries_2020_csv_20220210.csv'],
         2016: ['2018/12/anes_timeseries_2016.zip', 'anes_timeseries_2016_rawdata.txt'],
@@ -25,24 +30,20 @@ data_dict = {
         2004: ['2018/06/anes2004.zip', 'nes04dat.txt'],
         2000: ['2018/06/anes_2000prepost.zip', 'anes_2000prepost_dat.txt']}
 
-duped_vars = [r'[a-zA-Z]\d\.\s', 
+    duped_vars_pattern = re.compile(r'|'.join([r'[a-zA-Z]\d\.\s', 
                     r'[a-zA-Z]\d[a-zA-Z]\.\s', 
                     r'[a-zA-Z]\d[a-zA-Z]\d\.\s', 
                     r'[a-zA-Z][0-9]+[a-zA-Z]\.\s', 
                     r'[a-zA-Z][0-9]+[a-zA-Z]\d[a-zA-Z]\.\s', 
                     r'[a-zA-Z]\d[a-zA-Z]\.\s', 
                     r'[a-zA-Z]\d[a-zA-Z]\.\s', 
-                    r'[a-zA-Z]\d\d\.\s']
-
-######### ANES CLASS
-
-class ANES(pd.DataFrame):
-   
-    _metadata = ['year']
-
-    @property
-    def _constructor(self):
-        return ANES
+                    r'[a-zA-Z]\d\d\.\s']))
+    
+    def __post_init__(self):
+        self.data = self.load_ANES_data(self.year, add_names=False)
+    
+    def __repr__(self):
+        return f"ANES object:\nTime Series: {self.year}\nVariables: {len(self.data.columns):,}\nN: {len(self.data.index):,}"
 
     def add_year(self):
         '''
@@ -73,7 +74,7 @@ class ANES(pd.DataFrame):
         '''
         if type(self.year) == int:
             try: 
-                self.insert(0, 'Year', self.year)
+                self.data.insert(0, 'Year', self.year)
             except ValueError:
                 print('Note: Year already added.')
                 print('------------------------------------------')
@@ -81,23 +82,25 @@ class ANES(pd.DataFrame):
         else:
             print('Cumulative data does not have a year.')
 
-
-    def convert_var_names(self, drop_extra = True):
+    @staticmethod
+    def convert_var_names(year: int|str, df: pd.DataFrame, drop_extra: bool = True) -> pd.DataFrame:
         '''
         Renames variables (column headers) to full, context-inclusive name from ANES codebook. Can also be used 
         backwards to rename variables to their "V____"-formatted name. 
 
         Parameters:
         -----------
-        self : anespy.anespy.ANES
-            An ANES instance.
-        drop_extra : bool
+        year : int|str
+            The year or 'cumulative' for which the variable names should be converted.
+        df : pd.DataFrame
+            The DataFrame containing the variables to be renamed.
+        drop_extra : bool, optional
             A boolean indicating where columns not present in codebook should be dropped. Defaults to True.
 
         Returns:
         --------
-        self: anespy.anespy.ANES
-            An ANES object containing the selected colums and *n* number of respondents. 
+        pd.DataFrame
+            The modified DataFrame containing the selected columns and the same number of respondents. 
 
         Example:
         --------
@@ -123,75 +126,60 @@ class ANES(pd.DataFrame):
         4         5         5
         '''
 
-        print_out= 'named variables'
-        src = files('anespy.var_lists').joinpath(f'{self.year}_varlist.csv')
+        print_out = 'named variables'
+        src = files('anespy.var_lists').joinpath(f'{year}_varlist.csv')
         with as_file(src) as new_vars:
             new_vars = pd.read_csv(new_vars)
         new_vars = dict(zip(new_vars['Number'], new_vars['Name']))
-        if self.year != 2012:
+        if year != 2012:
             new_vars = {k.capitalize():v for k,v in new_vars.items()}
-        else:
-            pass
 
-        if type(self.year) == int:
+        if isinstance(year, int):
             new_vars.update({'Year': 'Year'})
-        else:
-            pass
-        
-        if sum([len(var) for var in list(self.columns.values)])/len(self.columns.values) > 18:
-            if self.year in [2000, 2004, 2008]:
+
+        if sum([len(var) for var in df.columns.values])/len(df.columns.values) > 18:
+            if year in [2000, 2004, 2008]:
                 src_vars = files('anespy.data')
                 with as_file(src_vars) as data_out:
-                    new_vars = pickle.load(open(f"{data_out}/updated_vars{self.year}.pkl", "rb"))
-            else:
-                pass
-            rev_vars = dict(map(reversed, new_vars.items()))
-            self.rename(columns=rev_vars, inplace=True)
+                    new_vars = pickle.load(open(f"{data_out}/updated_vars{year}.pkl", "rb"))
+            rev_vars = {v: k for k, v in new_vars.items()}
+            df.rename(columns=rev_vars, inplace=True)
             print_out = 'numbered variables'
-            
         else:
-            if drop_extra == True:
-                self.drop(columns=[col for col in self if col not in new_vars.keys()], inplace=True)
-            else:
-                pass
+            if drop_extra:
+                df.drop(columns=[col for col in df if col not in new_vars.keys()], inplace=True)
 
-            if self.year == 'cumulative':
-                self.rename(columns=new_vars, inplace=True) 
-            else:
-                if self.year <= 2008:
-    
-                    new_vars_vals = list(new_vars.values())
+            if year == 'cumulative':
+                df.rename(columns=new_vars, inplace=True) 
+            elif year <= 2008:
+                new_vars_vals = list(new_vars.values())
+                fixed_vals = []
+                for idx, name in enumerate(new_vars_vals):
+                    if year == 2008:
+                        if 402 <= idx <= 817:
+                            fixed_vals.append(re.sub(ANES.duped_vars_pattern, 'PRE: ', str(name)))
+                        else: 
+                            fixed_vals.append(re.sub(ANES.duped_vars_pattern, 'POST: ', str(name)))
+                    elif year == 2004:
+                        if 221 <= idx <= 842:
+                            fixed_vals.append(re.sub(ANES.duped_vars_pattern, 'PRE: ', str(name)))
+                        else: 
+                            fixed_vals.append(re.sub(ANES.duped_vars_pattern, 'POST: ', str(name)))
+                    elif year == 2000:
+                        if 305 <= idx <= 1112:
+                            fixed_vals.append(re.sub(ANES.duped_vars_pattern, 'PRE: ', str(name)))
+                        else: 
+                            fixed_vals.append(re.sub(ANES.duped_vars_pattern, 'POST: ', str(name)))
 
-                    fixed_vals = []
-                    for idx, name in enumerate(new_vars_vals):
-                        if self.year == 2008:
-                            if idx >= 402 and idx <= 817 :
-                                    fixed_vals.append(re.sub('|'.join(duped_vars),'PRE: ', str(name)))
-                            else: 
-                                    fixed_vals.append(re.sub('|'.join(duped_vars),'POST: ', str(name)))
-                        
-                        elif self.year == 2004:
-                            if idx >= 221 and idx <= 842 :
-                                    fixed_vals.append(re.sub('|'.join(duped_vars),'PRE: ', str(name)))
-                            else: 
-                                    fixed_vals.append(re.sub('|'.join(duped_vars),'POST: ', str(name)))
-                        
-                        elif self.year == 2000:
-                            if idx >= 305 and idx <= 1112 :
-                                    fixed_vals.append(re.sub('|'.join(duped_vars),'PRE: ', str(name)))
-                            else: 
-                                    fixed_vals.append(re.sub('|'.join(duped_vars),'POST: ', str(name)))
-
-
-                    fixed_vars = dict(zip(new_vars.keys(), fixed_vals))
-                    self.rename(columns=fixed_vars, inplace=True) 
-                    
-                    src_vars = files('anespy.data')
-                    with as_file(src_vars) as data_out:
-                        pickle.dump(fixed_vars, open(f"{data_out}/updated_vars{self.year}.pkl", "wb"))
-                else: 
-                    self.rename(columns=new_vars, inplace=True)
+                fixed_vars = dict(zip(new_vars.keys(), fixed_vals))
+                df.rename(columns=fixed_vars, inplace=True) 
+                src_vars = files('anespy.data')
+                with as_file(src_vars) as data_out:
+                    pickle.dump(fixed_vars, open(f"{data_out}/updated_vars{year}.pkl", "wb"))
+            else: 
+                df.rename(columns=new_vars, inplace=True)
         print(f'Converted to {print_out}.')
+        return df
     
     def recode_to_char(self, col_in):
         '''
@@ -327,16 +315,15 @@ class ANES(pd.DataFrame):
         4                             1  ...                       85.016667 
         '''
 
-        pre, post = [col for col in self.columns if any(
+        pre, post = [col for col in self.data.columns if any(
             match in col for match in ['PRE:', 'PRE ADMIN:', 'Pre ', 'Pre.', 'Pre-'])], [
-            col for col in self.columns if any(
+            col for col in self.data.columns if any(
                 match in col for match in ['POST:', 'POST ADMIN:', 'Post ', 'Post.', 'Post-'])]
 
         df_pre = self[pre]
         df_post = self[post]
 
         return(df_pre, df_post)
-
 
     def generate_sample(self, variables, n_respondents = 1000):
         '''
@@ -374,11 +361,80 @@ class ANES(pd.DataFrame):
         sample_df = sample_df.sample(n_respondents)
         return sample_df
     
+    def load_ANES_data(self, year, add_names = False): 
+        '''
+        Acquires data from the ANES internal API as a zip file, before unzipping and instantiating an ANES object
+        for the selected year. 
 
-######### DATA FUNCTIONS
+        Parameters:
+        -----------
+        year : int
+            Year of the data to be acquired. 
+        add_names : bool
+            A boolean indicating whether the convert_var_names() method should be applied on ingest. Defaults to False.
 
-def editions():
-    '''
+        Returns:
+        --------
+        data: anespy.anespy.ANES
+            An ANES object containing the Time Series data from the selected year. 
+
+        Example:
+        --------
+        >>> import anespy.anespy as anes
+        >>> data=load_ANES_data(2000, add_names = False) #not adding names
+        Converted to named variables.
+        >>> data.iloc[:, :5].head()
+        VERSION  DSETID  V000001  V000001a  V000002
+        0       -1      -1        1       787   1.2886
+        1       -1      -1        2      1271   0.8959
+        2       -1      -1        3       934   1.0454
+        3       -1      -1        4       285   0.6005
+        4       -1      -1        5       191   1.9270
+        '''
+
+        src = files('anespy.data')
+        with as_file(src) as data:
+            param = self.data_dict[year][0]
+            response = requests.get(f'https://electionstudies.org/wp-content/uploads/{param}', stream=True)
+            zipped = zipfile.ZipFile(io.BytesIO(response.content))
+            zipped.extract(self.data_dict[year][1], path=src)
+
+        
+        src_data = files('anespy.data').joinpath(self.data_dict[year][1])
+        with as_file(src_data) as in_data:
+            if year == 'cumulative':
+                data = pd.read_csv(in_data, low_memory=False)
+            elif year >= 2008 and year <= 2016:
+                data = pd.read_csv(in_data, sep = '|', low_memory=False, encoding='iso-8859-1')
+            else:
+                data = pd.read_csv(in_data, low_memory=False)
+
+        if type(year) == int:
+            data_obj = data.select_dtypes(['object'])
+            for column in data_obj:
+                data_obj[column] = data_obj[column].str.replace(r'(\. Inapplicable)|(\. Inap)', '').replace(
+                    r'^\s*$', np.nan, inplace= True)
+            data[data_obj.columns] = data_obj.replace('-1', -1)
+
+            data_num = data.select_dtypes('number') 
+            data_num = data_num.applymap(lambda x: -1 if x < 0 else x)
+            data[data_num.columns] = data_num
+
+        else: 
+            pass
+        
+        data.fillna(-1, inplace=True)
+
+        if add_names == True:
+            src = files('anespy.var_lists').joinpath(f'{year}_varlist.csv')
+            data = self.convert_var_names(df=data, year=year)
+        else:
+            pass
+
+        return data
+    
+    def editions(self):
+        '''
         Returns the editions of the ANES Time Series the package contains. 
 
         Parameters:
@@ -401,80 +457,7 @@ def editions():
         2004
         2000
         '''
-
-    for keys, values in data_dict.items():
-        print(keys)
+        
+        for k in self.data_dict.keys():
+            print(f"{k}\n")
     
-def load_ANES_data(year, add_names = False): 
-    '''
-        Acquires data from the ANES internal API as a zip file, before unzipping and instantiating an ANES object
-        for the selected year. 
-
-        Parameters:
-        -----------
-        year : int
-            Year of the data to be acquired. 
-        add_names : bool
-            A boolean indicating whether the convert_var_names() method should be applied on ingest. Defaults to False.
-
-        Returns:
-        --------
-        data: anespy.anespy.ANES
-            An ANES object containing the Time Series data from the selected year. 
-
-        Example:
-        --------
-        >>> import anespy.anespy as anes
-        >>> data=load_ANES_data(2000, add_names = False) #not adding names
-        Converted to named variables.
-        >>> data.iloc[:, :5].head()
-           VERSION  DSETID  V000001  V000001a  V000002
-        0       -1      -1        1       787   1.2886
-        1       -1      -1        2      1271   0.8959
-        2       -1      -1        3       934   1.0454
-        3       -1      -1        4       285   0.6005
-        4       -1      -1        5       191   1.9270
-        '''
-
-    src = files('anespy.data')
-    with as_file(src) as data:
-        param = data_dict[year][0]
-        response = requests.get(f'https://electionstudies.org/wp-content/uploads/{param}', stream=True)
-        zipped = zipfile.ZipFile(io.BytesIO(response.content))
-        zipped.extract(data_dict[year][1], path=src)
-
-    
-    src_data = files('anespy.data').joinpath(data_dict[year][1])
-    with as_file(src_data) as in_data:
-        if year == 'cumulative':
-            data = pd.read_csv(in_data, low_memory=False)
-        elif year >= 2008 and year <= 2016:
-            data = pd.read_csv(in_data, sep = '|', low_memory=False, encoding='iso-8859-1')
-        else:
-            data = pd.read_csv(in_data, low_memory=False)
-
-    if type(year) == int:
-        data_obj = data.select_dtypes(['object'])
-        for column in data_obj:
-            data_obj[column] = data_obj[column].str.replace(r'(\. Inapplicable)|(\. Inap)', '').replace(
-                r'^\s*$', np.nan, inplace= True)
-        data[data_obj.columns] = data_obj.replace('-1', -1)
-
-        data_num = data.select_dtypes('number') 
-        data_num = data_num.applymap(lambda x: -1 if x < 0 else x)
-        data[data_num.columns] = data_num
-
-    else: 
-        pass
-    
-    data.fillna(-1, inplace=True)
-    data = ANES(data)
-    data.year = year
-
-    if add_names == True:
-        src = files('anespy.var_lists').joinpath(f'{year}_varlist.csv')
-        data.convert_var_names()
-    else:
-        pass
-
-    return data
