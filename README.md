@@ -27,7 +27,6 @@ Parsing request...
 8279  ANES2020TimeSeries_20220210   535469            -1        1  ...  -1. Inapplicable       -1  -1. Inapplicable       -1
 
 [8280 rows x 1771 columns]
->>> 
 ```
 
 ### Current State
