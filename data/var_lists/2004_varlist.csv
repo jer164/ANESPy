@@ -1,0 +1,1191 @@
+﻿Number,Name
+CASEID,Case Identification Number (Pre Case ID)
+version,Study.1. Dataset version
+dsetid,Study.1. Dataset ID number
+v040001,Study.3. 2004 Pre Case ID
+v040002,Study.4. 2004 Post Case ID
+v040101,Study.5. Pre-election post-stratified sample weight
+v040102,Study.6. Post-election post-stratified sample weight
+v040103,Study.7. Sampling error code
+v040103a,Sampling Error Stratum Code
+v040103b,Sampling Error Half-Sample Code
+v041001,Study.8. Pre only or pre and post interviews
+v041101,HHListing.1. HH listing summary: number of persons in HH
+v041102,HHListing.2. HH listing summary: number of adults in HH
+v041102a,HHListing.2a. HH listing summary: no. eligible adults in HH
+v041102b,HHListing.2b. HH listing summary:no. ineligible adults in HH
+v041102c,HHListing.2c. HH listing summary: no. female adults in HH
+v041103,HHListing.3. HH listing summary: number of children in HH
+v041104,HHListing.4. HH listing summary: no. female children in HH
+v041105,HHListing.5. HH listing summary: no. children under 5 in HH
+v041106,HHListing.6. HH listing summary: no. children age 5-9 in HH
+v041107,HHListing.7. HH listing summary:no. children age 10-13 in HH
+v041108,HHListing.8. HH listing summary:no. children age 14-17 in HH
+v041109,HHListing.9. Respondent person number in HH listing
+v041109a,HHListing.9a. Respondent gender
+v041109b,HHListing.9b. Respondent relationship to informant
+v041109c,HHListing.9c. Respondent's number of children in HH
+v041109d,HHListing.9d. Respondent's number of female children in HH
+v041110,HHListing.10. Household composition
+v041111a,HHListing.11a. 1st HH adult - age
+v041111b,HHListing.11b. 1st HH adult - gender
+v041112a,HHListing.12a. 2nd HH adult age
+v041112b,HHListing.12b. 2nd HH adult gender
+v041113a,HHListing.13a. 3rd HH adult age
+v041113b,HHListing.13b. 3rd HH adult gender
+v041114a,HHListing.14a. 4th HH adult age
+v041114b,HHListing.14b. 4th HH adult gender
+v041115a,HHListing.15a. 5th HH adult age
+v041115b,HHListing.15c. 5th HH adult gender
+v041116a,HHListing.16a. 6th HH adult age
+v041116b,HHListing.16b. 6th HH adult gender
+v041201,Sampling.1. State name
+v041201a,Sampling.1a. Postal abbreviation of state
+v041202,Sampling.2. FIPS state code
+v041203,Sampling.3. ICPSR state code
+v041204,Sampling.4. Congressional District number
+v041204a,Sampling.4a. State postal abbrev and congr district number
+v041204b,Sampling.4b. State FIPS code and congr district number
+v041204c,Sampling.4c. State ICPSR code and congr district number
+v041205,Sampling.5. Census region
+v041206,Sampling.6. Primary area (PSU) number
+v041212,Sampling.12. Census MSA 1990
+v041213,Sampling.13. Census Urban/Rural classification
+v042001,PreAdmin.1. Form of interview
+v042002,PreAdmin.2. Pre IW beginning month
+v042003,PreAdmin.3. Pre IW beginning day
+v042004,PreAdmin.4. Pre IW beginning date MMDD
+v042005,PreAdmin.5. Pre IW beginning version of instrument
+v042006,PreAdmin.6. Pre IW ending month
+v042007,PreAdmin.7. Pre IW ending day
+v042008,PreAdmin.8. Pre IW ending date MMDD
+v042009,PreAdmin.9. Pre IW ending version of instrument
+v042010a,PreAdmin.10a. No. days before election beginning IW date
+v042010b,PreAdmin.10b. No. days before election ending IW date
+v042011,PreAdmin.11. Total number of Pre interview sessions
+v042012,PreAdmin.12. Pre instrument version changed before IW end
+v042013,PreAdmin.13. Total number of Pre interviewers
+v042014a,PreAdmin.14a. Pre IW session 1 date MMDD
+v042014b,PreAdmin.14b. Pre IW session 2 date MMDD
+v042014c,PreAdmin.14c. Pre IW session 3 date MMDD
+v042014d,PreAdmin.14d. Pre IW session 4 date MMDD
+v042015a,PreAdmin.15a. Pre IW session 1 version of instrument
+v042015b,PreAdmin.15b. Pre IW session 2 version of instrument
+v042015c,PreAdmin.15c. Pre IW session 3 version of instrument
+v042015d,PreAdmin.15d. Pre IW session 4 version of instrument
+v042016a,PreAdmin.16a. Pre IW session 1 breakoff/end
+v042016b,PreAdmin.16b. Pre IW session 2 breakoff/end
+v042016c,PreAdmin.16c. Pre IW session 3 breakoff/end
+v042017,PreAdmin.17. Total number of calls
+v042018,PreAdmin.18. Number of FTF calls
+v042019,PreAdmin.19. Number of phone calls
+v042020,PreAdmin.20. Interviewer interview number (nth IW)
+v042021,PreAdmin.21. Refusal conversion indicator
+v042022,PreAdmin.22. Release
+v042023,PreAdmin.23. Mode of interview
+v042024,PreAdmin.24. Result
+v042025,PreAdmin.25. Length of interview
+v042026,PreAdmin.26. Language of interview
+v042027,PreAdmin.27. Interview verification
+v042028,PreAdmin.28. Interviewer evaluation
+v042029,PreAdmin.29. Interview tape-recorded
+v042030,PreAdmin.30. Payment offer amount
+v042031,PreAdmin.31. Payment amount
+v042032,PreAdmin.32. Payment date
+v042033,PreAdmin.33. Payment mode
+v042034,PreAdmin.34 Respondent incentive
+v042035,PreAdmin.35. Persuasion letters
+v042036a,PreAdmin.36x1a. Summary: R made positive comment
+v042036b,PreAdmin.36x1b. Summary: R made time-delay comment
+v042036c,PreAdmin.36x1c. Summary: R made negative comment
+v042036d,PreAdmin.36x1d. Summary: R made eligibility comment
+v042036e,PreAdmin.36x1e. Summary: R made privacy comment
+v042036f,PreAdmin.36x1f. Summary: R made comment no int in politics
+v042037a,PreAdmin.37a. Comment: positive - help community
+v042037b,PreAdmin.37b. Comment: positive - enjoy surveys
+v042037c,PreAdmin.37c. Comment: other positive
+v042037d,PreAdmin.37d. Comment: time delay - too busy
+v042037e,PreAdmin.37e. Comment: time delay - bad time
+v042037f,PreAdmin.37f. Comment: time delay - think about it
+v042037g,PreAdmin.37g. Comment: other time delay
+v042037h,PreAdmin.37h. Comment: negative - waste of time
+v042037j,PreAdmin.37j. Comment: negative - don't trust surveys
+v042037k,PreAdmin.37k. Comment: negative - surveys waste money
+v042037m,PreAdmin.37m. Comment: negative - never do surveys
+v042037n,PreAdmin.37n. Comment: negative - not interested
+v042037p,PreAdmin.37p. Comment: other negative
+v042037q,PreAdmin.37q. Comment: eligibility -don't know about topic
+v042037r,PreAdmin.37r. Comment: eligibility - no spouse/partn/child
+v042037s,PreAdmin.37s. Comment: eligibility - too young/too old
+v042037t,PreAdmin.37t. Comment: eligibility - don't/can't vote
+v042037u,PreAdmin.37u. Comment: other eligibility
+v042037v,PreAdmin.37v. Comment: privacy - personal questions
+v042037w,PreAdmin.37w. Comment: privacy - govt knows everything
+v042037y,PreAdmin.37y. Comment: other privacy
+v042038,PreAdmin.38. Respondent initial refusal
+v042039,PreAdmin.39. Informant initial refusal
+v042040,PreAdmin.40. Type of structure
+v042041,PreAdmin.41. Structure description
+v042042,PreAdmin.42. Structure residential status
+v042043,PreAdmin.43. Observed urbanicity of segment
+v042044,PreAdmin.44. Political signs
+v042044a,PreAdmin.44a. Type political sign 1
+v042044b,PreAdmin.44b. Type political sign 2
+v042045x,PreAdmin.45x. Summary: any specified impediment noted
+v042045a,PreAdmin.45a. Structure impediment - locked entrance
+v042045b,PreAdmin.45b. Structure impediment - locked gates
+v042045c,PreAdmin.45c. Structure impediment - gatekeeper
+v042045d,PreAdmin.45d. Structure impediment - intercom
+v042046x,PreAdmin.46x. Summary: any specified security measure
+v042046a,PreAdmin.46a. Structure security - bars
+v042046b,PreAdmin.46b. Structure security - crime watch/sec system
+v042046c,PreAdmin.46c. Structure security - no trespassing sign
+v042046d,PreAdmin.46d. Structure security - security door
+v042046e,PreAdmin.46e. Structure security - guard dogs
+v042047,PreAdmin.47. Gatekeeper present
+v042047a,PreAdmin.47a. Type gatekeeper
+v042048a,PreAdmin.48a. Summary: gatekeeper status
+v042048b,PreAdmin.48b. Summary: locked status
+v042101,PreIwr.1. Interviewer of record ID
+v042101a,PreIwr.1a. Other interviewer ID
+v042102,PreIwr.2. Supervisor ID
+v042103,PreIwr.3. Interviewer gender
+v042104,PreIwr.4. Interviewer education level
+v042105,PreIwr.5. Interviewer race
+v042106,PreIwr.6. Interviewer ethnicity
+v042107,PreIwr.7. Interviewer languages
+v042108,PreIwr.8. Interviewer experience
+v042109,PreIwr.9. Interviewer age group
+v042201,PreErr.1. Pre interview error flag
+v042202,PreErr.2. Pre interview error flag
+v042401,PreRand.1. Random order Pres cands A3-A6 Likes-Dislikes
+v042402,PreRand.2. Random order Pres cands B1b-B1c thermometers
+v042403a,PreRand.3a. Random order B1d Cheney thermometer
+v042403b,PreRand.3b. Random order B1e John Edwards thermometer
+v042403c,PreRand.3c. Random order B1f Laura Bush thermometer
+v042403d,PreRand.3d. Random order B1g Hillary Clinton thermometer
+v042403e,PreRand.3e. Random order B1h Bill Clinton thermometer
+v042403f,PreRand.3f. Random order B1j Colin Powell thermometer
+v042403g,PreRand.3g. Random order B1k John Ashcroft thermometer
+v042403h,PreRand.3h. Random order B1m John McCain thermometer
+v042404,PreRand.4. Random order parties B1n-B1p thermometers
+v042405,PreRand.5. Random order parties C1-C2 Likes-Dislikes
+v042406,PreRand.6. Random order Pres cands D1-D2 affects
+v042407a,PreRand.7a. Random order D1a Bush angry affect
+v042407b,PreRand.7b. Random order D1b Bush hopeful affect
+v042407c,PreRand.7c. Random order D1c Bush afraid affect
+v042407d,PreRand.7d. Random order D1d Bush proud affect
+v042408a,PreRand.8a. Random order D2a Kerry angry affect
+v042408b,PreRand.8b. Random order D2b Kerry hopeful affect
+v042408c,PreRand.8c. Random order D2c Kerry afraid affect
+v042408d,PreRand.8d. Random order D2d Kerry proud affect
+v042409,PreRand.9. Random order Pres cand E3-E4 liberal-conservative
+v042410,PreRand.10. Random order parties E5-E6 liberal-conservative
+v042411,PreRand.11. Random order F3-F6 unemployment or inflation
+v042412,PreRand.12. Random order names G1-G3 party performance
+v042413,PreRand.13. Random order Pres cands K1-K2 traits
+v042414a,PreRand.14a. Random order K1a Bush moral trait
+v042414b,PreRand.14b. Random order K1b Bush leadership trait
+v042414c,PreRand.14c. Random order K1c Bush cares trait
+v042414d,PreRand.14d. Random order K1d Bush knowledgeable trait
+v042414e,PreRand.14e. Random order K1e Bush intelligent trait
+v042414f,PreRand.14f. Random order K1f Bush dishonest trait
+v042414g,PreRand.14g. Random order K1g Bush make up mind trait
+v042415a,PreRand.15a. Random order K1a Kerry moral trait
+v042415b,PreRand.15b. Random order K1b Kerry leadership trait
+v042415c,PreRand.15c. Random order K1c Kerry cares trait
+v042415d,PreRand.15d. Random order K1d Kerry knowledgeable trait
+v042415e,PreRand.15e. Random order K1e Kerry intelligent trait
+v042415f,PreRand.15f. Random order K1f Kerry dishonest trait
+v042415g,PreRand.15g. Random order K1g Kerry make up mind trait
+v042416,PreRand.16. Random order Pres cands N1b-c spending-services
+v042417,PreRand.17. Random order parties N1d-e spending-services
+v042418,PreRand.18. Random order Pres cands N2b-c defense spending
+v042419,PreRand.19. Random order parties N2d-e defense spending
+v042420,PreRand.20. Random order Pres cands N5b-c guaranteed jobs
+v042421,PreRand.21. Random order parties N5d-e guaranteed jobs
+v042422,PreRand.22. Random order Pres cands N6b-c aid to blacks
+v042423,PreRand.23. Random order parties N6d-e aid to blacks
+v042424a,PreRand.24a. Random order P1b Social Security Fed. spending
+v042424b,PreRand.24b. Random order P1c public schools Fed. spending
+v042424c,PreRand.24c. Random order P1d science/tech Fed. spending
+v042424d,PreRand.24d. Random order P1e prevent crime Fed. spending
+v042424e,PreRand.24e. Random order P1f welfare Fed. spending
+v042424f,PreRand.24f. Random order P1g child care Fed. spending
+v042424g,PreRand.24g. Random order P1h foreign aid Fed. spending
+v042424h,PreRand.24h. Random order P1j aid to poor Fed. spending
+v042424j,PreRand.24j. Random order P1k illegal immigr Fed. spending
+v042424k,PreRand.24k. Random order P1m war on terror Fed. spending
+v042425,PreRand.25. Random order Pres cands P3b-c environment/jobs
+v042426,PreRand.26. Random order Pres cands P5b-c gun control
+v042427,PreRand.27. Random order Pres cands P6b-c women's role
+v042428,PreRand.28. Random order parties P6d-e women's role
+v043001,A1. Interested in following campaigns?
+v043002,A1a. Did R vote 2000?
+v043003,A1a1. Recall of last President vote choice
+v043004,A2. Was 2000 Pres election fair or unfair
+v043005,A2a. How strongly feels 2000 Pres election was fair/unfair
+v043006,A3a. Is there anything R likes about GW Bush
+v043007,A3b. Summary: No. Mentions - Likes About GW Bush
+v043007a,A3b1. What does R like about GW Bush MENTION 1
+v043007b,A3b2. What does R like about GW Bush MENTION 2
+v043007c,A3b3. What does R like about GW Bush MENTION 3
+v043007d,A3b4. What does R like about GW Bush MENTION 4
+v043007e,A3b5. What does R like about GW Bush MENTION 5
+v043008,A4a. Is there anything R dislikes about GW Bush
+v043009,A4b. Summary: No. Mentions - Dislikes About GW Bush
+v043009a,A4b1. What does R dislike about GW Bush MENTION 1
+v043009b,A4b2. What does R dislike about GW Bush MENTION 2
+v043009c,A4b3. What does R dislike about GW Bush MENTION 3
+v043009d,A4b4. What does R dislike about GW Bush MENTION 4
+v043009e,A4b5. What does R dislike about GW Bush MENTION 5
+v043010,A5a. Is there anything R likes about Kerry
+v043011,A5b. Summary: No. Mentions - Likes About John Kerry
+v043011a,A5b1. What does R like about John Kerry MENTION 1
+v043011b,A5b2. What does R like about John Kerry MENTION 2
+v043011c,A5b3. What does R like about John Kerry MENTION 3
+v043011d,A5b4. What does R like about John Kerry MENTION 4
+v043011e,A5b5. What does R like about John Kerry MENTION 5
+v043012,A6a. Is there anything R dislikes about Kerry
+v043013,A6b. Summary: No. Mentions - Dislikes About John Kerry
+v043013a,A6b1. What does R dislike about John Kerry MENTION 1
+v043013b,A6b2. What does R dislike about John Kerry MENTION 2
+v043013c,A6b3. What does R dislike about John Kerry MENTION 3
+v043013d,A6b4. What does R dislike about John Kerry MENTION 4
+v043013e,A6b5. What does R dislike about John Kerry MENTION 5
+v043014,A7. Days past week watch natl news on TV
+v043015,A7a. Attention to national (network) news
+v043016,A8a. Days past week watch local TV news late aft/early eve
+v043017,A8b. Days past week watch local news on TV in the late eve
+v043018,A8c. Attention to local news
+v043019,A9. How many days past week read a daily newspaper?
+v043020,A9(1). How many days past week read a daily online newsp
+v043021,A9a. Did R read about campaign in newspaper?
+v043022,A9a1. Attention to newspaper articles
+v043023,A10. Are things in the country on right track
+v043024,A10a. Presidential approval: general job handling
+v043025,A10a1. Presidential approval: general job handling strength
+v043026,A10b. Approval of Presidents handling of economy
+v043027,A10b1. Strength approve/disappr President handling of econ
+v043028,A10c. Approval of President handling foreign relations
+v043029,A10c1. Strength approve/disappr Pres handling foreign rel
+v043030,A10d. Approve Bush handling budget deficit
+v043031,A10d1. Strength approve/disappr Bush handling budget defct
+v043032,A10e. Approve Bush handling war on terror
+v043033,A10e1. Strength approve/disappr Bush handling war on terr
+v043034,A11. Are things in the country on right track
+v043034x,A11x. SUMMARY: A10/A11 country on right track
+v043035,A12. Care who wins House election
+v043036,A13. Approval of Congress handling its job
+v043037,A13a. Strength appr/disapprove Congress handling its job
+v043038,B1a. Feeling Thermometer: GW Bush
+v043039,B1b. Feeling Thermometer: John Kerry
+v043040,B1c. Feeling Thermometer: Nader
+v043041,B1d. Feeling Thermometer: Cheney
+v043042,B1e. Feeling Thermometer: John Edwards
+v043043,B1f. Feeling Thermometer: Laura Bush
+v043044,B1g. Feeling Thermometer: Hillary Clinton
+v043045,B1h. Feeling Thermometer: Bill Clinton
+v043046,B1j. Feeling Thermometer: Colin Powell
+v043047,B1k. Feeling Thermometer: John Ashcroft
+v043048,B1m. Feeling Thermometer: John McCain
+v043049,B1n. Feeling Thermometer: Democratic party
+v043050,B1p. Feeling Thermometer: Republican party
+v043051,B1q. Feeling Thermometer: Ronald Reagan
+v043052,C1a. Is there anything R likes about Democratic Party
+v043053,C1b. Summary: No. Mentions - Likes About Democratic Party
+v043053a,C1b1. What does R like about Democratic Party MENTION 1
+v043053b,C1b2. What does R like about Democratic Party MENTION 2
+v043053c,C1b3. What does R like about Democratic Party MENTION 3
+v043053d,C1b4. What does R like about Democratic Party MENTION 4
+v043053e,C1b5. What does R like about Democratic Party MENTION 5
+v043054,C1c. Is there anything R dislikes about Democratic Party
+v043055,C1d. Summary: No. Mentions - Dislikes About Democratic Party
+v043055a,C1d1. What does R dislike about Democratic Party MENTION 1
+v043055b,C1d2. What does R dislike about Democratic Party MENTION 2
+v043055c,C1d3. What does R dislike about Democratic Party MENTION 3
+v043055d,C1d4. What does R dislike about Democratic Party MENTION 4
+v043055e,C1d5. What does R dislike about Democratic Party MENTION 5
+v043056,C2a. Is there anything R likes about Republican Party
+v043057,C2b. Summary: No. Mentions - Likes About Republican Party
+v043057a,C2b1. What does R like about Republican Party MENTION 1
+v043057b,C2b2. What does R like about Republican Party MENTION 2
+v043057c,C2b3. What does R like about Republican Party MENTION 3
+v043057d,C2b4. What does R like about Republican Party MENTION 4
+v043057e,C2b5. What does R like about Republican Party MENTION 5
+v043058,C2c. Is there anything R dislikes about Republican Party
+v043059,C2d. Summary: No. Mentions - Dislikes About Republican Party
+v043059a,C2d1. What does R dislike about Republican Party MENTION 1
+v043059b,C2d2. What does R dislike about Republican Party MENTION 2
+v043059c,C2d3. What does R dislike about Republican Party MENTION 3
+v043059d,C2d4. What does R dislike about Republican Party MENTION 4
+v043059e,C2d5. What does R dislike about Republican Party MENTION 5
+v043060,C3. Better when one party controls presidency and Congress
+v043061,C4. R better/worse off than 1 year ago
+v043062,C4a. R how much better/worse off than 1 year ago
+v043063,C5. Will R be financially better/worse off year from now
+v043064,C5a. R how much better/worse off 1 year from now
+v043065,C6. Does R/spouse have any money invested in stock market
+v043066,C7. Did R put off medical treatment R could not afford
+v043067,C8. Can R afford needed health care
+v043068,C9. Does R have health insurance
+v043069,D1a. Affect for GW Bush: angry
+v043070,D1a1. How often GW Bush: angry
+v043071,D1b. Affect for GW Bush: hopeful
+v043072,D1b1. How often GW Bush: hopeful
+v043073,D1c. Affect for GW Bush: afraid
+v043074,D1c1. How often GW Bush: afraid
+v043075,D1d. Affect for GW Bush: proud
+v043076,D1d1. How often GW Bush: proud
+v043077,D2a. Affect for Kerry: angry
+v043078,D2a1. How often Kerry: angry
+v043079,D2b. Affect for Kerry: hopeful
+v043080,D2b1. How often Kerry: hopeful
+v043081,D2c. Affect for Kerry: afraid
+v043082,D2c1. How often Kerry: afraid
+v043083,D2d. Affect for Kerry: proud
+v043084,D2d1. How often Kerry: proud
+v043085,E1a. Liberal/conservative self-placement -7-point scale
+v043085a,E1b. If R had to choose liberal or conservative self-place
+v043086,E1x. SUMMARY: R self-placement liberal-conservative
+v043087,E2. Liberal/conservative Placement - GW Bush
+v043088,E3. Liberal/conservative Placement - Kerry
+v043089,E4. Liberal/conservative Placement - Nader
+v043090,E5. Liberal/conservative Placement - Dem Party
+v043091,E6. Liberal/conservative Placement - Rep party
+v043092,E7. Care who wins Presidential Election
+v043093,E8. Who does R think will be elected President?
+v043094,E8a. Will Pres race be close or will (winner) win by a lot
+v043095,E9. Which Pres cand will carry state
+v043096,E9a. Will Pres race be close in state
+v043097,F1. National economy better/worse in last year
+v043098,F1a. How much economy better/worse in last year
+v043099,F2. Will national economy be better or worse in next 12 mo
+v043100,F2a. How much economy better or worse in next 12 months
+v043101,F3. Unemployment better or worse in last year
+v043102,F3a. How much unemployment better or worse in last year
+v043103,F4. R think there more or less unemployment in next year
+v043104,F5. Inflation better or worse in last year
+v043105,F5a. Inflation much or somewhat better/worse in last year
+v043106,F6. Inflation in next year
+v043107,F7a. Interventionism by diplomacy/military: self-placement
+v043108,F7a1. Importance of diplomacy issue to R
+v043109,G1. Which party better: handling nations economy
+v043110,G2. Which party better: handle war on terrorism
+v043111,G3. Which party better: handle keeping out of war
+v043112,"H1. During last year, U.S. position in world weaker/strong"
+v043113,H2. Country would be better off if we just stayed home
+v043114,"J1. Party ID: R think of self as Dem, Rep, Ind or what"
+v043114a,J1a. Party Identification Democrat/Republican-strong/not
+v043115,J1b. No Party Identification-closer democrat or republican
+v043116,J1x. Summary: R party ID
+v043117,K1a. Traits for GW Bush: Moral
+v043118,K1b. Traits for GW Bush: Provides strong leadership
+v043119,K1c. Traits for GW Bush: really cares
+v043120,K1d. Traits for GW Bush: knowledgeable
+v043121,K1e. Traits for GW Bush: intelligent
+v043122,K1f. Traits for GW Bush: dishonest
+v043123,K1g. Traits for GW Bush: can't make up own mind
+v043124,K2a. Traits for Kerry: Moral
+v043125,K2b. Traits for Kerry: provides strong leadership
+v043126,K2c. Traits for Kerry: really cares about people like you
+v043127,K2d. Traits for Kerry: knowledgeable
+v043128,K2e. Traits for Kerry: intelligent
+v043129,K2f. Traits for Kerry: dishonest
+v043130,K2g. Traits for Kerry: can't make up mind
+v043131,M1a. War in Afghanistan worth the cost
+v043132,M2a. Approve Bush handling of war in Iraq
+v043133,M2a1. How much approve/disapprove Bush handling Iraq war
+v043134,M3. Was Iraq war worth the cost
+v043135,M4. Iraq war increased or decreased threat of terrorism
+v043136,N1a. Spending and Services - 7-point scale self-placement
+v043137,N1a1. Importance of spending/services issue to R
+v043138,N1b. Spending and Services Placement: GW Bush
+v043139,N1c. Spending and Services Placement: Kerry
+v043140,N1d. Spending and Services Placement: Dem party
+v043141,N1e. Spending and Services Placement: Rep party
+v043142,N2a. Defense spending - 7-point scale self-placement
+v043143,N2a1. Importance of defense spending issue to R
+v043144,N2b. Defense spending scale: GW Bush placement
+v043145,N2c. Defense spending scale: Kerry placement
+v043146,N2d. Defense spending scale: Dem party placement
+v043147,N2e. Defense spending scale: Rep party placement
+v043148,N3. Does R favor/oppose tax cuts Pres. Bush initiated
+v043149,N3a. How strongly R favors/opposes the Pres Bush tax cuts
+v043150,N4a. Govt/private medical insurance scale: self-placement
+v043151,N4a1. Importance of govt health insurance issue to R
+v043152,N5a. Job and Good Standard of Living -scale self-placement
+v043153,N5a1. Importance of guaranteed jobs/standard living issue
+v043154,N5b. Job and Good Standard of Living - GW Bush placement
+v043155,N5c. Job and Good Standard of Living - Kerry placement
+v043156,N5d. Job and Good Standard of Living - Dem party placement
+v043157,N5e. Job and Good Standard of Living - Rep party placement
+v043158,N6a. Government assistance to blacks-7 point scale self-pl
+v043159,N6a1. Importance of aid to blacks issue to R
+v043160,N6b. Aid to blacks Placement: GW Bush
+v043161,N6c. Aid to blacks Placement: Kerry
+v043162,N6d. Aid to blacks Placement: Dem party
+v043163,N6e. Aid to blacks Placement: Rep party
+v043164,P1a. Federal Budget Spending: building/repairing highways
+v043165,P1b. Federal Budget Spending: Social Security
+v043166,P1c. Federal Budget Spending: public schools
+v043167,P1d. Federal Budget Spending: science and technology
+v043168,P1e. Federal Budget Spending: dealing with crime
+v043169,P1f. Federal Budget Spending: welfare programs
+v043170,P1g. Federal Budget Spending: child care
+v043171,P1h. Federal Budget Spending: foreign aid
+v043172,P1j. Federal Budget Spending: aid to the poor
+v043173,P1k. Fed Budget Spending: border sec to prevent illeg imm
+v043174,P1m. Federal Budget Spending: war on terrorism
+v043175,P2a. Does R think pays right amount of taxes
+v043176,P2a1. Do rich pay right amount of taxes
+v043177,P2a2. Do poor pay right amount of taxes
+v043178,P2b. Favor govt funds to pay for abortions
+v043179,P2b1. Strength favor/oppose govt funds to pay for abortion
+v043180,P2c. Favor/oppose ban on late-term/partial-birth abortions
+v043181,P2c1. Strength favor/oppose ban on partial-birth abortions
+v043182,P3a. Environment vs. jobs tradeoff scale - self-placement
+v043183,P3a1. Importance of environment/jobs issue to R
+v043184,P3b. Environment vs. jobs tradeoff scale - GW Bush placemt
+v043185,P3c. Environment vs. jobs tradeoff scale - Kerry placement
+v043186,P4. R favor/oppose death penalty
+v043187,P4a. Strength R favors/opposes death penalty
+v043188,P5a. Should fed govt make more difficult to buy gun - self
+v043189,P5a1. How much easier/harder to buy gun - self-placement
+v043190,P5a2. Importance of gun access issue to R
+v043191,P5b. Easier or harder to buy gun - GW Bush
+v043192,P5b1. How much easier or harder to buy gun - GW Bush
+v043193,P5c. Easier or harder to buy gun - Kerry
+v043194,P5c1. How much easier or harder to buy gun - Kerry
+v043195,P5d. Does R have a gun in his or her home or garage?
+v043196,P6a. Women's role - 7-point scale self-placement
+v043197,P6a1. How important is the issue of women's equal role
+v043198,P6b. Women's role - GW Bush placement
+v043199,P6c. Women's role - Kerry placement
+v043200,P6d. Women's role - Dem party placement
+v043201,P6e. Women's role - Rep party placement
+v043202,Q1. Does R think will vote this November
+v043203,Q1a. Who does R think will/would vote for President
+v043204,Q1a1. Strength of pref for Pres cand R will/would vote for
+v043205,Q2a. How good does seeing US flag make R feel
+v043206,Q2b. Things about America that make R ashamed
+v043207,Q2c. Things about America that make R angry
+v043208,Q2d. How strong is love for country
+v043209,Q2e. How important is being an American
+v043210,R1. R position on gay marriage
+v043211,S2. Have taxes increased or decreased under GW Bush
+v043212,S2a. How much taxes increased or decreased under GW Bush
+v043213,S3. National economy better/worse since GW Bush took ofc
+v043214,S3a. How much national economy better/worse last 4 years
+v043215,S4. Has current admin made U.S. more/less secure
+v043216,S4a. How much more/less secure has admin made US
+v043217,S5. Has US moral climate gotten better/worse since 2000
+v043218,S5a. How much better/worse is moral climate since 2000
+v043219,W1. Is religion important part of R life?
+v043220,W2. Religion provides some guidance in day-to-day living
+v043221,W3. How often does R pray
+v043222,W4. Bible is word of God or men
+v043223,X1. Ever attend church/religious services?
+v043224,X1a. Attend religious services how often
+v043225,X1a1. Attend church more often than once a week?
+v043226,X2. Active at church besides attendance
+v043227,X2a. Active at church - meeting
+v043228,X2b. Active at church - speech
+v043229,X3. Ever think of self as part of church or denomination?
+v043230a,X3a. (Attends) R major religious group
+v043230b,X3b. (Nonattendance) R major religious group
+v043231,X4. Major relig denomination
+v043232,X4a. Specific Baptist denomination
+v043233,X4a1. Specific indep. Baptist denomination
+v043234,X4b. Specific Lutheran denomination
+v043235,X4c. Specific Methodist denomination
+v043236,X4d. Specific Presbyterian denomination
+v043237,X4e. Specific Reformed denomination
+v043238,X4f. Specific Brethren denomination
+v043239,X4g. Specific denomination for Just Christian
+v043240,X4h. Specific Church of Christ denomination
+v043241,X4j. Specific Church of God denomination
+v043242,X4k. Specific Holiness/Pentecostal denomination
+v043243,X5a. Specific other denomination
+v043244,X5b. Specific other denomination Christian?
+v043245a,X6a. (Attends) Specific Jewish denomination
+v043245b,X6b. (Nonattendance) Specific Jewish denomination
+v043246,X7x. Other specify text - all denominations X4a-X6b
+v043247,X8x1. SUMMARY: RESPONDENT MAJOR RELIGIOUS GROUP
+v043247a,X8x1a. SUMMARY: RESPONDENT MAJOR DENOMINATION
+v043248,X8x2. SUMMARY: RESPONDENT RELIGION FULL
+v043249a,Y1a. Birth date Year
+v043249b,Y1b. Birthdates Month
+v043250,Y1x. Summary: Respondent age
+v043251,Y2. Marital status
+v043251x,Y2x. SUMMARY Marital status
+v043252,Y3. Highest grade of school or year of college R completed
+v043253a,Y3a. Did R get high school diploma
+v043253b,Y3b. Highest degree R has earned
+v043254,Y3x. Summary: Respondent education level
+v043255,Y4. Spouse: highest grade or year of college
+v043256a,Y4a. Did spouse get high school diploma
+v043256b,Y4b. Highest degree spouse has earned
+v043257,Y4x. Summary: Spouse/partner education level
+v043258,Y5a. R military service
+v043259,Y5b. Family member military service
+v043260a,Y6(1). Employment summary: R employmt status 2-digit full
+v043260b,Y6(2). Employment summary: R employment status 1-digit
+v043260c,Y6c. Respondent initial employment status
+v043261,Y6x. Occupation in stacked variables Y6x1-Y6x7
+v043262a,Y6x1. STACKED: R past/current occupation 3 digit
+v043262b,Y6x2. STACKED: R past/current occupation 2 digit
+v043262c,Y6x3. STACKED: Collapsed past/current occup prestige score
+v043262d,Y6x4. STACKED: R past/current occupation prestige score
+v043262e,Y6x5. STACKED: Industry of R past/current occupation
+v043262f,Y6x6. STACKED: R past/current occ work(ed) for self
+v043262g,Y6x7. STACKED: R past/current occ work(ed) for govt
+v043262h,Y6x8. STACKED: R recent/current occ hours work(ed)
+v043262j,Y6x9. STACKED: R worried about losing/finding job
+v043262k,Y6x10. STACKED: R had job in last 6 months
+v043262m,Y6x11. STACKED: R past/current occupation 1990 3-digit
+v043262n,Y6x12. STACKED: R past/current occupation 1990 2-digit
+v043262p,Y6x13. STACKED: R past/current occupation 1990 1-digit
+v043263,Y7. Current/past employment information
+v043264,Y7a. Initial status Homemaker/student: also working now?
+v043265,Y7b. Initial status Homemaker/student: job in last 6 month
+v043266a,Y8a. Initial status retiree - when retired Year
+v043266b,Y8b. Initial status retiree - when retired Month
+v043267,Y9. Initial status unempl/disabled - R ever work for pay
+v043268,Y10a. Initial status ret/dis/unemp/hmkr/stud - past occ 3
+v043268a,Y10b1. Initial status ret/dis/unemp/hmkr/stud - past occ 2
+v043268b,Y10b2. Init status ret/dis/unemp/hmkr/stu prestige collapsed
+v043268c,Y10b3. Init status ret/dis/unem/hkr/stu -past occ prestige
+v043268d,Y10b4. Init status ret/dis/unemp/hmkr/stu occup 1990 3-digit
+v043268e,Y10b5. Init status ret/dis/unemp/hmkr/stu occup 1990 2-digit
+v043268f,Y10b6. Init status ret/dis/unemp/hmkr/stu occup 1990 1-digit
+v043269,Y10c. Init status ret/dis/unem/hkr/stu -past occ industry
+v043270,Y10d. Init status ret/dis/unem/hkr/stu -past occ self-empl
+v043271,Y10e. Init status ret/dis/unem/hkr/stu -past occ govt work
+v043272,Y11a. Initial status unemp/ret/dis - job in last 6 months
+v043273,Y12. Recent occupation: how many hours worked average
+v043274,Y13a. Initial status retired/disabled: also working now?
+v043275,Y14. Init status ret/dis/unemp/hmkr/stud: looking for wk?
+v043276,Y15. Init status ret/dis/unemp/hkr/stu: worried finding wk
+v043277,Y16. Summary: ret/dis/unemp/hkr/stu also working now?
+v043278,Y16a. Working/TLO now occupation 3 digit
+v043278a,Y16b. Working/TLO now occupation 2 digit
+v043278b,Y16b2. Init status ret/dis/unemp/hmkr/stu prestige collapsed
+v043278c,Y16d. Prestige score of working/TLO now occupation
+v043278d,Y16b4. Init status working/TLO now occup 1990 3-digit
+v043278e,Y16b5. Init status working/TLO now occup 1990 2-digit
+v043278f,Y16b6. Init status working/TLO now occup 1990 1-digit
+v043279,Y16c. Working/TLO - industry
+v043280,Y16d. Working/TLO now - work for self
+v043281,Y16e. Working/TLO now - work for govt
+v043282,Y16f. Working/TLO now - how many hours works
+v043283,Y16g. Working/TLO now - hours R works satisfactory
+v043284,Y16h. Working/TLO now: worried abt losing job near future
+v043285,Y16j. Working now: out of work or laid off last 6 mos
+v043286,Y16k. Working now: had reduction in work hours or pay
+v043287,Y17a. Working now/TLO: presentation at job in last 6 mos
+v043288,Y17b. Working now/TLO: plan/chair meetg at job last 6 mos
+v043289,Y18a1. Spouse/partner working status 1
+v043289a,Y18a2. Spouse/partner working status 2
+v043290,Y19. Anyone in HH belong to labor union?
+v043291,Y19a. Who in HH belongs to union
+v043292,Y20. INTERVIEWER CHECKPOINT- PERSONS IN HH AGE 14 OR OLDER
+v043292x,Y20x. Summary: no. persons aged 14 and older
+v043293,Y21a. R not only HH member age 14+: Household income
+v043293x,Y21a. Summary: Household income
+v043294,Y21b. Respondent income
+v043295,Y22. Think of self as belonging to class?
+v043296,Y22a. Subjective Social Class: Working or Middle
+v043297,Y22b. Subjective Social Class: had to choose wkng/Middle
+v043298,Y23. Summary: subjective social class
+v043299,Y24x. SUMMARY: Race of Respondent
+v043299a,Y24a. Race of Respondent MENTION 1
+v043299b,Y24b. Race of Respondent MENTION 2
+v043300,Y25. Both parents born in U.S.?
+v043301a,Y26a. Main ethnic or nationality group mention 1
+v043301b,Y26b. Main ethnic or nationality group mention 2
+v043301c,Y26c. Main ethnic or nationality group mention 3
+v043302,Y27. Interviewer CKPT: number of ethnic mentions
+v043303,Y27a. Ethnic group most close
+v043303x,Y27ax. Summary: ethnic group
+v043304x,Y28x. Did R mention Hispanic group?
+v043305,Y28a. Is R of Hispanic descent
+v043306,Y29. Spanish or Hispanic descent - type
+v043307,Y30. Where R grew up
+v043308,Y31x. Summary: How long lived in this community
+v043309a,Y33a. Where R lived previously - state/country
+v043309b,Y33b. Where R lived previously - city
+v043310,Y34. Distance where R used to live
+v043311,Y32x. Summary: How long lived in current home
+v043312,Y35. Does R family own/rent home
+v043401a,ZZ1a. PRE IWR obs: others present - children under 6
+v043401b,ZZ1b. PRE IWR obs: others present - older children
+v043401c,ZZ1c. PRE IWR obs: others present - spouse
+v043401d,ZZ1d. PRE IWR obs: others present - other relatives
+v043401e,ZZ1e. PRE IWR obs: others present - other adults
+v043401f,"ZZ1f. PRE IWR obs: others present - someone, not sure who"
+v043402,ZZ2. PRE IWR OBS: R cooperation
+v043403,ZZ3. PRE IWR OBS: R level of information
+v043404,ZZ4. PRE IWR OBS: R intelligence
+v043405,ZZ5. PRE IWR OBS: R suspicious
+v043406,ZZ6. PRE IWR OBS: R interest in IW
+v043407,ZZ7. PRE IWR OBS: R sincere
+v043408,ZZ8. PRE IWR OBS: places where doubted R sincerity
+v043409,ZZ9. PRE IWR OBS: R seem to report income accurately
+v043409a,ZZ10. PRE IWR OBS: est of family income
+v043410,ZZ11. PRE IWR OBS: R age estimate
+v043411,ZZ11a. PRE IWR OBS: R gender
+v043412,ZZ12. PRE IWR OBS: R education estimate
+v043413a,ZZ13a.. PRE IWR OBS: Mention 1 - R reactions to IW
+v043413b,ZZ13b. PRE IWR OBS: Mention 2 - R reactions to IW
+v043413c,ZZ13c. PRE IWR OBS: Mention 3 - R reactions to IW
+v043413d,ZZ13d. PRE IWR OBS: Mention 4 - R reactions to IW
+v043413e,ZZ13e. PRE IWR OBS: Mention 5 - R reactions to IW
+v043413f,ZZ13f. PRE IWR OBS: Mention 6 - R reactions to IW
+v043413g,ZZ13g. PRE IWR OBS: Mention 7 - R reactions to IW
+v044001,PostAdmin.1. Form of interview
+v044002,PostAdmin.2. Post IW beginning month
+v044003,PostAdmin.3. Post IW beginning day
+v044004,PostAdmin.4. Post IW beginning date MMDD
+v044005,PostAdmin.5. Post IW beginning version of instrument
+v044006,PostAdmin.6. Post IW ending month
+v044007,PostAdmin.7. Post IW ending day
+v044008,PostAdmin.8. Post IW ending date MMDD
+v044009,PostAdmin.9. Post IW ending version of instrument
+v044010a,PostAdmin.10a. No. days after election beginning IW date
+v044010b,PostAdmin.10b. No. days after election ending IW date
+v044011,PostAdmin.11. Total number of Post interview sessions
+v044012,PostAdmin.12. Post instrument version changed before IW end
+v044013,PostAdmin.13. Total number of Post interviewers
+v044014a,PostAdmin.14a. Post IW session 1 date MMDD
+v044014b,PostAdmin.14b. Post IW session 2 date MMDD
+v044014c,PostAdmin.14c. Post IW session 3 date MMDD
+v044015a,PostAdmin.15a. Post IW session 1 version of instrument
+v044015b,PostAdmin.15b. Post IW session 2 version of instrument
+v044015c,PostAdmin.15c. Post IW session 3 version of instrument
+v044016a,PostAdmin.16a. Post IW session 1 breakoff/end
+v044016b,PostAdmin.16b. Post IW session 2 breakoff/end
+v044017,PostAdmin.17. Total number of calls
+v044018,PostAdmin.18. Number of FTF calls
+v044019,PostAdmin.19. Number of phone calls
+v044020,PostAdmin.20. Interviewer interview number (nth IW)
+v044021,PostAdmin.21. Refusal conversion indicator
+v044022,PostAdmin.22. Post non-interview result date (MMDD)
+v044023,PostAdmin.23. Mode of interview
+v044024,PostAdmin.24. Result
+v044025,PostAdmin.25. Length of interview
+v044026,PostAdmin.26. Language of interview
+v044027,PostAdmin.27. Interview verification
+v044028,PostAdmin.28. Interviewer evaluation
+v044029,PostAdmin.29. Interview tape-recorded
+v044030,PostAdmin.30. Payment offer amount
+v044031,PostAdmin.31. Payment amount
+v044032,PostAdmin.32. Payment date
+v044033,PostAdmin.33. Payment mode
+v044034,PostAdmin.34 Respondent incentive
+v044035,PostAdmin.35. Persuasion letters
+v044036a,PostAdmin.36x1a. Summary: R made positive comment
+v044036b,PostAdmin.36x1b. Summary: R made time-delay comment
+v044036c,PostAdmin.36x1c. Summary: R made negative comment
+v044036d,PostAdmin.36x1d. Summary: R made eligibility comment
+v044036e,PostAdmin.36x1e. Summary: R made privacy comment
+v044036f,PostAdmin.36x1f. Summary: R made comment no int in politics
+v044037a,PostAdmin.37a. Comment: positive - help community
+v044037b,PostAdmin.37b. Comment: positive - enjoy surveys
+v044037c,PostAdmin.37c. Comment: other positive
+v044037d,PostAdmin.37d. Comment: time delay - too busy
+v044037e,PostAdmin.37e. Comment: time delay - bad time
+v044037f,PostAdmin.37f. Comment: time delay - think about it
+v044037g,PostAdmin.37g. Comment: other time delay
+v044037h,PostAdmin.37h. Comment: negative - waste of time
+v044037j,PostAdmin.37j. Comment: negative - don't trust surveys
+v044037k,PostAdmin.37k. Comment: negative - surveys waste money
+v044037m,PostAdmin.37m. Comment: negative - never do surveys
+v044037n,PostAdmin.37n. Comment: negative - not interested
+v044037p,PostAdmin.37p. Comment: other negative
+v044037q,PostAdmin.37q. Comment: eligibility-don't know about topic
+v044037r,PostAdmin.37r. Comment: eligibility -no spouse/partn/child
+v044037s,PostAdmin.37s. Comment: eligibility - too young/too old
+v044037t,PostAdmin.37t. Comment: eligibility - don't/can't vote
+v044037u,PostAdmin.37u. Comment: other eligibility
+v044037v,PostAdmin.37v. Comment: privacy - personal questions
+v044037w,PostAdmin.37w. Comment: privacy - govt knows everything
+v044037y,PostAdmin.37y. Comment: other privacy
+v044038,PostAdmin.38. Respondent initial refusal
+v044039,PostAdmin.39. Informant initial refusal
+v044101,PostIwr.1. Interviewer of record ID
+v044101a,PostIwr.1a. Other interviewer ID
+v044102,PostIwr.2. Supervisor ID
+v044103,PostIwr.3. Interviewer gender
+v044104,PostIwr.4. Interviewer education level
+v044105,PostIwr.5. Interviewer race
+v044106,PostIwr.6. Interviewer ethnicity
+v044107,PostIwr.7. Interviewer languages
+v044108,PostIwr.8. Interviewer experience
+v044109,PostIwr.9. Interviewer age group
+v044201,PostErr.1. Post interview error flag
+v044401,PostRand.1. Order of D1b-c Pres candidate thermometers
+v044402a,PostRand.2a. Order of D1d Democratic House cand thermometer
+v044402b,PostRand.2b. Order of D1e Republican House cand thermometer
+v044402c,PostRand.2c. Order of D1f Ind/3rd party House cand therm
+v044402d,PostRand.2d. Order of D1g retiring House incumbent therm
+v044403a,PostRand.3a. Order of D1h Democratic Senate cand thermometer
+v044403b,PostRand.3b. Order of D1j Republican Senate cand thermometer
+v044403c,PostRand.3c. Order of D1k Ind/3rd party Senate cand therm
+v044403d,PostRand.3d. Order of D1m Senator #1 thermometer
+v044403e,PostRand.3e. Order of D1n Senator #2 thermometer
+v044403f,PostRand.3f. Order of D1p Senator term not up thermometer
+v044404a,PostRand.4a. Order of D2a Hispanics thermometer
+v044404b,PostRand.4b. Order of D2b Christian fundamentalists therm
+v044404c,PostRand.4c. Order of D2c Catholics thermometer
+v044404d,PostRand.4d. Order of D2d feminists thermometer
+v044404e,PostRand.4e. Order of D2e Federal government thermometer
+v044404f,PostRand.4f. Order of D2f Jews thermometer
+v044404g,PostRand.4g. Order of D2g Liberals thermometer
+v044404h,PostRand.4h. Order of D2h middle class people thermometer
+v044404j,PostRand.4j. Order of D2j labor unions thermometer
+v044404k,PostRand.4k. Order of D2k poor people thermometer
+v044404m,PostRand.4m. Order of D2m the military thermometer
+v044404n,PostRand.4n. Order of D2n big business thermometer
+v044404p,PostRand.4p. Order of D2p people on welfare thermometer
+v044404q,PostRand.4q. Order of D2q conservatives thermometer
+v044404r,PostRand.4r. Order of D2r working class people thermometer
+v044404s,PostRand.4s. Order of D2s the elderly thermometer
+v044404t,PostRand.4t. Order of D2t environmentalists thermometer
+v044404u,PostRand.4u. Order of D2u US Supreme Court thermometer
+v044404v,PostRand.4v. Order of D2v gay men and lesbians thermometer
+v044404w,PostRand.4w. Order of D2w Asian Americans thermometer
+v044404y,PostRand.4y. Order of D2y Congress thermometer
+v044404z,PostRand.4z. Order of D2z blacks thermometer
+v044405a,PostRand.5a. Order of D2aa southerners thermometer
+v044405b,PostRand.5b. Order of D2ab men thermometer
+v044405c,PostRand.5c. Order of D2ac young people thermometer
+v044405d,PostRand.5d. Order of D2ad illegal immigrants thermometer
+v044405e,PostRand.5e. Order of D2ae rich people thermometer
+v044405f,PostRand.5f. Order of D2af women thermometer
+v044405g,PostRand.5g. Order of D2ag business people thermometer
+v044405h,PostRand.5h. Order of D2ah Catholic church thermometer
+v044405j,PostRand.5j. Order of D2aj whites thermometer
+v044405k,PostRand.5k. Order of D2ak Israel thermometer
+v044405m,PostRand.5m. Order of D2am Muslims thermometer
+v044406a,PostRand.6a. Order of F1a prevent nuclear weapons goal
+v044406b,PostRand.6b. Order of F1b promote human rights goal
+v044406c,PostRand.6c. Order of F1c strengthen U.N. goal
+v044406d,PostRand.6d. Order of F1d combat world hunger goal
+v044406e,PostRand.6e. Order of F1e protect US jobs goal
+v044406f,PostRand.6f. Order of F1f promote democracy goal
+v044406g,PostRand.6g. Order of F1g control illegal immigration goal
+v044406h,PostRand.6h. Order of F1h promote market economies goal
+v044406j,PostRand.6j. Order of F1j combat intl terrorism goal
+v044407,PostRand.7. Order of G4b-c House cand lib-cons placement
+v044408,PostRand.8. Order of G5b-c House cand spending-serv placemt
+v044409,PostRand.9. Order of G6b-c Pres cand interventionism placemt
+v044410,PostRand.10. Order of G6d-e Hse cand interventionism placemt
+v044411,PostRand.11. Order of G6f-g party interventionism placemt
+v044412,PostRand.12. Order of G7b-c Pres cand abortion placement
+v044413,PostRand.13. Order of G7d-e Hse cand abortion placement
+v044414,PostRand.14. Order of G7f-g party abortion placement
+v044415a,PostRand.15a. Order of P4b blacks hardworking scale
+v044415b,PostRand.15b. Order of P4c Hispanics hardworking scale
+v044415c,PostRand.15c. Order of P4d Asian-Americans hardworking scale
+v044416a,PostRand.16a. Order of P5b blacks intelligent scale
+v044416b,PostRand.16b. Order of P5c Hispanics intelligent scale
+v044416c,PostRand.16c. Order of P5d Asian-Americans intelligent scale
+v044417a,PostRand.17a. Order of P6b blacks trustworthy scale
+v044417b,PostRand.17b. Order of P6c Asian-Americans trustworthy scale
+v044417c,PostRand.17c. Order of P6d Hispanics trustworthy scale
+v044501,Cand.1. State and congressional district of IW
+v044502,Cand.2. Type of House race
+v044503a,Cand.3a. U.S. House Democratic candidate name
+v044503b,Cand.3b. U.S. House Democratic candidate code
+v044503c,Cand.3c. U.S. House Democratic candidate gender
+v044504a,Cand.4. U.S. House Republican candidate name
+v044504b,Cand.4b. U.S. House Republican candidate code
+v044504c,Cand.4c. U.S. House Republican candidate gender
+v044505a,Cand.5. U.S. House independent/third party candidate name
+v044505b,Cand.5b. U.S. House independent/third party candidate code
+v044505c,Cand.5c. U.S. House independent/third party cand gender
+v044505d,Cand.5d. U.S. House independent/third party cand party
+v044506a,Cand.6. U.S. House retiring incumbent name
+v044506b,Cand.6b. U.S. House retiring incumbent code
+v044506c,Cand.6c. U.S. House retiring incumbent gender
+v044507,Cand.7. Type of Senate race
+v044508a,Cand.8a. U.S. Senate Democratic candidate name
+v044508b,Cand.8b. U.S. Senate Democratic candidate code
+v044508c,Cand.8c. U.S. Senate Democratic candidate gender
+v044509a,Cand.9. U.S. Senate Republican candidate name
+v044509b,Cand.9b. U.S. Senate Republican candidate code
+v044509c,Cand.9c. U.S. Senate Republican candidate gender
+v044510a,Cand.10. U.S. Senate independent/third party cand name
+v044510b,Cand.10b. U.S. Senate independent/third party cand code
+v044510c,Cand.10c. U.S. Senate independent/third party cand gender
+v044510d,Cand.10d. U.S. Senate independent/third party cand party
+v044511a,Cand.11a. U.S. Senator term not up (state with race) name
+v044511b,Cand.11b. U.S. Senator term not up (state with race) code
+v044511c,Cand.11c. U.S. Senator term not up (state with race) gender
+v044512a,Cand.12a. U.S. Senator #1 (state without race) name
+v044512b,Cand.12b. U.S. Senator #1 (state without race) code
+v044512c,Cand.12c. U.S. Senator #1 (state without race) gender
+v044513a,Cand.13a. U.S Senator #2 (state without race) name
+v044513b,Cand.13b. U.S. Senator #2 (state without race) code
+v044513c,Cand.13c. U.S. Senator #2 (state without race) gender
+v044514a,Cand.14a. Winner Party U.S. House race
+v044514b,Cand.14b. Winner Cand code U.S. House race
+v044515a,Cand.15a. Percent Incumbent House candidate
+v044515b,Cand.15b. Percent Democratic House candidate
+v044515c,Cand.15c. Percent Republican House candidate
+v044515d,Cand.15d. Percent Ind/3rd-party House candidate
+v044516a,Cand.16a. Winner Party U.S. Senate race
+v044516b,Cand.16b. Winner Cand code U.S. Senate race
+v044517a,Cand.17a. Percent Incumbent Senate candidate
+v044517b,Cand.17b. Percent Democratic Senate candidate
+v044517c,Cand.17c. Percent Republican Senate candidate
+v044517d,Cand.17d. Percent Ind/3rd-party House candidate
+v045001,A1. How interested in political campaigns
+v045002,A2. Did R watch programs about campaign on TV
+v045002a,A2a. Watched how many programs about campaign on TV
+v045003,A3. How many days in past week watched TV news
+v045003a,A4. How much attention to news on TV about Pres campaign
+v045004,A5. Did R read about campaign in any magazines
+v045004a,A5a. How much atten to Pres campaign articles in magazines
+v045005,A6. R listen to campaign speeches or discussions on radio
+v045005a,A6a. How many campaign speeches or discussions on radio
+v045006,A7. How much attention to Pres campaign news in general
+v045007,A8. How much of the time trust media to report news fairly
+v045008,B1. Mobilization: anyone from political parties contact R
+v045008a,B1a. Mobilization: which political party contacted R
+v045009,B2. Mobilization: anyone other than parties contacted R
+v045010,B3. Campaign: R try to influence vote of others
+v045011,"B4. Campaign: R go to campaign meetings, rallies, speeches"
+v045012,B5. Campaign: R display campaign button/sticker/sign
+v045013,B6. Campaign: R do any other campaign work for party/cand
+v045014,B7. Contributions: R contribute to candidate
+v045014a,B7a. Contributions: party of candidate R contributed to
+v045015,B8. Contributions: Did R give money to party
+v045015a,B8a. Contributions: which party did R give money to
+v045016,B9. Did R give money to other group for/against cand/party
+v045017a,C1a. Did R vote (standard version)
+v045017b,C1b. Did R vote (experimental version)
+v045018,C2. Nonvoter: registered to vote in this election
+v045018x,C3. Summary: vote and registration status
+v045019,C4. Is R registered in county of residence
+v045019a,C4a. State where registered if outside county of residence
+v045019b,C4b. County where registered if outside county of resid
+v045019c,C4c.Voter:state-distr where regist outside county of resid
+v045020x,C4x. Summary: voter registration in/out of county
+v045021x,C4x1. Voter summary: state of registr same as state of IW?
+v045022x,C4x2. Voter summary: distr of registr same as distr of IW?
+v045023,C5. Did R vote on election day or before
+v045023a,C5a. How long before election R voted
+v045024,C5a1. Did R vote in person or by absentee ballot
+v045025,C6. Voter: did R vote for President
+v045026,C6a. Voter: R's vote for President
+v045026a,C6a1. Voter: preference strength for Pres cand of vote
+v045027,C6b. Voter: how long before election decision on Pres vote
+v045028,C6c. Nonvoter: any preference for President
+v045029,C6c1. Nonvoter: what preference for President
+v045029a,C6c2. Nonvoter: strength of preference for President
+v045030x,C6x. Summary: voter type
+v045031x,C7bx. Summary: Did R vote for House of Representatives
+v045032x,C7bx1. Summary: vote for party House of Representatives
+v045033x,C7bx2. Summary: vote for cand House of Representatives
+v045034,C7c. Nonvoter: did R prefer US House candidate
+v045035,C7c. Nonvoter: what US House candidate R preferred
+v045035x,C7dx. Nonvoter: cand code US House preference
+v045036x,C7x. Summary: Senate race and voter status
+v045037x,C8bx. Summary: Did R vote for Senate
+v045038x,C8bx1. Summary: vote for party in Senate race
+v045039x,C8bx2. Summary: vote for cand in Senate race
+v045040,C8c. Nonvoter: did R prefer US Senate candidate
+v045041,C8c1. Nonvoter: what US Senate candidate R preferred
+v045041x,C8c2. Nonvoter: cand code US Senate preference
+v045042,C9. How fair was November election
+v045043,D1a. Feeling Thermometer: GW Bush
+v045044,D1b. Feeling Thermometer: John Kerry
+v045045,D1c. Feeling Thermometer: Ralph Nader
+v045046,D1d. Feeling Thermometer: Democratic House cand
+v045047,D1e. Feeling Thermometer: Republican House cand
+v045048,D1f. Feeling Thermometer: Ind/3rd party House cand
+v045049,D1g. Feeling Thermometer: Retiring incumbent
+v045050,D1h. Feeling Thermometer: Democratic Senate cand
+v045051,D1j. Feeling Thermometer: Republican Senate cand
+v045052,D1k. Feeling Thermometer: Ind/Third Party Senate cand
+v045053,D1m. Feeling Thermometer: Senator #1 in state with no race
+v045054,D1n. Feeling Thermometer: Senator #2 in state with no race
+v045055,D1p. Feeling Thermometer: Senator not up - state with race
+v045056,D2a. Feeling Thermometer: Hispanics (Hispanic-Americans)
+v045057,D2b. Feeling Thermometer: Christian Fundamentalists
+v045058,D2c. Feeling Thermometer: Catholics
+v045059,D2d. Feeling Thermometer: Feminists
+v045060,D2e. Feeling Thermometer: Federal Government in Washington
+v045061,D2f. Feeling Thermometer: Jews
+v045062,D2g. Feeling Thermometer: Liberals
+v045063,D2h. Feeling Thermometer - middle class people
+v045064,D2j. Feeling Thermometer: Labor Unions
+v045065,D2k. Feeling Thermometer: Poor people
+v045066,D2m. Feeling Thermometer: The Military
+v045067,D2n. Feeling Thermometer: Big Business
+v045068,D2p. Feeling Thermometer: People on welfare
+v045069,D2q. Feeling Thermometer: Conservatives
+v045070,D2r. Feeling Thermometer: working class people
+v045071,D2s. Feeling Thermometer: Older people (the elderly)
+v045072,D2t. Feeling Thermometer: environmentalists
+v045073,D2u. Feeling Thermometer: U.S. Supreme Court
+v045074,D2v. Feeling Thermometer: Gay Men and Lesbians
+v045075,D2w. Feeling Thermometer: Asian Americans
+v045076,D2y. Feeling Thermometer: Congress
+v045077,D2z. Feeling Thermometer: Blacks
+v045078,D2aa. Feeling Thermometer - Southerners
+v045079,D2ab. Feeling Thermometer - men
+v045080,D2ac. Feeling Thermometer - young people
+v045081,D2ad. Feeling Thermometer - illegal immigrants
+v045082,D2ae. Feeling Thermometer - rich people
+v045083,D2af. Feeling Thermometer - women
+v045084,D2ag. Feeling Thermometer - business people
+v045085,D2ah. Feeling Thermometer - the Catholic Church
+v045086,D2aj. Feeling Thermometer: Whites
+v045087,D2ak. Feeling Thermometer: Israel
+v045088,D2am. Feeling Thermometer: Muslims
+v045089,E1a. Which party had most members in House prior to electn
+v045090,E1b. Which party had most members in Senate prior to elect
+v045091,E1x. Summary: type of House incumbent
+v045092,E2. Does R approve/disapprove House incumbent job
+v045092a,E2a. How strongly R approves/disapproves House incumbent
+v045093,E3a. How often has House incumbent supported President
+v045094,E3b. How well House incumbent keeps in touch with district
+v045095,E4. How often R follows govt and public affairs
+v045096,E5a. Favor incr budget deficit to increase domestic spendg
+v045097,E5b. Favor increasing budget deficit to cut taxes
+v045098,E5c. Favor reduc spendg on domestic programs to cut taxes
+v045099,F1a. US foreign policy goal: preventing spread of nuclear
+v045100,F1b. US foreign policy goal: promote human rights
+v045101,F1c. US foreign policy goal: strengthen United Nations
+v045102,F1d. US foreign policy goal: combating world hunger
+v045103,F1e. US foreign policy goal: protect jobs of American wkrs
+v045104,F1f. US foreign policy goal: promote democracy
+v045105,F1g. US foreign policy goal: control illegal immigration
+v045106,F1h. US foreign policy goal: promote market economies abrd
+v045107,F1j. US foreign policy goal: combat intl terrorism
+v045108,F2. How important is it for US to have strong military
+v045109,F3. Have opinion - govt see to fair employmt for blacks
+v045109a,F3a. Should government see to fair employment for blacks?
+v045109b,F3a1. Strength feels govt should/shd not see to fair empl
+v045110,G1a. Favor reduc domestic spend progrs to cut budg deficit
+v045111,G1b. Favor increasing taxes to cut budget deficit
+v045112,G1c. Favor incr taxes to increase domestic spending progs
+v045113,G2a. Change in gap between rich and poor in last 20 yrs
+v045113a,G2a1. How much change in gap between rich and poor
+v045113b,G2b. Is change in gap between rich and poor good or bad
+v045114,G3. Favor or oppose limits on foreign imports
+v045115,"G3a. Should immigration be increased, decreased, stay same"
+v045116,G3b. Effect of Hispanic immigration: take jobs away
+v045117,G4a. Liberal/conservative 7-point scale: self-placement
+v045117a,G4a1. If R had to choose lib-con self-placement
+v045118,G4ax. Summary: liberal-conservative self-placement
+v045119,G4b. Liberal/conservative 7-point scale: US House Dem cand
+v045120,G4c. Liberal/conservative 7-point scale: US House Rep cand
+v045121,G5a. Services/spending tradeoff 7-pt scale: self-placement
+v045122,G5b. Services/spending tradeoff 7-pt scale: Dem House cand
+v045123,G5c. Services/spending tradeoff 7-pt scale: Rep House cand
+v045124,G6a. Interventionism by diplomacy/military: self-placement
+v045125,G6a1. Interventionism by diplomacy/military: importance
+v045126,G6b. Interventionism by diplomacy/military: GW Bush
+v045127,G6c. Interventionism by diplomacy/military: John Kerry
+v045128,G6d. Interventionism by diplomacy/military: Dem House cand
+v045129,G6e. Interventionism by diplomacy/military: Rep House cand
+v045130,G6f. Interventionism by diplomacy/military: Dem party
+v045131,G6g. Interventionism by diplomacy/military: Rep party
+v045132,G7a. Abortion position: self-placement
+v045133,G7a1. Importance of abortion issue to R
+v045134,G7b. Abortion position: GW Bush
+v045135,G7c. Abortion position: John Kerry
+v045136,G7d. Abortion position: Dem House candidate
+v045137,G7e. Abortion position: Rep House candidate
+v045138,G7f. Abortion position: Dem party
+v045139,G7g. Abortion position: Rep party
+v045140,H1a. R position on aid to Hispanic-Americans scale
+v045141,H1b. How important is issue of aid to Hispanic-Americans
+v045142,H2. What should federal govt do about outsourcing
+v045142a,H2a. How much should govt discourage/encourage outsourcing
+v045143,H3. Favor allowing Social Sec funds invested in the market
+v045143a,H3a. Strength favor/oppose investing Soc Sec funds in mkt
+v045143b,H3b. Summary: favor/oppose investing Soc Sec funds
+v045144,H4. Does R favor/oppose school vouchers
+v045144a,H4a. How strongly does R favor/oppose school vouchers
+v045145,H5. How good does seeing US flag make R feel
+v045145x,H5x. Summary: Pre-Post US flag makes R feel
+v045146,H6. Things about America that make R ashamed
+v045146x,H6x. Summary: Pre-Post America makes ashamed
+v045147,H7. Things about America that make R angry
+v045147x,H7x. Summary: Pre-Post America makes angry
+v045148,H8. How strong is love for country
+v045148x,H8x. Summary: Pre-Post how strong love for country
+v045149,H9. How important is being an American
+v045149x,H9x. Summary: Pre-Post importance of being American
+v045150,J1a. Limit Government: problems have become bigger
+v045151,J1b. Limit Government: need strong govt for complex probs
+v045152,J1c. Limit Government: less government the better
+v045153,J2. Does R ever talk politics with family and friends
+v045153a,J2a. How many days in past week R discussed politics
+v045154,J3. Does R listen to political talk radio
+v045155,J3a. Does R have access to the internet or web
+v045155a,J3b. Did R see any information about campaign on Web
+v045156,J4a. Should laws protect homosexuals against job discrim
+v045156a,J4a1. Strength favor/oppose laws to protect homosexuals
+v045157,J4b. Should homosexuals serve in U.S. armed forces
+v045157a,J4b1. Strength favor/oppose homosexuals in military
+v045158,J4c. Should homosexual couples be allowed to adopt
+v045159,J5a. Important differences between Democrats and Repubs
+v045160,J5b. Is one party is more conservative at national level
+v045160a,J5b1. Which party is more conservative at national level
+v045161,J6a. R have interest in equal treatment for women in jobs
+v045161a,J6b. R opinion on equal treatment for women in jobs
+v045161b,J6c. Strength opinion on equal treatment for women in jobs
+v045162,J7a. Politl knowledge office recognition Dennis Hastert
+v045162a,J7a1. PROBE used for recognition of Hastert
+v045163,J7b. Political knowledge office recognition Dick Cheney
+v045163a,J7b1. PROBE used for recognition of Cheney
+v045164,J7c. Political knowledge office recognition Tony Blair
+v045164a,J7c1. PROBE used for recognition of Blair
+v045165,J7d. Political knowledge office recognition Wm Rehnquist
+v045165a,J7d1. PROBE used for recognition of Rehnquist
+v045166,J8a. R worked/joined organization on community problem
+v045167,J8b. Contacted public official to express views
+v045168,J8c. Attended community meeting about issue
+v045169,J8d. R taken part in Protest or march in last year
+v045170,J9a. Is R a member of any organizations
+v045170a,J9a1. Number of organizations R is a member of
+v045171,J10. Able to devote time to volunteer work in last 12 mo
+v045172,"J11. In last 12 mos, made contributions of money to church"
+v045173,K0. Summary: R gender/race/ethnicity status
+v045174,K1. Is R linked to what happens with women
+v045174a,K1a. How much R linked to what happens to women
+v045175,K1b. R feeling pride in accomplishments of women
+v045176,K1c. R angry about the way women are treated in society
+v045177,K2. Is R linked to what happens to blacks
+v045177a,K2a. How much R linked to what happens with blacks
+v045178,K2b. R feeling pride in accomplishments of blacks
+v045179,K2c. R angry about the way blacks are treated in society
+v045180,K3. Is R linked to what happens to Hispanics
+v045180a,K3a. How much R linked to what happens with Hispanics
+v045181,K3b. R feeling pride in accomplishments of Hispanics
+v045182,K3c. R angry about the way Hispanics treated in society
+v045183,K4a. Women demanding equality seek special favors
+v045184,K4b. Women miss good jobs because of discrimination
+v045185,K4c.Women complaining abt harassment cause problems
+v045186,L1. Would R say most people can be trusted
+v045187,L2. Would people try to take advantage of R
+v045188,L3. Most people try to be helpful or look out for selves
+v045189,L4a. Should adjust moral views to changing world
+v045190,L4b. Newer lifestyles causing society breakdown
+v045191,L4c. Should be more tolerant of different moral standards
+v045192,L4d. Should be more emphasis on traditional family ties
+v045193,L5a. Blacks should work their way up like other groups
+v045194,L5b. History makes more difficult for blacks to succeed
+v045195,L5c. Blacks gotten less than they deserve
+v045196,L5d. Blacks should try harder to succeed
+v045197,M1a. How often trust government in Washington to do right
+v045198,M1b. Is govt run by few big interests or benefit of all
+v045199,M1c. How much does government waste tax money
+v045200,M1d. How many crooked people running government
+v045201,M2a. Public officials don't care what people think
+v045202,M2b. People like me don't have any say in what govt does
+v045203,M3a. How much attention does govt pay to what people think
+v045204,M3b. Elections make govt pay attn to what people think
+v045205,M4a. Working mother can have warm relationship with kids
+v045206,M4b. Better if woman cares for home-family and man achieve
+v045207,M5a. R for or against preference for blacks in jobs
+v045207a,M5b. Strength R favors/opposes preference for blacks in jobs
+v045208,N1a. Qualities for children: Independent or respect elders
+v045209,N1b. Qualities for children: Curiosity or good manners
+v045210,N1c. Qualities for children: Obedience or self-reliance
+v045211,N1d. Qualities for children: Considerate or well behaved
+v045212,N2a. Should do what is necessary for equal opportunity
+v045213,N2b. Have gone too far pushing equal rights
+v045214,N2c. Big problem is not giving everyone equal chance
+v045215,N2d. Better off if worried less about equality
+v045216,N2e. Not that big a problem if people have unequal chance
+v045217,N2f. Many fewer problems if people treated equally
+v045218,P1a. How opinionated is R
+v045219,P1b. R have fewer or more opinions than average
+v045219a,P1c. R have many or somewhat fewer/more opinions
+v045220,P2a. Does R like responsibility for thinking
+v045220a,P2b. How much R likes/dislikes responsibility for thinking
+v045221,P3. Does R like simple or complex problems
+v045222,P4a. Hardworking 7-pt scale: whites
+v045223,P4b. Hardworking 7-pt scale: blacks
+v045224,P4c. Hardworking 7-pt scale: Hispanic-Americans
+v045225,P4d. Hardworking 7-pt scale: Asian-Americans
+v045226,P5a. Intelligent 7-pt scale: whites
+v045227,P5b. Intelligent 7-pt scale: blacks
+v045228,P5c. Intelligent 7-pt scale: Hispanic-Americans
+v045229,P5d. Intelligent 7-pt scale: Asian-Americans
+v045230,P6a. Trustworthy 7-pt scale: whites
+v045231,P6b. Trustworthy 7-pt scale: blacks
+v045232,P6c. Trustworthy 7-pt scale: Hispanic-Americans
+v045233,P6d. Trustworthy 7-pt scale: Asian-Americans
+v045235,Q1a. CSES Did R talk to others to persuade how to vote
+v045235a,Q1a1. CSES How often R talked to others about how to vote
+v045236,"Q2. CSES Did R attend meeting, etc. for party or candidate"
+v045236a,Q2a. CSES How often R attended meeting etc. for party/cand
+v045237,Q3. CSES Did candidate or party contact R about vote
+v045238,Q4. CSES Most important issue in past 4 years
+v045239,Q4a. CSES How well has govt done on most imp issue
+v045240,Q5. CSES How good job in general govt has done past 4 yrs
+v045241,Q6. CSES How satisfied with democracy in US
+v045242,Q7. CSES Makes a difference who is in power
+v045243,Q8. CSES Who people vote for makes a difference
+v045244,Q9. CSES Democracy is best form of govt
+v045245,Q9x. Interviewer checkpoint - party of vote
+v045246,Q9a. CSES Party of Pres vote -party performance past 4 yrs
+v045247,Q10. CSES Elections ensure voters views are represented
+v045248,Q11. CSES Does any party represent Rs views
+v045248a,Q11a. CSES Which party represents R's views
+v045249,Q12. CSES Does any 2004 Pres cand represent R views
+v045249a,Q12a. CSES Which cand in last election represents R views
+v045250,Q13. CSES R think of self as close to any party
+v045250a,Q13a1. CSES Mention 1 party R thinks of self as close to
+v045250b,Q13a2. CSES Mention 2 party R thinks of self as close to
+v045251,Q13a0. CSES IWR checkpoint: number of parties R close to
+v045252,Q13a1. CSES Which party R feels closest to among multiple
+v045253,Q13b. CSES Is R a little closer to one party than others
+v045253a,"Q13b1. CSES If a little closer to one party, which one"
+v045254,Q13x. CSES Summary: most close party
+v045255,Q14. CSES How close to this party
+v045257,Q15. CSES Like/dislike scale - Democratic Party
+v045258,Q16. CSES Like/dislike scale - Republican Party
+v045259,Q17. CSES Like/dislike scale - Reform party
+v045260,Q19. CSES Left-right scale - Democratic Party
+v045261,Q20. CSES Left-right scale - Republican Party
+v045262,Q21. CSES Left-right scale - Reform party
+v045263,Q22. CSES Left-right scale - GW Bush
+v045264,Q23. CSES Left-right scale - John Kerry
+v045265,Q24. CSES Left-right scale - Ralph Nader
+v045266,Q25a. CSES Has R contacted politician or govt official
+v045267,Q25b. CSES Has R taken part in protest or demonstration
+v045268,Q25c. CSES Has R worked with others on shared concern
+v045269,Q27a. CSES How much respect for human rights in US
+v045270,Q27b. CSES How much corruption in US
+v045271,Q28. CSES Left-Right scale - self placement
+v045300a,Z1a. Flag Terminology Left-Right
+v045300b,Z1b. Flag Terminology Liberal-Conservative
+v045301a,ZZ1a. POST IWR obs: others present - children under 6
+v045301b,ZZ1b. POST IWR obs: others present - older children
+v045301c,ZZ1c. POST IWR obs: others present - spouse
+v045301d,ZZ1d. POST IWR obs: others present - other relatives
+v045301e,ZZ1e. POST IWR obs: others present - other adults
+v045301f,"ZZ1f. POST IWR obs: others present - someone, not sure who"
+v045302,ZZ2. POST IWR OBS: R cooperation
+v045303,ZZ3. POST IWR OBS: R level of information
+v045304,ZZ4. POST IWR OBS: R intelligence
+v045305,ZZ5. POST IWR OBS: R suspicious
+v045306,ZZ6. POST IWR OBS: R interest in IW
+v045307,ZZ7. POST IWR OBS: R sincere
+v045307a,ZZ7a. POST IWR OBS: places where doubted R sincerity
+v045308a,ZZ8a. POST IWR OBS: Mention 1 - R reactions to IW
+v045308b,ZZ8b. POST IWR OBS: Mention 2 - R reactions to IW
+v045308c,ZZ8c. POST IWR OBS: Mention 3 - R reactions to IW
+v045308d,ZZ8d. POST IWR OBS: Mention 4 - R reactions to IW
+v045308e,ZZ8e. POST IWR OBS: Mention 5 - R reactions to IW
+v045308f,ZZ8f. POST IWR OBS: Mention 6 - R reactions to IW
+v045308g,ZZ8g. POST IWR OBS: Mention 7 - R reactions to IW

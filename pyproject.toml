@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "anespy"
+version = "0.1.0"
+description = ""
+authors = ["Jackson Earl Rudoff <62763243+jer164@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.23.1"
+
+
+[tool.poetry.group.testing.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,1360 @@
+﻿Number,Name
+caseid,ANES 2012 Time Series Case ID
+version,ANES 2012 Time Series Release Version
+weight_full,"ANES 2012 Time Series Post-stratified weight for full sample, preliminary release"
+weight_ftf,"ANES 2012 Time Series Post-stratified weight for face-to-face cases, preliminary release"
+weight_web,"ANES 2012 Time Series Post-stratified weight for web cases, preliminary release"
+mode,ANES 2012 Time Series Mode
+strata_full,ANES 2012 Time Series sample strata for full sample
+strata_ftf,ANES 2012 Time Series sample strata for FTF sample component
+sample_psu,Revised PSU Code
+sample_ftfpsu,SAMPLE - PSU for FTF cases
+sample_state,SAMPLE- State of Respondent address
+state_fips,State FIPS Code - Recoded from SAMPLE_STATE
+sample_district,SAMPLE - U.S. Congr district of Respondent address (113th U.S. Congress)
+ftf_oversample,ANES 2012 Time Series FTF Oversample Case
+gend_gendobs,PRE: FTF ONLY: INTERVIEWER: Is R male or female (Observation)
+gender_respondent,SUMMARY: Gender of Respondent for both FTF and Web modes
+interest_attention,PRE: How often does R pay attn to politics and elections
+interest_following,PRE: Interested in following campaigns standard
+interest_wherevote,PRE: Does R know where to go to vote in neighborhood
+interest_voted2008,PRE: Did R vote for President in 2008
+interest_whovote2008,PRE: Recall of last (2008) Presidential vote choice
+interest_whovote2008_othtxt,PRE: Other Specify- Recall of last (2008) Presidential vote choice
+prmedia_useinet,PRE: FTF ONLY: HH Internet use
+prmedia_wkinews,PRE: Days in typical week review news on internet
+prmedia_atinews,PRE: Attention to internet news
+prmedia_wktvnws,PRE: Days in typical week watch news on TV
+prmedia_attvnews,PRE: Attention to TV news
+prmedia_wkpaprnws,PRE: Days in typical wk read news in print newspaper
+prmedia_atpprnews,PRE: Attention to printed newspaper news
+prmedia_wkrdnws,PRE: Days in typical week listen news on radio
+prmedia_atrdnews,PRE: Attention to radio news
+prevote_regist_addr,PRE: R registered to vote (pre-election)- sample address
+prevote_regist_noaddr,PRE: WEB ONLY: R registered to vote (pre-election)- no sample address
+prevote_reg,PRE: FTF ONLY: Other Registr. location- city and state identifiable
+prevote_reg_recordstate,PRE: FTF ONLY: Oth Registr. location - state recorded in correct field
+prevote_reg_recordcity,PRE: FTF ONLY: Oth Registr. location - city recorded in correct field
+prevote_reg_state,PRE: FTF ONLY: Other Registr. location - state of registr. (FIPS CODE)
+prevote_reg_samestate,PRE: FTF ONLY: Oth Reg. location - state same as hsehold's state (Y/N)
+prevote_regincnty,PRE: Is R registered to vote in preload county (resid)
+prevote_regyrs3cat,PRE: How long has R been registered at location
+prevote_regname,PRE: Name under which R registered to vote- was name given
+prevote_regpty_state,PRE: Does recorded state of registration have party registration
+prevote_regpty,PRE: Party of registration (also asked if state not recorded correctly)
+prevote_regpty_oth,PRE: RESTRICTED: Other specify- Party of registration
+prevote_regint,PRE: Does R intend to register to vote
+prevote_primv,PRE: Did R vote in the Presidential primary or caucus
+prevote_primvwho,PRE: For which candidate did R vote in Presidential prim
+prevote_primvwho_othtxt,PRE: Oth specify- For which candidate did R vote in Presidential prim
+prevote_voted,PRE: Already voted in General Election
+prevote_vconf,PRE: Confirmation voted (early) in November 6 election
+prevote_howvote,PRE: In what manner did R vote
+prevote_ckbcard,PRE: Is Pre Ballot Card correct (IF FTF: IWR CHECKPOINT)
+prevote_ballot_color,PRE: FTF ONLY: Assigned color for Ballot Card (if displayed)
+prevote_presvt,PRE: Did R vote for President
+prevote_presvtwho,PRE: For whom did R vote for President
+prevote_presvtwho_othtxt,PRE: Other specify- For whom did R vote for President
+prevote_presstr,PRE: Preference strong for Pres cand for whom R voted
+prevote_vtpresdec_txt,PRE: How long before election R made decision Pres vote
+prevote_vtpresdec_dkrf,PRE: FTF ONLY: Hw lng bef elct R made decsn Pres vt: DK/RF selected
+prevote_intpres,PRE: Does R intend to vote for President
+prevote_intpreswho,PRE: For whom does R intend to vote for President
+prevote_intpreswho_othtxt,PRE: Other specify- For whom does R intend to vote for President
+prevote_intpresst,PRE: Pref strng for Pres cand for whom R intends to vote
+prevote_prefpres,PRE: Does R prefer Pres cand (no intent to register)
+prevote_prefprwho,PRE: Preference for Pres cand (no intent to register)
+prevote_prefprwho_othtxt,PRE: Other specify- Preference for Pres cand (no intent to register)
+prevote_prefprstr,PRE: Preference strong for Pres cand (no intent to reg)
+prevote_votehs,PRE: Did R vote for U.S. House of Representatives
+prevote_hsvtbc,PRE: For whom did R vote for U.S. House (Ballot Card)
+prevote_hsvtnobc,PRE: For whom did R vote for U.S. House (no Ballot Card)
+prevote_inths,PRE: Does R intend to vote for U.S. House
+prevote_inthsbc,PRE: For whom does R intend to vote for U.S. House (Ballot Card)
+prevote_inthsnobc,PRE: For whom does R intend to vote for U.S. House (no Ballot Card)
+prevote_hspref,PRE: Does R prefer U.S. House candidate
+prevote_hsprefbc,PRE: Whom does R prefer for U.S. House (Ballot Card)
+prevote_hsprefnobc,PRE: Whom does R prefer for U.S. House (no Ballot Card)
+prevote_senhhstate,PRE: FTF ONLY: Senate election in state of residence
+prevote_senregstate,PRE: FTF ONLY: Sen election in state of regist (R not regist at resid)
+prevote_votesen,PRE: Did R vote for U.S. Senate
+prevote_vtsenbc,PRE: R's vote for U.S. Senate (Ballot Card)
+prevote_vtsennobc,PRE: R's vote for U.S. Senate (no Ballot Card)
+prevote_intsen,PRE: Does R intend to vote for U.S. Senate
+prevote_intsenbc,PRE: For whom does R intend to vote for U.S. Senate (Ballot Card
+prevote_intsennobc,PRE: For whom does R intend to vote for US. Senate (no ballot cd)
+prevote_senpref,PRE: Does R prefer U.S. Senate candidate
+prevote_senprefbc,PRE: Whom does R prefer for U.S. Senate (Ballot Card)
+prevote_senprefnobc,PRE: Whom does R prefer for U.S. Senate (no Ballot Card)
+prevote_govhhstate,PRE: FTF ONLY: Gubernatorial election in state of residence
+prevote_govregstate,PRE: FTF ONLY: Gov election in state of regist (R not regist at resid)
+prevote_votegov,PRE: Did R vote for governor
+prevote_vtgovbc,PRE: R's vote for governor(Ballot Card)
+prevote_vtgovnobc,PRE: R's vote for governor (no Ballot Card)
+prevote_intgov,PRE: Does R intend to vote for governor
+prevote_intgovbc,PRE: For whom does R intend to vote for governor (Ballot Card)
+prevote_intgovnobc,PRE: For whom does R intend to vote for governor (no ballot cd)
+prevote_govpref,PRE: Does R prefer gubernatorial candidate
+prevote_govprefbc,PRE: Whom does R prefer for governor (Ballot Card)
+prevote_govprefnobc,PRE: Whom does R prefer for governor (no Ballot Card)
+candlik_likedpc,PRE: Is there anything R likes about Democratic Pres cand
+candlik_likewhatdpc_txt,PRE: What is it that R likes about Democratic Pres cand
+candlik_disldpc,PRE: Is there anything R dislikes about Democratic Pres cand
+candlik_dislwhatdpc_txt,PRE: What is it that R dislikes about Democratic Pres cand
+candlik_likerpc,PRE: Is there anything R likes about Republican Pres cand
+candlik_likewhatrpc_txt,PRE: What is it that R likes about Republican Pres cand
+candlik_dislrpc,PRE: Is there anything R dislikes about Republican Pres cand
+candlik_dislwhatrpc_txt,PRE: What is it that R dislikes about Republican Pres cand
+congapp_job,PRE: Approval of Congress handling its job
+congapp_jobst,PRE: Strength appr/disapprove Congress handling its job
+congapp_job_x,PRE: SUMMARY- Approval of Congress
+presapp_track,PRE: Are things in the country on right track
+presapp_job,PRE: Approve or disapprove President handling job as Pres
+presapp_jobstr,PRE: How much approve or disapp Pres handling job
+presapp_job_x,PRE: SUMMARY- Approval of President handling of job
+presapp_econ,PRE: Approve or disapprove President handling economy
+presapp_econstr,PRE: How much approve or disapprove Pres handling economy
+presapp_econ_x,PRE: SUMMARY- Approval of President handling economy
+presapp_foreign,PRE: Approve or disapprove President handling foreign rel
+presapp_foreignstr,PRE: How much approve/disapprove Pres handling foreign rrel
+presapp_foreign_x,PRE: SUMMARY- Approval of President handling foreign relations
+presapp_health,PRE: Approve or disapprove President handling health care
+presapp_healthstr,PRE: How much approve/disapprove Pres handling health care
+presapp_health_x,PRE: SUMMARY- Approval of President handling health care
+presapp_war,PRE: Approve or disapprove President handling war in Afghanst
+presapp_warstr,PRE: How much approve/disapprove Pres handling war in Afghanst
+presapp_war_x,PRE: SUMMARY- Approval of President handling war in Afghanistan
+ft_dpc,PRE: Feeling Thermometer: Democratic Presidential cand
+ft_rpc,PRE: Feeling Thermometer: Republican Presidential cand
+ft_dvpc,PRE: Feeling Thermometer: Democratic Vice-Pres cand
+ft_rvpc,PRE: Feeling Thermometer: Republican Vice-Pres cand
+ft_hclinton,PRE: Feeling Thermometer: Hillary Clinton
+ft_gwb,PRE: Feeling Thermometer: GW Bush
+ft_dem,PRE: Feeling Thermometer: Democratic Party
+ft_rep,PRE: Feeling Thermometer: Republican Party
+ptylik_likdp,PRE: Is there anything R likes about Democratic Party
+ptylik_lwhatdp_txt,PRE: What does R like about Democratic party
+ptylik_disldp,PRE: Is there anything R dislikes about Democratic Party
+ptylik_dwhatdp_txt,PRE: What does R dislike about the Democratic party
+ptylik_likrp,PRE: Is there anything R likes about Republican Party
+ptylik_lwhatrp_txt,PRE: What does R like about Republican party
+ptylik_dislrp,PRE: Is there anything R dislikes about Republican Party
+ptylik_dwhatrp_txt,PRE: What does R dislike about the Republican party
+finance_finfam,PRE: R living with how many family members
+finance_finpast,PRE: R better/worse off than 1 year ago
+finance_finpastamt,PRE: R how much better/worse off than 1 year ago
+finance_finpast_x,PRE: SUMMARY- Better or worse off than 1 year ago
+finance_finnext,PRE: Will R be financially better/worse off one year from now
+finance_finnextamt,PRE: R how much better/worse off 1 year from now
+finance_finnext_x,PRE: SUMMARY- Better or worse off 1 year from now
+health_insured,PRE: Does R have health insurance
+health_2010hcr,PRE: Favor or oppose 2010 health care law
+health_2010hcrfav,PRE: Strength support 2010 health care law
+health_2010hcropp,PRE: Strength oppose 2010 health care law
+health_2010hcr_x,PRE: SUMMARY- Support 2010 health care law
+health_self,PRE: Health of R
+health_smoke,PRE: Smoked Cigarettes
+health_smokeamt,"PRE: If smoked, how many now"
+candaff_angdpc,PRE: Affect for Democratic Pres cand: angry
+candaff_angdpcoft,PRE: How often affect angry about Democratic Pres cand
+candaff_hpdpc,PRE: Affect for Democratic Pres cand: hopeful
+candaff_hpdpcoft,PRE: How often affect hopeful about Democratic Pres cand
+candaff_afrdpc,PRE: Affect for Democratic Pres cand: afraid
+candaff_afrdpcoft,PRE: How often affect afraid about Democratic Pres cand
+candaff_prddpc,PRE: Affect for Democratic Pres cand: proud
+candaff_prddpcoft,PRE: How often affect proud about Democratic Pres cand
+candaff_angrpc,PRE: Affect for Republican Pres cand: angry
+candaff_angrpcoft,PRE: How often affect angry about Republican Pres cand
+candaff_hprpc,PRE: Affect for Republican Pres cand: hopeful
+candaff_hprpcoft,PRE: How often affect hopeful about Republican Pres cand
+candaff_afrrpc,PRE: Affect for Republican Pres cand: afraid
+candaff_afrrpcoft,PRE: How often affect afraid about Republican Pres cand
+candaff_prdrpc,PRE: Affect for Republican Pres cand: proud
+candaff_prdrpcoft,PRE: How often affect proud about Republican Pres cand
+libcpre_self,PRE: 7pt scale Liberal/conservative self-placement
+libcpre_choose,PRE: If R had to choose liberal or conservative self-placemt
+libcpre_dpc,PRE: 7pt scale liberal/conservative - Dem Pres cand
+libcpre_rpc,PRE: 7pt scale liberal/conservative - Rep Pres cand
+libcpre_ptyd,PRE: 7pt scale liberal/conservative Dem party
+libcpre_ptyr,PRE: 7pt scale liberal/conservative Rep party
+divgov_splitgov,PRE: Party Control or split government
+likelypct_howlikvt1,PRE: [1/2 SAMPLE 2A] How likely is it that R will vote in Nov
+likelypct_whatpct1,PRE: [1/2 SAMPLE 2B] What is percent chance R will vote in Nov
+campfin_limcorp,PRE: Should gov be able to limit corporate contributions
+campfin_banads,PRE: Ban corporate/union ads for candidates
+ineq_incgap,PRE: Income gap today more or less than 20 years ago
+ineq_gapmore,PRE: How much larger is income gap today
+ineq_gapless,PRE: How much smaller is income gap today
+ineq_incgap_x,PRE: SUMMARY- Income gap size compared to 20 years ago
+effic_complicstd,PRE: [STD] Politics/govt too complicated to understand
+effic_undstd,PRE: [STD] Good understanding of political issues
+effic_carestd,PRE: [STD] Publ officials don't care what people think
+effic_saystd,PRE: [STD] Have no say about what govt does
+effic_complicrev,PRE: [REV] Politics/govt too complicated to understand
+effic_undrev,PRE: [REV] Good understanding of political issues
+effic_carerev,PRE: [REV] Publ officials don't care what people think
+effic_sayrev,PRE: [REV] Have no say about what govt does
+econ_ecnow,PRE: Current economy good or bad
+econ_ecpast,PRE: National economy better/worse in last year
+econ_ecpastamt,PRE: How much national economy better/worse in last year
+econ_ecpast_x,PRE: SUMMARY- U.S. economy better or worse than 1 year ago
+econ_ecnext,PRE: Economy better or worse in next 12 months
+econ_ecnextamt,PRE: How much econ better/worse next 12 months
+econ_ecnext_x,PRE: SUMMARY- U.S. economy better or worse 1 year from now
+econ_unpast,PRE: Unemployment better or worse in last year
+econ_unlast,PRE: How much unemployment better or worse in last year
+econ_unpast_x,PRE: SUMMARY- Unemployment better or worse than 1 year ago
+econ_unnext,PRE: More or less unemployment in next year
+ecblame_pres,PRE: How much is President to blame for poor econ conditions
+ecblame_fmpr,PRE: How much former President to blame for poor econ conds
+ecblame_dem,PRE: How much Dems in Congress to blame for poor econ conds
+ecblame_rep,PRE: How much Reps in Congress to blame for poor econ conds
+ecblame_bank,PRE: How much Wall St. bankers to blame for poor econ conds
+ecblame_cons,PRE: How much consumers to blame for poor economic conds
+ecblame_lend,PRE: How much lenders to blame for poor economic conditions
+ptyperf_ptyecon,PRE: Which party better: handling nation's economy
+preswin_care,PRE: Care who wins Presidential Election
+preswin_win,PRE: Who does R think will be elected President
+preswin_win_othtxt,PRE: Other specify- Who does R think will be elected President
+preswin_close,PRE: Will Pres race be a close or will (winner) win by a lot
+preswin_state,PRE: Which Pres cand will carry state
+preswin_state_othtxt,PRE: Other specify- Which Pres cand will carry state
+preswin_closest,PRE: Will Pres race be close in state
+preswin_dutychoice,PRE: [VERSION 1A] Does R consider voting a duty or choice
+preswin_choiceduty,PRE: [VERSION 1B] Does R consider voting a choice or duty
+preswin_dutyst,PRE: How strongly does R feel that voting is a duty
+preswin_choicest,PRE: How strongly does R feel that voting is a choice
+preswin_dutychoice_x,PRE: SUMMARY- Does R consider voting as duty/choice
+usworld_stronger,"PRE: During last year, U.S. position in world weaker/str"
+usworld_stay,PRE: Country would be better off if we just stayed home
+pid_self,"PRE: Party ID: Does R think of self as Dem, Rep, Ind or what"
+pid_self_oth,PRE: RESTRICTED: Other specify- Party ID
+pid_strong,PRE: Party Identification strong - Democrat/Republican
+pid_lean,PRE: No Party Identification - closer to Dems or Reps
+pid_x,PRE: SUMMARY- Party ID
+tea_supp,PRE: Tea Party support
+tea_suppstr,PRE: Strength support or oppose tea party
+tea_suppln,PRE: Neither - closer to support or oppose
+tea_supp_x,PRE: SUMMARY- Tea Party support
+ctrait_dpcmoral,PRE: Pres Dem cand trait moral
+ctrait_dpclead,PRE: Pres Dem cand trait strong leadership
+ctrait_dpccare,PRE: Pres Dem cand trait really cares
+ctrait_dpcknow,PRE: Pres Dem cand trait knowledgeable
+ctrait_dpcint,PRE: Pres Dem cand trait intelligent
+ctrait_dpchonst,PRE: Pres Dem cand trait honest
+ctrait_rpcmoral,PRE: Pres Rep cand trait moral
+ctrait_rpclead,PRE: Pres Rep cand trait strong leadership
+ctrait_rpccare,PRE: Pres Rep cand trait really cares
+ctrait_rpcknow,PRE: Pres Rep cand trait knowledgeable
+ctrait_rpcint,PRE: Pres Rep cand trait intelligent
+ctrait_rpchonst,PRE: Pres Rep cand trait honest
+war_worthit,PRE: Was war worth the cost
+war_terror,PRE: War increased or decreased threat of terrorism
+spsrvpr_ssself,PRE: 7pt scale spending and Services self-placement
+spsrvpr_ssdpc,PRE: 7pt scale spending and Services Dem Presidential cand
+spsrvpr_ssrpc,PRE: 7pt scale spending and Services Rep Presidential cand
+spsrvpr_ssdem,PRE: 7pt scale spending and Services Dem Party
+spsrvpr_ssrep,PRE: 7pt scale spending and Services Rep Party
+defsppr_self,PRE: 7pt scale defense spending self-placement
+defsppr_dpc,PRE: 7pt scale defense spending Dem Pres cand
+defsppr_rpc,PRE: 7pt scale defense spending Rep Pres cand
+defsppr_dem,PRE: 7pt scale defense spending Dem Party
+defsppr_rep,PRE: 7pt scale defense spending Rep Party
+inspre_self,PRE: 7pt scale govt-private medical insur scale: self-plmt
+inspre_dpc,PRE: 7pt scale govt-private medical insur scale: Dem Pres cand
+inspre_rpc,PRE: 7pt scale govt-private medical insur scale: Rep Pres cand
+inspre_dem,PRE: 7pt scale govt-private medical insur scale: Dem Party
+inspre_rep,PRE: 7pt scale govt-private medical insur scale: Rep Party
+gun_control,PRE: Should fed govt make it more difficult to buy a gun
+gun_importance,PRE: Importance of gun access issue to R
+guarpr_self,PRE: 7pt scale guaranteed job-income scale: self-placement
+guarpr_dpc,PRE: 7pt scale guaranteed job-income scale: Dem Pres cand
+guarpr_rpc,PRE: 7pt scale guaranteed job-income scale: Rep Pres cand
+guarpr_dem,PRE: 7pt scale guaranteed job-income scale: Dem Party
+guarpr_rep,PRE: 7pt scale guaranteed job-income scale: Rep Party
+immig_policy,PRE: U.S. government policy toward unauthorized immigrants
+immig_citizen,PRE: Opinion on proposal to allow citzship to some illeg aliens
+immig_checks,PRE: Opinion on laws to allow immigr status checks on suspects
+aidblack_self,PRE: 7pt scale govt assistance to blacks scale: self-placemt
+aidblack_dpc,PRE: 7pt scale govt assistance to blacks scale: Dem Pres cand
+aidblack_rpc,PRE: 7pt scale govt assistance to blacks scale: Rep Pres cand
+envjob_self,PRE: 7pt scale environment-jobs tradeoff self-placement
+envjob_dpc,PRE: 7pt scale environment-jobs tradeoff Dem Pres cand
+envjob_rpc,PRE: 7pt scale environment-jobs tradeoff Rep Pres cand
+aa_uni,PRE: Does R favor or oppose affirmative action in universities
+aa_unifav,PRE: How much does R favor affirmative action in universities
+aa_uniopp,PRE: How much does R oppose affirmative action in universities
+aa_uni_x,PRE: SUMMARY- Favor/oppose affirmative action in universities
+aa_work,PRE: Does R favor or oppose affirmative action at work
+aa_workfav,PRE: How much does R favor affirmative action at work
+aa_workopp,PRE: How much does R oppose affirmative action at work
+aa_work_x,PRE: SUMMARY- Favor/oppose affirmative action at work
+fedspend_ss,PRE: Federal Budget Spending: Social Security
+fedspend_schools,PRE: Federal Budget Spending: public schools
+fedspend_scitech,PRE: Federal Budget Spending: science and technology
+fedspend_crime,PRE: Federal Budget Spending: dealing with crime
+fedspend_welfare,PRE: Federal Budget Spending: welfare programs
+fedspend_child,PRE: Federal Budget Spending: child care
+fedspend_poor,PRE: Federal Budget Spending: aid to the poor
+fedspend_enviro,PRE: Federal Budget Spending: protecting the environment
+candrel_dpc,PRE: What is the religion of the Democratic Presidential cand
+candrel_dpc_othtxt,PRE: Other specify- What is the religion of the Dem Presidential cand
+candrel_rpc,PRE: What is the religion of the Republican Presidential cand
+candrel_rpc_othtxt,PRE: Other specify- What is the religion of the DemoPresidential cand
+trustgov_trustgrev,PRE: [REV] How often trust govt in Wash to do what is right
+trustgov_trustgstd,PRE: [STD] How often trust govt in Wash to do what is right
+trustgov_bigintrst,PRE: Govt run by a few big interests or for benefit of all
+trustgov_waste,PRE: Does government waste much tax money
+trustgov_corrpt,PRE: How many in government are corrupt
+trust_social,PRE: How often can people be trusted
+respons_elections,PRE: Elections make govt pay attention
+econcand_dwin,PRE: Economy better or worse if Dem Pres cand wins
+econcand_rwin,PRE: Economy better or worse if Rep Pres cand wins
+envir_drill,PRE: Favor or oppose increased U.S. offshore drilling
+envir_nuke,PRE: Should US have more or fewer nuclear power plants
+envir_gwarm,PRE: Is global warming happening or not
+envir_gwgood,PRE: Rising temperatures good or bad
+envir_gwhow,PRE: Anthropogenic climate change
+gayrt_discrev,PRE: [REV] Should laws protect gays/lesbians against job discrim
+gayrt_discstrev,PRE: [REV] How mch fav/opp laws protect gays/lesbians job discr
+gayrt_discrev_x,PRE: SUMMARY REV version- favor laws against gays/lesbians job discrim
+gayrt_discstd,PRE: [STD] Should laws protect homosexuals against job discrim
+gayrt_discststd,PRE: [STD] How mch fav/opp laws protect homosexuals job discrim
+gayrt_discstd_x,PRE: SUMMARY STD version- favor laws against gays/lesbians job discrim
+gayrt_milrev,PRE: [REV] Should gays and lesbians serve in U.S. armed forces
+gayrt_milstrev,PRE: [REV] Strength favor/opp allow gays serve in armed forces
+gayrt_milrev_x,PRE: SUMMARY REV version- allow gays/lesbians serve in US armed forces
+gayrt_milstd,PRE: [STD] Should homosexuals serve in U.S. armed forces
+gayrt_milststd,PRE: [STD] Strength fav/opp allow homosexuals serve armed forces
+gayrt_milstd_x,PRE: SUMMARY STD version- allow gays/lesbians serve in US armed forces
+gayrt_adopt,PRE: Should gay and lesbian couples be allowed to adopt
+gayrt_marry,PRE: R position on gay marriage
+abortpre_4point,PRE: STD Abortion: self-placement
+abortpre_4point_othtxt,PRE: Other specify- STD Abortion: self-placement
+penalty_favdpen,PRE: R favor/oppose death penalty
+penalty_dpenstr,PRE: Strength R favors/opposes death penalty
+penalty_favopp_x,PRE: SUMMARY- Favor death penalty
+presadm_secure,PRE: U.S. more or less secure than when Pres took office
+pctlikely_whatpct2,PRE: [1/2 SAMPLE 2B] What is percent chance R will vote in Nov
+pctlikely_howlikvt2,PRE: [1/2 SAMPLE 2A] How likely is it that R will vote in Nov
+relig_import,PRE: Is religion important part of R life
+relig_guide,PRE: Religion provides guidance in day-to-day living
+relig_pray,PRE: How often does R pray
+relig_pray_othtxt,PRE: Other specify- How often does R pray
+relig_wordgod,PRE: Is Bible word of God or men
+relig_wordgod_othtxt,PRE: Other specify- Is Bible word of God or men
+relig_church,PRE: Ever attend church or religious services
+relig_churchoft,PRE: Attend religious services how often
+relig_churchwk,PRE: Attend church more often than once a week
+relig_chmember,PRE: Ever think of self as part of church or denomination
+relig_group,PRE: RESTRICTED: (Attends church) R major religious group
+relig_groupna,PRE: RESTRICTED: (Nonattendance) R major religious group
+relig_4cat,"PRE: SUMMARY- full RELIG section: R Catholic, oth Christian, other, not relig"
+relig_denom,PRE: RESTRICTED: Major relig denomination
+relig_bapt,PRE: RESTRICTED: Specific Baptist denomination
+relig_indbapt,PRE: RESTRICTED: Specific indep. Baptist denomination
+relig_luth,PRE: RESTRICTED: Specific Lutheran denomination
+relig_meth,PRE: RESTRICTED: Specific Methodist denomination
+relig_presb,PRE: RESTRICTED: Specific Presbyterian denomination
+relig_refrm,PRE: RESTRICTED: Specific Reformed denomination
+relig_brethr,PRE: RESTRICTED: Specific Brethren denomination
+relig_discp,PRE: RESTRICTED: Specific Disciples denomination
+relig_chchrst,PRE: RESTRICTED: Specific Church of Christ denomination
+relig_chgod,PRE: RESTRICTED: Specific Church of God denomination
+relig_pent,PRE: RESTRICTED: Specific Pentacostal/Holiness denomination
+relig_denother,PRE: RESTRICTED: Description other denomination
+relig_othxian,PRE: RESTRICTED: Specific other denomination Christian
+relig_jewisha,PRE: RESTRICTED: (Attends) Specific Jewish denomination
+relig_jewishna,PRE: RESTRICTED: (Nonattendance) Specific Jewish denomination
+relig_bornagn,PRE: Does Christian R consider self born again
+relig_ident_1st,PRE: FTF ONLY: Ordered self-descript R religious identity- 1st mention
+relig_ident_2nd,PRE: FTF ONLY: Ordered self-descript R religious identity- 2nd mention
+relig_ident_3rd,PRE: FTF ONLY: Ordered self-descript R religious identity- 3rd mention
+relig_religident_prog,PRE: R self-description religious identity: mention Progressive
+relig_religident_nontrad,PRE: R self-description religious identity: mention nontraditional
+relig_religident_secular,PRE: R self-description religious identity: mention secular
+relig_religident_agnostic,PRE: R self-description religious identity: mention agnostic
+relig_religident_atheist,PRE: R self-description religious identity: mention atheist
+relig_religident_spiritual,"PRE: R self-descript relig identity: mention spiritual, not religious"
+relig_religident_none,PRE: R self-description religious identity: mention none
+relig_religident_dkrf,PRE: R self-description religious identity: mention DKRF
+dem_birthmo,PRE: RESTRICTED: Birthdate: month of birth
+dem_birthdy,PRE: RESTRICTED: Birthdate: day of birth
+dem_birthyr,PRE: RESTRICTED: Birthdate: year of birth
+dem_age_r_x,PRE: RESTRICTED: SUMMARY- Age of R on interview date
+dem_agegrp_iwdate,PRE: SUMMARY- R age on interview date (age group)
+dem_marital,PRE: Marital status
+dem_partner,PRE: Domestic partnership status
+dem_edu,PRE: RESTRICTED: Highest level of Education
+dem_edu_oth,PRE: RESTRICTED: Other specify- R highest level of education
+dem_dipged,PRE: R: Diploma or GED
+dem_edugroup,PRE: SUMMARY- R level of highest education
+dem_edusp,PRE: RESTRICTED: Spouse/partner: Highest Level of Education
+dem_edusp_oth,PRE: RESTRICTED: Other specify- Spouse highest level of education
+dem_dipgedsp,PRE: Spouse: Diploma or GED
+dem_eduspgroup,PRE: SUMMARY- Spouse level of highest education
+dem_veteran,PRE: R ever served on active duty in Armed Forces
+dem_milwhen_1st,PRE: When was R active military service- 1st mention
+dem_milwhen_2nd,PRE: When was R active military service- 2nd mention
+dem_milwhen_3rd,PRE: When was R active military service- 3rd mention
+dem_milwhen_4th,PRE: When was R active military service- 4th mention
+dem_milnow,PRE: RESTRICTED: Still in Armed Forces
+dem_emptype_1st,PRE: FTF ONLY: Ordered R employment status- 1st mention
+dem_emptype_2nd,PRE: FTF ONLY: Ordered R employment status- 2nd mention
+dem_emptype_3rd,PRE: FTF ONLY: Ordered R employment status- 3rd mention
+dem_emptype_4th,PRE: FTF ONLY: Ordered R employment status- 4th mention
+dem_emptype_work,PRE: R employment status: mention working now
+dem_emptype_layoff,PRE: R employment status: mention temporarily laid off
+dem_emptype_unemp,PRE: R employment status: mention unemployed
+dem_emptype_retire,PRE: R employment status: mention retired
+dem_emptype_disabled,PRE: R employment status: mention permanently disabled
+dem_emptype_hmaker,PRE: R employment status: mention homemaker
+dem_emptype_student,PRE: R employment status: mention student
+dem_emptype_dkrf,PRE: R employment status: mention DK/RF
+dem_empstatus_2digitfinal,PRE: SUMMARY- Final 2-digit empl status based on full employmt/occ section
+dem_empstatus_1digitfinal,PRE: SUMMARY- Final 1-digit empl status based on full employmt/occ section
+dem_empstatus_initial,PRE: Initial employment status for R occupation section
+dem_hsworkg,PRE: Initial status Homemaker/student: working now
+dem_hsjob6mo,PRE: Initial status Homemaker/student: job in last 6 mon
+dem_retiremo,PRE: RESTRICTED: Initial status retiree - when retired MONTH
+dem_retiredy,PRE: RESTRICTED: Initial status retiree - when retired DAY
+dem_retireyr,PRE: RESTRICTED: Initial status retiree - when retired YEAR
+dem_retireperiod,PRE: SUMMARY- Retiree date of retirement
+dem_everwk,PRE: Initial status unemployed/disabled: R ever work for pay
+dem_occpast,PRE: Past occupation (R ret/dis/unemp/hmkr/stud)
+dem_indpast,PRE: Past industry (R ret/dis/unemp/hmkr/stud)
+dem_semplpst,PRE: Past self-empl status (R ret/dis/unemp/hmkr/stud)
+dem_empgovpst,PRE: Past occupation: govt work (R ret/dis/unemp/hmkr/stud)
+dem_rdjob6mon,PRE: Initial status unempl/ret/disabled: job in last 6 mo
+dem_hrsrecent,PRE: Recent occupation: how many hours worked avg week
+dem_rdworkg,PRE: Initial status retired/disabled: working now
+dem_lookwk,PRE: Init status nonworkg ret/dis/unemp/hmkr/st: look for work
+dem_findjob,PRE: Init status nonworkg ret/dis/unemp/hmkr/st: worry find job
+dem_occnow,PRE: Working/TLO now - occupation- whether response given
+dem_indnow,PRE: Working/TLO - industry- whether response given
+dem_semplnow,PRE: Working/TLO now - work for self
+dem_empgovnow,PRE: Working/TLO now - work for govt
+dem_hrsnow,PRE: Working/TLO now - how many hours R works
+dem_okhrsnow,PRE: Working/TLO now - hours works OK
+dem_losejob,PRE: Working/TLO now: worry about losing job in near fute
+dem_offwork,PRE: Working now: out of work or laid off in last 6 mos
+dem_hrsreduce,PRE: Working now: had reduction in work hrs or pay cut
+dem_emptypesp_1st,PRE: FTF ONLY: Ordered spouse/partner employment status- 1st mention
+dem_emptypesp_2nd,PRE: FTF ONLY: Ordered spouse/partner employment status- 2nd mention
+dem_emptypesp_3rd,PRE: FTF ONLY: Ordered spouse/partner employment status- 3rd mention
+dem_emptypesp_4th,PRE: FTF ONLY: Ordered spouse/partner employment status- 4th mention
+dem_emptypesp_work,PRE: Spouse/partner employment status: mention working now
+dem_emptypesp_layoff,PRE: Spouse/partner employment status: mention temporarily laid off
+dem_emptypesp_unemp,PRE: Spouse/partner employment status: mention unemployed
+dem_emptypesp_retire,PRE: Spouse/partner employment status: mention retired
+dem_emptypesp_disabled,PRE: Spouse/partner employment status: mention permanently disabled
+dem_emptypesp_hmaker,PRE: Spouse/partner employment status: mention homemaker
+dem_emptypesp_student,PRE: Spouse/partner employment status: mention student
+dem_emptypesp_dkrf,PRE: Spouse/partner employment status: mention DK/RF
+dem_csesjobsp,PRE: Spouse/partner job
+dem_unionhh,PRE: Anyone in HH belong to labor union
+dem_unionwho_1st,PRE: FTF ONLY: Ordered who belongs to labor union- 1st mention
+dem_unionwho_2nd,PRE: FTF ONLY: Ordered who belongs to labor union- 2nd mention
+dem_unionwho_r,PRE: Who belongs to labor union: mention Respondent
+dem_unionwho_spouse,PRE: Who belongs to labor union: mention spouse
+dem_unionwho_personoth,PRE: Who belongs to labor union: mention another person
+dem_unionwho_dkrf,PRE: Who belongs to labor union: mention DK/RF
+dem_class,PRE: Think of self as belonging to class
+dem_whichclass,PRE: Social Class: working or middle
+dem_whichclass_othtxt,PRE: Other specify- Social Class: working or middle
+dem_chclass,PRE: Social Class: had to choose working/middle
+dem_chclass_othtxt,PRE: Other specify- Social Class: had to choose working/middle
+dem_avgclass,PRE: Social class: average or upper working/middle class
+dem_avgclass_othtxt,PRE: Other specify- Social class: avg or upper working/middle class
+dem_hisp,"PRE: R: Are you Spanish, Hispanic, or Latino"
+dem_hisptyp_1st,PRE: FTF ONLY: Ordered mentions Hispanic type - 1st mention
+dem_hisptyp_2nd,PRE: FTF ONLY: Ordered mentions Hispanic type - 2nd mention
+dem_hisptyp_mex,PRE: R: Which Hispanic group are you- mention Mexican
+dem_hisptyp_mexam,PRE: R: Which Hispanic group are you- mention Mexican-American
+dem_hisptyp_chicano,PRE: R: Which Hispanic group are you- mention Chicano
+dem_hisptyp_puertorican,PRE: R: Which Hispanic group are you- mention Puerto Rican
+dem_hisptyp_cuban,PRE: R: Which Hispanic group are you- mention Cuban
+dem_hisptyp_cubanam,PRE: R: Which Hispanic group are you- mention Cuban-American
+dem_hisptyp_othhisp,PRE: R: Which Hispanic group are you- mention other Hispanic
+dem_hisptyp_dkrf,PRE: R: Which Hispanic group are you- DK/RF
+dem_hispoth,PRE: RESTRICTED: R other Hispanic group
+dem_hispmost,PRE: R: Hispanic group R most identifies with
+dem_hispmost_oth,PRE: RESTRICTED: Other specify- Hispanic group R most identifies with
+dem_racecps_1st,PRE: RESTRICTED: FTF ONLY: Ordered race self-identification: 1st mention
+dem_racecps_2nd,PRE: RESTRICTED: FTF ONLY: Ordered race self-identification: 2nd mention
+dem_racecps_3rd,PRE: RESTRICTED: FTF ONLY: Ordered race self-identification: 3rd mention
+dem_racecps_white,PRE: Race self-identification: mention White
+dem_racecps_black,PRE: Race self-identification: mention Black
+dem_racecps_native,PRE: RESTRICTED: Race self-identification: mention Native American
+dem_racecps_asian,PRE: RESTRICTED: Race self-identification: mention Asian
+dem_racecps_pacif,PRE: RESTRICTED: Race self-identification: mention Pacific Islander
+dem_racecps_othrace,PRE: Race self-identification: mention other race
+dem_racecps_racedkrf,PRE: Race self-identification: DK/RF
+dem_racecps_oth,PRE: RESTRICTED: Other specify- Race self-identification
+dem_raceeth,PRE: SUMMARY- R race and ethnicity group
+dem_ethnic,PRE: RESTRICTED: Ethnic or nationality group
+dem_numeth,PRE: FTF ONLY: IWR CHECKPOINT: number of ethnic mentions
+dem_mosteth,PRE: RESTRICTED: Ethnic group most close
+dem_parents,PRE: Native status of parents
+dem_nativity,"PRE: Rs: born U.S., Puerto Rico, or some other country"
+dem_nativity_oth,"PRE: RESTRICTED: Oth spec- R: born U.S., Puerto Rico, or other country"
+dem_hispgpar,PRE: LATINO Rs: how many grandparents born outside the U.S.
+dem_hispcntry,PRE: RESTRICTED: LATINO Rs: country of Latino heritage
+dem_hispcntry_oth,PRE: RESTRICTED: Other specify- LATINO Rs: country of Latino heritage
+dem_arr,PRE: RESTRICTED: NON-US BORN Rs: When did R arrive in U.S.
+dem_arrperiod,PRE: NON-US BORN Rs: Time period when R arrived in U.S.
+dem_cit,PRE: RESTRICTED: NON-US BORN Rs: In what year did R become a U.S. citizen
+dem_citperiod,PRE: NON-US BORN Rs: Time period when R became citizen
+dem_hisplang,PRE: LATINO Rs: language at home
+dem2_ch10less,PRE: How many children in HH age 10 or younger
+dem2_ch11to17,PRE: How many children in HH age 11-17
+dem2_numchild,PRE: Total Number of children in HH
+dem2_schenrl_1st,PRE: FTF ONLY: Ordered school enrollment of child(ren)- 1st mention
+dem2_schenrl_2nd,PRE: FTF ONLY: Ordered school enrollment of child(ren)- 2nd mention
+dem2_schenrl_3rd,PRE: FTF ONLY: Ordered school enrollment of child(ren)- 3rd mention
+dem2_schenrl_public,PRE: School enrollment of child(ren)- mention public
+dem2_schenrl_privrel,PRE: School enrollment of child(ren)- mention private religious
+dem2_schenrl_privnonrel,PRE: School enrollment of child(ren)- mention private nonreligious
+dem2_schenrl_home,PRE: School enrollment of child(ren)- mention home school
+dem2_schenrl_enrollno,PRE: School enrollment of child(ren)- mention no enrollment
+dem2_schenrl_enrolldkrf,PRE: School enrollment of child(ren)- DK/RF
+dem2_inethome,PRE: Internet use at home
+dem2_inettyp,PRE: Broadband or dial-up home Internet connection
+dem2_landline,PRE: Number of landline telephone numbers at home
+dem2_cellnum,PRE: Number of cell phone numbers in household
+dem2_cellpers,PRE: Does R personally have a cell phone
+dem2_smartph,PRE: Is R's cell phone a smartphone
+dem3_grewup,PRE: Where R grew up (STATE OR COUNTRY)
+dem3_yearscomm,PRE: How long lived in this community YRS
+dem3_moscomm,PRE: RESTRICTED: How long lived in this community MONTHS
+dem3_prevzip,PRE: RESTRICTED: Zip Code of previous residence
+dem3_prevcty,PRE: RESTRICTED: City/state of previous residence
+dem3_ownhome,PRE: Does R family own/rent home
+dem3_ownhome_othtxt,PRE: Other specify- Does R family own/rent home
+dem3_namech,PRE: Name ever changed
+dem3_namechyr,PRE: RESTRICTED: Year of most recent change
+dem3_altname,PRE: Use of alternate names
+dem3_lenaddr,PRE: Years R lived at address
+dem3_add5yr_state,"PRE: RESTRICTED: If R has lived in current state <5yrs, R state 5 yrs ago"
+dem3_add5yr_samestate,"PRE: If R has lived in current state <5yrs, R state 5 yrs ago same"
+dem3_driver,PRE: Does R have unexpired Driver's License
+dem3_passport,PRE: Does R have passport
+dem3_govtid,PRE: Does R have government issued ID
+casistart_iwrset4,PRE: FTF CASI ONLY: SETUP TEST- Does R have a dog
+casistart_iwrset6,PRE: FTF CASI ONLY: SETUP TEST- What R ate for breakfast
+selfgend_gender,PRE: FTF CASI ONLY: are you (R) male or female (not IWR obs)
+wealth_stocks,PRE: CASI/WEB Has R ever nvested in Stock Market
+wealth_whoinvest,PRE: CASI/WEB R stock market investment through work
+wealth_vachome,PRE: CASI/WEB Has R ever owned vacation home
+wealth_ownrental,PRE: CASI/WEB Has R ever owned property that you rented
+wealth_stockgrnts,PRE: CASI/WEB Has R every been awarded stock grants or options
+wealth_undland,PRE: CASI/WEB Has R ever owned underdeveloped land
+wealth_investbus,PRE: CASI/WEB Has R ever invested in someone's business
+inc_totinc,PRE: RESTRICTED: CASI WEB Total income amount
+inc_totmiss40,PRE: CASI/WEB Total income amt missing - is it ge or lt 40K
+inc_totmiss20,PRE: CASI/WEB Total income amt missing - is it ge or lt 20K
+inc_totl20,PRE: CASI/WEB Total income amt missing - is it categories lt 20K
+inc_totg20l40,PRE: CASI/WEB Total income amt missing - is it categories 20-40K
+inc_totmiss70,PRE: CASI/WEB Total income amt missing - is it ge or lt 70K
+inc_totg40l70,PRE: CASI/WEB Total income amt missing - is it categories 40-70K
+inc_totmiss100,PRE: CASI/WEB Total income amt missing - is it ge or lt 100K
+inc_totg70l100,PRE: CASI/WEB Total income amt missing - is it categories 70-100K
+inc_totg100,PRE: CASI/WEB Total income amt missing - is it categories 100+K
+inc_incgroup_pre,PRE: CASI/WEB: SUMARY- Pre family income (see also: incgroup_prepost)
+medsrc_campsrcs_1st,PRE: FTF CASI ONLY: Ordr'd med srces R followd abt the Pres: 1st mentn
+medsrc_campsrcs_2nd,PRE: FTF CASI ONLY: Ordr'd med srces R followd abt the Pres: 2nd mentn
+medsrc_campsrcs_3rd,PRE: FTF CASI ONLY: Ordr'd med srces R followd abt the Pres: 3rd mentn
+medsrc_campsrcs_4th,PRE: FTF CASI ONLY: Ordr'd med srces R followd abt the Pres: 4th mentn
+medsrc_campsrcs_5th,PRE: FTF CASI ONLY: Ordr'd med srces R followd abt the Pres: 5th mentn
+medsrc_campsrcs_tvnews,PRE: CASI/WEB Media srces R followed about the Pres: mention TV news
+medsrc_campsrcs_newsp,PRE: CASI/WEB Media srces R foll'd about the Pres: mention newspapers
+medsrc_campsrcs_tvtalk,PRE: CASI/WEB Media srces R foll'd abt the Pres: mention TV talk shows
+medsrc_campsrcs_inet,PRE: CASI/WEB Media sources R followed about the Pres: mention Intnet
+medsrc_campsrcs_radio,PRE: CASI/WEB Media sources R followed about the Pres: mention radio
+medsrc_campsrcs_none,PRE: CASI/WEB Media sources R followed about the Pres: none
+medsrc_campsrcs_dkrf,PRE: CASI/WEB Media sources R followed about the Pres: DK/RF
+medsrc_tvprog_01_screen,PRE: CASI/WEB screen number of TV prog 20/20
+medsrc_tvprog_02_screen,PRE: CASI/WEB screen number of TV prog 60 Minutes
+medsrc_tvprog_03_screen,PRE: CASI/WEB screen number of TV prog ABC News Nightline
+medsrc_tvprog_04_screen,PRE: CASI/WEB screen number of TV prog ABC World News Tonight
+medsrc_tvprog_05_screen,PRE: CASI/WEB screen number of TV prog America Live
+medsrc_tvprog_06_screen,PRE: CASI/WEB screen number of TV prog America This Morning
+medsrc_tvprog_07_screen,PRE: CASI/WEB screen number of TV prog America's Newsroom
+medsrc_tvprog_08_screen,PRE: CASI/WEB screen number of TV prog American Idol
+medsrc_tvprog_09_screen,PRE: CASI/WEB screen number of TV prog Anderson Cooper
+medsrc_tvprog_10_screen,PRE: CASI/WEB screen number of TV prog The Big Bang Theory
+medsrc_tvprog_11_screen,PRE: CASI/WEB screen number of TV prog CBS Evening News
+medsrc_tvprog_12_screen,PRE: CASI/WEB screen number of TV prog CBS This Morning
+medsrc_tvprog_13_screen,PRE: CASI/WEB screen number of TV prog Chris Matthews Show
+medsrc_tvprog_14_screen,PRE: CASI/WEB screen number of TV prog Colbert Report
+medsrc_tvprog_15_screen,PRE: CASI/WEB screen number of TV prog Daily Show with Jon Stewart
+medsrc_tvprog_16_screen,PRE: CASI/WEB screen number of TV prog Dancing with the Stars
+medsrc_tvprog_17_screen,PRE: CASI/WEB screen number of TV prog Dateline NBC
+medsrc_tvprog_18_screen,PRE: CASI/WEB screen number of TV prog Doctors
+medsrc_tvprog_19_screen,PRE: CASI/WEB screen number of TV prog The Ellen DeGeneres Show
+medsrc_tvprog_20_screen,PRE: CASI/WEB screen number of TV prog Face the Nation
+medsrc_tvprog_21_screen,PRE: CASI/WEB screen number of TV prog The Five
+medsrc_tvprog_22_screen,PRE: CASI/WEB screen number of TV prog Fox Report
+medsrc_tvprog_23_screen,PRE: CASI/WEB screen number of TV prog Frontline
+medsrc_tvprog_24_screen,PRE: CASI/WEB screen number of TV prog Good Morning America
+medsrc_tvprog_25_screen,PRE: CASI/WEB screen number of TV prog Hannity
+medsrc_tvprog_26_screen,PRE: CASI/WEB screen number of TV prog Huckabee
+medsrc_tvprog_27_screen,PRE: CASI/WEB screen number of TV prog Insider
+medsrc_tvprog_28_screen,PRE: CASI/WEB screen number of TV prog Jimmy Kimmel Live
+medsrc_tvprog_29_screen,PRE: CASI/WEB screen number of TV prog Key & Peele
+medsrc_tvprog_30_screen,PRE: CASI/WEB screen number of TV prog Late Late Show w/Craig Ferguson
+medsrc_tvprog_31_screen,PRE: CASI/WEB screen number of TV prog Late Show with David Letterman
+medsrc_tvprog_32_screen,PRE: CASI/WEB screen number of TV prog Meet the Press
+medsrc_tvprog_33_screen,PRE: CASI/WEB screen number of TV prog The Mentalist
+medsrc_tvprog_34_screen,PRE: CASI/WEB screen number of TV prog NBC Nightly News
+medsrc_tvprog_35_screen,PRE: CASI/WEB screen number of TV prog NCIS
+medsrc_tvprog_36_screen,PRE: CASI/WEB screen number of TV prog O'Reilly Factor
+medsrc_tvprog_37_screen,PRE: CASI/WEB screen num of TV prog On the Record w/Greta Van Susteren
+medsrc_tvprog_38_screen,PRE: CASI/WEB screen number of TV prog Person of Interest
+medsrc_tvprog_39_screen,PRE: CASI/WEB screen number of TV prog Rock Center with Brian Williams
+medsrc_tvprog_40_screen,PRE: CASI/WEB screen number of TV prog Saturday Night Live
+medsrc_tvprog_41_screen,PRE: CASI/WEB screen number of TV prog Special Report with Bret Baier
+medsrc_tvprog_42_screen,PRE: CASI/WEB screen number of TV prog Tavis Smiley
+medsrc_tvprog_43_screen,PRE: CASI/WEB screen number of TV prog Sunday Morning
+medsrc_tvprog_44_screen,PRE: CASI/WEB screen number of TV prog The View
+medsrc_tvprog_45_screen,PRE: CASI/WEB screen number of TV prog This Week
+medsrc_tvprog_46_screen,PRE: CASI/WEB screen number of TV prog Today Show
+medsrc_tvprog_47_screen,PRE: CASI/WEB screen number of TV prog The Voice
+medsrc_tvprog_48_screen,PRE: CASI/WEB screen number of TV prog The Talk
+medsrc_tvprog_49_screen,PRE: CASI/WEB screen number of TV prog Al Punto
+medsrc_tvprog_50_screen,PRE: CASI/WEB screen number of TV prog Al Rojo Vivo
+medsrc_tvprog_51_screen,PRE: CASI/WEB screen number of TV prog Aqui y Ahora
+medsrc_tvprog_52_screen,PRE: CASI/WEB screen number of TV prog CNN en Espanol
+medsrc_tvprog_53_screen,PRE: CASI/WEB screen number of TV prog Despierta America
+medsrc_tvprog_54_screen,PRE: CASI/WEB screen number of TV prog ElGordo y La Flaca
+medsrc_tvprog_55_screen,PRE: CASI/WEB screen number of TV prog Enfoque
+medsrc_tvprog_56_screen,PRE: CASI/WEB screen number of TV prog Hoy
+medsrc_tvprog_57_screen,PRE: CASI/WEB screen number of TV prog Lo Mejor de Caso Cerrado
+medsrc_tvprog_58_screen,PRE: CASI/WEB screen number of TV prog Noticiero Enrique Gratas
+medsrc_tvprog_59_screen,PRE: CASI/WEB screen number of TV prog Noticiero Telemundo
+medsrc_tvprog_60_screen,PRE: CASI/WEB screen number of TV prog Noticiero Univision
+medsrc_tvprog_61_screen,PRE: CASI/WEB screen number of TV prog Pa'lante con Cristiana
+medsrc_tvprog_62_screen,PRE: CASI/WEB screen number of TV prog Pequenos Gigantes
+medsrc_tvprog_63_screen,PRE: CASI/WEB screen number of TV prog Primer Impacto
+medsrc_tvprog_64_screen,PRE: CASI/WEB screen number of TV prog Sabado Gigante
+medsrc_tvprog_01,PRE: CASI/WEB Which tv programs R watches regularly: mention 20/20
+medsrc_tvprog_02,PRE: CASI/WEB Which tv progs R watches regularly: mention 60 Minutes
+medsrc_tvprog_03,PRE: CASI/WEB Wch tv prgs R watches reg'ly: mention ABC News Nightline
+medsrc_tvprog_04,PRE: CASI/WEB Wch tv prgs R watch reg'ly: mentn ABC World News Tonight
+medsrc_tvprog_05,PRE: CASI/WEB Which tv progs R watches regularly: mention America Live
+medsrc_tvprog_06,PRE: CASI/WEB Wch tv prgs R watches reg'ly: mentn America This Morning
+medsrc_tvprog_07,PRE: CASI/WEB Wch tv progs R watches reg'ly: mentn America's Newsroom
+medsrc_tvprog_08,PRE: CASI/WEB Wch tv progs R watches regularly: mention American Idol
+medsrc_tvprog_09,PRE: CASI/WEB Wch tv progs R watches regularly: mentn Anderson Cooper
+medsrc_tvprog_10,PRE: CASI/WEB Wch tv progs R watches reg'ly: mentn The Big Bang Theory
+medsrc_tvprog_11,PRE: CASI/WEB Wch tv progs R watches regularly: mentn CBS Evening News
+medsrc_tvprog_12,PRE: CASI/WEB Wch tv progs R watches regularly: mentn CBS This Morning
+medsrc_tvprog_13,PRE: CASI/WEB Wch tv progs R watches reg'ly: mentn Chris Matthews Show
+medsrc_tvprog_14,PRE: CASI/WEB Wch tv progs R watches regularly: mention Colbert Report
+medsrc_tvprog_15,PRE: CASI/WEB Tv prgs R wtch reg'ly: mentn Daily Show with Jon Stewart
+medsrc_tvprog_16,PRE: CASI/WEB Wch tv progs R watch regly: mentn Dancing with the Stars
+medsrc_tvprog_17,PRE: CASI/WEB Which tv progs R watches regularly: mention Dateline NBC
+medsrc_tvprog_18,PRE: CASI/WEB Which tv programs R watches regularly: mention Doctors
+medsrc_tvprog_19,PRE: CASI/WEB Tv prgs R watches reg'ly: mentn The Ellen DeGeneres Show
+medsrc_tvprog_20,PRE: CASI/WEB Which tv progs R watches reg'ly: mention Face the Nation
+medsrc_tvprog_21,PRE: CASI/WEB Which tv programs R watches regularly: mention The Five
+medsrc_tvprog_22,PRE: CASI/WEB Which tv progs R watches regularly: mention Fox Report
+medsrc_tvprog_23,PRE: CASI/WEB Which tv programs R watches regularly: mention Frontline
+medsrc_tvprog_24,PRE: CASI/WEB Wch tv progs R watches regly: mentn Good Morning America
+medsrc_tvprog_25,PRE: CASI/WEB Which tv programs R watches regularly: mention Hannity
+medsrc_tvprog_26,PRE: CASI/WEB Which tv programs R watches regularly: mention Huckabee
+medsrc_tvprog_27,PRE: CASI/WEB Which tv programs R watches regularly: mention Insider
+medsrc_tvprog_28,PRE: CASI/WEB Wch tv progs R watches reg'ly: mention Jimmy Kimmel Live
+medsrc_tvprog_29,PRE: CASI/WEB Which tv programs R watches reg'ly: mention Key & Peele
+medsrc_tvprog_30,PRE: CASI/WEB Tv prgs R watch: The Late Late Show with Craig Ferguson
+medsrc_tvprog_31,PRE: CASI/WEB Tv prgs R watch: mention Late Show with David Letterman
+medsrc_tvprog_32,PRE: CASI/WEB Wch tv programs R watches reg'ly: mention Meet the Press
+medsrc_tvprog_33,PRE: CASI/WEB Wch tv programs R watches reg'ly: mention The Mentalist
+medsrc_tvprog_34,PRE: CASI/WEB Wch tv programs R watches reg'ly: mentn NBC Nightly News
+medsrc_tvprog_35,PRE: CASI/WEB Which tv programs R watches regularly: mention NCIS
+medsrc_tvprog_36,PRE: CASI/WEB Which tv progs R watches reg'ly: mention O'Reilly Factor
+medsrc_tvprog_37,PRE: CASI/WEB Tv prgs R watches: On the Record with Greta Van Susteren
+medsrc_tvprog_38,PRE: CASI/WEB Wch tv progs R watches reg'ly: mentn Person of Interest
+medsrc_tvprog_39,PRE: CASI/WEB Tv prgs R watch reg'ly: Rock Center with Brian Williams
+medsrc_tvprog_40,PRE: CASI/WEB Wch tv progs R watches reg'ly: mentn Saturday Night Live
+medsrc_tvprog_41,PRE: CASI/WEB Tv prgs R watches reg'ly: Special Report with Bret Baier
+medsrc_tvprog_42,PRE: CASI/WEB Which tv programs R watches reg'ly: mention Tavis Smiley
+medsrc_tvprog_43,PRE: CASI/WEB Which tv progs R watches reg'ly: mention Sunday Morning
+medsrc_tvprog_44,PRE: CASI/WEB Which tv programs R watches regularly: mention The View
+medsrc_tvprog_45,PRE: CASI/WEB Which tv programs R watches regularly: mention This Week
+medsrc_tvprog_46,PRE: CASI/WEB Which tv progs R watches regularly: mention Today Show
+medsrc_tvprog_47,PRE: CASI/WEB Which tv programs R watches reg'ly: mention The Voice
+medsrc_tvprog_48,PRE: CASI/WEB Which tv programs R watches regularly: mention The Talk
+medsrc_tvprog_49,PRE: CASI/WEB Which tv programs R watches regularly: mention Al Punto
+medsrc_tvprog_50,PRE: CASI/WEB Which tv progs R watches regularly: mention Al Rojo Vivo
+medsrc_tvprog_51,PRE: CASI/WEB Which tv progs R watches regularly: mention Aqui y Ahora
+medsrc_tvprog_52,PRE: CASI/WEB Which tv progs R watches reg'ly: mention CNN en Espanol
+medsrc_tvprog_53,PRE: CASI/WEB Wch tv progs R watches reg'ly: mention Despierta America
+medsrc_tvprog_54,PRE: CASI/WEB Wch tv progs R watches reg'ly: mentn ElGordo y La Flaca
+medsrc_tvprog_55,PRE: CASI/WEB Which tv programs R watches regularly: mention Enfoque
+medsrc_tvprog_56,PRE: CASI/WEB Which tv programs R watches regularly: mention Hoy
+medsrc_tvprog_57,PRE: CASI/WEB Wch tv prgs R watches reg'ly: Lo Mejor de Caso Cerrado
+medsrc_tvprog_58,PRE: CASI/WEB Wch tv progs R watches reg'ly: Noticiero Enrique Gratas
+medsrc_tvprog_59,PRE: CASI/WEB Which tv programs R watches reg'ly: Noticiero Telemundo
+medsrc_tvprog_60,PRE: CASI/WEB Wch tv progs R watches reg'ly: mentn Noticiero Univision
+medsrc_tvprog_61,PRE: CASI/WEB Which tv progs R watches reg'ly: Pa'lante con Cristiana
+medsrc_tvprog_62,PRE: CASI/WEB Which tv progs R watches reg'ly: mentn Pequenos Gigantes
+medsrc_tvprog_63,PRE: CASI/WEB Which tv progs R watches reg'ly: mention Primer Impacto
+medsrc_tvprog_64,PRE: CASI/WEB Which tv progs R watches reg'ly: mention Sabado Gigante
+medsrc_tvprog_none,PRE: CASI/WEB Which tv programs R watches regularly: none on screen
+medsrc_tvprog_dk,PRE: CASI/WEB Which television programs R watches regularly: screen DK
+medsrc_tvprog_rf,PRE: CASI/WEB Which television programs R watches regularly: screen RF
+medsrc_radio_01,PRE: CASI/WEB Radio prgs R lstns reg'ly: All Things Considered (NPR)
+medsrc_radio_02,PRE: CASI/WEB Radio progs R lstns reg'ly: mention The Dave Ramsey Show
+medsrc_radio_03,PRE: CASI/WEB Radio progs R lstns reg'ly: mention The Ed Shultz Show
+medsrc_radio_04,PRE: CASI/WEB Radio progs R listens regularly: mention Fresh Air (NPR)
+medsrc_radio_05,PRE: CASI/WEB Radio progs R lstns to reg'ly: mentn Glenn Beck Program
+medsrc_radio_06,PRE: CASI/WEB Radio prgs R lstns reg'ly: mentn The Laura Ingraham Show
+medsrc_radio_07,PRE: CASI/WEB Radio progs R listens reg'ly: mentn The Mark Levin Show
+medsrc_radio_08,PRE: CASI/WEB Radio progs R lstns reg'ly: mentn Morning Edition (NPR)
+medsrc_radio_09,PRE: CASI/WEB Radio progs R listens reg'ly: mentn The Neal Boortz Show
+medsrc_radio_10,PRE: CASI/WEB Radio prgs R lstns reg'ly: mentn The Power (Joe Madison)
+medsrc_radio_11,PRE: CASI/WEB Radio progs R lstns reg'ly: mentn The Rush Limbaugh Show
+medsrc_radio_12,PRE: CASI/WEB Radio prgs R lstns: The Savage Nation (Michael Savage)
+medsrc_radio_13,PRE: CASI/WEB Radio progs R lstns reg'ly: mentn The Sean Hannity Show
+medsrc_radio_14,PRE: CASI/WEB Radio progs R listens reg'ly: Talk of the Nation (NPR)
+medsrc_radio_15,PRE: CASI/WEB Radio progs R listens reg'ly: The Thom Hartmann Program
+medsrc_radio_none,PRE: CASI/WEB Radio progs R listens reg'ly: none of the above selected
+medsrc_radio_dkrf,PRE: CASI/WEB Which radio programs R listens to regularly: DK/RF
+medsrc_websites_01,PRE: CASI/WEB Wch websites R visits reg'ly: ABC News (abcnews.go.com)
+medsrc_websites_02,PRE: CASI/WEB Which web sites R visits regularly: CNN (cnn.com)
+medsrc_websites_03,PRE: CASI/WEB Wbsites R visits regly: Drudge Report (drudgereport.com)
+medsrc_websites_04,PRE: CASI/WEB Which web sites R visits regularly: Forbes (forbes.com)
+medsrc_websites_05,PRE: CASI/WEB Which web sites R visits reg'ly: Fox News (foxnews.com)
+medsrc_websites_06,PRE: CASI/WEB Websites R visits: Good Morning America (gma.yahoo.com)
+medsrc_websites_07,PRE: CASI/WEB Wch sites R visits reg'ly: Google News (news.google.com)
+medsrc_websites_08,PRE: CASI/WEB Websites R visits: Huffington Post (huffingtonpost.com)
+medsrc_websites_09,PRE: CASI/WEB Sites R visits reg'ly: Los Angeles Times (latimes.com)
+medsrc_websites_10,PRE: CASI/WEB Which web sites R visits reg'ly: MSNBC (msnbc.msn.com)
+medsrc_websites_11,PRE: CASI/WEB Wch sites R visits reg'ly: New York Times (nytimes.com)
+medsrc_websites_12,PRE: CASI/WEB Sites R visits reg'ly: Today Show (today.msnbc.msn.com)
+medsrc_websites_13,PRE: CASI/WEB Wch websites R visits reg'ly: USA Today (usatoday.com)
+medsrc_websites_14,PRE: CASI/WEB Websites R visits: Washington Post (washingtonpost.com)
+medsrc_websites_15,PRE: CASI/WEB Wch wbsites R visits reg'ly: Yahoo News (news.yahoo.com)
+medsrc_websites_othweb,PRE: CASI/WEB Which websites R visits regularly: mention other website
+medsrc_websites_othtxt,PRE: CASI/WEB Other specify- Which web sites R visits regularly
+medsrc_websites_none,PRE: CASI/WEB Which sites R visits reg'ly: none of the above selected
+medsrc_websites_dkrf,PRE: CASI/WEB Which web sites R visits regularly: DK/RF
+medsrc_printnews_01,PRE: CASI/WEB Print papers R reads: New York Times/ www.nytimes.com
+medsrc_printnews_02,PRE: CASI/WEB Print papers R reads reg'ly: USA Today/ www.usatoday.com
+medsrc_printnews_03,PRE: CASI/WEB Print paprs R reads: Wall Street Journal/ online.wsj.com
+medsrc_printnews_04,PRE: CASI/WEB Pnt papr R read: Washington Post/ www.washingtonpost.com
+medsrc_printnews_05,PRE: CASI/WEB Which print papers R reads reg'ly: mention newspaper 05
+medsrc_printnews_06,PRE: CASI/WEB Which print papers R reads reg'ly: mention newspaper 06
+medsrc_printnews_07,PRE: CASI/WEB Which print papers R reads reg'ly: mention newspaper 07
+medsrc_printnews_08,PRE: CASI/WEB Which print papers R reads reg'ly: mention newspaper 08
+medsrc_printnews_09,PRE: CASI/WEB Which print papers R reads reg'ly: mention newspaper 09
+medsrc_printnews_10,PRE: CASI/WEB Which print papers R reads reg'ly: mention newspaper 10
+medsrc_printnews_11,PRE: CASI/WEB Which print papers R reads reg'ly: mention newspaper 11
+medsrc_printnews_12,PRE: CASI/WEB Which print papers R reads reg'ly: mention newspaper 12
+medsrc_printnews_13,PRE: CASI/WEB Which print papers R reads reg'ly: mention newspaper 13
+medsrc_printnews_14,PRE: CASI/WEB Which print papers R reads reg'ly: mention newspaper 14
+medsrc_printnews_15,PRE: CASI/WEB Which print papers R reads reg'ly: mention newspaper 15
+medsrc_printnews_othnews,PRE: CASI/WEB Which print papers R reads reg'ly: mention other newsp
+medsrc_printnews_none,PRE: CASI/WEB Print papers R reads reg'ly: none of the above selected
+medsrc_printnews_dkrf,PRE: CASI/WEB Which print newspapers R reads regularly: DK/RF
+medsrc_inetnews_01,PRE: CASI/WEB Onln paprs R read regly: New York Times/ www.nytimes.com
+medsrc_inetnews_02,PRE: CASI/WEB Online paprs R reads reg'ly: USA Today/ www.usatoday.com
+medsrc_inetnews_03,PRE: CASI/WEB Onlin paprs R reads: Wall Street Journal/ online.wsj.com
+medsrc_inetnews_04,PRE: CASI/WEB Onl pprs R read: Washington Post/ www.washingtonpost.com
+medsrc_inetnews_05,PRE: CASI/WEB Which online papers R reads reg'ly: mention newspaper 05
+medsrc_inetnews_06,PRE: CASI/WEB Which online papers R reads reg'ly: mention newspaper 06
+medsrc_inetnews_07,PRE: CASI/WEB Which online papers R reads reg'ly: mention newspaper 07
+medsrc_inetnews_08,PRE: CASI/WEB Which online papers R reads reg'ly: mention newspaper 08
+medsrc_inetnews_09,PRE: CASI/WEB Which online papers R reads reg'ly: mention newspaper 09
+medsrc_inetnews_10,PRE: CASI/WEB Which online papers R reads reg'ly: mention newspaper 10
+medsrc_inetnews_11,PRE: CASI/WEB Which online papers R reads reg'ly: mention newspaper 11
+medsrc_inetnews_12,PRE: CASI/WEB Which online papers R reads reg'ly: mention newspaper 12
+medsrc_inetnews_13,PRE: CASI/WEB Which online papers R reads reg'ly: mention newspaper 13
+medsrc_inetnews_14,PRE: CASI/WEB Which online papers R reads reg'ly: mention newspaper 14
+medsrc_inetnews_15,PRE: CASI/WEB Which online papers R reads reg'ly: mention newspaper 15
+medsrc_inetnews_othnews,PRE: CASI/WEB Which online papers R reads reg'ly: mention other newsp
+medsrc_inetnews_none,PRE: CASI/WEB Wch onlin paprs R reads reg'ly: none of the above selctd
+medsrc_inetnews_dkrf,PRE: CASI/WEB Which online newspapers R reads regularly: DK/RF
+medsrc_socmedia,PRE: CASI/WEB No.days in wk R uses soc media to lrn abt Pres election
+medsrc_blogs,PRE: CASI/WEB No.days in week R uses blogs to learn abt Pres election
+medsrc_specblogs_txt,PRE: CASI/WEB Which blogs R uses to learn abt Pres election
+owngun_owngun,PRE: CASI/WEB Does R own a gun
+wordsum_setb,PRE: CASI/WEB Wordsum set B (incl DKRF) CORRECT/INCORRECT
+wordsum_setd,PRE: CASI/WEB Wordsum set D (incl DKRF) CORRECT/INCORRECT
+wordsum_sete,PRE: CASI/WEB Wordsum set E (incl DKRF) CORRECT/INCORRECT
+wordsum_setf,PRE: CASI/WEB Wordsum set F (incl DKRF) CORRECT/INCORRECT
+wordsum_setg,PRE: CASI/WEB Wordsum set G (incl DKRF) CORRECT/INCORRECT
+wordsum_seth,PRE: CASI/WEB Wordsum set H (incl DKRF) CORRECT/INCORRECT
+wordsum_setj,PRE: CASI/WEB Wordsum set J (incl DKRF) CORRECT/INCORRECT
+wordsum_setk,PRE: CASI/WEB Wordsum set K (incl DKRF) CORRECT/INCORRECT
+wordsum_setl,PRE: CASI/WEB Wordsum set L (incl DKRF) CORRECT/INCORRECT
+wordsum_seto,PRE: CASI/WEB Wordsum set O (incl DKRF) CORRECT/INCORRECT
+orientn_rgay,PRE: CASI/WEB Sexual orientation of R
+orientn_knowgay,PRE: CASI/WEB Sexual orientation of family and friends
+preknow_prestimes,PRE: CASI/WEB Polit knowledge: number times can be elected (incl DKRF)
+preknow_sizedef,PRE: CASI/WEB Political knowledge: size of federal deficit (incl DKRF)
+preknow_senterm,PRE: Years Senator Elected (incl DKRF)
+preknow_medicare,PRE: CASI/WEB Political knowledge: What is Medicare (incl DKRF)
+preknow_leastsp,PRE: CASI/WEB Political knowledge: program Fed govt spends (incl DKRF)
+happ_lifesatisf,PRE: How satisfied is R with life
+pre_iwrobs_skintone,PRE: FTF ONLY: IWR OBS: Skin tone category of respondent
+mediapo_tv,POST: Watch campaign programs on TV
+mediapo_tvamt,POST: How many campaign programs on TV
+mediapo_radio,POST: Hear radio speeches/discussn about Pres campaign
+mediapo_radioamt,POST: How many radio speech/discussn abt Pres campaign
+mediapo_nwsprev,POST: Read about Presidential campaign in newspaper
+mediapo_nwsprevamt,POST: How many stories abt Pres campaign in newspaper
+mediapo_net,POST: View/hear internet information abt Pres campaign
+mediapo_netamt,POST: How often internet info about Pres campaign
+mediapo_site,POST: Did R visit website of candidate
+mediapo_siteamt,POST: How often visited website of candidate or party
+mobilpo_party,POST: Did party contact R about 2012 campaign
+mobilpo_wparty,POST: Which party contacted R about 2012 campaign
+mobilpo_wparty_othtxt,POST: Other specify- Did party contact R about 2012 campaign
+mobilpo_contactoth,POST: Did anyone other than parties contact R about cands
+mobilpo_latino,POST: LATINO Rs: Was contact by Latino person(s)
+mobilpo_lang,POST: LATINO Rs: Was contact in Spanish or English
+mobilpo_reg,POST: Anyone talk to R abt registering or getting out to vote
+mobilpo_rmob,POST: R talk to anyone about voting for or against cand or pty
+mobilpo_rally,"POST: R go to any political meetings, rallies, speeches"
+mobilpo_sign,POST: R wear campaign button or post sign or bumper sticker
+mobilpo_otherwork,POST: R do any (other) work for party or candidate
+mobilpo_ctbcand,POST: R contribute money to specific candidate campaign
+mobilpo_ctbcndpty,POST: Party of candidate for whom R contributed money
+mobilpo_ctbcndpty_oth,POST: RESTRICTED: Other specify - party of candidate for whom R contributed money
+mobilpo_ctbpty,POST: R contribute money to political party
+mobilpo_ctbwhpty,POST: RESTRICTED: Party to which R contributed
+mobilpo_ctbwhpty_oth,POST: RESTRICTED: Other specify -party to which R contributed
+mobilpo_ctboth,POST: R contribute to any other group for/against a cand
+dhsinvolv_march,POST: DHS: Has R in past 4 years: joined a protest march
+dhsinvolv_board,POST: DHS: Has R in past 4 years: attended city/school brd
+dhsinvolv_netpetition,POST: DHS: Has R in past 4 years: sign internet petition
+dhsinvolv_petition,POST: DHS: Has Rin past 4 years: signed paper petition
+dhsinvolv_relig,POST: DHS: Has R in past 4 years: given money to relig. org
+dhsinvolv_org,POST: DHS: Has R in past 4 years: gave money to soc/pol org
+dhsinvolv_call,POST: DHS: Has R in past 4 yrs: called radio/TV about polit iss
+dhsinvolv_message,POST: DHS: sent a message on Facebook/Twitter about polit iss
+dhsinvolv_letter,POST: DHS: written a letter to newspaper/mag about polit iss
+dhsinvolv_contact1,POST: Contact U.S. Representative or Senator
+dhsinvolv_contact2_1st,POST: Who did R contact: U.S. Senator or Representative_1st mention
+dhsinvolv_contact2_2nd,POST: Who did R contact: U.S. Senator or Representative_2nd mention
+dhsinvolv_contact2_3rd,POST: Who did R contact: U.S. Senator or Representative_3rd mention
+dhsinvolv_contact2_4th,POST: Who did R contact: U.S. Senator or Representative_4th mention
+dhsinvolv_contact2_stsen,POST: Who did R contact: was it U.S. Senator from R's state
+dhsinvolv_contact2_othsen,POST: Who did R contact: was it U.S. Senator from another state
+dhsinvolv_contact2_distrep,POST: Who did R contact: was it R's district U.S. Representative
+dhsinvolv_contact2_othrep,POST: Who did R contact: was it other U.S. Representative
+dhsinvolv_contact2_dkrf,POST: Who did R contact: DK/RF
+postvote_regpre,POST: FTF ONLY: Was R registered Pre-election
+postvote_votedpre,POST: FTF ONLY: Did registered R report voting Pre-election
+postvote_prestatus_nonvtr,POST: FTF ONLY: Status of pre-election nonvoters
+postvote_regist_addr,POST: Is R registered at address of residence
+postvote_regist_noaddr,POST: WEB ONLY: Is R registered (address not determined)
+postvote_reg,POST: FTF ONLY: Other Registr. location- city and state identifiable
+postvote_reg_state,POST: FTF ONLY: Other Regist. location - state of registr. (FIPS CODE)
+postvote_reg_samestate,POST: FTF ONLY: Oth Regist. location - state same as household's (Y/N)
+postvote_regincnty,POST: Is R registered to vote in preload county (residence)
+postvote_regyrs3cat,POST: How long has R been registered at location
+postvote_regname,POST: Name under which R is registered to vote
+postvote_regpty_state,POST: Does recorded state of registration have party registration
+postvote_regpty,POST: Party of registration
+postvote_regpty_oth,POST: RESTRICTED: Other specify- Party of registration
+postvote_rvote,POST: Did R vote in the November general election
+rvote2012_x,PREPOST SUMMARY: Did R vote in November general election
+postvote_ckbcard,POST: Is Post Ballot Card correct (IF FTF: IWR CHECKPOINT)
+postvote_ballotcolor,POST: FTF ONLY: Assigned color for Ballot Card (if displayed)
+postvote_presvt,POST: Did R vote for President
+postvote_presvtwho,POST: For whom did R vote for President
+presvote2012_x,PREPOST SUMMARY: For whom did R vote for President in 2012
+postvote_presvtwho_othtxt,POST: Other specify- For whom did R vote for President
+postvote_presstr,POST: Preference strong for Pres cand for whom R voted
+postvote_vtpresdec_txt,POST: How long before election R made decision Pres vote
+postvote_vtpresdec_dkrf,POST: FTF ONLY: How lng bef electn made decisn Pres vt: DK/RF selectd
+postvote_prefpres,POST: Does R prefer Pres cand
+postvote_prefprwho,POST: Preference for Pres cand
+postvote_prefprwho_othtxt,POST: Other specify- Preference for Pres cand
+postvote_prefprstr,POST: Preference strong for Pres cand
+postvote_votehs,POST: Did R vote for U.S. House of Representatives
+postvote_hsvtbc,POST: For whom did R vote for U.S. House (Ballot Card)
+postvote_hsvtnobc,POST: For whom did R vote for U.S. House (no Ballot Card)
+postvote_hspref,POST: Does R prefer U.S. House candidate
+postvote_hsprefbc,POST: Whom does R prefer for U.S. House (Ballot Card)
+postvote_hsprefnobc,POST: Whom does R prefer for U.S. House (no Ballot Card)
+postvote_senhhstate,POST: FTF ONLY: Senate election in state of residence
+postvote_senregstate,POST: FTF ONLY: Sen elctn reg state (R not reg at resid Pre or Post)
+postvote_votesen,POST: Did R vote for U.S. Senate
+postvote_vtsenbc,POST: R's vote for U.S. Senate (Ballot Card)
+postvote_vtsennobc,POST: R's vote for U.S. Senate (no Ballot Card)
+postvote_senpref,POST: Does R prefer U.S. Senate candidate
+postvote_senprefbc,POST: Whom does R prefer for U.S. Senate (Ballot Card)
+postvote_senprefnobc,POST: Whom does R prefer for U.S. Senate (no Ballot Card)
+postvote_govhhstate,POST: FTF ONLY: Gubernatorial election in state of residence
+postvote_govregstate,POST: FTF ONLY: Gov elctn reg state (R not reg at resid Pre or Post)
+postvote_votegov,POST: Did R vote for gubernatorial candidate
+postvote_vtgovbc,POST: R's vote for governor (Ballot Card)
+postvote_vtgovnobc,POST: R's vote for governor (no Ballot Card)
+postvote_govpref,POST: Does R prefer gubernatorial candidate
+postvote_govprefbc,POST: Whom does R prefer for governor (Ballot Card)
+postvote_govprefnobc,POST: Whom does R prefer for governor (no Ballot Card)
+ptywom_bettrpty,POST: Party does better job for the interests of women
+ofcrec_speaker_txt,POST: Office recognition: Speaker of the House Boehner
+ofcrec_speakerpr,POST: FTF ONLY: Office recognition probe: Speaker of the House Boehner
+ofcrec_vp_txt,POST: Office recognition: Vice-President Biden
+ofcrec_vppr,POST: FTF ONLY: Office recognition probe: Vice-President Biden
+ofcrec_pmuk_txt,POST: Office recognition: Prime Minister of UK Cameron
+ofcrec_pmukpr,POST: FTF ONLY: Office recognition probe: Prime Minister of UK Cameron
+ofcrec_cj_txt,POST: Office recognition: US Supreme Ct Chief Justice Roberts
+ofcrec_cjpr,POST: FTF ONLY: Office recognition probe: US Supreme Ct Chief Justice
+knowl_housemaj,POST: Know party with most members in House before election
+knowl_senmaj,POST: Know party with most members in Senate before electn
+ftpo_pres,POST: Feeling thermometer: Democratic Presidential candidate
+ftpo_rpc,POST: Feeling thermometer: Republican Presidential candidate
+ftpo_rpcsp,POST: Feeling thermometer: spouse of Republican Presidential cand
+ftpo_dpcsp,POST: Feeling thermometer: spouse of Democratic Presidential cand
+ftpo_hdc,POST: Feeling thermometer: HOUSE DEMOCRATIC CANDIDATE
+ftpo_hrc,POST: Feeling thermometer: HOUSE REPUBLICAN CANDIDATE
+ftpo_hoth,POST: Feeling thermometer: HOUSE IND/3rd-PARTY CANDIDATE
+ftpo_sdc,POST: Feeling thermometer: SENATE DEMOCRATIC CANDIDATE
+ftpo_src,POST: Feeling thermometer: SENATE REPUBLICAN CANDIDATE
+ftpo_soth,POST: Feeling thermometer: SENATE IND/3rd-PARTY CANDIDATE
+ftpo_sensr,POST: Feeling thermometer: SR. SENATOR IN STATE WITHOUT RACE
+ftpo_senjr,POST: Feeling thermometer: JR. SENATOR IN STATE WITHOUT RACE
+ftpo_sennot,POST: Feeling thermometer: NONRUNNING SENATOR IN STATE W/RACE
+ftpo_dvpc,POST: Feeling thermometer: Democratic Vice Presidential cand
+ftpo_rvpc,POST: Feeling thermometer: Republican Vice Presidential cand
+ftpo_roberts,POST: Feeling thermometer: John Roberts
+ftgr_xfund,POST: Feeling thermometer: CHRISTIAN FUNDAMENTALISTS
+ftgr_catholics,POST: Feeling thermometer: CATHOLICS
+ftgr_feminists,POST: Feeling thermometer: FEMINISTS
+ftgr_fedgov,POST: Feeling thermometer: FEDERAL GOVERNMENT IN WASHINGTON
+ftgr_liberals,POST: Feeling thermometer: LIBERALS
+ftgr_middle,POST: Feeling thermometer: MIDDLE CLASS PEOPLE
+ftgr_unions,POST: Feeling thermometer: LABOR UNIONS
+ftgr_poor,POST: Feeling thermometer: POOR PEOPLE
+ftgr_military,POST: Feeling thermometer: THE MILITARY
+ftgr_bigbus,POST: Feeling thermometer: BIG BUSINESS
+ftgr_welfare,POST: Feeling thermometer: PEOPLE ON WELFARE
+ftgr_cons,POST: Feeling thermometer: CONSERVATIVES
+ftgr_working,POST: Feeling thermometer: WORKING CLASS PEOPLE
+ftgr_ussc,POST: Feeling thermometer: THE U.S. SUPREME COURT
+ftgr_gay,POST: Feeling thermometer: GAY MEN AND LESBIANS
+ftgr_congress,POST: Feeling thermometer: CONGRESS
+ftgr_rich,POST: Feeling thermometer: RICH PEOPLE
+ftgr_muslims,POST: Feeling thermometer: MUSLIMS
+ftgr_xian,POST: Feeling thermometer: CHRISTIANS
+ftgr_atheists,POST: Feeling thermometer: ATHEISTS
+ftgr_mormons,POST: Feeling thermometer: MORMONS
+ftgr_tea,POST: Feeling thermometer: TEA PARTY
+hseinc_approval,POST: Approve or disapprove of House incumbent
+hseinc_appstr,POST: How much approve House incumbent
+hseinc_disstr,POST: How much disapprove House incumbent
+hseinc_approval_x,POST: SUMMARY- House incumbent approval
+hseinc_hinctouch,POST: How good a job does House incumbent do in district
+mip_prob1_txt,POST: Mention 1 most important problems facing the country
+mip_prob1,POST: FTF ONLY: DK/RF selectd- 1st most import probs to USA (no text)
+mip_prob1pty,POST: Party to deal with mention 1 MIP
+mip_prob2_txt,POST: Mention 2 most important problems facing the country
+mip_prob2,POST: FTF ONLY: DK/RF selectd- 2nd most import probs to USA (no text)
+mip_prob2pty,POST: Party to deal with mention 2 MIP
+mip_prob3_txt,POST: Mention 3 most important problems facing the country
+mip_prob3,POST: FTF ONLY: DK/RF selectd- 3rd most import probs to USA (no text)
+mip_prob3pty,POST: Party to deal with mention 3 MIP
+mip_mostprob_txt,POST: Which among mentions is the most important problem
+mip_mostprob,POST: FTF ONLY: DK/RF slctd- most among import probs 2 USA (no text)
+securpub_secchg,POST: Changes in security at public places
+wpres_gdbd,POST: Women President in next 20 years
+wpres_gdstr,POST: How good would it be if we had a woman President
+wpres_bdstr,POST: How bad would it be if we had a woman President
+wpres_gdbd_x,POST: SUMMARY- How good/bad woman Pres in next 20yrs
+wpres_importyes,POST: Important that woman elected president - Good
+wpres_importno,POST: Important that woman elected president --Bad
+budget_deficit,POST: Favor or oppose reducing federal deficit
+budget_deficitfav,POST: How strongly favor reducing deficit
+budget_deficitopp,POST: How strongly oppose reducing deficit
+budget_deficitlean,POST: Lean to favor or oppose deficit reduction
+budget_deficit_x,POST: SUMMARY- Favor reducing the Federal budget deficit
+budget_defimp,POST: Importance of reducing deficit
+budget_rdef250k,POST: Reduce deficit by raising personal inc tax for over 250K inc
+budget_rdefmed,POST: Reduce deficit by replacing medicare with voucher system
+budget_rdefctax,POST: Reduce deficit by increasing corporate taxes
+budget_rdefmil,POST: Reduce deficit by cutting military spending
+budget_rdefemp,POST: Reduce deficit by cutting fed employees by 10 percent
+budget_rdefgov,POST: Reduce deficit by cutting govt activities excluding military
+patriot_flag,POST: Emotion seeing flag fly
+patriot_love,POST: Love of country
+patriot_amident,POST: Important being American
+milln_milltax,POST: Favor or oppose tax on millionaires
+milln_milltaxst,POST: How strongly favor/oppose
+milln_milltax_x,POST: SUMMARY- Favor tax on millionaires
+fairjob_opin,POST: Opinion about govt ensuring fair jobs for blacks
+fairjob_opin_othtxt,POST: Other specify- opinion about fair jobs
+fairjob_yes,POST: How much feel govt should ensure fair jobs for blacks
+fairjob_no,POST: How much feel govt not ensure fair jobs for blacks
+fairjob_opin_x,POST: SUMMARY- Opinion about govt ensuring fair jobs for blacks
+imports_limit,POST: Favor or oppose limits on foreign imports
+israel_support,POST: Is U.S. too supportive of Israel or not supportive enough
+immigpo_level,POST: What should immigration levels be
+immigpo_jobs,POST: How likely immigration will take away jobs
+hlthlaw_qual,POST: Health Care Law effect on health care services
+hlthlaw_num,POST: Health Care Law effect on number insured
+iran_nukdev,POST: Iran trying to develop nuclear weapons
+iran_nukdip,POST: Try to stop Iranian nuclear dev: direct diplomatic talks
+iran_nuksanct,POST: Try to stop Iranian nuclear dev: increase sanctions
+iran_nuksite,POST: Try to stop Iranian nuclear dev: bomb development sites
+iran_nukeinvd,POST: Try to stop Iranian nuclear dev: invade with U.S. troops
+china_econ,POST: Effect of China's economic expansion on U.S.
+china_mil,POST: China military threat
+science_use,POST: How oft shd govt use scientific methods to solve imp probs
+wiretap_warrant,POST: Favor or oppose court auth for terr suspect wiretaps
+outsource_enc,POST: Should govt encourage/discourage outsourcing
+outsource_encst,POST: How much should govt encourage/discourage outsourcing
+outsource_enc_x,POST: SUMMARY- Encourage outsourcing of jobs
+ssinv_invest,POST: Favor or oppose Social Security in stocks and bonds
+ssinv_invfav,POST: How much favor Social Security in stocks and bonds
+ssinv_invopp,POST: How much oppose Social Security in stocks and bonds
+ssinv_invln,POST: R lean favor or oppose Social Security in stocks and bonds
+ssinv_invest_x,POST: SUMMARY- Favor Social Security investment in stocks and bonds
+neonull_strule,POST: Favor or oppose state decision whether federal law applies
+neonull_strulest,POST: How much favor/opp state decision whether fed law applies
+neonull_strule_x,POST: SUMMARY- Favor state decision when federal law applies to state
+pot_legal,POST: Should marijuana be legal
+tarp_favopp,POST: Does R favor or oppose the TARP program
+tarp_favoppst,POST: How much does R favor or oppose the TARP program
+tarp_favopp_x,POST: SUMMARY- Favor the TARP program
+wiretappo_toofar,POST: Has increase in govt wiretap powers gone too far
+ecperil_putoffmed,POST: Put off checkup and vaccines
+ecperil_payhlthcst,POST: Will you pay all costs
+ecperil_worry,POST: Worry about financial situation
+ecperil_home,POST: Home tenure
+ecperil_payany,POST: Any payments for home for non-owners non-renters
+ecperil_payhouse,POST: Able to make housing payments
+ecperil_lostjobs,POST: Anyone lost jobs
+libcpo_self,POST: 7pt scale liberal-Conservate: self placement
+libcpo_selfch,"POST: If had to choose, liberal or conservative"
+libcpo_hdc,POST: 7pt scale liberal-conservative: Democratic House cand
+libcpo_hrc,POST: 7pt scale liberal-conservative: Republican House cand
+abort_dpc4,POST: STD Abortion: Democratic Presidential cand placemt
+abort_dpc4_othtxt,POST: Other specify- abortion placement of Dem Pres cand
+abort_rpc4,POST: STD Abortion: Republican Presidential cand placemt
+abort_rpc4_othtxt,POST: Other specify- abortion placement of Rep Pres cand
+abort_dem4,POST: STD Abortion: Democratic party placement
+abort_dem4_othtxt,POST: Other specify- abortion placement of Dem party
+abort_rep4,POST: STD Abortion: Republican party placement
+abort_rep4_othtxt,POST: Other specify- abortion placement of Rep party
+abort_health,POST: REV Abortion: R favor/oppose legal when nonfatal health risk
+abort_healthfav,POST: REV How much R favor abortion legal for nonfatal health risk
+abort_healthopp,POST: REV How much R oppose abortn legal for nonfatal health risk
+abort_healthln,POST: REV R lean favor/opp abortion legal for nonfatal health risk
+abort_health_x,POST: SUMMARY- Favor abortion legal for nonfatal health risk of mother
+abort_fatal,POST: REV Abortion: R favor/oppose legal when fatal health risk
+abort_fatalfav,POST: REV How much R favor abortion legal for fatal health risk
+abort_fatalopp,POST: REV How much R oppose abortion legal for fatal health risk
+abort_fatalln,POST: REV R lean favor/oppose abortion legal for fatal health risk
+abort_fatal_x,POST: SUMMARY- Favor abortion legal for fatal risk of mother
+abort_incest,POST: REV Abortion: R favor/oppose legal in incest cases
+abort_incestfav,POST: REV How much R favor abortion legal in incest cases
+abort_incestopp,POST: REV How much R oppose abortion legal in incest cases
+abort_incestln,POST: REV R lean favor/oppose abortion legal in incest cases
+abort_incest_x,POST: SUMMARY- Favor abortion legal for cases of incest
+abort_rape,POST: REV Abortion: R favor/oppose legal in rape cases
+abort_rapefav,POST: REV How much R favor abortion legal in rape cases
+abort_rapeopp,POST: REV How much R oppose abortion legal in rape cases
+abort_rapelean,POST: REV R lean favor/oppose abortion legal in rape cases
+abort_rape_x,POST: SUMMARY- Favor abortion legal for cases of rape
+abort_bd,POST: REV Abortion: R favor/oppose legal in birth defect cases
+abort_bdfav,POST: REV How much R favor abortion legal in birth defect cases
+abort_bdopp,POST: REV How much R oppose abortion legal in birth defect cases
+abort_bdln,POST: REV R lean favor/oppose abortion legal in birth defect case
+abort_bd_x,POST: SUMMARY- Favor abortion legal for cases of birth defect
+abort_fin,POST: REV Abortion: R favor/oppose legal in financial hardshp cases
+abort_finfav,POST: REV How much R favor abortion legal in finan hardship cases
+abort_finopp,POST: REV How much R oppose abortion legal in finan hardship cases
+abort_finln,POST: REV Lean fav/oppose abortion legal in finan hardship cases
+abort_fin_x,POST: SUMMARY- Favor abortion legal for cases of financial hardship
+abort_sex,POST: REV Abortion: R favor/oppose legal to select child gender
+abort_sexfav,POST: REV How much R favor abortn legal to select child gender
+abort_sexopp,POST: REV How much R oppose abortn legal to select child gender
+abort_sexln,POST: REV R lean favor/opp abortn legal to select child gender
+abort_sex_x,POST: SUMMARY- Favor abortion legal to select child gender
+abort_choice,POST: Abortion: favor/oppose legal as woman's choice
+abort_choicefav,POST: How much R favor abortion legal as woman's choice
+abort_choiceopp,POST: How much R oppose abortn legal as woman's choice
+abort_choiceln,POST: R lean favor/opp abortion legal as woman's choice
+abort_choice_x,POST: SUMMARY- Favor abortion legal as woman's choice
+govrole_big,POST: Govt bigger because too involved OR bigger problems
+govrole_market,POST: Need strong govt for complex problems OR free market
+govrole_lessmore,POST: Less govt better OR more that govt should be doing
+govrole_regbus,POST: Regulation of Business
+discuss_disc,POST: Ever discuss politics with family or friends
+discuss_discpstwk,POST: Days in past week discussed politics
+mormon_xn,POST: Mormon a Christian religion
+mormon_known,POST: Mormon people you know
+mormon_beliefs,POST: Mormon common beliefs with self
+factor_rpcrel,POST: Pres cand aversion-pref factor: Mitt Romney's Mormon relig
+factor_dpcrace,POST: Pres cand aversion-pref factor: Barack Obama's race
+factor_ahcare,POST: Pcand factor: the Affordable Health Care Act or 'Obamacare'
+factor_econ,POST: Pres cand aversion-pref factor: the economy
+factor_fpol,POST: Pres cand aversion-pref factor: foreign policy
+factor_dpcrel,POST: Pres cand aversion-preference factor: Dem Pres cand relig
+factor_rpcwlth,POST: Pres cand aversion-preference factor: Mitt Romney's wealth
+factor_pcdem,POST: Pres cand aver-pref factor: the fact that Obama is Democrat
+factor_pcrep,POST: Pres cand aver-pref factor:the fact that Romney is Republican
+ptydiff_diff,POST: Important differences in what major parties stand for
+ptycons_cons,POST: Is one of the parties more conservative than the other
+ptycons_ptyconswh,POST: Which is the party that is more conservative
+scourt_elim,POST: Do away with the Supreme Court
+scourt_elimstr,POST: Do away with court - strength
+scourt_elimln,POST: Do away with court - lean
+scourt_elim_x,POST: SUMMARY- Should the Supreme Court be done away with
+scourt_remove,POST: Remove Supreme Court Judges
+scourt_removestr,POST: Remove Supreme Court Judges -- strength
+scourt_removeln,POST: Remove Supreme Court Judges - lean
+scourt_remove_x,POST: SUMMARY- Should it be possible to remove Supreme Ct judges
+involv_communwk,POST: Has R done community work in past 12 months
+involv_govoffic,POST: Has R contacted official to express view in past 12 mo
+involv_commmtg,POST: Did R attend meeting on school/community issue past 12 mo
+involv_numorgs,POST: Number of organizations in which R is a member
+involv_voltr,POST: Has R done any volunteer work in past 12 months
+involv_charity,POST: Has R contributed to church or charity in past 12 mo
+link_black,POST: Black R: life be affected by what happens to blacks
+link_blackamt,POST: Black R: how much life affected by what happens to blacks
+link_hisp,POST: Hisp R: life be affected by what happens to Hispanics
+link_hispamt,POST: Hisp R: how much life affected by what happens to Hisps
+link_white,POST: White R: life be affected by what happens to whites
+link_whiteamt,POST: White R: how much life affected by what happens to whites
+link_wom,POST: Female R: life be affected by what happens to women
+link_womamt,POST: Female R: how much life affected by what happens to women
+link_oth,POST: Life affected by what happens to other people
+link_othamt,POST: How much life affected by what happens to others
+trad_adjust,POST: Agree/disagree: world is changing and we should adjust
+trad_lifestyle,POST: Agree/disagree: newer lifestyles breaking down society
+trad_tolerant,POST: Agree/disagree: be more tolerant of other moral stds
+trad_famval,POST: Agree/disagree: more emphasis on traditional family values
+resent_workway,POST: Agree/disagree: blacks shd work way up w/o special favors
+resent_slavery,POST: Agree/disagree: past slavery make more diff for blacks
+resent_deserve,POST: Agree/disagree: blacks have gotten less than deserve
+resent_try,POST: Agree/disagree: blacks must try harder to get ahead
+trustgvpo_crook,POST: How many in government are crooked
+efficpo_complicstd,POST: [STD] Politics/govt too complicated to understand
+efficpo_undstd,POST: [STD] Good understanding of political issues
+efficpo_carestd,POST: [STD] Publ officials don't care what people think
+efficpo_saystd,POST: [STD] Have no say about what govt does
+efficpo_complicrev,POST: [REV] Politics/govt too complicatd to understand
+efficpo_undrev,POST: [REV] Good understanding of political issues
+efficpo_carerev,POST: [REV] Publ officials don't care what peopl think
+efficpo_sayrev,POST: [REV] Have no say about what govt does
+efficpo_bothside,POST: How often see both disagreeing parties as right
+electintpo_countfair,POST: Electoral integrity Post: are votes counted fairly
+electintpo_jrnlfair,POST: Electoral integrity Post: is journalist coverage fair
+electintpo_elecofffair,POST: Electoral integrity Post: are election officials fair
+electintpo_richbuy,POST: Electoral integrity Post: do the rich buy elections
+electintpo_votechc,POST: Electoral integrity Post: do voters have a genuine choice
+women_bond,POST: Easier or harder for working mother to bond with child
+women_bondea,POST: How much easier for working mother to bond with child
+women_bondha,POST: How much harder for working mother to bond with child
+women_bond_x,POST: SUMMARY- Working mother's bond with child
+women_works,POST: Better if man works and woman takes care of home
+women_worksbetter,POST: How much better if man works and woman at home
+women_worksworse,POST: How much worse if man works and woman at home
+women_works_x,POST: SUMMARY- Better if man works and woman takes care of home
+modsex_discamt,POST: Discrimination against women
+modsex_media,POST: Media pay more attention to discrimination
+modsex_mediamore,POST: How much more attn should media pay to discrim against women
+modsex_medialess,POST: How much less attn should media pay to discrim against women
+modsex_media_x,POST: SUMMARY- How much attn media should pay to discrim against women
+modsex_special,POST: Do women demanding equality seek special favors
+modsex_disc,POST: How often do hiring and promotion discriminate agst women
+modsex_prob,POST: Do women complaining about discrim cause more problems
+modsex_oppor,POST: Do women or men have more opport for achievmt in the U.S.
+modsex_menmore,POST: How much more opportunities for achievement do men have
+modsex_wommore,POST: How much more opportunities for achievement do women have
+modsex_oppor_x,POST: SUMMARY- Opportunities compared for women and men
+aapost_hire,POST: For or against preferential hiring/promotion of blacks
+aapost_hire_othtxt,POST: Other specify - for or against pref hiring/promotion of blacks
+aapost_hirefav,POST: Strength favor preferential hiring/promotion of blacks
+aapost_hireopp,POST: Strength oppose preferential hiring/promotion blacks
+aapost_hire_x,POST: SUMMARY- Favor preferential hiring and promotion of blacks
+auth_ind,POST: Child trait more important: independence or respect
+auth_cur,POST: Child trait more important: curiosity or good manners
+auth_obed,POST: Child trait more important: obedience or self-reliance
+auth_consid,POST: Child trait more important: considerate or well-behaved
+egal_equal,POST: Society should make sure everyone has equal opportunity
+egal_toofar,POST: We have gone too far pushing equal rights
+egal_bigprob,POST: Its a big problem that we dont give equal chance to succeed
+egal_worryless,POST: We'd be better off if worried less about equality
+egal_notbigprob,POST: Not a big problem if some have more chance in life
+egal_fewerprobs,POST: If people were treated more fairly would be fewer probs
+cog_opinions,"POST: Does R have opinions about many, some or few things"
+cog_opin,POST: Does R have fewer or more opinions than average person
+cog_opinfew,POST: R have a lot or somewhat fewer opinions than average
+cog_opinmore,POST: R have a lot or somewhat more opinions than average
+cog_opin_x,POST: SUMMARY- Number of opinions R has compared to average person
+nonmain_born,POST: Was the President born in the U.S.
+nonmain_endlife,POST: Does Health Care Act authorize end-of-life decision
+nonmain_govt911,POST: DId the U.S. government know about 9/11 in advance
+nonmain_bias,POST: Does the Administration favor blacks or whites
+nonmain_hurric,POST: Did the govt direct Katrina flooding into poor areas
+cses_exphlth,POST: CSES: Public expenditure Health
+cses_expeduc,POST: CSES: Public expenditure: eduction
+cses_expunemp,POST: CSES: Public expenditure: unemployment benefits
+cses_expdef,POST: CSES: Public expenditure: defense
+cses_expss,POST: CSES: Public expenditure: pensions
+cses_expbusind,POST: CSES: Public expenditure: business and industry
+cses_exppolc,POST: CSES: Public expenditure: police and law enforcement
+cses_expwelf,POST: CSES: Public expenditure: welfare benefits
+cses_impstdliv,POST: CSES: CSES: Improving standard of living
+cses_econ,POST: CSES: State of economy
+cses_econb,POST: CSES: State of economy better
+cses_econw,POST: CSES: State of economy worse
+cses_govtact,POST: CSES: Govt action income inequality
+cses_diffpower,POST: CSES: 5pt scale: make a difference who is in power
+cses_diffvote,POST: CSES: 5pt scale: make a difference who one votes for
+cses_dptylike,POST: CSES: 10pt scale: like-dislike Democratic Party
+cses_rptylike,POST: CSES: 10pt scale: like-dislike Republican Party
+cses_rpclike,POST: CSES: 10pt scale: like-dislike Republican Pres cand
+cses_dpclike,POST: CSES: 10pt scale: like-dislike Democratic Pres cand
+cses_dptyleft,POST: CSES: 10pt scale: left-right Democratic Party
+cses_rptyleft,POST: CSES: 10pt scale: left-right Republican Party
+cses_selfleft,POST: CSES: 10pt scale: left-right self placement
+cses_satisdem,POST: CSES: Satisfied with way democracy works in the U.S
+cses_closepty,POST: CSES: Close to any political party
+cses_ptymore,POST: CSES: Closer to one party
+cses_ptyclost,POST: CSES: Which party R is closest to
+cses_ptyclost_oth,POST: RESTRICTED: CSES: Party closest to
+cses_degclose,POST: CSES: Degree closeness
+cses_contct,POST: CSES: Mobilization: institutional contact
+cses_ftf,POST: CSES: Mobilization: institutional contact - in person
+cses_mail,POST: CSES: Mobilization: institutional contact - by mail
+cses_phone,POST: CSES: Mobilization: institutional contact - by phone
+cses_txtmsg,POST: CSES: Mobilization: institutional contact - text messaging
+cses_email,POST: CSES: Mobilization: institutional contact - email
+cses_socnet,POST: CSES: Mobilization: institutional contact - social network
+cses_ptycont_1st,POST: FTF ONLY: CSES: Mobilization: institutional contact mention 1
+cses_ptycont_2nd,POST: FTF ONLY: CSES: Mobilization: institutional contact mention 2
+cses_ptycont_3rd,POST: FTF ONLY: CSES: Mobilization: institutional contact mention 3
+cses_ptycont_4th,POST: FTF ONLY: CSES: Mobilization: institutional contact mention 4
+cses_ptycont_5th,POST: FTF ONLY: CSES: Mobilization: institutional contact mention 5
+cses_ptycont_dc,POST: CSES: Mobilization: institutional contact Democratic candidate
+cses_ptycont_rc,POST: CSES: Mobilization: institutional contact Republican candidate
+cses_ptycont_dp,POST: CSES: Mobilization: institutional contact Democratic party
+cses_ptycont_rp,POST: CSES: Mobilization: institutional contact Republican party
+cses_ptycont_othcont,POST: CSES: Mobilization: institutional contact Other
+cses_ptycont_othtxt,POST: Other Specify- CSES Mobilization: institutional contact
+cses_ptycont_dkrf,POST: CSES: Mobilization: institutional contact DK/RF
+cses_persuade,POST: CSES: Mobilization: personal contact
+cses_persftf,POST: CSES: Mobilization: personal contact - in person
+cses_persmail,POST: CSES: Mobilization: personal contact - by mail
+cses_persph,POST: CSES: Mobilization: personal contact - by phone
+cses_perstxt,POST: CSES: Mobilization: personal contact - text message
+cses_perseml,POST: CSES: Mobilization: personal contact - email
+cses_persweb,POST: CSES: Mobilization: personal contact - social network
+cses_mobph,POST: CSES: Mobilization: sign up online information or alerts
+cses_poliinfone,POST: CSES: Political information - Secy Treasury
+cses_polinftwo_rate,POST: CSES: Political information - number used for unemployment rate
+cses_polinftwo_date,POST: CSES: Political information - date used for date of unempl rate
+cses_polinftwo,POST: CSES: Political information - unemployment rate
+cses_poliinfthree,POST: CSES: Political information - party 2nd in House seats won
+cses_poliinffour,POST: CSES: Political information - Secy of the U.N.
+cses_increduc,POST: CSES: Household income in next 12 months
+cses_ownresid,POST: CSES: Ownership: residence
+cses_ownoth,POST: CSES: Ownership: real estate
+cses_ownstck,POST: CSES: Ownership: stocks or bonds
+cses_ownsavg,POST: CSES: Ownership: savings
+cses_diffjob,POST: CSES: R find another job
+cses_spdiffjb,POST: CSES: Spouse/partner find another job
+dhs_threat,POST: DHS: Does federal govt pose a threat to citizens
+dhs_threatamt,POST: DHS: How much of a threat does federal govt pose to citizens
+dhs_appterr,POST: DHS: Approve/disappr govt efforts to reduce terrorism
+dhs_appterrmch,POST: DHS: How much approve efforts to reduce terrorism
+dhs_disterrmch,POST: DHS: How much disapprove efforts to reduce terrorism
+dhs_attack,POST: DHS: Likely terrorist attack killing 100/more in nxt yr
+dhs_torture,POST: DHS: Favor or oppose torture for suspected terrorists
+dhs_torturefav,POST: DHS: How much favor torture for suspected terrorists
+dhs_tortureopp,POST: DHS: How much oppose torture for suspected terrorists
+pohisp_hispnews,POST: HISPANIC: news in English or Spanish
+pohisp_hispnews_othtxt,POST: HISPANIC: Other specify- news in English or Spanish
+pohisp_uselang,POST: HISPANIC: how much R uses English or Spanish
+pohisp_renglish,POST: HISPANIC : not English-only -converse well in English
+pohisp_renglish_othtxt,POST: HISPANIC: Oth spec- how well speak in English (not English only)
+pohisp_rspanish,POST: HISPANIC: not Spanish-only: converse well in Spanish
+pohisp_rspanish_othtxt,POST: HISPANIC: Oth spec- how well speak in Spanish (not Spanish only)
+pohisp_keepspan,POST: HISPANIC: how important to speak Spanish
+pohisp_readeng,POST: HISPANIC: how impt to read and write English in U.S.
+pohisp_speakeng,POST: HISPANIC: how important to speak English in US
+pohisp_impassim,POST: HISPANIC: how important to blend in
+pohisp_impdistinct,POST: HISPANIC: how important to maintain culture
+pohisp_cnctcntry,POST: HISPANIC: how often contact with ancestral country
+pohisp_viscntry,POST: HISPANIC: how often visit ancestral country
+pohisp_moneycntry,POST: HISPANIC: how often send money ancestral country
+pohisp_polcntry,POST: HISPANIC: attn to politics in ancestral country
+pohisp_votecntry,POST: HISPANIC: did R ever vote in ancestral country
+casistartpo_iwrset4,POST: FTF CASI ONLY: SETUP TEST- Does R have a dog
+casistartpo_iwrset6,POST: FTF CASI ONLY: SETUP TEST- What R ate for breakfast
+ftcasi_asian,POST: CASI/WEB: Feeling thermometer: ASIAN-AMERICANS
+ftcasi_hisp,POST: CASI/WEB: Feeling thermometer: HISPANICS
+ftcasi_black,POST: CASI/WEB: Feeling thermometer: BLACKS
+ftcasi_illegal,POST: CASI/WEB: Feeling thermometer: ILLEGAL IMMIGRANTS
+ftcasi_white,POST: CASI/WEB: Feeling thermometer: WHITES
+racecasi_infwhite,POST: CASI/WEB: How much influence do whites have in U.S. politics
+racecasi_infblacks,POST: CASI/WEB: How much influence do blacks have in U.S. politics
+racecasi_infhisp,POST: CASI/WEB: How much influence do Hisp have in U.S. politics
+racecasi_sympblacks,POST: CASI/WEB: How often has felt sympathy for blacks
+racecasi_admblacks,POST: CASI/WEB: How often has felt admiration for blacks
+ident_hispid,POST: CASI/WEB: How important is being Hispanic to identity
+ident_whiteid,POST: CASI/WEB: How important is being White to identity
+ident_blackid,POST: CASI/WEB: How important is being Black to identity
+ident_nativeid,POST: RESTRICTED: CASI/WEB: How important is being Native Am to identity
+ident_asianid,POST: RESTRICTED: CASI/WEB: How important is being Asian to identity
+ident_pacifid,POST: RESTRICTED: CASI/WEB: How important is being Pacific Islander to identity
+ident_otherid,POST: CASI/WEB: How important is being Other to identity
+ident_religid_group,POST: CASI/WEB: Religious group for importance of religious identity
+ident_religid,POST: CASI/WEB: How important is religious identification to identity
+ident_amerid,POST: CASI/WEB: How important is being American to identity
+ineqinc_ineqgb,POST: CASI/WEB: Is increased income inequality in U.S. good
+ineqinc_ineqreduc,POST: CASI/WEB: Does R favor-oppose govt reducing income ineqality
+stype_hwkwhite,POST: CASI/WEB: stereotype: Whites hardworking
+stype_hwkblack,POST: CASI/WEB: Stereotype: Blacks hardworking
+stype_hwkhisp,POST: CASI/WEB: Stereotype: Hispanics hardworking
+stype_hwkasian,POST: CASI/WEB: Stereotype: Asians hardworking
+stype_intwhite,POST: CASI/WEB: Stereotype: Whites intelligent
+stype_intblack,POST: CASI/WEB: Stereotype: Blacks intelligent
+stype_inthisp,POST: CASI/WEB: Stereotype: Hispanics intelligent
+stype_intasian,POST: CASI/WEB: Stereotype: Asians intelligent
+tipi_extra,"POST: CASI/WEB: TIPI extraverted, enthusiastic"
+tipi_crit,"POST: CASI/WEB: TIPI critical, quarrelsome"
+tipi_dep,"POST: CASI/WEB: TIPI dependable, self-disciplined"
+tipi_anx,"POST: CASI/WEB: TIPI anxious, easily upset"
+tipi_open,POST: CASI/WEB: TIPI open to new experiences
+tipi_resv,"POST: CASI/WEB: TIPI reserved, quiet"
+tipi_warm,"POST: CASI/WEB: TIPI sympathetic, warm"
+tipi_disorg,"POST: CASI/WEB: TIPI disorganized, careless"
+tipi_calm,"POST: CASI/WEB: TIPI calm, emotionally stable"
+tipi_conv,"POST: CASI/WEB: TIPI conventional, uncreative"
+incpo_totinc,POST: RESTRICTED: CASI/WEB: WEB Total income amount
+incpo_totmiss40,POST: CASI/WEB: Total income amt missing - is it ge or lt 40K
+incpo_totmiss20,POST: CASI/WEB: Total income amt missing - is it ge or lt 20K
+incpo_totl20,POST: CASI/WEB: Total income amt missing - is it categories lt 20K
+incpo_totg20l40,POST: CASI/WEB: Total income amt missing - is it categories 20-40K
+incpo_totmiss70,POST: CASI/WEB: Total income amt missing - is it ge or lt 70K
+incpo_totg40l70,POST: CASI/WEB: Total income amt missing - is it categories 40-70K
+incpo_totmiss100,POST: CASI/WEB: Total income amt missing - is it ge or lt 100K
+incpo_totg70l100,POST: CASI/WEB: Total income amt missng - is it categories 70-100K
+incpo_totg100,POST: CASI/WEB: Total income amt missing - is it categories 100+K
+incgroup_prepost,CASI/WEB: PREPOST SUMMARY- Family income
+discrim_blacks,POST: CASI/WEB: Discrimination in the U.S. against Blacks
+discrim_hispanics,POST: CASI/WEB: Discrimination in the U.S. against Hispanics
+discrim_whites,POST: CASI/WEB: Discrimination in the U.S. against Whites
+discrim_gays,POST: CASI/WEB: Discrimination in the U.S. against Gays and Lesbians
+discrim_women,POST: CASI/WEB: Discrimination in the U.S. against Women
+discrim_self,POST: CASI/WEB: How much discrimination has R faced personal
+rstype_violcath,POST: WEB ONLY: religious stereotype violent - Catholics
+rstype_violprot,POST: WEB ONLY: religious stereotype violent - Protestants
+rstype_violmusl,POST: WEB ONLY: religious stereotype violent - Muslims
+rstype_violmorm,POST: WEB ONLY: religious stereotype violent - Mormons
+rstype_violnonrel,POST: WEB ONLY: religious stereotype violent - nonreligious
+rstype_patrcath,POST: WEB ONLY: religious stereotype patriotic - Catholcs
+rstype_patrmusl,POST: WEB ONLY: religious stereotype patriotic - Muslims
+rstype_patrmorm,POST: WEB ONLY: religious stereotype patriotic - Mormons
+rstype_patrprot,POST: WEB ONLY: religious stereotype patriotic - Protestants
+rstype_patrnonrel,POST: WEB ONLY: religious stereotype patriotic - non-religious

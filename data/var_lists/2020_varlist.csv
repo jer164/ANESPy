@@ -1,0 +1,1754 @@
+﻿Number,Name
+V200001,2020 Case ID
+V160001_orig,2016 Case ID
+V200002,Mode of interview: pre‐election interview
+V200003,Sample type
+V200004,"Completed pre only, post only, or completed pre and post interviews"
+V200005,Case validation: eligibility concerns
+V200006,Case validation: eligibility outcome
+V200007,Case validation: Pre‐ and post‐election selection status
+V200008,Case validation: validation study outcome
+V200009,Corrections made to preliminary data
+V200010a,Full sample pre‐election weight
+V200010b,Full sample post‐election weight
+V200010c,Full sample variance unit
+V200010d,Full sample variance stratum
+V200011a,2016‐2020 panel pre‐election weight
+V200011b,2016‐2020 panel post‐election weight
+V200011c,2016‐2020 panel variance unit
+V200011d,2016‐2020 panel variance stratum
+V200012a,Web‐only sample pre‐election weight
+V200012b,Web‐only sample post‐election weight
+V200012c,Web‐only sample variance unit
+V200012d,Web‐only sample variance stratum
+V200013a,Mixed‐web sample pre‐election weight
+V200013b,Mixed‐web sample post‐election weight
+V200013c,Mixed‐web sample variance unit
+V200013d,Mixed‐web sample variance stratum
+V200014a,Mixed‐video sample pre‐election weight
+V200014b,Mixed‐video sample post‐election weight
+V200014c,Mixed‐video sample variance unit
+V200014d,Mixed‐video sample variance stratum
+V200015a,All fresh sample (excludes 2016) pre‐election weight
+V200015b,All fresh sample (excludes 2016) post‐election weight
+V200015c,All fresh sample (excludes 2016) variance unit
+V200015d,All fresh sample (excludes 2016) variance stratum
+V200016a,All sample excluding mixed video pre‐election weight
+V200016b,All sample excluding mixed video post‐election weight
+V200016c,All sample excluding mixed‐video variance unit
+V200016d,All sample excluding mixed‐video variance stratum
+V201001,PRE: Select language
+V201002a,PRE: Does R have participant booklet for phone interview
+V201002b,PRE: Can R see participant booklet for video interview
+V201003,PRE: Pre‐election interview audio consent
+V201004,PRE: INTERVIEWER: Is R male or female (observation)
+V201005,PRE: How often does R pay attention to politics and elections
+V201006,PRE: How interested in following campaigns
+V201007a,PRE: Vote section ‐ order of major party candidate names
+V201007b,PRE: Vote section ‐ household address preloaded (sample address)
+V201007c,PRE: Vote section ‐ candidate names preloaded for sample address
+V201008,PRE: Where is R registered to vote (pre‐election)
+V201009,PRE: WEB ONLY: Is R without address registered to vote (pre‐election)
+V201010,PRE: Address of registration given (not registered at sample address)
+V201011,PRE: State included in address of registration (not registered at samp addr)
+V201012,PRE: City included in address of registration (not registered at samp addr)
+V201013a,PRE: State of registration (not registered at samp addr; given at REG)
+V201013b,PRE: State of registration (not registered at samp addr; given at REGWHST)
+V201014a,PRE: Registration state same as sample address state (all registrations)
+V201014b,PRE: Registration state (all registrations)
+V201014c,PRE: Senate race in state of registration (all registrations)
+V201014d,PRE: Governor race in state of registration (all registrations)
+V201014e,PRE: Party registration in state of registration (all registrations)
+V201015,PRE: Is R registered to vote in preload county
+V201015z,RESTRICTED: PRE: Is R registered to vote preload county ‐ Other {SPECIFY}
+V201016,PRE: How long has R been registered at location
+V201017,RESTRICTED: PRE: Name under which R registered to vote
+V201018,PRE: Party of registration
+V201018z,RESTRICTED: PRE: Party of registration ‐ Other {SPECIFY}
+V201019,PRE: Does R intend to register to vote
+V201020,PRE: Did R vote in a Presidential primary or caucus
+V201021,PRE: For which candidate did R vote in Presidential primary
+V201022,PRE: Already voted in General Election
+V201023,PRE: Confirmation voted (early) in November 3 election
+V201024,PRE: In what manner did R vote
+V201025x,PRE: SUMMARY: Registration and early vote status
+V201026,PRE: IWR CHECKPOINT: have correct Pre ballot card ‐ AUTOCODED
+V201028,PRE: Did R vote for President
+V201029,PRE: For whom did R vote for President
+V201029z,PRE: For whom did R vote for President ‐ Other {SPECIFY}
+V201030,PRE: Preference strong for Pres cand for whom R voted
+V201031,PRE: How long before election R made decision Pres vote
+V201031y,PRE: How long before election R made decision Pres vote [coded]
+V201032,PRE: Does R intend to vote for President
+V201033,PRE: For whom does R intend to vote for President
+V201033z,PRE: For whom does R intend to vote for President ‐ Other {SPECIFY}
+V201034,PRE: Preference strong for Presidential candidate for whom R intends to vote
+V201035,PRE: Does R prefer Presidential candidate
+V201036,PRE: Preference for Presidential candidate
+V201036z,PRE: Preference for Presidential candidate ‐ Other {SPECIFY}
+V201037,PRE: Preference strong for Presidential candidate
+V201038,PRE: Did R vote for US House of Representatives
+V201039,PRE: For whom did R vote for US House (ballot card)
+V201039z,PRE: For whom did R vote for US House (ballot card) ‐ Other {SPECIFY}
+V201040,PRE: For whom did R vote for US House (no ballot card)
+V201040y,PRE: For whom did R vote for US House (no ballot card) [coded]
+V201041,PRE: Does R intend to vote for US House
+V201042,PRE: For whom does R intend to vote for US House (ballot card)
+V201042z,PRE: For whom does R intend to vote for US House (ballot card) ‐ Other {SPECIFY}
+V201043,PRE: For whom does R intend to vote for US House (no ballot card)
+V201043y,PRE: For whom does R intend to vote for US House (no ballot card) [coded]
+V201044,PRE: Does R prefer US House candidate
+V201045,PRE: Whom does R prefer for US House (ballot card)
+V201045z,PRE: Whom does R prefer for US House (ballot card) ‐ Other {SPECIFY}
+V201046,PRE: Whom does R prefer for US House (no ballot card)
+V201046y,PRE: Whom does R prefer for US House (no ballot card) [coded]
+V201047x,PRE SUMMARY: Senate and Governor races
+V201048,PRE: Did R vote for US Senate
+V201049,PRE: R's vote for US Senate (ballot card)
+V201049z,PRE: R's vote for US Senate (ballot card) ‐ Other {SPECIFY}
+V201050,PRE: R's vote for US Senate (no ballot card)
+V201050y,PRE: R's vote for US Senate (no ballot card) [coded]
+V201051,PRE: Does R intend to vote for US Senate
+V201052,PRE: For whom does R intend to vote for US Senate (ballot card)
+V201052z,PRE: For whom does R intend to vote for US Senate (ballot card) ‐ Other {SPECIFY}
+V201053,PRE: For whom does R intend to vote for US Senate (no ballot card)
+V201053y,PRE: For whom does R intend to vote for US Senate (no ballot card) [coded]
+V201054,PRE: Does R prefer US Senate candidate
+V201055,PRE: Does R prefer US Senate candidate
+V201055z,PRE: Does R prefer US Senate candidate ‐ Other {Specify}
+V201056,PRE: Whom does R prefer for US Senate (no ballot card)
+V201056y,PRE: Whom does R prefer for US Senate (no ballot card) [coded]
+V201057,PRE: Did R vote for US Senate [special election]
+V201058,PRE: R's vote for US Senate (ballot card) [special election]
+V201058z,PRE: R's vote for US Senate (ballot card) [special election] ‐ Other {SPECIFY}
+V201059,PRE: R's vote for US Senate (no ballot card) [special election]
+V201059y,PRE: R's vote for US Senate (no ballot card) [special election] [coded]
+V201060,PRE: Does R intend to vote for US Senate [special election]
+V201061,PRE: For whom does R intend to vote for US Sen (ballot card) [special election]
+V201061z,PRE: For whom does R intend to vote US Sen (bc) [special election] Oth {SPECIFY}
+V201062,PRE: For whom does R intend to vote for US Senate (no bc) [special election]
+V201062y,PRE: For whom does R intend to vote US Senate (no bc) [spec election] [coded]
+V201063,PRE: Does R prefer US Senate candidate [special election]
+V201064,PRE: Does R prefer US Senate candidate [special election]
+V201064z,PRE: Does R prefer US Senate candidate [special election] ‐ Other {SPECIFY}
+V201065,PRE: Whom does R prefer for US Senate (no ballot card) [special election]
+V201065y,PRE: Whom does R prefer for US Senate (no ballot card) [special election] [coded]
+V201066,PRE: Did R vote for governor
+V201067,PRE: R's vote for governor (ballot card)
+V201067z,PRE: R's vote for governor (ballot card) ‐ Other {SPECIFY}
+V201068,PRE: R's vote for governor (no ballot card)
+V201069,PRE: Does R intend to vote for governor
+V201070,PRE: For whom does R intend to vote for governor (ballot card)
+V201070z,PRE: For whom does R intend to vote for governor (ballot card) ‐ Other {SPECIFY}
+V201071,PRE: For whom does R intend to vote for governor (no ballot card)
+V201071y,PRE: For whom does R intend to vote for governor (no ballot card) [coded]
+V201072,PRE: Does R prefer gubernatorial candidate
+V201073,PRE: Whom does R prefer for governor (ballot card)
+V201073z,PRE: Whom does R prefer for governor (ballot card) ‐ Other {SPECIFY}
+V201074,PRE: Whom does R prefer for governor (no ballot card)
+V201074y,PRE: Whom does R prefer for governor (no ballot card)
+V201075x,PRE: SUMMARY: party of Pre‐election Presidential vote/intent/preference
+V201076x,PRE: SUMMARY: party of Pre‐election U.S. House vote/intent/preference
+V201077x,PRE: SUMMARY: party of Pre‐election U.S. Senate vote/intent/preference
+V201078x,PRE: SUMMARY: party of Pre‐election Gubernatorial vote/intent/preference
+V201100,PRE: How likely is it that R will vote in November
+V201101,PRE: Did R vote for President in 2016 [revised]
+V201102,PRE: Did R vote for President in 2016
+V201103,PRE: Recall of last (2016) Presidential vote choice
+V201103z,PRE: Recall of last (2016) Presidential vote choice ‐ Other {SPECIFY}
+V201104,PRE: Did R vote for President in 2012 election
+V201105,PRE: Recall of 2012 Presidential vote choice
+V201105z,PRE: Recall of 2012 Presidential vote choice ‐ Other {SPECIFY}
+V201106,PRE: Is there anything R likes about Democratic Presidential candidate
+V201107,PRE: What is it that R likes about Democratic Presidential candidate [text]
+V201108,PRE: Is there anything R dislikes about Democratic Presidential candidate
+V201109,PRE: What is it that R dislikes about Democratic Presidential candidate [text]
+V201110,PRE: Is there anything R likes about Republican Presidential candidate
+V201111,PRE: What is it that R likes about Republican Presidential candidate [text]
+V201112,PRE: Is there anything R dislikes about Republican Presidential candidate
+V201113,PRE: What is it that R dislikes about Republican Presidential candidate [text]
+V201114,PRE: Are things in the country on right track
+V201115,PRE: How hopeful R feels about how things are going in the country
+V201116,PRE: How afraid R feels about how things are going in the country
+V201117,PRE: How outraged R feels about how things are going in the country
+V201118,PRE: How angry R feels about how things are going in the country
+V201119,PRE: How happy R feels about how things are going in the country
+V201120,PRE: How worried R feels about how things are going in the country
+V201121,PRE: How proud R feels about how things are going in the country
+V201122,PRE: How irritated R feels about how things are going in the country
+V201123,PRE: How nervous R feels about how things are going in the country
+V201124,PRE: Approval of Congress handling its job
+V201125,PRE: How much approve/disapprove Congress handling its job
+V201126x,PRE: SUMMARY: Approval of Congress handling its job
+V201127,PRE: Approve or disapprove President handling job
+V201128,PRE: How much approve/disapprove President handling job
+V201129x,PRE: SUMMARY: Approve or disapprove President handling job
+V201130,PRE: Approve or disapprove President handling economy
+V201131,PRE: How much approve/disapprove President handling economy
+V201132x,PRE: SUMMARY: Approve or disapprove President handling economy
+V201133,PRE: Approve or disapprove President handling foreign relations
+V201134,PRE: How much approve/disapprove President handling foreign relations
+V201135x,PRE: SUMMARY: Approve or disapprove President handling foreign relations
+V201136,PRE: Approve or disapprove President handling health care
+V201137,PRE: How much approve/disapprove President handling health care
+V201138x,PRE: SUMMARY: Approve or disapprove President handling health care
+V201139,PRE: Approve or dissaprove President handling immigration
+V201140,PRE: How much approve/disapprove President handling immigration
+V201141x,PRE: SUMMARY: Approve or dissaprove President handling immigration
+V201142,PRE: Approve or disapprove President handling COVID‐19
+V201143,PRE: How much approve/disapprove President handling COVID‐19
+V201144x,PRE: SUMMARY: Approve or disapprove President handling COVID‐19
+V201145,PRE: Approve or disapprove R's governor handling COVID‐19
+V201146,PRE: How much approve/disapprove R's governor handling COVID‐19
+V201147x,PRE: SUMMARY: Approve or disapprove R's governor handling COVID‐19
+V201148,PRE: Approve or disapprove local government handling COVID‐19
+V201149,PRE: How much approve/disapprove local government handling COVID‐19
+V201150x,PRE: SUMMARY: Approve or disapprove local government handling COVID‐19
+V201151,"PRE: Feeling Thermometer: Joe Biden, Democratic Presidential candidate"
+V201152,"PRE: Feeling Thermometer: Donald Trump, Republican Presidential candidate"
+V201153,"PRE: Feeling Thermometer: Kamala Harris, Democratic Vice‐Presidential candidate"
+V201154,"PRE: Feeling Thermometer: Mike Pence, Republican Vice‐Presidential candidate"
+V201155,PRE: Feeling Thermometer: Barack Obama
+V201156,PRE: Feeling Thermometer: Democratic Party
+V201157,PRE: Feeling Thermometer: Republican Party
+V201158,PRE: Is there anything R likes about Democratic Party
+V201159,PRE: What does R like about Democratic party [text]
+V201160,PRE: Is there anything R dislikes about Democratic Party
+V201161,PRE: What does R dislike about the Democratic party [text]
+V201162,PRE: Is there anything R likes about Republican Party
+V201163,PRE: What does R like about Republican party [text]
+V201164,PRE: Is there anything R dislikes about Republican Party
+V201165,PRE: What does R dislike about the Republican party [text]
+V201200,PRE: 7pt scale liberal‐conservative self‐placement
+V201201,PRE: If R had to choose liberal or conservative self‐placemt
+V201202,PRE: 7pt scale liberal‐conservative: Democratic Presidential candidate
+V201203,PRE: 7pt scale liberal‐conservative: Republican Presidential candidate
+V201204,PRE: 7pt scale liberal‐conservative: Democratic House candidate
+V201205,PRE: 7pt scale liberal‐conservative: Republican House candidate
+V201206,PRE: 7pt scale liberal‐conservative: Democratic party
+V201207,PRE: 7pt scale liberal‐conservative: Republican party
+V201208,PRE: Democratic Presidential candidate trait: strong leadership
+V201209,PRE: Democratic Presidential candidate trait: really cares
+V201210,PRE: Democratic Presidential candidate trait: knowledgeable
+V201211,PRE: Democratic Presidential candidate trait: honest
+V201212,PRE: Republican Presidential Candidate trait: strong leadership
+V201213,PRE: Republican Presidential Candidate trait: really cares
+V201214,PRE: Republican Presidential Candidate trait: knowledgeable
+V201215,PRE: Republican Presidential Candidate trait: honest
+V201216,PRE: How much R cares who wins Presidential Election [revised]
+V201217,PRE: Who does R think will be elected President
+V201217z,PRE: Who does R think will be elected President ‐ Other {SPECIFY}
+V201218,PRE: Will Presidential race be close or will (winner) win by a lot
+V201219,PRE: Which Presidential candidate will carry state
+V201219z,PRE: Which Presidential candidate will carry state ‐ Other {SPECIFY}
+V201220,PRE: Will Presidential race be close in state
+V201221,PRE: VERSION 1A Does R consider voting a duty or choice
+V201222,PRE: VERSION 1B Does R consider voting a choice or duty
+V201223,PRE: How strongly does R feel that voting is a duty
+V201224,PRE: How strongly does R feel that voting is a choice
+V201225x,PRE: SUMMARY: Voting as duty or choice
+V201226,PRE: Split‐ticket voting
+V201227,PRE: Party Control or split government
+V201228,"PRE: Party ID: Does R think of self as Democrat, Republican, or Independent"
+V201228z,"PRE: Party ID: Does R think of self as Dem, Rep, or Ind ‐ Other {SPECIFY} [text]"
+V201229,PRE: Party Identification strong ‐ Democrat Republican
+V201230,PRE: No Party Identification ‐ closer to Democratic Party or Republican Party
+V201231x,PRE: SUMMARY: Party ID
+V201232,PRE: Party identity importance
+V201233,PRE: How often trust government in Washington to do what is right [revised]
+V201234,PRE: Government run by a few big interests or for benefit of all
+V201235,PRE: Does government waste much tax money
+V201236,PRE: How many in government are corrupt
+V201237,PRE: How often can people be trusted
+V201238,PRE: Elections make government pay attention
+V201239,PRE: Which party better: handling nations economy
+V201240,PRE: Which party better: handling health care
+V201241,PRE: Which party better: handling immigration
+V201242,PRE: Which party better: handling taxes
+V201243,PRE: Which party better: handling environment
+V201244,PRE: Which party better: handling COVID‐19
+V201246,PRE: 7pt scale spending & services: self‐placement
+V201247,PRE: 7pt scale spending & services: Democratic Presidential candidate
+V201248,PRE: 7pt scale spending & services: Republican Presidential candidate
+V201249,PRE: 7pt scale defense spending: self‐placement
+V201250,PRE: 7pt scale defense spending: Democratic Presidential candidate
+V201251,PRE: 7pt scale defense spending: Republican Presidential candidate
+V201252,PRE: 7pt scale gov‐private medical insurance scale: self‐placement
+V201253,PRE: 7pt scale gov‐private medical insurance scale: Dem Presidential candidate
+V201254,PRE: 7pt scale gov‐private medical insurance scale: Rep Presidential candidate
+V201255,PRE: 7pt scale guaranteed job‐income scale: self‐placement
+V201256,PRE: 7pt scale guaranteed job‐income scale: Dem Presidential candidate
+V201257,PRE: 7pt scale guaranteed job‐income scale: Rep Presidential candidate
+V201258,PRE: 7pt scale gov assistance to blacks scale: self‐placement
+V201259,PRE: 7pt scale gov assistance to blacks scale: Dem Presidential candidate
+V201260,PRE: 7pt scale gov assistance to blacks scale: Rep Presidential candidate
+V201262,PRE: 7pt scale environment‐business tradeoff: self‐placement
+V201263,PRE: 7pt scale environment‐business tradeoff: Dem Presidential candidate
+V201264,PRE: 7pt scale environment‐business tradeoff: Rep Presidential candidate
+V201300,PRE: Federal Budget Spending: Social Security
+V201301,PRE: Federal Budget Spending: Social Security (STRENGTH)
+V201302x,PRE: SUMMARY: Federal Budget Spending: Social Security
+V201303,PRE: Federal Budget Spending: public schools
+V201304,PRE: Federal Budget Spending: public schools (STRENGTH)
+V201305x,PRE: SUMMARY: Federal Budget Spending: public schools
+V201306,PRE: Federal Budget Spending: Tightening border security
+V201307,PRE: Federal Budget Spending: Tightening border security (STRENGTH)
+V201308x,PRE: SUMMARY: Federal Budget Spending: Tightening border security
+V201309,PRE: Federal Budget Spending: dealing with crime
+V201310,PRE: Federal Budget Spending: dealing with crime (STRENGTH)
+V201311x,PRE: SUMMARY: Federal Budget Spending: dealing with crime
+V201312,PRE: Federal Budget Spending: welfare programs
+V201313,PRE: Federal Budget Spending: welfare programs (STRENGTH)
+V201314x,PRE: SUMMARY: Federal Budget Spending: welfare programs
+V201315,PRE: Federal Budget Spending: building and repairing highways
+V201316,PRE: Federal Budget Spending: building and repairing highways (STRENGTH)
+V201317x,PRE: SUMMARY: Federal Budget Spending: building and repairing highways
+V201318,PRE: Federal Budget Spending: aid to the poor
+V201319,PRE: Federal Budget Spending: aid to the poor (STRENGTH)
+V201320x,PRE: SUMMARY: Federal Budget Spending: aid to the poor
+V201321,PRE: Federal Budget Spending: protecting the environment
+V201322,PRE: Federal Budget Spending: protecting the environment (STRENGTH)
+V201323x,PRE: SUMMARY: Federal Budget Spending: protecting the environment
+V201324,PRE: Current economy good or bad
+V201325,PRE: National economy better or worse in last year
+V201326,PRE: How much national economy better or worse in last year
+V201327x,PRE: SUMMARY: National economy better or worse in last year
+V201328,PRE: Economy better or worse in next 12 months
+V201329,PRE: Economy how much better or worse next 12 months
+V201330x,PRE: SUMMARY: Economy better or worse in next 12 months
+V201331,PRE: Unemployment better or worse in last year
+V201332,PRE: Unemployment how much better or worse in last year
+V201333x,PRE: SUMMARY: Unemployment better or worse in last year
+V201334,PRE: More or less unemployment in next year
+V201335,PRE: How worried about national economy
+V201336,PRE: STD Abortion: self‐placement
+V201336z,PRE: STD Abortion: self‐placement ‐ Other {SPECIFY}
+V201337,PRE: Importance of abortion issue to R
+V201338,PRE: STD Abortion: Democratic Presidential candidate placement
+V201339,PRE: STD Abortion: Republican Presidential candidate placement
+V201340,PRE: Abortion rights Supreme Court
+V201341,PRE: Abortion rights Supreme Court (STRENGTH)
+V201342x,PRE: SUMMARY: Abortion rights Supreme Court
+V201343,PRE: R favor or oppose death penalty
+V201344,PRE: R favor or oppose death penalty (STRENGTH)
+V201345x,PRE: SUMMARY: R favor/oppose death penalty
+V201346,"PRE: During last year, US position in world weaker or stronger"
+V201347,PRE: Country would be better off if we just stayed home
+V201348,PRE: Country would be better off if we just stayed home (STRENGTH)
+V201349x,PRE: SUMMARY: Country would be better off if we just stayed home
+V201350,PRE: Force to solve international problems
+V201351,PRE: Votes counted accurately
+V201352,PRE: Trust election officials
+V201353,PRE: How often people denied right to vote
+V201354,PRE: Favor or oppose vote by mail
+V201355,PRE: Favor or oppose vote by mail (STRENGTH)
+V201356x,PRE: SUMMARY: Favor/oppose vote by mail
+V201357,PRE: Favor or oppose requiring ID when voting
+V201358,PRE: Favor or oppose requiring ID when voting (STRENGTH)
+V201359x,PRE: SUMMARY: Favor/oppose requiring ID when voting
+V201360,PRE: Favor or oppose allowing felons to vote
+V201361,PRE: Favor or oppose allowing felons to vote (STRENGTH)
+V201362x,PRE: SUMMARY: Favor/oppose allowing felons to vote
+V201363,PRE: Does R's state ask for ID to vote
+V201364,PRE: Is R required to show photo ID to vote
+V201365,PRE: Options for election if COVID‐19 continues
+V201366,PRE: How important that news organizations free to criticize
+V201367,PRE: How important branches of government keep one another from too much power
+V201368,PRE: How important elected officials face serious consequences for misconduct
+V201369,PRE: How important that people agree on basic facts
+V201370,PRE: Helpful or harmful if Pres didn't have to worry about congress/courts
+V201371,PRE: Helpful or harmful if Pres didn't have to worry about cong/courts (STRENGTH)
+V201372x,PRE: SUMMARY: Helpful/harmful if Pres didn't have to worry about congress/courts
+V201373,PRE: Favor or oppose restricting journalist access
+V201374,PRE: Favor or oppose restricting journalist access (STRENGTH)
+V201375x,PRE: SUMMARY: Favor or oppose restricting journalist access
+V201376,PRE: How concerned government might undermine media
+V201377,PRE: How much trust in news media
+V201378,PRE: Appropriate/inappropriate Pres ask foreign countries to investigate rivals
+V201379,PRE: Prefer government official who compromises or sticks to principles
+V201380,PRE: Corruption increased or decreased since Trump
+V201381,PRE: Corruption increased or decreased since Trump (STRENGTH)
+V201382x,PRE: SUMMARY: Corruption increased or decreased since Trump
+V201383,PRE: Did Trump ask Ukraine to investigate rivals
+V201384,PRE: Favor or oppose House impeachment decision
+V201385,PRE: Favor or oppose House impeachment decision (STRENGTH)
+V201386x,PRE: SUMMARY: Favor or oppose House impeachment decision
+V201387,PRE: Favor or oppose Senate acquittal decision
+V201388,PRE: Favor or oppose Senate acquittal decision (STRENGTH)
+V201389x,PRE: SUMMARY: Favor or oppose Senate acquittal decision
+V201390,PRE: Federal government response to COVID‐19
+V201391,PRE: Federal government response to COVID‐19 (STRENGTH)
+V201392x,PRE: SUMMARY: Federal government response to COVID‐19
+V201393,PRE: Limits placed on public activity due to COVID‐19 too strict or not
+V201394,PRE: Re‐opening too quickly or too slowly
+V201395,PRE: Re‐opening too quickly or too slowly (STRENGTH)
+V201396x,PRE: SUMMARY: Re‐opening too quickly or too slowly
+V201397,PRE: Income gap today more or less than 20 years ago
+V201398,PRE: How much larger is income gap today
+V201399,PRE: How much smaller is income gap today
+V201400x,PRE: SUMMARY: How much larger is income gap today
+V201401,PRE: Government action about rising temperatures
+V201402,PRE: Government action about rising temperatures (STRENGTH)
+V201403,PRE: Require employers to offer paid leave to parents of new children
+V201404,PRE: Require employers to offer paid leave to parents of new children (STRENGTH)
+V201405x,PRE: SUMMARY: Require employers to offer paid leave to parents of new children
+V201406,PRE: Services to same sex couples
+V201407,PRE: Services to same sex couples (STRENGTH)
+V201408x,PRE: SUMMARY: Services to same sex couples
+V201409,PRE: Transgender policy
+V201410,PRE: Transgender policy (STRENGTH)
+V201411x,PRE: SUMMARY: Transgender policy
+V201412,PRE: Does R favor/oppose laws protect gays/lesbians against job discrimination
+V201413,PRE: How much R fav/opp laws protect gays/lesbians against job discrimination
+V201414x,PRE: SUMMARY: Favor/oppose laws protect gays lesbians against job discrimination
+V201415,PRE: Should gay and lesbian couples be allowed to adopt
+V201416,PRE: R position on gay marriage
+V201417,PRE: US government policy toward unauthorized immigrants
+V201418,PRE: Favor or oppose ending birthright citizenship
+V201419,PRE: Favor or oppose ending birthright citizenship (STRENGTH)
+V201420x,PRE: SUMMARY: Favor or oppose ending birthright citizenship
+V201421,PRE: Should children brought illegally be sent back or allowed to stay
+V201422,PRE: Should children brought illegally be sent back/allowed to stay (STRENGTH)
+V201423x,PRE: SUMMARY: Should children brought illegally be sent back or allowed to stay
+V201424,PRE: Favor or oppose building a wall on border with Mexico
+V201425,PRE: Favor or oppose building a wall on border with Mexico (STRENGTH)
+V201426x,PRE: SUMMARY: Favor or oppose building a wall on border with Mexico
+V201427,PRE: How important to speak English in US
+V201428,PRE: Likelihood of Russian interference in upcoming election
+V201429,PRE: Best way to deal with urban unrest
+V201430,PRE: Protestors actions been mostly violent or peaceful
+V201431,PRE: Protestors actions have been mostly violent or peaceful (STRENGTH)
+V201432x,PRE: SUMMARY: Protestors actions been mostly violent or peaceful
+V201433,PRE: Is religion important part of R life [revised]
+V201434,PRE: Is Bible word of God or men
+V201434z,PRE: Is Bible word of God or men ‐ Other {SPECIFY}
+V201435,PRE: What is present religion of R
+V201436,PRE: If R has no particular religion does R mean atheist or agnostic
+V201437,RESTRICTED: PRE: Major relig denom if R relig group Protestant or something else
+V201437z,RESTRICTED: PRE: Major relig denom if Protestant or something else‐Oth {SPECIFY}
+V201438,RESTRICTED: PRE: Specific Baptist denomination
+V201438z,RESTRICTED: PRE: Specific Baptist denomination ‐ Other {SPECIFY}
+V201439,RESTRICTED: PRE: Specific indep. Baptist denomination
+V201439z,RESTRICTED: PRE: Specific indep. Baptist denomination ‐ Other {SPECIFY}
+V201440,RESTRICTED: PRE: Specific Lutheran denomination
+V201440z,RESTRICTED: PRE: Specific Lutheran denomination ‐ Other {SPECIFY}
+V201441,RESTRICTED: PRE: Specific Methodist denomination
+V201441z,RESTRICTED: PRE: Specific Methodist denomination ‐ Other {SPECIFY}
+V201442,RESTRICTED: PRE: Specific Presbyterian denomination
+V201442z,RESTRICTED: PRE: Specific Presbyterian denomination ‐ Other {SPECIFY}
+V201443,RESTRICTED: PRE: Specific Reformed denomination
+V201443z,RESTRICTED: PRE: Specific Reformed denomination ‐ Other {SPECIFY}
+V201444,RESTRICTED: PRE: Specific Brethren denomination
+V201444z,RESTRICTED: PRE: Specific Brethren denomination ‐ Other {SPECIFY}
+V201445,RESTRICTED: PRE: Specific Disciples denomination
+V201445z,RESTRICTED: PRE: Specific Disciples denomination ‐ Other {SPECIFY}
+V201446,RESTRICTED: PRE: Specific Church of Christ denomination
+V201447,RESTRICTED: PRE: Specific Church of God denomination
+V201447z,RESTRICTED: PRE: Specific Church of God denomination ‐ Other {SPECIFY}
+V201448,RESTRICTED: PRE: Specific Holiness Pentecostal denomination
+V201449,RESTRICTED: PRE: Specific other denomination
+V201450,RESTRICTED: PRE: Specific other denomination Christian
+V201451,RESTRICTED: PRE: Specific Jewish denomination
+V201451z,RESTRICTED: PRE: Specific Jewish denomination ‐ Other {SPECIFY}
+V201452,PRE: Ever attend church or religious services
+V201453,PRE: Attend religious services how often
+V201454,PRE: Attend church more often than once a week
+V201456,PRE: Does Christian R consider self born again
+V201457x,PRE: SUMMARY: Full religion summary
+V201458x,PRE: SUMMARY: Major group religion summary
+V201459,PRE: Does R consider self a religious fundamentalist or evangelical
+V201460,PRE: How important to R is being a religious fundamentalist
+V201461,PRE: How important to R is being a religious evangelical
+V201462,PRE: Religious identification
+V201501,PRE: R living with how many family members
+V201502,PRE: R how much better or worse off financially than 1 year ago
+V201503,PRE: R how much better or worse off financially next year
+V201504,RESTRICTED: PRE: Birthdate: month of birth
+V201505,RESTRICTED: PRE: Birthdate: day of birth
+V201506,RESTRICTED: PRE: Birthdate: year of birth
+V201507x,PRE: SUMMARY: Respondent age
+V201508,PRE: Marital status
+V201509,PRE: Domestic partnership status
+V201510,PRE: Highest level of Education
+V201510z,PRE: Highest level of Education ‐ Other {SPECIFY}
+V201511x,PRE: SUMMARY: Respondent 5 Category level of education
+V201512,PRE: R: Diploma or GED
+V201513,PRE: Spouse partner: Highest Level of Education
+V201513z,RESTRICTED: PRE: Spouse partner: Highest Level of Education ‐ Other {SPECIFY}
+V201514x,PRE: SUMMARY: Respondent spouse/partner 5 Category level of education
+V201515,PRE: Spouse: Diploma or GED
+V201516,PRE: Armed forces active duty
+V201517,PRE: R worked for pay last week
+V201518,PRE: Any work for pay last week
+V201519,PRE: R on layoff from a job last week
+V201520,PRE: R temporarily absent from job last week
+V201521,PRE: R has been informed about returning to work
+V201522,PRE: R actively looking for work
+V201523,PRE: R could have started job or returned to work last week
+V201524,PRE: When did R last work
+V201525,PRE: Did R work every week past 12 months
+V201526,PRE: How many weeks R worked past 12 months
+V201527,PRE: How many hours R worked per week
+V201528,PRE: Hours worked per week past 12 months ok
+V201529,PRE: Describe R's employment
+V201530,RESTRICTED: PRE: What kind of business/industry
+V201530y,RESTRICTED: PRE: What kind of business/industry [coded]
+V201531,RESTRICTED: PRE: What was R's main occupation
+V201531y,RESTRICTED: PRE: What was R's main occupation [coded]
+V201532,RESTRICTED: PRE: R's most important activities or duties
+V201533x,PRE: SUMMARY: R occupation status 2 digit
+V201534x,PRE: SUMMARY: R occupation status 1 digit
+V201537a,PRE: R non‐working status ‐ homemaker [mention]
+V201537b,PRE: R non‐working status ‐ retired [mention]
+V201537c,PRE: R non‐working status ‐ permanently disabled [mention]
+V201537d,PRE: R non‐working status ‐ full time student [mention]
+V201537e,PRE: R non‐working status ‐ none of these [mention]
+V201538,PRE: Initial status retiree ‐ year retired
+V201539,PRE: Working now: out of work or laid off in last 6 months
+V201540,PRE: Working now: worry about losing job in near future
+V201541,PRE: Working now: had reduction in work hrs or pay cut
+V201542,PRE: Spouse/partner working status
+V201543,RESTRICTED: PRE: Spouse/partner job
+V201544,PRE: Anyone in HH belong to labor union
+V201545,PRE: Who in HH belongs to union
+V201546,"PRE: R: Are you Spanish, Hispanic, or Latino"
+V201547a,RESTRICTED: PRE: Race of R: White [mention]
+V201547b,RESTRICTED: PRE: Race of R: Black or African‐American [mention]
+V201547c,RESTRICTED: PRE: Race of R: Asian [mention]
+V201547d,RESTRICTED: PRE: Race of R: Native Hawaiian or Pacific Islander [mention]
+V201547e,RESTRICTED: PRE: Race of R: Native American or Alaska Native [mention]
+V201547z,RESTRICTED: PRE: Race of R: other specify
+V201549x,PRE: SUMMARY: R self‐identified race/ethnicity
+V201550,RESTRICTED: PRE: Ethnic or nationality group
+V201551,PRE: IWR CHECKPOINT: number of ethnic mentions
+V201552,RESTRICTED: PRE: Ethnic group most close
+V201553,PRE: Native status of parents
+V201554,"PRE: Rs: born US, Puerto Rico, or some other country"
+V201554z,"RESTRICTED: PRE: Rs: born US, Puerto Rico, or some other country ‐ Other {SPECIFY}"
+V201555,PRE: How many grandparents born outside the US
+V201556,RESTRICTED: PRE: LATINO Rs: country of Latino heritage revised
+V201556z,RESTRICTED: PRE: LATINO Rs: country of Latino heritage revised ‐ Other {SPECIFY}
+V201557,RESTRICTED: PRE: LATINO Rs: most family from which country
+V201558x,PRE: SUMMARY: Hispanic summary
+V201559,PRE: Latino Rs: any Mexican ancestry
+V201560,RESTRICTED: PRE: When did R (non‐US born) arrive in US
+V201561,RESTRICTED: PRE: In what year did R (non‐US born) become a US citizen
+V201562,PRE: LATINO Rs: language at home
+V201563,PRE: R spouse Hispanic origin
+V201564a,RESTRICTED: PRE: R spouse/partner race: White [mention]
+V201564b,RESTRICTED: PRE: R spouse/partner race: Black or African‐American [mention]
+V201564c,RESTRICTED: PRE: R spouse/partner race: Asian [mention]
+V201564d,RESTRICTED: PRE: R spouse/partner race: Native Hawiian or Pacific Islander [mention]
+V201564e,RESTRICTED: PRE: R spouse/partner race: Native American or Alaska Native [mention]
+V201565x,PRE: SUMMARY: R spouse or partner race/ethnicity
+V201566,PRE: R spouse/partner gender
+V201567,PRE: How many children in HH age 0‐17
+V201568a,PRE: Children's school enrollment: public school
+V201568b,PRE: Children's school enrollment: private religious school
+V201568c,PRE: Children's school enrollment: private non‐religious school
+V201568d,PRE: Children's school enrollment: home school
+V201568e,PRE: Children's school enrollment: not enrolled in school
+V201569,PRE: Does R use Internet at home
+V201570,PRE: Does R use Internet at any other location
+V201571,PRE: Is there a working HH landline phone
+V201572,PRE: Does R personally have a cell phone [revised]
+V201573,PRE: Does R live with anyone who has a cell phone
+V201574,PRE: R or anyone in HH has cell phone with internet connection
+V201575,PRE: Where R grew up
+V201575z,RESTRICTED: PRE: Where R grew up ‐ Other {SPECIFY}
+V201576,PRE: How long lived in this community YRS
+V201577,RESTRICTED: PRE: How long lived in this community MONTHS
+V201579,RESTRICTED: PRE: Zip Code of previous residence
+V201580,RESTRICTED: PRE: City state of previous residence
+V201581,PRE: VERSION 1A Home tenure
+V201582,PRE: VERSION 1B Home tenure CPS
+V201583,PRE: Home tenure CPS ownership
+V201584,PRE: R name ever changed
+V201585,RESTRICTED: PRE: Year of most recent change
+V201586,PRE: Use of alternate names
+V201587,PRE: Years R lived at address
+V201588,RESTRICTED: PRE: Where did R live five years ago
+V201589,PRE: Does R have non‐expired driver's license
+V201590,PRE: Does R have non‐expired U.S. passport
+V201591,PRE: Does R have other form of non‐expired government ID
+V201592,PRE: Put off checkup and vaccines
+V201593,PRE: How likely R able to pay all health care costs in next 12 months
+V201594,PRE: How worried is R about current financial situation
+V201595,PRE: How likely R able to make all housing payments in next 12 months
+V201596,PRE: Anyone lost jobs
+V201600,PRE: What is your (R) sex? [revised]
+V201601,PRE: Sexual orientation of R [revised]
+V201601z,PRE: Sexual orientation of R [revised] ‐ Other {SPECIFY}
+V201602,PRE: Justified to use violence
+V201603,PRE: Political violence compared to 4 years ago
+V201604,PRE: Political violence compared to 4 years ago (STRENGTH)
+V201605x,PRE: SUMMARY: Political violence compared to 4 yrs ago
+V201606,PRE: Money invested in Stock Market
+V201607,RESTRICTED: PRE: Total income amount ‐ revised
+V201608,RESTRICTED: PRE: Income amt missing ‐ ge or lt 40K
+V201609,RESTRICTED: PRE: Income amt missing ‐ ge or lt 20K
+V201610,RESTRICTED: PRE: Income amt missing ‐ categories lt 20K
+V201611,RESTRICTED: PRE: Income amt missing ‐ categories 20‐40K
+V201612,RESTRICTED: PRE: Income amt missing ‐ ge or lt 70K
+V201613,RESTRICTED: PRE: Income amt missing ‐ categories 40‐70K
+V201614,RESTRICTED: PRE: Income amt missing ‐ ge or lt 100K
+V201615,RESTRICTED: PRE: Income amt missing ‐ categories 70‐100K
+V201616,RESTRICTED: PRE: Income amt missing ‐ categories 100+K
+V201617x,PRE: SUMMARY: Total (family) income
+V201618,PRE: Trouble concentrating in past week
+V201619,PRE: Restless sleep in past week
+V201620,PRE: Does R have health insurance
+V201621,PRE: R concerned about losing health insurance
+V201622,PRE: R concerned about paying for health care
+V201623,PRE: Health of R
+V201624,PRE: Anyone in household tested pos for COVID‐19
+V201625,PRE: Anyone in household COVID‐19 based on symptoms
+V201626,PRE: Need to be more sensitive talking or people too easily offended
+V201627,PRE: How often self censor
+V201628,PRE: How many Guns owned
+V201629a,PRE: Media sources R used to follow presidential campaign: tv programs
+V201629b,PRE: Media sources R used to follow presidential campaign: newspapers
+V201629c,PRE: Media sources R used to follow presidential campaign: internet sites
+V201629d,PRE: Media sources R used to follow presidential campaign: radio news
+V201629e,PRE: Media sources R used to follow presidential campaign: none
+V201630a,PRE: Mention: TV PROG ‐ The Late Show with Stephen Colbert
+V201630b,PRE: Mention: TV PROG ‐ Hannity (Fox)
+V201630c,PRE: Mention: TV PROG ‐ Tucker Carlson Tonight (Fox)
+V201630d,PRE: Mention: TV PROG ‐ The Rachel Maddow Show (MSNBC)
+V201630e,PRE: Mention: TV PROG ‐ The Last Word with Lawrence O'Donnell (MSNBC)
+V201630f,PRE: Mention: TV PROG ‐ The Five (Fox)
+V201630g,PRE: Mention: TV PROG ‐ The Ingraham Angle (Fox)
+V201630h,PRE: Mention: TV PROG ‐ The Story with Martha MacCallum (Fox)
+V201630i,PRE: Mention: TV PROG ‐ The Lead with Jake Tapper (CNN)
+V201630j,PRE: Mention: TV PROG ‐ Anderson Cooper 360 (CNN)
+V201630k,PRE: Mention: TV PROG ‐ Special Report with Bret Baier (Fox)
+V201630m,PRE: Mention: TV PROG ‐ CBS Evening News with Norah O'Donnell
+V201630n,PRE: Mention: TV PROG ‐ ABC World News Tonight
+V201630p,PRE: Mention: TV PROG ‐ NBC Nightly News with Lester Holt
+V201630q,PRE: Mention: TV PROG ‐ Cuomo Prime Time (CNN)
+V201630r,PRE: Mention: TV PROG ‐ NCIS (CBS)
+V201630s,PRE: Mention: TV PROG  ‐ none of the above [first screen]
+V201631a,PRE: Mention: TV PROG ‐ American Idol (ABC)
+V201631b,PRE: Mention: TV PROG ‐ Erin Burnett OutFront (CNN)
+V201631c,PRE: Mention: TV PROG ‐ 60 Minutes (CBS)
+V201631d,PRE: Mention: TV PROG ‐ 20/20 (ABC)
+V201631e,PRE: Mention: TV PROG ‐ Dateline NBC
+V201631f,PRE: Mention: TV PROG ‐ Face the Nation (CBS)
+V201631g,PRE: Mention: TV PROG ‐ Meet the Press (NBC)
+V201631h,PRE: Mention: TV PROG ‐ CBS This Morning
+V201631i,PRE: Mention: TV PROG ‐ Good Morning America (ABC)
+V201631j,PRE: Mention: TV PROG ‐ Today (NBC)
+V201631k,PRE: Mention: TV PROG ‐ Fox & Friends (Fox)
+V201631m,PRE: Mention: TV PROG ‐ Morning Joe (MSNBC)
+V201631n,PRE: Mention: TV PROG ‐ All In with Chris Hayes (MSNBC)
+V201631p,PRE: Mention: TV PROG ‐ The 11th Hour with Brian Williams (MSNBC)
+V201631q,PRE: Mention: TV PROG ‐ PBS NewsHour
+V201631r,PRE: Mention: TV PROG ‐ Saturday Night Live (NBC)
+V201631s,PRE: Mention: TV PROG ‐ none of the above [second screen]
+V201632a,PRE: Mention: TV PROG ‐ Al Punto
+V201632b,PRE: Mention: TV PROG ‐ Al Rojo Vivo
+V201632c,PRE: Mention: TV PROG ‐ Amor Eterno
+V201632d,PRE: Mention: TV PROG ‐ Aqui y Ahora
+V201632e,PRE: Mention: TV PROG ‐ Cronicas de Sabado
+V201632f,PRE: Mention: TV PROG ‐ Despierta America
+V201632g,PRE: Mention: TV PROG ‐ Enfoque
+V201632h,PRE: Mention: TV PROG ‐ Hoy
+V201632i,PRE: Mention: TV PROG ‐ Lo Mejor de Caso Cerrado
+V201632j,PRE: Mention: TV PROG ‐ Noticiero Estrella TV
+V201632k,PRE: Mention: TV PROG ‐ Noticiero Telemundo
+V201632m,PRE: Mention: TV PROG ‐ Noticiero Univision
+V201632n,PRE: Mention: TV PROG ‐ Un Nuevo Dia
+V201632p,PRE: Mention: TV PROG ‐ Primer Impacto
+V201632q,PRE: Mention: TV PROG ‐ Que Noche! con Angelica y Raul
+V201632r,PRE: Mention: TV PROG ‐ El Senor de los Cielos
+V201632s,PRE: Mention: TV PROG ‐ none of the above [third screen]
+V201633a,PRE: Mention: Radio PROG ‐ Rush Limbaugh
+V201633b,PRE: Mention: Radio PROG ‐ The Sean Hannity Show
+V201633c,PRE: Mention: Radio PROG ‐ Marketplace (NPR)
+V201633d,PRE: Mention: Radio PROG ‐ All Things Considered (NPR)
+V201633e,PRE: Mention: Radio PROG ‐ The Dave Ramsey Show
+V201633f,PRE: Mention: Radio PROG ‐ Morning Edition (NPR)
+V201633g,PRE: Mention: Radio PROG ‐ The Mark Levin Show
+V201633h,PRE: Mention: Radio PROG ‐ The Glenn Beck Program
+V201633i,PRE: Mention: Radio PROG ‐ The Mike Gallagher Show
+V201633j,PRE: Mention: Radio PROG ‐ The Hugh Hewitt Show
+V201633k,PRE: Mention: Radio PROG ‐ The Savage Nation (Michael Savage)
+V201633m,PRE: Mention: Radio PROG ‐ The Dana Show
+V201633n,PRE: Mention: Radio PROG ‐ The Thom Hartmann Program
+V201633p,PRE: Mention: Radio PROG ‐ The Jim Bohannon Show
+V201633q,PRE: Mention: Radio PROG ‐ Fresh Air (NPR)
+V201633r,PRE: Mention: Radio PROG ‐ none of the above
+V201634a,PRE: Mention: Website ‐ Yahoo News (www.yahoo.com/news)
+V201634b,PRE: Mention: Website ‐ CNN.com
+V201634c,PRE: Mention: Website ‐ Huffington Post (www.huffingtonpost.com)
+V201634d,PRE: Mention: Website ‐ New York Times (nytimes.com)
+V201634e,PRE: Mention: Website ‐ Breitbart News Network (breitbart.com)
+V201634f,PRE: Mention: Website ‐ Fox News (www.foxnews.com)
+V201634g,PRE: Mention: Website ‐ Washington Post (washingtonpost.com)
+V201634h,PRE: Mention: Website ‐ The Guardian (theguardian.com)
+V201634i,PRE: Mention: Website ‐ USA Today (usatoday.com)
+V201634j,PRE: Mention: Website ‐ BBC News (news.bbc.co.uk)
+V201634k,PRE: Mention: Website ‐ NPR News (npr.org)
+V201634m,PRE: Mention: Website ‐ Daily Caller (dailycaller.com)
+V201634n,PRE: Mention: Website ‐ Bloomberg (bloomberg.com)
+V201634p,PRE: Mention: Website ‐ Buzzfeed (buzzfeed.com)
+V201634q,PRE: Mention: Website ‐ NBC News (www.nbcnews.com)
+V201634r,PRE: Mention: Website ‐ Other {SPECIFY}
+V201634s,PRE: Mention: Website ‐ None
+V201635a,PRE: Mention: Printed newspaper ‐ The New York Times
+V201635b,PRE: Mention: Printed newspaper ‐ USA Today
+V201635c,PRE: Mention: Printed newspaper ‐ The Wall Street Journal
+V201635d,PRE: Mention: Printed newspaper ‐ The Washington Post
+V201635e,RESTRICTED: PRE: Mention: Printed newspaper ‐ printed newspaper [5]
+V201635f,RESTRICTED: PRE: Mention: Printed newspaper ‐ printed newspaper [6]
+V201635g,RESTRICTED: PRE: Mention: Printed newspaper ‐ printed newspaper [7]
+V201635h,RESTRICTED: PRE: Mention: Printed newspaper ‐ printed newspaper [8]
+V201635i,RESTRICTED: PRE: Mention: Printed newspaper ‐ printed newspaper [9]
+V201635j,RESTRICTED: PRE: Mention: Printed newspaper ‐ printed news paper [other]
+V201635k,PRE: Mention: Printed newspaper ‐ no printed newspaper
+V201636a,PRE: Mention: Online newspaper ‐ www.nytimes.com (New York Times)
+V201636b,PRE: Mention: Online newspaper ‐ www.usatoday.com (USA Today)
+V201636c,PRE: Mention: Online newspaper ‐ online.wsj.com (Wall Street Journal)
+V201636d,PRE: Mention: Online newspaper ‐ www.washingtonpost.com (Wash Post)
+V201636e,RESTRICTED: PRE: Mention: Online newspaper ‐ online newspaper [5]
+V201636f,RESTRICTED: PRE: Mention: Online newspaper ‐ online newspaper [6]
+V201636g,RESTRICTED: PRE: Mention: Online newspaper ‐ online newspaper [7]
+V201636h,RESTRICTED: PRE: Mention: Online newspaper ‐ online newspaper [8]
+V201636i,RESTRICTED: PRE: Mention: Online newspaper ‐ online newspaper [9]
+V201636j,RESTRICTED: PRE: Mention: Online newspaper ‐ online newspaper [other]
+V201636k,PRE: Mention: Online newspaper ‐ no online newspaper
+V201637x,PRE: SUMMARY‐ Number of additional preloaded newspapers
+V201639,PRE: Women interpret innocent remarks as sexist
+V201640,PRE: Women seek to gain power by getting control over men
+V201641,PRE: Political knowledge intro
+V201642,PRE: Political knowledge catch question
+V201643,PRE: Political knowledge catch question feedback
+V201644,PRE: How many years in full term for US Senator
+V201645,PRE: On which program does Federal government spend the least
+V201646,PRE: Party with most members in House before election
+V201647,PRE: Party with most members in Senate before election
+V201648,PRE: Ease of online access
+V201649,PRE: R rating of interview
+V201650,PRE: How often took survey seriously
+V201651,PRE: How satisfied is R with life
+V201652,PRE: WEB ONLY: Any R comments
+V201653,PRE: IWR OBS: respondent's cooperation
+V201654,PRE: IWR OBS: respondent's level of information
+V201655,PRE: IWR OBS: respondent's intelligence
+V201656,PRE: IWR OBS: respondent's interest in interview
+V201657,PRE: IWR OBS: respondent's honesty
+V201658a,PRE: IWR OBS: R reactions to interview ‐ negative (general)
+V201658b,PRE: IWR OBS: R reactions to interview ‐ negative (too long)
+V201658c,PRE: IWR OBS: R reactions to interview ‐ negative (too complicated)
+V201658d,PRE: IWR OBS: R reactions to interview ‐ negative (boring/tedious/repetitious)
+V201658e,PRE: IWR OBS: R reactions to interview ‐ R wanted to stop before interview complete
+V201658f,PRE: IWR OBS: R reactions to interview ‐ R was ill/deeaf/tired/had bad eyesight
+V201658g,PRE: IWR OBS: R reactions to interview ‐ R expressed lack of knowledge
+V201658h,PRE: IWR OBS: R reactions to interview ‐ R stressed/agitated by interview process
+V201658i,PRE: IWR OBS: R reactions to interview ‐ R became angry at interview content
+V201658j,PRE: IWR OBS: R reactions to interview ‐ R concerned with sampling purpose/bias
+V201658k,PRE: IWR OBS: R reactions to interview ‐ R could not read respondent booklet
+V201658m,PRE: IWR OBS: R reactions to interview ‐ R appeared to enjoy interview
+V201658n,PRE: IWR OBS: R reactions to interview ‐ Neutral or no feedback
+V201658p,PRE: IWR OBS: R reactions to interview ‐ R had difficulty with selected language
+V202001,POST: R select language
+V202002a,POST: Does R have participant booklet for phone IW
+V202002b,POST: Can R see participant booklet for video IW
+V202003,POST: Audio recording consent
+V202004,POST: Did party contact R about campaign
+V202005,POST: Did party contact R about 2020 campaign [revised]
+V202006,POST: Which party contacted R about campaign
+V202007,POST: Someone not from two major parties contact R about supporting candidates
+V202008,POST: Anyone talk to R about registering or getting out to vote
+V202009,POST: R talk to anyone about voting for or against a party or candidate
+V202010,POST: WEB ONLY: RMOB speeding intervention ‐ gentle prompt
+V202011,POST: WEB ONLY: RMOB speeding intervention ‐ redisplay RMOB
+V202012,POST: WEB ONLY: RMOB speeding intervention ‐ peremptory prompt
+V202013,"POST: R attend online political meetings, rallies, speeches, fundraisers"
+V202014,"POST: R go to any political meetings, rallies, speeches, dinners"
+V202015,POST: R wear campaign button or post sign or bumper sticker
+V202016,POST: R do any (other) work for party or candidate
+V202017,POST: R contribute money to individual candidate running for public office
+V202018,RESTRICTED: POST: Party of candidate for whom R contributed money
+V202019,POST: R contribute money to political party during this election year
+V202020,RESTRICTED: POST: Party to which R contributed
+V202021,POST: R contribute to any other group that supported or opposed candidates
+V202022,POST: R ever discuss politics with family or friends
+V202023,POST: How many days in past week discussed politics with family or friends
+V202024,POST: Has R in past 12 months: gotten into a political argument
+V202025,"POST: Has R in past 12 months: joined a protest march, rally, or demonstration"
+V202026,POST: Has R in past 12 months: sign internet or paper petition
+V202027,POST: Has R in past 12 months: given money to religious organization
+V202028,POST: Has R in past 12 months: given money to other organization
+V202029,POST: Has R in past 12 months: posted comment online about political issue
+V202030,POST: Has R in past 12 months: contacted member of US Senate or House of Rep
+V202031,POST: Has R in past 12 months: worked w/others to deal w/issue facing community
+V202032,POST: Has R in past 12 months: attend mtg about issue facing community/schools
+V202033,POST: Has R in past 12 months: done any volunteer work
+V202034,POST: Has R in past 12 months: contacted federal elected official
+V202035,POST: Why contacted federal elected official
+V202036,POST: Has R in past 12 months: contacted non‐elected official in federal govt
+V202037,POST: Why contacted non‐elected official in federal government
+V202038,POST: Has R in past 12 months: contacted elected official on state/local level
+V202039,POST: Why contacted elected official on state/local level
+V202040,POST: Has R in past 12 months: contacted non‐elected official in state/local gov
+V202041,POST: Why contacted non‐elected official in state/local government
+V202042,POST: How often bought or boycotted product/service for social/political reasons
+V202043,POST: WEB ONLY: SOCPOL speeding intervention ‐ gentle prompt
+V202044,POST: WEB ONLY: SOCPOL speeding intervention ‐ redisplay SOCPOL
+V202045,POST: WEB ONLY: SOCPOL speeding intervention ‐ peremptory prompt
+V202050a,POST: Vote section ‐ order of major party candidate names
+V202050b,POST: Vote section ‐ household address preloaded (sample address)
+V202050c,POST: Vote section ‐ candidate names preloaded for sample address
+V202051,POST: R registered to vote (post‐election)
+V202052,POST: Is R without address registered to vote (post‐election)
+V202053a,POST: Registration address given (not registered at sample address)
+V202053b,POST: State included in registration address (not registered at samp addr)
+V202053c,POST: City included in post registration address (not registered at samp addr)
+V202054a,POST: State of registration (not registered at samp addr; given at REG)
+V202054b,POST: State of registration (not registered at samp addr given at REGWHST)
+V202054c,POST: State of registration for post vote (pre nonvoter)
+V202054x,PRE‐POST SUMMARY: State of registration (all registered voters)
+V202055a,POST: State of registration for post vote same as sample address state (pre nonvoter)
+V202055b,POST: Senate race in state of registration (pre nonvoter)
+V202055c,POST: Governor race in state of registration (pre nonvoter)
+V202055d,POST: Party registration in state of registration (pre nonvoter)
+V202056,POST: When R registered to vote
+V202060,POST: Is R registered to vote in preload county (residence)
+V202060z,RESTRICTED: POST: Is R registered to vote in preload county ‐ Other {SPECIFY}
+V202061,POST: How long has R been registered at location
+V202061x,PRE‐POST: SUMMARY: years has R been registered at registration location
+V202062,RESTRICTED: POST: Name under which R is registered to vote
+V202063x,PRE‐POST: SUMMARY: Name recorded for registration name
+V202064,POST: Party of registration
+V202064z,RESTRICTED: POST: Party of registration ‐ Other {SPECIFY}
+V202065x,PRE‐POST: SUMMARY: Party of registration
+V202066,POST: Did R vote in November 2020 election
+V202068x,POST: SUMMARY: Post vote status for registered respondents
+V202072,POST: Did R vote for President
+V202073,POST: For whom did R vote for President
+V202073z,POST: For whom did R vote for President ‐ Other {SPECIFY}
+V202074,POST: Preference strong for Presidential candidate for whom R vote
+V202075,POST: How long before election R made decision Presidential vote
+V202075y,POST: How long before election R made decision Presidential vote [coded]
+V202076,POST: Does R prefer Presidential candidate (did not vote)
+V202077,POST: Preference for Presidential candidate (did not vote)
+V202077z,POST: Preference for Presidential candidate (did not vote) ‐ Other {SPECIFY}
+V202078,POST: Preference strong for Presidential candidate (did not vote)
+V202079x,POST: SUMMARY: Preference for Presidential candidate (did not vote)
+V202080,POST: Did R vote for U.S. House of Representatives
+V202081,POST: For whom did R vote for US House of Representatives (ballot card)
+V202081z,POST: For whom did R vote for US House of Rep (ballot card) ‐ Other {SPECIFY}
+V202082,POST: For whom did R vote for US House of Representatives (no ballot card)
+V202082y,POST: For whom did R vote for US House of Representatives (no ballot card) [coded]
+V202083,POST: Does R prefer US House of Representatives candidate
+V202084,POST: Whom does R prefer for US House of Representatives (ballot card)
+V202084z,POST: Whom does R prefer for US House of Rep (ballot card) ‐ Other {SPECIFY}
+V202085,POST: Whom does R prefer for US House of Representatives (no  ballot card)
+V202085y,POST: Whom does R prefer for US House of Representatives (no  ballot card) [coded]
+V202087,POST: Did R vote for US Senate ‐ 1 Senate race
+V202088,POST: R's vote for US Senate (ballot card)
+V202088z,POST: R's vote for US Senate (ballot card) ‐ Other {SPECIFY}
+V202089,POST: R's vote for US Senate (no ballot card)
+V202089y,POST: R's vote for US Senate (no ballot card) [coded]
+V202090,POST: Does R prefer US Senate candidate
+V202091,POST: Whom does R prefer for US Senate
+V202091z,POST: Whom does R prefer for US Senate ‐ Other {SPECIFY}
+V202092,POST: Whom does R prefer for US Senate (no ballot card)
+V202092y,POST: Whom does R prefer for US Senate (no ballot card) [coded]
+V202093,POST: Did R vote for US Senate [special election]
+V202094,POST: R's vote for US Senate (ballot card) [special election]
+V202094z,POST: R's vote for US Senate (ballot card) [special election] ‐ Other {SPECIFY}
+V202095,POST: R's vote for US Senate (no ballot card) [special election]
+V202095y,POST: R's vote for US Senate (no ballot card) [special election] [coded]
+V202096,POST: Does R prefer US Senate candidate [special election]
+V202097,POST: Whom does R prefer US Senate candidate [special election]
+V202097z,POST: Whom does R prefer US Senate cand [special election] ‐ Other {SPECIFY}
+V202098,POST: Whom does R prefer for US Senate (no ballot card) [special election]
+V202098y,POST: Whom does R prefer for US Senate (no ballot card) [special election] [coded]
+V202099,POST: Did R vote for governor
+V202100,POST: R's vote for governor (ballot card)
+V202100z,POST: R's vote for governor (ballot card) ‐ Other {SPECIFY}
+V202101,POST: R's vote for governor (no ballot card)
+V202101y,POST: R's vote for governor (no ballot card) [coded]
+V202102,POST: Does R prefer gubernatorial candidate
+V202103,POST: Whom does R prefer for governor (ballot card)
+V202103z,POST: Whom does R prefer for governor (ballot card) ‐ Other {SPECIFY}
+V202104,POST: Whom does R prefer for governor (no ballot card)
+V202104y,POST: Whom does R prefer for governor (no ballot card) [coded]
+V202105x,POST: SUMMARY ‐ Post‐election Presidential vote/preference
+V202106x,POST: SUMMARY ‐ party of Post‐election U.S. House vote/preference
+V202107x,POST: SUMMARY ‐ party of Post‐election U.S. Senate vote/preference
+V202108x,POST: SUMMARY ‐ party of Post‐election gubernatorial vote/preference
+V202109x,PRE‐POST: SUMMARY: Voter turnout in 2020
+V202110x,PRE‐POST: SUMMARY: 2020 Presidential vote
+V202111x,PRE‐POST: SUMMARY: party of 2020 U.S. House vote
+V202112x,PRE‐POST: SUMMARY: party of 2020 U.S. Senate vote
+V202113x,PRE‐POST: SUMMARY: party of 2020 Governor vote
+V202114a,POST: Reason R is not registered ‐ did not meet registation deadlines
+V202114b,POST: Reason R is not registered ‐ did not know where or how to register
+V202114c,POST: Reason R is not registered ‐ did not meet residency requirements
+V202114d,POST: Reason R is not registered ‐ registration form was not processed correctly
+V202114e,POST: Reason R is not registered ‐ did not have required identification
+V202114f,POST: Reason R is not registered ‐ not interested in the election
+V202114g,POST: Reason R is not registered ‐ my vote would not make a difference
+V202114h,POST: Reason R is not registered ‐ permanent illness or disability
+V202114i,POST: Reason R is not registered ‐ difficulty with English
+V202114j,POST: Reason R is not registered ‐ not eligible to vote
+V202114k,POST: Reason R is not registered ‐ other
+V202114z,POST: Reason R is not registered ‐ other {SPECIFY}
+V202115,POST: Main reason why R is not registered (no booklet)
+V202116,POST: When R voted in 2020 election
+V202117,POST: How R voted in 2020 election
+V202118,POST: How does R usually vote
+V202119,POST: How difficult was it for R to vote
+V202120a,POST: Did R encounter any problems voting ‐ registration problem
+V202120b,POST: Did R encounter any problems voting ‐ concern about identification card
+V202120c,POST: Did R encounter any problems voting ‐ difficulty obtaining absentee ballot
+V202120d,POST: Did R encounter any problems voting ‐ confusion about ballot or machine
+V202120e,POST: Did R encounter any problems voting ‐ difficulty getting to polling place
+V202120f,POST: Did R encounter any problems voting ‐ long wait times
+V202120g,POST: Did R encounter any problems voting ‐ work schedule
+V202120h,POST: Did R encounter any problems voting ‐ bad weather
+V202120i,POST: Did R encounter any problems voting ‐ issue mailing ballot
+V202120j,POST: Did R encounter any problems voting ‐ other problem
+V202120k,POST: Did R encounter any problems voting ‐ none at all
+V202120z,POST: Did R encounter any problems voting ‐ Other {SPECIFY}
+V202121,POST: How long was wait time at polling place
+V202122,POST: How long does it take to get to polling place
+V202123,POST: Main reason R did not vote
+V202123z,POST: Main reason R did not vote ‐ Other {SPECIFY}
+V202124,POST: Any other reason R did not vote
+V202124z,POST: Any other reason R did not vote ‐ Other {SPECIFY}
+V202125,POST: Main reason R did not vote (no booklet)
+V202135,POST: Office recall ‐ commit to not look up answers
+V202136,POST: Office recall: Catch question ‐ Lemanu Peleti Mauga
+V202136y,POST: Office recall: Catch question ‐ Lemanu Peleti Mauga [coded]
+V202137,POST: Office recall: feedback 1
+V202138,POST: Office recall: Vice‐President ‐ Mike Pence
+V202138y,POST: Office recall: Vice‐President ‐ Mike Pence [coded]
+V202139,POST: Office recall: Speaker of the House ‐ Nancy Pelosi
+V202139y1,POST: Office recall: Speaker of the House ‐ Nancy Pelosi [coded/scheme 1]
+V202139y2,POST: Office recall: Speaker of the House ‐ Nancy Pelosi [coded/scheme 2]
+V202140,POST: Office recall: German Chancellor ‐ Angela Merkel
+V202140y1,POST: Office recall: German Chancellor ‐ Angela Merkel [coded/scheme 1]
+V202140y2,POST: Office recall: German Chancellor ‐ Angela Merkel [coded/scheme 2]
+V202141,POST: Office recall: Russian President ‐ Vladimir Putin
+V202141y1,POST: Office recall: Russian President ‐ Vladimir Putin [coded/scheme 1]
+V202141y2,POST: Office recall: Russian President ‐ Vladimir Putin [coded/scheme 2]
+V202142,POST: Office recall: SCOTUS Chief Justice ‐ John Roberts
+V202142y1,POST: Office recall: SCOTUS Chief Justice ‐ John Roberts [coded/scheme 1]
+V202142y2,POST: Office recall: SCOTUS Chief Justice ‐ John Roberts [coded/scheme 2]
+V202143,POST: Feeling thermometer: Democratic Presidential candidate: Joe Biden
+V202144,POST: Feeling thermometer: Republican Presidential candidate: Donald Trump
+V202145,POST: Feeling thermometer: HOUSE DEMOCRATIC CANDIDATE
+V202146,POST: Feeling thermometer: HOUSE REPUBLICAN CANDIDATE
+V202147,POST: Feeling thermometer: HOUSE IND/3rd‐PARTY CANDIDATE
+V202148,POST: Feeling thermometer: SENATE DEMOCRATIC CANDIDATE
+V202149,POST: Feeling thermometer: SENATE REPUBLICAN CANDIDATE
+V202150,POST: Feeling thermometer: SENATE IND/3rd‐PARTY CANDIDATE
+V202151,POST: Feeling thermometer: SPECIAL SENATE DEMOCRATIC CANDIDATE
+V202152,POST: Feeling thermometer: SPECIAL SENATE REPUBLICAN CANDIDATE
+V202152oth,POST: Feeling thermometer: SPECIAL SENATE IND/OTHER CANDIDATE
+V202153,POST: Feeling thermometer: SR. SENATOR IN STATE WITHOUT RACE
+V202154,POST: Feeling thermometer: JR. SENATOR IN STATE WITHOUT RACE
+V202155,POST: Feeling thermometer: NONRUNNING SENATOR IN STATE W/RACE
+V202156,POST: Feeling thermometer: Democratic Vice Presidential candidate: Kamala Harris
+V202157,POST: Feeling thermometer: Republican Vice Presidential candidate: Mike Pence
+V202158,POST: Feeling thermometer: Dr. Anthony Fauci
+V202159,POST: Feeling thermometer: Christian fundamentalists
+V202160,POST: Feeling thermometer: feminists
+V202161,POST: Feeling thermometer: liberals
+V202162,POST: Feeling thermometer: labor unions
+V202163,POST: Feeling thermometer: big business
+V202164,POST: Feeling thermometer: conservatives
+V202165,POST: Feeling thermometer: U.S. Supreme Court
+V202166,POST: Feeling thermometer: gay men and lesbians
+V202167,POST: Feeling thermometer: congress
+V202168,POST: Feeling thermometer: Muslims
+V202169,POST: Feeling thermometer: Christians
+V202170,POST: Feeling thermometer: Jews
+V202171,POST: Feeling thermometer: police
+V202172,POST: Feeling thermometer: transgender people
+V202173,POST: Feeling thermometer: scientists
+V202174,POST: Feeling thermometer: Black Lives Matter
+V202175,POST: Feeling thermometer: journalists
+V202176,POST: Feeling thermometer: North Atlantic Treaty Organization (NATO)
+V202177,POST: Feeling thermometer: United Nations (UN)
+V202178,POST: Feeling thermometer: National Rifle Association (NRA)
+V202179,POST: Feeling thermometer: socialists
+V202180,POST: Feeling thermometer: capitalists
+V202181,POST: Feeling thermometer: Federal Bureau of Investigation (FBI)
+V202182,POST: Feeling thermometer: Immigration and Customs Enforcement (ICE) agency
+V202183,POST: Feeling thermometer: #MeToo movement
+V202184,POST: Feeling thermometer: rural Americans
+V202185,POST: Feeling thermometer: Planned Parenthood
+V202186,POST: Feeling thermometer: World Health Organization (WHO)
+V202187,POST: Feeling thermometer: Center for Disease Control (CDC)
+V202200,POST: Approve or disapprove of House incumbent
+V202201,POST: How much approve House incumbent
+V202202,POST: How much disapprove House incumbent
+V202203x,POST: SUMMARY: Approve/disapprove House incumbent
+V202204,POST: How good a job does House incumbent do in district
+V202205,POST: Most important problems facing the country ‐ mention 1 [text]
+V202205y1,"POST: Most important problems facing the country ‐ mention 1, idea 1 [coded]"
+V202205y2,"POST: Most important problems facing the country ‐ mention 1, idea 2  [coded]"
+V202205y3,"POST: Most important problems facing the country ‐ mention 1, idea 3  [coded]"
+V202205y4,"POST: Most important problems facing the country ‐ mention 1, idea 4  [coded]"
+V202205y5,"POST: Most important problems facing the country ‐ mention 1, idea 5  [coded]"
+V202205y6,"POST: Most important problems facing the country ‐ mention 1, idea 6  [coded]"
+V202205y7,"POST: Most important problems facing the country ‐ mention 1, idea 7  [coded]"
+V202205y8,"POST: Most important problems facing the country ‐ mention 1, idea 8  [coded]"
+V202205y9,"POST: Most important problems facing the country ‐ mention 1, idea 9  [coded]"
+V202205y10,"POST: Most important problems facing the country ‐ mention 1, idea 10  [coded]"
+V202205y11,"POST: Most important problems facing the country ‐ mention 1, idea 11  [coded]"
+V202205y12,"POST: Most important problems facing the country ‐ mention 1, idea 12  [coded]"
+V202205y13,"POST: Most important problems facing the country ‐ mention 1, idea 13  [coded]"
+V202205y14,"POST: Most important problems facing the country ‐ mention 1, idea 14  [coded]"
+V202205y15,"POST: Most important problems facing the country ‐ mention 1, idea 15  [coded]"
+V202205y16,"POST: Most important problems facing the country ‐ mention 1, idea 16  [coded]"
+V202206,POST: Party to deal with mention 1 MIP
+V202207,POST: Most important problems facing the country ‐ mention 2 [text]
+V202207y1,"POST: Most important problems facing the country ‐ mention 2, idea 1 [coded]"
+V202207y2,"POST: Most important problems facing the country ‐ mention 2, idea 2  [coded]"
+V202207y3,"POST: Most important problems facing the country ‐ mention 2, idea 3  [coded]"
+V202207y4,"POST: Most important problems facing the country ‐ mention 2, idea 4  [coded]"
+V202207y5,"POST: Most important problems facing the country ‐ mention 2, idea 5  [coded]"
+V202207y6,"POST: Most important problems facing the country ‐ mention 2, idea 6  [coded]"
+V202207y7,"POST: Most important problems facing the country ‐ mention 2, idea 7  [coded]"
+V202207y8,"POST: Most important problems facing the country ‐ mention 2, idea 8  [coded]"
+V202207y9,"POST: Most important problems facing the country ‐ mention 2, idea 9  [coded]"
+V202207y10,"POST: Most important problems facing the country ‐ mention 2, idea 10  [coded]"
+V202207y11,"POST: Most important problems facing the country ‐ mention 2, idea 11  [coded]"
+V202207y12,"POST: Most important problems facing the country ‐ mention 2, idea 12  [coded]"
+V202207y13,"POST: Most important problems facing the country ‐ mention 2, idea 13  [coded]"
+V202208,POST: Party to deal with mention 2 MIP
+V202209,POST: Most important problems facing the country ‐ mention 3 [text]
+V202209y1,"POST: Most important problems facing the country ‐ mention 3, idea 1 [coded]"
+V202209y2,"POST: Most important problems facing the country ‐ mention 3, idea 2 [coded]"
+V202209y3,"POST: Most important problems facing the country ‐ mention 3, idea 3 [coded]"
+V202209y4,"POST: Most important problems facing the country ‐ mention 3, idea 4 [coded]"
+V202209y5,"POST: Most important problems facing the country ‐ mention 3, idea 5 [coded]"
+V202209y6,"POST: Most important problems facing the country ‐ mention 3, idea 6 [coded]"
+V202209y7,"POST: Most important problems facing the country ‐ mention 3, idea 7 [coded]"
+V202209y8,"POST: Most important problems facing the country ‐ mention 3, idea 8 [coded]"
+V202209y9,"POST: Most important problems facing the country ‐ mention 3, idea 9 [coded]"
+V202210,POST: Party to deal with mention 3 MIP
+V202211,POST: Which among mentions is the most important problem [text]
+V202211y1,POST: Which among mentions is the most important problem ‐ idea 1 [coded]
+V202211y2,POST: Which among mentions is the most important problem ‐ idea 2 [coded]
+V202211y3,POST: Which among mentions is the most important problem ‐ idea 3 [coded]
+V202211y4,POST: Which among mentions is the most important problem ‐ idea 4 [coded]
+V202211y5,POST: Which among mentions is the most important problem ‐ idea 5 [coded]
+V202211y6,POST: Which among mentions is the most important problem ‐ idea 6 [coded]
+V202211y7,POST: Which among mentions is the most important problem ‐ idea 7 [coded]
+V202211y8,POST: Which among mentions is the most important problem ‐ idea 8 [coded]
+V202211y9,POST: Which among mentions is the most important problem ‐ idea 9 [coded]
+V202212,POST: [STD] Public officials don't care what people think
+V202213,POST: [STD] Have no say about what goverment does
+V202214,POST: [REV] Politics/government too complicated to understand
+V202215,POST: [REV] How well does R understand important political issues
+V202216,POST: Important differences in what major parties stand for
+V202217,POST: Is one of the parties more conservative than the other
+V202218,POST: Which is the party that is more conservative
+V202219,POST: How often are votes counted fairly
+V202220,POST: How important that more Hispanics get elected to political office
+V202221,POST: How important that more blacks get elected to political office
+V202222,POST: How important that more Asians get elected to political office
+V202223,POST: How important that more LGBT people get elected to political office
+V202224,POST: How important that more women get elected to political office
+V202225,POST: Limits on campaign spending
+V202226,POST: Congress pass laws that benefit contributor organization
+V202227,POST: Congress pass laws that benefit contributor individuals
+V202228,POST: Congress change votes because of donation to campaign
+V202229,POST: Favor or oppose placing new limits on imports
+V202230,POST: Favor or oppose placing new limits on imports (STRENGTH)
+V202231x,POST: SUMMARY: Favor/oppose new limits on imports
+V202232,POST: What should immigration levels be
+V202233,POST: How likely immigration will take away jobs
+V202234,POST: Favor or oppose allowing refugees to come to US
+V202235,POST: Favor or oppose allowing refugees to come to US (STRENGTH)
+V202236x,POST: SUMMARY: Favor/oppose allowing refugees to come to US
+V202237,POST: Effect of illegal immigration on crime rate
+V202238,POST: Effect of illegal immigration on crime rate (STRENGTH)
+V202239x,POST: SUMMARY: effect of illegal immiration on crime rate
+V202240,POST: Favor or oppose providing path to citizenship
+V202241,POST: Favor or oppose providing path to citizenship (STRENGTH)
+V202242x,POST: SUMMARY: Favor/oppose providing path to citizeship
+V202243,POST: Favor or oppose returning unauthorized immigrants to native country
+V202244,POST: Favor or oppose returning unauth immigrants to native country (STRENGTH)
+V202245x,POST: SUMMARY: Favor/oppose returning unauthorize immigrants to native country
+V202246,POST: Favor or oppose separating children of detained immigrants
+V202247,POST: Favor or oppose separating children of detained immigrants (STRENGTH)
+V202248x,POST: SUMMARY: Favor/oppose separating children of detained immigrants
+V202249,POST: For or against preferential hiring/promotion of blacks
+V202250,POST: Favor preferential hiring/promotion of blacks strongly or not strongly
+V202251,POST: Oppose preferential hiring/promotion blacks strongly or not strongly
+V202252x,POST: SUMMARY: Favor/oppose preferential hiring/promotion of blacks
+V202253,POST: Less government better OR more that government should be doing
+V202254,POST: Less government better OR more that government should be doing (STRENGTH)
+V202255x,POST:SUMMARY: Less or more government
+V202256,POST: Would it be good for society to have more or less government regulation
+V202257,POST: Favor or oppose government trying to reduce income inequality
+V202258,POST: Favor or oppose government trying to reduce income inequality (STRENGTH)
+V202259x,POST: SUMMARY: Favor/oppose government trying to reduce income inequality
+V202260,POST: Society should make sure everyone has equal opportunity
+V202261,POST: We'd be better off if worried less about equality
+V202262,POST: Not a big problem if some have more chance in life
+V202263,POST: If people were treated more fairly we would have fewer problems
+V202264,POST: The world is changing & we should adjust view of moral behavior
+V202265,POST: Fewer problems if there was more emphasis on traditional family values
+V202266,POST: Which child trait more important: independence or respect
+V202267,POST: Which child trait more important: curiosity or good manners
+V202268,POST: Which child trait more important: obedience or self‐reliance
+V202269,POST: Which child trait more important: considerate or well‐behaved
+V202270,POST: Better if rest of world more like America
+V202271,POST: Is the US better or worse than most other countries
+V202272,POST: Is the US better or worse than most other countries (STRENGTH)
+V202273x,POST: SUMMARY: US better or wose than most other countries
+V202274,POST: People in rural areas get more or less from government
+V202275,POST: People in rural areas get more or less from government (STRENGTH)
+V202276x,POST: SUMMARY: People in rural areas get more/less from government
+V202277,POST: People in rural areas have too much or too little influence
+V202278,POST: People in rural areas have too much or too little influence (STRENGTH)
+V202279x,POST: SUMMARY: People in rural areas have too much/too little influence
+V202280,POST: People in rural areas get too much or too little respect
+V202281,POST: People in rural areas get too much or too little respect (STRENGTH)
+V202282x,POST: SUMMARY: People in rural areas get too much/too little respect
+V202283,POST: Easier or harder for working mother to bond with child
+V202284,POST: How much easier for working mother to bond with child
+V202285,POST: How much harder for working mother to bond with child
+V202286x,POST: SUMMARY: Easier/harder for working mother to bond with child
+V202287,POST: Better or worse if man works and woman takes care of home
+V202288,POST: How much better if man works and woman takes care of home
+V202289,POST: How much worse if man works and woman takes care of home
+V202290x,POST: SUMMARY: Better/worse if man works and woman takes care of home
+V202291,POST: Do women demanding equality seek special favors
+V202292,POST: Do women complaining about discrimination cause more problems
+V202300,POST: Agree/disagree: blacks should work their way up without special favors
+V202301,POST: Agree/disagree: past slavery & discrimination make it difficult for blacks
+V202302,POST: Agree/disagree: blacks have gotten less than they deserve
+V202303,POST: Agree/disagree: if blacks tried harder they'd be as well off as whites
+V202304,POST: Our political system only works for insiders with money and power
+V202305,POST: Because of rich and powerful it's difficult for the rest to get ahead
+V202306,POST: Trust ordinary people or experts for public policy
+V202307,POST: Trust ordinary people or experts for public policy (STRENGTH)
+V202308x,POST: SUMMARY: Trust ordinary people/experts for public policy
+V202309,POST: How much do people need help from experts to understand science
+V202310,POST: How important should science be for decisions about COVID‐19
+V202311,POST: Business and politics controlled by few powerful people
+V202312,POST: Much of what people hear in schools and media are lies by those in power
+V202313,POST: Post materialism most important 1A
+V202314,POST: Post materialism next most important 1B
+V202315,POST: Post materialism most important 2A
+V202316,POST: Post materialism next most important 2B
+V202317,POST: How much opportunity in America for average person to get ahead
+V202318,POST: Economic mobility compared to 20 years ago
+V202319,POST: How much easier or harder is economic mobility compared to 20 years ago
+V202320x,POST: SUMMARY: Economic mobility
+V202321,POST: Importance of reducing deficit
+V202322,POST: WEB ONLY: DEFIMP speeding intervention ‐ gentle prompt
+V202323,POST: WEB ONLY: DEFIMP speeding intervention ‐ redisplay DEFIMP
+V202324,POST: WEB ONLY: DEFIMP speeding intervention ‐ peremptory prompt
+V202325,POST: Favor or oppose tax on millionaires
+V202326,POST: Approve or disapprove of the Affordable Care Act
+V202327,POST: Approve or disapprove of the Affordable Care Act (STRENGTH)
+V202328x,POST: SUMMARY: Approve/disapprove Affordable Care Act
+V202329,POST: Favor or oppose requiring vaccines in schools
+V202330,POST: Favor or oppose requiring vaccines in schools (STRENGTH)
+V202331x,POST: SUMMARY: Favor/oppose requiring vaccines in schools
+V202332,POST: How much is climate change affecting severe weather/temperatures in US
+V202333,POST: How important is issue of climate change to R
+V202334,POST: Favor or oppose increased regulation on greenhouse emissions
+V202335,POST: Favor or oppose increased regulation on greenhouse emissions (STRENGTH)
+V202336x,POST: SUMMARY: Favor/oppose increased regulation on greenhouse emissions
+V202337,POST: Should federal government make it more difficult or easier to buy a gun
+V202338,POST: How important is issue of gun access to R
+V202339,POST: Favor or oppose background checks for gun purchases
+V202340,POST: Favor or oppose background checks for gun purchases (STRENGTH)
+V202341x,POST: SUMMARY: Favor/oppose background checks for gun puchases
+V202342,POST: Favor or oppose banning 'assault‐style' rifles
+V202343,POST: Favor or oppose banning 'assault‐style rifles' (STRENGTH)
+V202344x,POST: SUMMARY: Favor/oppose banning 'assault‐style' rifles
+V202345,POST: Favor or oppose mandatory buy back of 'assault‐style' rifles
+V202346,POST: Favor or oppose mandatory buy back of 'assault‐style' rifles (STRENGTH)
+V202347x,POST: Favor/oppose government buy back of 'assault‐style' rifles
+V202348,POST: Should federal government do more or less about opioid drug addiction
+V202349,POST: Should fed govt do more or less about opioid drug addiction (STRENGTH)
+V202350x,POST: SUMMARY Should federal govt do more/less about opioid drug addiction
+V202351,POST: How often do police officers use more force than necessary
+V202352,POST: How would R describe social class [EGSS]
+V202353,"POST: Is R lower middle class, middle class, upper middle class? [EGSS]"
+V202354,POST: (If R is Hispanic) Does R get news in Spanish or English
+V202355,POST: Does R currently live in a rural or urban area
+V202356,POST: Does R usually think of self as a rural or urban person
+V202356z,POST: Does R usually think of self as a rural or urban person ‐ Other Specify
+V202357,POST: How important is urban or rural to R's identity
+V202358,POST: DHS: How worried about terrorist attack in near future
+V202359,POST: Favor or oppose free trade agreements with other countries
+V202360,POST: Favor or oppose free trade agreements with other countries (STRENGTH)
+V202361x,POST: SUMMARY: Favor/oppose free trade agreements
+V202362,POST: Is increasing trade good or bad for international relationships
+V202363,POST: Is increasing trade good or bad for international relationships (STRENGTH)
+V202364x,POST: SUMMARY: Increasing trade good/bad for international relationships
+V202365,POST: Has international trade increased or decreased jobs in US
+V202366,POST: Has international trade increased or decreased jobs in US (STRENGTH)
+V202367x,POST: SUMMARY: International trade increased/decreased jobs in US
+V202368,POST: Has international trade increased or decreased jobs abroad
+V202369,POST: Has international trade increased or decreased jobs abroad (STRENGTH)
+V202370x,POST: SUMMARY: International trade increaded/decreased jobs abroad
+V202371,POST: Does increasing diversity made US better or worse place to live
+V202372,POST: Does increasing diversity made US better or worse place to live (STRENGTH)
+V202373x,POST: SUMMARY: Increasing diversity made US better/worse place to live
+V202374,POST: Favor or oppose federal program giving all citizens $12K/year
+V202375,POST: Favor or oppose federal program giving all citizens $12K/year (STRENGTH)
+V202376x,POST: SUMMARY: Favor/oppose federal program giving citizens $12K/year
+V202377,"POST: Should the minimum wage be raised, kept the same, or lowered"
+V202378,POST: Increase/decrease government spending to help people pay for health care
+V202379,POST: How much increase/decrease in goverment help paying for health care
+V202380x,POST: SUMMARY: Increase/decrease government spending to help pay for health care
+V202381,POST: Do health benefits of vaccinations outweight the risks
+V202382,POST: Do health benefits of vaccinations outweight the risks (STRENGTH)
+V202383x,POST: SUMMARY: Health benefits of vaccinations outweigh risks
+V202384,POST: Attention to sexual harrassment has gone too far or not far enough
+V202385,POST: Attention to sexual harrassment has gone too far (STRENGTH)
+V202386,POST: Attention to sexual harrassment has not gone far enough (STRENGTH)
+V202387x,POST: SUMMARY: Attention to sexual harrassment as gone too far/not far enough
+V202388,POST: Favor/oppose allowing transgender people to serve in military
+V202389,POST: Favor/oppose allowing transgender people to serve in military (STRENGTH)
+V202390x,POST: SUMMARY: Favor/oppose transender people serve in military
+V202400,POST: How much is China a threat to the United States
+V202401,POST: How much is Russia a threat to the United States
+V202402,POST: How much is Mexico a threat to the United States
+V202403,POST: How much is Iran a threat to the United States
+V202404,POST: How much is Japan a threat to the United States
+V202405,POST: How much is Germany a threat to the United States
+V202406,POST: CSES5‐Q01: How interested in politics is R
+V202407,POST: CSES5‐Q02: How closely does R follow politics in media
+V202408,POST: CSES5‐Q03: Agree/disagree: R understands most important political issues
+V202409,POST: CSES5‐Q04a: Attitudes about elites: compromise in politics is selling out
+V202410,POST: CSES5‐Q04b: Attitudes about elites: politicians do not care about people
+V202411,POST: CSES5‐Q04c: Attitudes about elites: most politicians are trustworthy
+V202412,POST: CSES5‐Q04d: Attitudes about elites: politicians are main problem in US
+V202413,POST: CSES5‐Q04e: Attitudes about elites: strong leader in government is good
+V202414,POST: CSES5‐Q04f: Attitudes about elites: people should make policy decisions
+V202415,POST: CSES5‐Q04g: Attitudes about elites: politicians only care about the rich
+V202416,POST: CSES5‐Q05a: Out‐group attitudes: minorities should adapt
+V202417,POST: CSES5‐Q05b: Out‐group attitudes: will of majority should always prevail
+V202418,POST: CSES5‐Q05c: Out‐group attitudes: immigrants good for America's economy
+V202419,POST: CSES5‐Q05c: Out‐group attitudes: America's culture harmed by immigrants
+V202420,POST: CSES5‐Q05c: Out‐group attitudes: immigrants increase crime rates in US
+V202421,POST: CSES5‐Q06a: National identity: how important to have been born in US
+V202422,POST: CSES5‐Q06b: National identity: how important to have American ancestry
+V202423,POST: CSES5‐Q06c: National identity: how important to be able to speak English
+V202424,POST: CSES5‐Q06d: National identity: how important to follow America's customs
+V202425,POST: CSES5‐Q07: How widespread is corruption among politicians in US
+V202426,POST: CSES5‐Q08: Government should reduce differences in income levels
+V202427,POST: CSES5‐Q09: How good/bad a job has government done in last 4 years
+V202428,POST: CSES5‐Q10a: Is there a party that represents R's views
+V202429,POST: CSES5‐Q10b: Party that represents R's views best
+V202429z,POST: CSES5‐Q10b: Party that represents R's views best ‐ Other Specify
+V202430,POST: CSES5‐Q11: State of economy better or worse over past 12 months
+V202431,POST: CSES5‐Q14a: 5pt scale: Does it make a difference who is in power
+V202432,POST: CSES5‐Q14b: Who people vote for makes a big difference
+V202433,POST: CSES5‐Q15a: Like‐dislike‐Democratic party
+V202434,POST: CSES5‐Q15b: Like‐dislike‐Republican Party
+V202435,POST: CSES5‐Q16a: Like‐dislike‐Democratic Presidential candidate
+V202436,POST: CSES5‐Q16b: Like‐dislike‐Republican Presidential candidate
+V202437,POST: CSES5‐Q17a: Left‐right‐Democratic Party
+V202438,POST: CSES5‐Q17b: Left‐right‐Republican Party
+V202439,POST: CSES5‐Q18: Left‐right‐self
+V202440,POST: CSES5‐Q21: Satisfaction with democratic process
+V202441,POST: CSES5‐Q22a: Is R close to any political  party
+V202442,POST: CSES5‐Q22b: Does R feel closer to one party
+V202443,POST: CSES5‐Q22c: Which party does R feel closest to
+V202443z,POST: CSES5‐Q22c: Which party does R feel closest to ‐ Other Specify
+V202444,POST: CSES5‐Q22d: Degree of closeness to this party
+V202450a,POST: Does R have any sons or daughters ‐ one or more sons
+V202450b,POST: Does R have any sons or daughters ‐ one or more daughters
+V202450c,POST: Does R have any sons or daughters ‐ no sons and no daughters
+V202451,POST: How much have political differences hurt relationships w/family
+V202452,POST: How often does R have concerned feelings for other racial/ethnic groups
+V202453,POST: How often does R try to understand perpective of other racial/ethnic groups
+V202454,POST: How often R imagines how they would feel before criticizing other groups
+V202455,POST: How often R feels protective of someone due to race or ethnicity
+V202456,"POST: During past 12 months, R  or any family members stopped by police"
+V202457,POST: Has R ever been arrested
+V202458,RESTRICTED: POST: Total income amount
+V202459,RESTRICTED: POST: Income amt missing ‐ ge or lt 40K
+V202460,RESTRICTED: POST: Income amt missing ‐ ge or lt 20K
+V202461,RESTRICTED: POST: Income amt missing ‐ categories lt 20K
+V202462,RESTRICTED: POST: Income amt missing ‐ categories 20‐40K
+V202463,RESTRICTED: POST: Income amt missing ‐ ge or lt 70K
+V202464,RESTRICTED: POST: Income amt missing ‐ categories 40‐70K
+V202465,RESTRICTED: POST: Income amt missing ‐ ge or lt 100K
+V202466,RESTRICTED: POST: Income amt missing ‐ categories 70‐100K
+V202467,RESTRICTED: POST: Income amt missing ‐ categories 100+K
+V202468x,PRE‐POST: SUMMARY: Total (family) income
+V202469,POST: R smoked 100 cigarettes in life
+V202470,POST: R currently smoking
+V202471,"POST: R has family/neighbors/coworkers/friends who are gay, lesbian or bisexual"
+V202472a,POST: What is R's relationship to that person (or people) ‐ immediate family
+V202472b,POST: What is R's relationship to that person (or people) ‐ other relative
+V202472c,POST: What is R's relationship to that person (or people) ‐ neighbor
+V202472d,POST: What is R's relationship to that person (or people) ‐ co‐worker
+V202472e,POST: What is R's relationship to that person (or people) ‐ close friend
+V202472f,POST: What is R's relationship to that person (or people) ‐ other relationship
+V202473,POST: R has family/neighbors/coworkers/friends who are transgender
+V202474a,POST: What is R's relationship to that person (or people) ‐ immediate family
+V202474b,POST: What is R's relationship to that person (or people) ‐ other relative
+V202474c,POST: What is R's relationship to that person (or people) ‐ neighbor
+V202474d,POST: What is R's relationship to that person (or people) ‐ co‐worker
+V202474e,POST: What is R's relationship to that person (or people) ‐ close friend
+V202474f,POST: What is R's relationship to that person (or people) ‐ other relationship
+V202475,POST: Does R consider themself a feminist or anti‐feminist
+V202476,POST: How important is being a feminist
+V202477,POST: Feeling thermometer: Asian‐Americans
+V202478,POST: Feeling thermometer: Asians
+V202479,POST: Feeling thermometer: Hispanics
+V202480,POST: Feeling thermometer: blacks
+V202481,POST: Feeling thermometer: illegal immigrants
+V202482,POST: Feeling thermometer: whites
+V202483,POST: How important whites work together to change laws unfair to whites
+V202484,POST: How important blacks work together to change laws unfair to blacks
+V202485,POST: How important Hispanics work together to change laws unfair to Hispanics
+V202486,POST: How important Asians work together to change laws unfair to Asians
+V202487,POST: How likely whites unable to find jobs because employers hiring minorities
+V202488,POST: Does federal government treat blacks or whites better
+V202489,POST: How much better does federal government treat blacks or whites
+V202490x,POST: SUMMARY: Federal government treats blacks or whites better
+V202491,POST: Do police treat blacks or whites better
+V202492,POST: How much better do police treat blacks or whites
+V202493x,POST: SUMMARY: Police treat blacks or whites better
+V202494,POST: How much influence do whites have in US politics
+V202495,POST: How much influence do blacks have in US politics
+V202496,POST: How much influence do Hispanics have in US politics
+V202497,POST: How much influence do Asians have in US politics
+V202498,RESTRICTED: POST: How important is being Hispanic to R's identity
+V202498x,POST: SUMMARY: How important is being Hispanic to R's identity
+V202499,RESTRICTED: POST: How important is being white to R's identity
+V202499x,POST: SUMMARY: How important is being white to R's identity
+V202500,RESTRICTED: POST: How important is being black to R's identity
+V202500x,POST: SUMMARY: How important is being black to R's identity
+V202501,RESTRICTED: POST: How important is being Native American to R's identity
+V202501x,POST: SUMMARY: How important is being Native American to R's identity
+V202502_asian,RESTRICTED: POST: How important is being Asian to R's identity
+V202502_pacific,RESTRICTED: POST: How important is being Pacific Islander to R's identity
+V202502x,POST: SUMMARY: How important is being Asian or Pacific Islander to R's identity
+V202504,POST: How important is being American to R's identity
+V202505,POST: White R: what happens to white people will affect R's life
+V202506,POST: Hispanic R: what happens to Hispanic people will affect R's life
+V202507,POST: Black R: what happens to black people will affect R's life
+V202508,POST: Asian R: what happens to Asian people will affect R's life
+V202515,POST: Stereotype: Whites hardworking
+V202516,POST: Stereotype: Blacks hardworking
+V202517,POST: Stereotype: Hispanic‐Americans hardworking
+V202518,POST: Stereotype: Hispanics hardworking
+V202519,POST: Stereotype: Asian‐Americans hardworking
+V202520,POST: Stereotype: Asians hardworking
+V202521,POST: Stereotype: Whites violent
+V202522,POST: Stereotype: Blacks violent
+V202523,POST: Stereotype: Hispanic‐Americans violent
+V202524,POST: Stereotype: Hispanics violent
+V202525,POST: Stereotype: Asian‐Americans violent
+V202526,POST: Stereotype: Asians violent
+V202527,POST: Discrimination in the US against blacks
+V202528,POST: Discrimination in the US against Hispanics
+V202529,POST: Discrimination in the US against Asians
+V202530,POST: Discrimination in the US against whites
+V202531,POST: Discrimination in the US against Muslims
+V202532,POST: Discrimination in the US against Christians
+V202533,POST: Discrimination in the US against Gays and Lesbians
+V202534,POST: Discrimination in the US against women
+V202535,POST: Discrimination in the US against men
+V202536,POST: Discrimination in the US against transgender people
+V202537,POST: How much discrimination has R faced personally because or race/ethnicity
+V202538,POST: How much discrimination has R faced because of gender
+V202539,POST: Has R experienced harrassment at work
+V202540,POST: How often has R experienced harrassment at work
+V202541a,POST: Which social media platforms R visited ‐ Facebook
+V202541b,POST: Which social media platforms R visited ‐ Twitter
+V202541c,POST: Which social media platforms R visited ‐ Instagram
+V202541d,POST: Which social media platforms R visited ‐ Reddit
+V202541e,POST: Which social media platforms R visited ‐ YouTube
+V202541f,POST: Which social media platforms R visited ‐ SnapChat
+V202541g,POST: Which social media platforms R visited ‐ TikTok
+V202541h,POST: Which social media platforms R visited ‐ Other {SPECIFY}
+V202541i,POST: Which social media platforms R visited ‐ none of these
+V202542,POST: How often use Facebook
+V202543,POST: How often post political content on Facebook
+V202544,POST: How often use Twitter
+V202545,POST: How often post political content on Twitter
+V202546,POST: How often use Reddit
+V202547,POST: How often post political content on Reddit
+V202548,POST: What is the current unemployment rate
+V202549,POST: Did Russia try to interfere in 2016 presidential election or not
+V202550,POST: How confident is R about that
+V202551,POST: Did Trump administration deport more immigrants or did Obama
+V202552,POST: How confident is R about that
+V202553,POST: Does most scientific evidence show vaccines cause autism or not
+V202554,POST: How confident is R about that
+V202555,POST: Have world temperatuers have risen on average or last 100 years or not
+V202556,POST: How confident is R about that
+V202557,POST: Was the coronavirus (COVID‐19) was developed intentionally in a lab or not
+V202558,POST: How confident is R about that
+V202559,POST: Evidence that hydroxychloroquine is effective treatment for COVID‐19 or not
+V202560,POST: How confident is R about that
+V202561,POST: Life experience: does R know someone moved to U.S. from another country
+V202562,POST: Life experience: does R currently owe money on student loans
+V202563,POST: Life experience: has R ever received food stamps or other public assistance
+V202564,POST: Life experience: does R a have pension or retirement account
+V202565,POST: Life experience: does R choose products because they are made in America
+V202566,POST: Life experience: has R displayed American flag on house in past year
+V202567,POST: Life experience: has R gone hunting or fishing in past year
+V202568,POST: Life experience: has R used public transportation in past year
+V202569,POST: Life experience: has R ever been bitten by a shark
+V202575,POST: GSS: How often does R pay attention to politics and elections
+V202576,POST: GSS: CSES5‐ Q21: Satisfaction with democratic process
+V202577,POST: GSS: REV How often trust government in Washington to do what is right
+V202578,POST: GSS: Do elections make government pay attention
+V202579,POST: GSS: Is it justified for people to use violence to pursue political goals
+V202580,POST: GSS: 7pt scale goverment‐private medical insurance scale: self‐placement
+V202581,POST: GSS: National economy better or worse in last year
+V202582,POST: GSS: How much national economy better or worse in last year
+V202583x,POST: GSS: SUMMARY: National economy better/worse in last year
+V202584,POST: GSS: Economy better or worse in next 12 months
+V202585,POST: GSS: Economy how much better or worse next 12 months
+V202586x,POST: GSS: SUMMARY: Economy better/worse in next 12 months
+V202587,POST: GSS: R how much better or worse off than one year ago
+V202588,POST: GSS: R how much better or worse off next year
+V202589,POST: GSS: How worried is R about current financial situation
+V202590,POST: GSS: How important news organizations are free to criticize political leaders
+V202591,POST: GSS: How important branches of govt keep one another from too much power
+V202592,POST: GSS: How important elected officials face serious consequences for misconduct
+V202593,POST: GSS: How important people agree on basic facts even if they disagree politically
+V202594,POST: GSS: Helpful or harmful if president could work w/o congress or courts
+V202595,POST: GSS: Helpful or harmful if president could work w/o congress or courts (STRENGTH)
+V202596x,POST: GSS: SUMMARY: Helpful/harmful president could work w/o congress or courts
+V202597,POST: GSS: CSES5‐ Q04f: Attitudes about elites: People should make policy decisions
+V202598,POST: GSS: CSES5‐ Q05c: Out‐group attitudes: Immigrants good for economy
+V202599,POST: GSS: CSES5‐ Q05c: Out‐group attitudes: Immigrants harm culture
+V202600,POST: GSS: CSES5‐ Q05c: Out‐group attitudes: Immigrants increase crime
+V202601,POST: GSS: Approve or disapprove President handling COVID‐19
+V202602,POST: GSS: How much approve or disapprove President handling of COVID‐19
+V202603x,POST: GSS: SUMMARY: Approve/disapprove President handling of COVID‐19
+V202604,POST: GSS: Approve or disapprove R's governor handling of COVID‐19
+V202605,POST: GSS: How much approve or disapprove R's governor handling of COVID‐19
+V202606x,POST: GSS: SUMMARY: Approve/disapprove R's governor handling of COVID‐19
+V202607,POST: GSS: Approve or disapprove local government handling of COVID‐19
+V202608,POST: GSS: How much approve or disapprove local government handling of COVID‐19
+V202609x,POST: GSS: SUMMARY: Approve/disappove local government handling of COVID‐19
+V202610,POST: GSS: Federal government response to COVID‐19 too quick or too slow
+V202611,POST: GSS: Federal government response to COVID‐19 too quick or too slow (STRENGTH)
+V202612x,POST: GSS: SUMMARY: Federal government response to COVID‐19 too quick/too slow
+V202613,POST: GSS: Limits on public activity due to COVID‐19 too strict or not strict enough
+V202614,POST: GSS: State moved to re‐open too quickly or too slowly
+V202615,POST: GSS: State moved to re‐open too quickly or too slowly (STRENGTH)
+V202616x,POST: GSS: SUMMARY: State moved to re‐open too quickly/too slowly
+V202617,POST: GSS: Income gap today more or less than 20 years ago
+V202618,POST: GSS: How much larger is income gap today
+V202619,POST: GSS: How much smaller is income gap today
+V202620x,POST: GSS: SUMMARY: Income gap larger/smaller than 20 years ago
+V202621,POST: GSS: What is the best way to deal with urban unrest and rioting
+V202622,POST: GSS: Spending too much or too little on space program
+V202623,POST: GSS: Spending too much or too little on environment
+V202624,POST: GSS: Spending too much or too little on health
+V202625,POST: GSS: Spending too much or too little on cities
+V202626,POST: GSS: Spending too much or too little on crime
+V202627,POST: GSS: Spending too much or too little on drug abuse
+V202628,POST: GSS: Spending too much or too little on education
+V202629,POST: GSS: In past seven days has R been bothered by emotional problems
+V202630,POST: GSS: Taken all together how happy is R these days
+V202631,POST: GSS: Does R feel connected to the world around them
+V202632,POST: GSS: Does R feel part of something much larger than themselves
+V202633,POST: GSS: Does R feel a sense of larger meaning or purpose in life
+V202634,POST: GSS: How confident is R in medical institutions
+V202635,POST: GSS: How confident is R in scientific community
+V202636a,POST: IWR OBS: others present at time of iw ‐ nobody other than respondent
+V202636b,POST: IWR OBS: others present at time of iw ‐ children under 6
+V202636c,POST: IWR OBS: others present at time of iw ‐ older children
+V202636d,POST: IWR OBS: others present at time of iw ‐ unknown person
+V202636e,POST: IWR OBS: others present at time of iw ‐ other relatives
+V202636f,POST: IWR OBS: others present at time of iw ‐ other adults
+V202636g,POST: IWR OBS: others present at time of iw ‐ spouse
+V202637,POST: IWR OBS: respondent's gender
+V202638,POST: IWR OBS: respondent's estimated age
+V202639,POST: IWR OBS: respondent's cooperation
+V202640,POST: IWR OBS: respondent's level of information
+V202641,POST: IWR OBS: respondent's intelligence
+V202642,POST: IWR OBS: respondent seemed suspicious
+V202643,POST: IWR OBS: respondent's interest in interview
+V202644,POST: IWR OBS: respondent's honesty
+V202645a,POST: IWR OBS: R reactions to interview ‐ negative (general)
+V202645b,POST: IWR OBS: R reactions to interview ‐ negative (too long)
+V202645c,POST: IWR OBS: R reactions to interview ‐ negative (too complicated)
+V202645d,POST: IWR OBS: R reactions to interview ‐ negative (boring/tedious/repetitious)
+V202645e,POST: IWR OBS: R reactions to interview ‐ R wanted to stop before interview complete
+V202645f,POST: IWR OBS: R reactions to interview ‐ R was ill/deeaf/tired/had bad eyesight
+V202645g,POST: IWR OBS: R reactions to interview ‐ R expressed lack of knowledge
+V202645h,POST: IWR OBS: R reactions to interview ‐ R stressed/agitated by interview process
+V202645i,POST: IWR OBS: R reactions to interview ‐ R became angry at interview content
+V202645j,POST: IWR OBS: R reactions to interview ‐ R concerned with sampling purpose/bias
+V202645k,POST: IWR OBS: R reactions to interview ‐ R could not read respondent booklet
+V202645m,POST: IWR OBS: R reactions to interview ‐ R appeared to enjoy interview
+V202645n,POST: IWR OBS: R reactions to interview ‐ Neutral or no feedback
+V203050,PRE ADMIN: Pre Web device logins: phone
+V203051,PRE ADMIN: Pre Web device logins: tablet
+V203052,PRE ADMIN: Pre Web device logins: desktop/laptop
+V203053,PRE ADMIN: Beginning date of Pre IW (YYYYMMDD)
+V203054,PRE ADMIN: Beginning time of Pre IW (HHMMSS)
+V203055,PRE ADMIN: Ending date of Pre IW (YYYYMMDD)
+V203056,PRE ADMIN: Ending time of Pre IW (HHMMSS)
+V203057,PRE ADMIN: Pre‐election interview length (minutes)
+V203059,PRE ADMIN: Visible cash experiment in invitation letter
+V203060,PRE ADMIN: Screener incentive amount paid if screener R not selected
+V203061,PRE ADMIN: Pre incentive amount paid
+V203075,POST ADMIN: Post Web device logins: phone
+V203076,POST ADMIN: Post Web device logins: tablet
+V203077,POST ADMIN: Post Web device logins: desktop/laptop
+V203078,POST ADMIN: Beginning date of Post IW (YYYYMMDD)
+V203079,POST ADMIN: Beginning time of Post IW (HHMMSS)
+V203080,POST ADMIN: Ending date of Post IW (YYYYMMDD)
+V203081,POST ADMIN: Ending time of Post IW (HHMMSS)
+V203082,POST ADMIN: Post‐election interview length (minutes)
+V203084,POST ADMIN: Post incentive amount paid
+V203151,RANDOM: Order of major party names in vote sections
+V203152,RANDOM: Assignment of PRESVTLAST/PRESVTLASTREV
+V203153,RANDOM: Assignment of DUTYCHOICE/CHOICEDUTY
+V203154,RANDOM: RPTYID party order ‐ Democratic/Republican or Republican/Democratic
+V203155,RANDOM: SPLITTICKET party order ‐ Democratic/Republican or Republican/Democratic
+V203156,RANDOM: ABORTPRE candidate order ‐ Democrat/Republican or Republican/Democrat
+V203157,RANDOM: AIDBPR candidate order ‐ Democrat/Republican or Republican/Democrat
+V203158,RANDOM: CTRAIT candidate order ‐ Democrat/Republican or Republican/Democrat
+V203159,RANDOM: CLIKE candidate order ‐ Democrat/Republican or Republican/Democrat
+V203160,RANDOM: PTYLIK party order ‐ Democratic/Republican or Republican/Democratic
+V203161,RANDOM: DEFSPPR candidate order ‐ Democrat/Republican or Republican/Democrat
+V203162,RANDOM: CTRAIT item order ‐ first
+V203163,RANDOM: CTRAIT item order ‐ second
+V203164,RANDOM: CTRAIT item order ‐ third
+V203165,RANDOM: CTRAIT item order ‐ fourth
+V203166,RANDOM: EMOTION item order ‐ first
+V203167,RANDOM: EMOTION item order ‐ second
+V203168,RANDOM: EMOTION item order ‐ third
+V203169,RANDOM: EMOTION item order ‐ fourth
+V203170,RANDOM: EMOTION item order ‐ fifth
+V203171,RANDOM: EMOTION item order ‐ sixth
+V203172,RANDOM: EMOTION item order ‐ seventh
+V203173,RANDOM: EMOTION item order ‐ eighth
+V203174,RANDOM: EMOTION item order ‐ nineth
+V203175,RANDOM: ENVBUS candidate order ‐ Democrat/Republican or Republican/Democrat
+V203176,RANDOM: FEDSPEND item order ‐ first
+V203177,RANDOM: FEDSPEND item order ‐ second
+V203178,RANDOM: FEDSPEND item order ‐ third
+V203179,RANDOM: FEDSPEND item order ‐ fourth
+V203180,RANDOM: FEDSPEND item order ‐ fifth
+V203181,RANDOM: FEDSPEND item order ‐ sixth
+V203182,RANDOM: FEDSPEND item order ‐ seventh
+V203183,RANDOM: FEDSPEND item order ‐ eighth
+V203184,RANDOM: GUARPR candidate order ‐ Democrat/Republican or Republican/Democrat
+V203185,RANDOM: INSPRE candidate order ‐ Democrat/Republican or Republican/Democrat
+V203186,RANDOM: LIBCPRE candidate order ‐ Democrat/Republican or Republican/Democrat
+V203187,RANDOM: LEASTSP item order ‐ first
+V203188,RANDOM: LEASTSP item order ‐ second
+V203189,RANDOM: LEASTSP item order ‐ third
+V203190,RANDOM: LEASTSP item order ‐ fourth
+V203191,RANDOM: SPSRVPR candidate order ‐ Democrat/Republican or Republican/Democrat
+V203192,RANDOM: THERMPRE pres cand order ‐ Democrat/Republican or Republican/Democrat
+V203193,RANDOM: THERMPRE party order ‐ Democratic/Republican or Republican/Democratic
+V203194,"RANDOM: THERMPRE order Dem VP cand, Rep VP candid, previous president ‐ first"
+V203195,"RANDOM: THERMPRE order Dem VP cand, Rep VP candid, previous president ‐ second"
+V203196,"RANDOM: THERMPRE order Dem VP cand, Rep VP candid, previous president ‐ third"
+V203197,RANDOM: RADPROGS response option order ‐ first
+V203198,RANDOM: RADPROGS response option order ‐ second
+V203199,RANDOM: RADPROGS response option order ‐ third
+V203200,RANDOM: RADPROGS response option order ‐ fourth
+V203201,RANDOM: RADPROGS response option order ‐ fifth
+V203202,RANDOM: RADPROGS response option order ‐ sixth
+V203203,RANDOM: RADPROGS response option order ‐ seventh
+V203204,RANDOM: RADPROGS response option order ‐ eighth
+V203205,RANDOM: RADPROGS response option order ‐ nineth
+V203206,RANDOM: RADPROGS response option order ‐ tenth
+V203207,RANDOM: RADPROGS response option order ‐ eleventh
+V203208,RANDOM: RADPROGS response option order ‐ twelfth
+V203209,RANDOM: RADPROGS response option order ‐ thirteenth
+V203210,RANDOM: RADPROGS response option order ‐ fourteenth
+V203211,RANDOM: RADPROGS response option order ‐ fifteenth
+V203212,RANDOM: WEBSITES response option order ‐ first
+V203213,RANDOM: WEBSITES response option order ‐ second
+V203214,RANDOM: WEBSITES response option order ‐ third
+V203215,RANDOM: WEBSITES response option order ‐ fourth
+V203216,RANDOM: WEBSITES response option order ‐ fifth
+V203217,RANDOM: WEBSITES response option order ‐ sixth
+V203218,RANDOM: WEBSITES response option order ‐ seventh
+V203219,RANDOM: WEBSITES response option order ‐ eighth
+V203220,RANDOM: WEBSITES response option order ‐ nineth
+V203221,RANDOM: WEBSITES response option order ‐ tenth
+V203222,RANDOM: WEBSITES response option order ‐ eleventh
+V203223,RANDOM: WEBSITES response option order ‐ twelfth
+V203224,RANDOM: WEBSITES response option order ‐ thirteenth
+V203225,RANDOM: WEBSITES response option order ‐ fourteenth
+V203226,RANDOM: WEBSITES response option order ‐ fifteenth
+V203227,RANDOM: INET response option order ‐ first
+V203228,RANDOM: INET response option order ‐ second
+V203229,RANDOM: INET response option order ‐ third
+V203230,RANDOM: INET response option order ‐ fourth
+V203231,RANDOM: INET response option order ‐ fifth
+V203232,RANDOM: INET response option order ‐ sixth
+V203233,RANDOM: INET response option order ‐ seventh
+V203234,RANDOM: INET response option order ‐ eighth
+V203235,RANDOM: INET response option order ‐ nineth
+V203236,RANDOM: INET response option order ‐ tenth
+V203237,RANDOM: INET response option order ‐ eleventh
+V203238,RANDOM: INET response option order ‐ twelfth
+V203239,RANDOM: INET response option order ‐ thirteenth
+V203240,RANDOM: INET response option order ‐ fourteenth
+V203241,RANDOM: INET response option order ‐ fifteenth
+V203242,RANDOM: INET response option order ‐ sixteenth
+V203243,RANDOM: PRINT response option order ‐ first
+V203244,RANDOM: PRINT response option order ‐ second
+V203245,RANDOM: PRINT response option order ‐ third
+V203246,RANDOM: PRINT response option order ‐ fourth
+V203247,RANDOM: PRINT response option order ‐ fifth
+V203248,RANDOM: PRINT response option order ‐ sixth
+V203249,RANDOM: PRINT response option order ‐ seventh
+V203250,RANDOM: PRINT response option order ‐ eighth
+V203251,RANDOM: PRINT response option order ‐ nineth
+V203252,RANDOM: PRINT response option order ‐ tenth
+V203253,RANDOM: PRINT response option order ‐ eleventh
+V203254,RANDOM: PRINT response option order ‐ twelfth
+V203255,RANDOM: PRINT response option order ‐ thirteenth
+V203256,RANDOM: PRINT response option order ‐ fourteenth
+V203257,RANDOM: PRINT response option order ‐ fifteenth
+V203258,RANDOM: PRINT response option order ‐ sixteenth
+V203259,RANDOM: Speeding intervention ‐ SPEEDSET groups
+V203260,RANDOM: Speeding intervention ‐ SPEED groups
+V203261,RANDOM: Assignment of PTYMOB/PTYMOBREV
+V203262,RANDOM: MIP party order ‐ Democratic/Republican or Republican/Democratic
+V203263,RANDOM: Assignment of THGRASIAN/THGRASIANREV
+V203264,RANDOM: Assignment of HWKHISP/HWKHISPREV
+V203265,RANDOM: Assignment of HWKASIAN/HWKASIANREV
+V203266,RANDOM: Assignment of VIOLHISP/VIOLHISPREV
+V203267,RANDOM: Assignment of VIOLASIAN/VIOLASIANREV
+V203268,RANDOM: Order of CAMPFIN items
+V203269,RANDOM: Order of DISCRIM items (group 1) ‐ first
+V203270,RANDOM: Order of DISCRIM items (group 1) ‐ second
+V203271,RANDOM: Order of DISCRIM items (group 1) ‐ third
+V203272,RANDOM: Order of DISCRIM items (group 1) ‐ fourth
+V203273,RANDOM: Order of DISCRIM items (group 1) ‐ fifth
+V203274,RANDOM: Order of DISCRIM items (group 1) ‐ sixth
+V203275,RANDOM: Order of DISCRIM items (group 2) ‐ first
+V203276,RANDOM: Order of DISCRIM items (group 2) ‐ second
+V203277,RANDOM: Order of DISCRIM items (group 2) ‐ third
+V203278,RANDOM: Order of DISCRIM items (group 2) ‐ fourth
+V203279,RANDOM: Order of FRGNTHRT items ‐ first
+V203280,RANDOM: Order of FRGNTHRT items ‐ second
+V203281,RANDOM: Order of FRGNTHRT items ‐ third
+V203282,RANDOM: Order of FRGNTHRT items ‐ fourth
+V203283,RANDOM: Order of FRGNTHRT items ‐ fifth
+V203284,RANDOM: Order of FRGNTHRT items ‐ sixth
+V203285,RANDOM: Order of STYPEPO_HWK items (after HWKWHITE) ‐ first
+V203286,RANDOM: Order of STYPEPO_HWK items (after HWKWHITE) ‐ second
+V203287,RANDOM: Order of STYPEPO_HWK items (after HWKWHITE) ‐ third
+V203288,RANDOM: Order of STYPEPO_VIOL items (after VIOLWHITE) ‐ first
+V203289,RANDOM: Order of STYPEPO_VIOL items (after VIOLWHITE) ‐ second
+V203290,RANDOM: Order of STYPEPO_VIOL items (after VIOLWHITE) ‐ third
+V203291,RANDOM: Order of THCASI items ‐ first
+V203292,RANDOM: Order of THCASI items ‐ second
+V203293,RANDOM: Order of THCASI items ‐ third
+V203294,RANDOM: Order of THCASI items ‐ fourth
+V203295,RANDOM: Order of THCASI items ‐ fifth
+V203296,RANDOM: Order of THCASI items ‐ sixth
+V203297,RANDOM: Order of THERMGR (Group 1) items ‐ first
+V203298,RANDOM: Order of THERMGR (Group 1) items ‐ second
+V203299,RANDOM: Order of THERMGR (Group 1) items ‐ third
+V203300,RANDOM: Order of THERMGR (Group 1) items ‐ fourth
+V203301,RANDOM: Order of THERMGR (Group 1) items ‐ fifth
+V203302,RANDOM: Order of THERMGR (Group 1) items ‐ sixth
+V203303,RANDOM: Order of THERMGR (Group 1) items ‐ seventh
+V203304,RANDOM: Order of THERMGR (Group 1) items ‐ eighth
+V203305,RANDOM: Order of THERMGR (Group 1) items ‐ nineth
+V203306,RANDOM: Order of THERMGR (Group 1) items ‐ tenth
+V203307,RANDOM: Order of THERMGR (Group 1) items ‐ eleventh
+V203308,RANDOM: Order of THERMGR (Group 1) items ‐ twelfth
+V203309,RANDOM: Order of THERMGR (Group 1) items ‐ thirteenth
+V203310,RANDOM: Order of THERMGR (Group 1) items ‐ fourteenth
+V203311,RANDOM: Order of THERMGR (Group 1) items ‐ fifteenth
+V203312,RANDOM: Order of THERMGR (Group 1) items ‐ sixteenth
+V203313,RANDOM: Order of THERMGR (Group 1) items ‐ seventeenth
+V203314,RANDOM: Order of THERMGR (Group 2) items ‐ first [video/phone]
+V203315,RANDOM: Order of THERMGR (Group 2) items ‐ second [video/phone]
+V203316,RANDOM: Order of THERMGR (Group 2) items ‐ third [video/phone]
+V203317,RANDOM: Order of THERMGR (Group 2) items ‐ fourth [video/phone]
+V203318,RANDOM: Order of THERMGR (Group 2) items ‐ fifth [video/phone]
+V203319,RANDOM: Order of THERMGR (Group 2) items ‐ sixth [video/phone]
+V203320,RANDOM: Order of THERMGR (Group 2) items ‐ seventh [video/phone]
+V203321,RANDOM: Order of THERMGR (Group 2) items ‐ eighth [video/phone]
+V203322,RANDOM: Order of THERMGR (Group 2) items ‐ nineth [video/phone]
+V203323,RANDOM: Order of THERMGR (Group 2) items ‐ tenth [video/phone]
+V203324,RANDOM: Order of THERMGR (Group 2) items ‐ eleventh [video/phone]
+V203325,RANDOM: Order of THERMGR (Group 2) items ‐ twelfth [video/phone]
+V203326,RANDOM: Order of THERMGR (Group 2) items ‐ first [web]
+V203327,RANDOM: Order of THERMGR (Group 2) items ‐ second [web]
+V203328,RANDOM: Order of THERMGR (Group 2) items ‐ third [web]
+V203329,RANDOM: Order of THERMGR (Group 2) items ‐ fourth [web]
+V203330,RANDOM: Order of THERMGR (Group 2) items ‐ fifth [web]
+V203331,RANDOM: Order of THERMGR (Group 2) items ‐ sixth [web]
+V203332,RANDOM: Order of THERMGR (Group 2) items ‐ seventh [web]
+V203333,RANDOM: Order of THERMGR (Group 2) items ‐ eighth [web]
+V203334,RANDOM: Order of THERMGR (Group 2) items ‐ nineth [web]
+V203335,RANDOM: Order of THERMGR (Group 2) items ‐ tenth [web]
+V203336,RANDOM: Order of THERMGR (Group 2) items ‐ eleventh [web]
+V203337,RANDOM: Order of THERMGR (Group 2) items ‐ twelfth [web]
+V203338,RANDOM: Order of THERMPO pres cand ‐ Democrat/Republican or Republican/Democrat
+V203339,RANDOM: Order of THERMPO items ‐ first
+V203340,RANDOM: Order of THERMPO items ‐ second
+V203341,RANDOM: Order of THERMPO items ‐ third
+V203342,RANDOM: Order of THERMPO items ‐ fourth
+V203343,RANDOM: Order of THERMPO items ‐ fifth
+V203344,RANDOM: Order of THERMPO items ‐ sixth
+V203345,RANDOM: Order of THERMPO items ‐ seventh
+V203346,RANDOM: Order of THERMPO items ‐ eighth
+V203347,RANDOM: Order of THERMPO items ‐ nineth
+V203348,RANDOM: Order of THERMPO items ‐ tenth
+V203349,RANDOM: Order of THERMPO items ‐ eleventh
+V203350,RANDOM: Order of THERMPO items ‐ twelfth
+V203351,RANDOM: Order of THERMPO items ‐ thirteenth
+V203352,RANDOM: Order of THERMPO items ‐ fourteenth
+V203353,RANDOM: Order of THERMPO items ‐ fifteenth
+V203400,PRE: IWR DESCR: interviewer ID
+V203401,PRE: IWR DESCR: age
+V203402,PRE: IWR DESCR: race/ethnicity
+V203403,PRE: IWR DESCR: gender
+V203404,PRE: IWR DESCR: education
+V203405,PRE: IWR DESCR: Spanish spoken
+V203406,PRE: IWR DESCR: number of years working at Westat
+V203410,POST: IWR DESCR: interviewer ID
+V203411,POST: IWR DESCR: age
+V203412,POST: IWR DESCR: race/ethnicity
+V203500,CAND: Type of Senate race
+V203501,CAND: Name of Senior Senator (state without Senate race)
+V203502,CAND: Gender of Senior Senator (state without Senate race)
+V203503,CAND: Party of Senior Senator (state without Senate race)
+V203504,CAND: Name of Junior Senator (state without Senate race)
+V203505,CAND: Gender of Junior Senator (state without Senate race)
+V203506,CAND: Party of Junior Senator (state without Senate race)
+V203508,CAND: Name of Democratic Senate candidate (state with Senate race)
+V203509,CAND: Gender of Democratic Senate candidate (state with Senate race)
+V203510,CAND: Name of Republican Senate candidate (state with Senate race)
+V203511,CAND: Gender of Republican Senate candidate (state with Senate race)
+V203512,CAND: Name of other Senate candidate (state with Senate race)
+V203513,CAND: Gender of other Senate candidate (state with Senate race)
+V203514,CAND: Party of other Senate candidate (state with Senate race)
+V203515,CAND: Type of House race
+V203516,CAND: Name of Democratic House candidate
+V203517,CAND: Gender of Democratic House candidate
+V203518,CAND: Name of Republican House candidate
+V203519,CAND: Gender of Republican House candidate
+V203520,CAND: Name of other (3rd) House candidate
+V203521,CAND: Gender of other (3rd) House candidate
+V203522,CAND: Party of other (3rd) House candidate
+V203523,CAND: Type of Gubernatorial race
+V203524,CAND: Name of Democratic gubernatorial candidate
+V203525,CAND: Gender of Democratic gubernatorial candidate
+V203526,CAND: Name of Republican gubernatorial candidate
+V203527,CAND: Gender of Republican gubernatorial candidate

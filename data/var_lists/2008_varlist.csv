@@ -1,0 +1,1965 @@
+﻿Number,Name
+CASEID,CASE IDENTIFICATION NUMBER
+version,
+v080001,ID.1. CASE ID
+v080101,WT.1. CROSS-SECTION SAMPLE WEIGHT - PRE-ELECTION: centered
+v080101a,WT.1a. CROSS-SECTION SAMPLE WEIGHT - PRE-ELECTION
+v080102,WT.2. CROSS-SECTION SAMPLE WEIGHT - POST-ELECTION: centered
+v080102a,WT.2a. CROSS-SECTION SAMPLE WEIGHT - POST-ELECTION
+v080103,WT.3. HOUSEHOLD WEIGHT: Household post-stratified
+v081001,STUDY.1. Waves completed by respondent
+v081101,HHList.1. Respondent: gender
+v081102,HHList.2. Respondent: race
+v081103,HHList.3. Respondent: Latino status
+v081103a,HHList.3a. Respondent: race and Latino status
+v081104,HHList.4. Respondent: age
+v081105,HHList.5. RESTRICTED: Respondent: relationship to informant
+v081106,HHList.6. Respondent: adult person number
+v081107,HHList.7. TOTAL IN HH: PERSONS (ADULTS AND CHILDREN)
+v081108,HHList.8. TOTAL IN HH: ADULTS (18 BY OCT30)
+v081108a,HHList.8a. TOTAL IN HH: CITIZEN ADULTS (18 BY OCT30)
+v081108b,HHList.8b. TOTAL IN HH: NONCITIZEN ADULTS (18 BY OCT30)
+v081108c,HHList.8c. TOTAL IN HH: FEMALE ADULTS (18 BY OCT30)
+v081108d,HHList.8d. TOTAL IN HH: MALE ADULTS (18 BY OCT30)
+v081108e,HHList.8e. TOTAL IN HH: LATINO ADULTS (18 BY OCT30)
+v081108f,HHList.8f. TOTAL IN HH: BLACK ADULTS (18 BY OCT30)
+v081108g,HHList.8g. TOTAL IN HH: WHITE ADULTS (18 BY OCT30)
+v081108h,HHList.8h. TOTAL IN HH: MIXED/OTH RACE ADULTS (18 BY OCT30)
+v081109,HHList.9. TOTAL IN HH: CHILDREN UNDER 18 (NOT 18 BY OCT30)
+v081109a,HHList.9a. TOTAL IN HH: CHILDREN UNDER 17
+v081109b,"HHList.9b. TOTAL IN HH: CHLDREN 17 YRS OLD, NOT 18 BY OCT30"
+v081110,HHList.10. HOUSEHOLD COMPOSITION
+v081111a,HHList.11a. PERSON #1: gender
+v081111b,HHList.11b. PERSON #1: race
+v081111c,HHList.11c. PERSON #1: Latino
+v081111d,HHList.11d. PERSON #1: race and Latino status
+v081111e,HHList.11e. PERSON #1: citizen
+v081111f,HHList.11f. PERSON #1: age
+v081111g,"HHList.11g. PERSON #1: 18 by October 30, 2008"
+v081111h,HHList.11h. RESTRICTED:PERSON #1: relationship to informant
+v081112a,HHList.12a. PERSON #2: gender
+v081112b,HHList.12b. PERSON #2: race
+v081112c,HHList.12c. PERSON #2: Latino
+v081112d,HHList.12d. PERSON #2: race and Latino status
+v081112e,HHList.12e. PERSON #2: citizen
+v081112f,HHList.12f. PERSON #2: age
+v081112g,"HHList.12g. PERSON #2: 18 by October 30, 2008"
+v081112h,HHList.12h. RESTRICTED:PERSON #2: relationship to informant
+v081113a,HHList.13a. PERSON #3: gender
+v081113b,HHList.13b. PERSON #3: race
+v081113c,HHList.13c. PERSON #3: Latino
+v081113d,HHList.13d. PERSON #3: race and Latino status
+v081113e,HHList.13e. PERSON #3: citizen
+v081113f,HHList.13f. PERSON #3: age
+v081113g,"HHList.13g. PERSON #3: 18 by October 30, 2008"
+v081113h,HHList.13h. RESTRICTED:PERSON #3: relationship to informant
+v081114a,HHList.14a. PERSON #4: gender
+v081114b,HHList.14b. PERSON #4: race
+v081114c,HHList.14c. PERSON #4: Latino
+v081114d,HHList.14d. PERSON #4: race and Latino status
+v081114e,HHList.14e. PERSON #4: citizen
+v081114f,HHList.14f. PERSON #4: age
+v081114g,"HHList.14g. PERSON #4: 18 by October 30, 2008"
+v081114h,HHList.14h. RESTRICTED:PERSON #4: relationship to informant
+v081115a,HHList.15a. PERSON #5: gender
+v081115b,HHList.15b. PERSON #5: race
+v081115c,HHList.15c. PERSON #5: Latino
+v081115d,HHList.15d. PERSON #5: race and Latino status
+v081115e,HHList.15e. PERSON #5: citizen
+v081115f,HHList.15f. PERSON #5: age
+v081115g,"HHList.15g. PERSON #5: 18 by October 30, 2008"
+v081115h,HHList.15h. RESTRICTED:PERSON #5: relationship to informant
+v081116a,HHList.16a. PERSON #6: gender
+v081116b,HHList.16b. PERSON #6: race
+v081116c,HHList.16c. PERSON #6: Latino
+v081116d,HHList.16d. PERSON #6: race and Latino status
+v081116e,HHList.16e. PERSON #6: citizen
+v081116f,HHList.16f. PERSON #6: age
+v081116g,"HHList.16g. PERSON #6: 18 by October 30, 2008"
+v081116h,HHList.16h. RESTRICTED:PERSON #6: relationship to informant
+v081117a,HHList.17a. PERSON #7: gender
+v081117b,HHList.17b. PERSON #7: race
+v081117c,HHList.17c. PERSON #7: Latino
+v081117d,HHList.17d. PERSON #7: race and Latino status
+v081117e,HHList.17e. PERSON #7: citizen
+v081117f,HHList.17f. PERSON #7: age
+v081117g,"HHList.17g. PERSON #7: 18 by October 30, 2008"
+v081117h,HHList.17h. RESTRICTED:PERSON #7: relationship to informant
+v081118a,HHList.18a. PERSON #8: gender
+v081118b,HHList.18b. PERSON #8: race
+v081118c,HHList.18c. PERSON #8: Latino
+v081118d,HHList.18d. PERSON #8: race and Latino status
+v081118e,HHList.18e. PERSON #8: citizen
+v081118f,HHList.18f. PERSON #8: age
+v081118g,"HHList.18g. PERSON #8: 18 by October 30, 2008"
+v081118h,HHList.18h. RESTRICTED:PERSON #8: relationship to informant
+v081119,HHList.19. HOUSEHOLD LISTING COMPLETED: date MMDD2008
+v081120,HHList.19. HOUSEHOLD LISTING COMPLETED: language [% English]
+v081121,HHList.19. HOUSEHOLD LISTING COMPLETED: interviewer ID
+v081201a,Sample.1a. State Postal abbreviation
+v081201b,Sample.1b. State FIPS code
+v081202a,Sample.2a. Postal abbrev and Congr district number
+v081202b,Sample.2b. Congressional district number
+v081203a,Sample.3a. Corrected state Postal abbrev-Congr district num
+v081203b,Sample.3b. Corrected Congressional district number
+v081204,Sample.4. Census Region
+v081205,Sample.5. RESTRICTED: Primary area number
+v081206,Sample.6. RESTRICTED: Stratum (stage 1)
+v081207,Sample.7. RESTRICTED: FIPS state-county code
+v081208,Sample.8. RESTRICTED: CBG
+v081209,Sample.9. RESTRICTED: Census Tract
+v081210,Sample.10. RESTRICTED: Census Place
+v081211,Sample.11. RESTRICTED: MCD
+v081212,Sample.12. RESTRICTED: MSA
+v081212a,Sample.12a. RESTRICTED: CSA
+v081212b,Sample.12b. RESTRICTED: CBSA
+v082001a,PreAdmin.1a. Beginning Date of Pre-election IW: month
+v082001b,PreAdmin.1b. Beginning Date of Pre-election IW: day
+v082001c,PreAdmin.1c. Beginning Date of Pre-election IW: date MMDD
+v082002a,PreAdmin.2a. Ending Date of Pre-election IW: month
+v082002b,PreAdmin.2b. Ending Date of Pre-election IW: day
+v082002c,PreAdmin.2c. Ending Date of Pre-election IW: date MMDD
+v082003a,PreAdmin.3a. No. days til election: Pre-election IW beg date
+v082003b,PreAdmin.3b. No. days til election: Pre-election IW end date
+v082004,PreAdmin.4. Total no. IW sessions: Pre-election IW
+v082005,PreAdmin.5. Total no. interviewers: Pre-election IW
+v082006,PreAdmin.6. Version: Pre-election IW
+v082007,PreAdmin.7. Total no. calls: Pre-election
+v082008,PreAdmin.8. Interviewer IW number: Pre-election IW (nth IW)
+v082009,PreAdmin.9. Mode of interview: Pre-election IW
+v082010,PreAdmin.10. Length of interview: Pre-election IW
+v082011,PreAdmin.11. Language of interview: Pre-election IW
+v082012a,PreAdmin.12a. Interview verification: Pre-election IW
+v082012b,PreAdmin.12b. Interview evaluation: Pre-election IW
+v082013,PreAdmin.13. Sample release (Pre-election)
+v082014,PreAdmin.14. Interview recorded: Pre-election IW
+v082015,PreAdmin.15. Respondent payment amount: Pre-election IW
+v082016,PreAdmin.16. Respondent payment mode: Pre-election IW
+v082017a,PreAdmin.17a. Refusal made: Pre-election IW
+v082017b,PreAdmin.17b. Refusal conversion: Pre-election IW
+v082018,PreAdmin.18. Respondent incentive: Pre-election IW
+v082019,PreAdmin.19. Beginning time of IW: Pre-election IW
+v082020,PreAdmin.20. Persuasion letter: Pre-election IW
+v082021a,PreAdmin.21a. COMMENT:SUMMARY: positive comment
+v082021b,PreAdmin.21b. COMMENT:SUMMARY: time-delay comment
+v082021c,PreAdmin.21c. COMMENT:SUMMARY: negative comment
+v082021d,PreAdmin.21d. COMMENT:SUMMARY: eligibility comment
+v082021e,PreAdmin.21e. COMMENT:SUMMARY: privacy comment
+v082022a,PreAdmin.22a. Comment: positive - help community
+v082022b,PreAdmin.22b. Comment: positive - enjoy surveys
+v082022c,PreAdmin.22c. Comment: other positive
+v082022d,PreAdmin.22d. Comment: time delay - too busy
+v082022e,PreAdmin.22e. Comment: time delay - bad time
+v082022f,PreAdmin.22f. Comment: time delay - think about it
+v082022g,PreAdmin.22g. Comment: other time delay
+v082022h,PreAdmin.22h. Comment: negative - waste of time
+v082022j,PreAdmin.22j. Comment: negative - don't trust surveys
+v082022k,PreAdmin.22k. Comment: negative - surveys waste money
+v082022m,PreAdmin.22m. Comment: negative - never do surveys
+v082022n,PreAdmin.22n. Comment: negative - not interested
+v082022p,PreAdmin.22p. Comment: other negative
+v082022q,PreAdmin.2qa. Comment: eligibility - don't know about topic
+v082022r,PreAdmin.22r. Comment: eligibility - no spouse/parn/child
+v082022s,PreAdmin.22s. Comment: eligibility - too young/too old
+v082022t,PreAdmin.22t. Comment: eligibility - don't vote
+v082022u,PreAdmin.22u. Comment: other eligibility
+v082022v,PreAdmin.22v. Comment: privacy - personal questions
+v082022w,PreAdmin.22w. Comment: privacy - govt knows everything
+v082022y,PreAdmin.22y. Comment: other privacy
+v082023,PreAdmin.23. DWELLING UNIT: type of structure: Pre-election
+v082024,PreAdmin.24. DWELLING UNIT: structure descript: Pre-election
+v082024a,PreAdmin.24a. DWELLING UNIT: struct residential: Pre-electn
+v082025,PreAdmin.25. DWELLING UNIT: observe urbanicity: Pre-election
+v082026a,PreAdmin.26a. DWELLING UNIT: window pol signs: Pre-election
+v082026b,PreAdmin.26b. DWELLING UNIT: exterior pol signs: Pre-electn
+v082026c,PreAdmin.26c. DWELLING UNIT: type polit signs: Pre-election
+v082027,PreAdmin.27. DWELLING UNIT:SUMMARY:access: Pre-election
+v082027a,PreAdmin.27a. DWELLING UNIT: bars on windows: Pre-election
+v082027b,PreAdmin.27b. DWELLING UNIT: crimewtch/sec systm: Pre-electn
+v082027c,PreAdmin.27c. DWELLING UNIT: no trespassing: Pre-election
+v082027d,PreAdmin.27d. DWELLING UNIT: beware of dog: Pre-election
+v082027e,PreAdmin.27e. DWELLING UNIT: no solicitors: Pre-election
+v082027f,PreAdmin.27f. DWELLING UNIT: security door: Pre-election
+v082027g,PreAdmin.27g. DWELLING UNIT: call guard: Pre-election
+v082027h,PreAdmin.27h. DWELLING UNIT: access guard: Pre-election
+v082027j,PreAdmin.27j. DWELLING UNIT: gate guard: Pre-election
+v082027k,PreAdmin.27k. DWELLING UNIT: staff/manager: Pre-election
+v082027m,PreAdmin.27m. DWELLING UNIT: no buzzer locked: Pre-election
+v082027n,PreAdmin.27n. DWELLING UNIT: buzzer no address: Pre-election
+v082027p,PreAdmin.27p. DWELLING UNIT: buzzer w/address: Pre-election
+v082027q,PreAdmin.27q. DWELLING UNIT: threateng animal: Pre-election
+v082028,PreAdmin.28. DWELLING UNIT:SUMMARY: building: Pre-election
+v082028a,PreAdmin.28a. DWELLING UNIT: roofing missing: Pre-election
+v082028b,PreAdmin.28b. DWELLING UNIT: boarded windows: Pre-election
+v082028c,PreAdmin.28c. DWELLING UNIT: broken windows: Pre-election
+v082028d,PreAdmin.28d. DWELLING UNIT: missing siding: Pre-election
+v082028e,PreAdmin.28e. DWELLING UNIT: torn screens: Pre-election
+v082028f,PreAdmin.28f. DWELLING UNIT: doors off hinges: Pre-election
+v082028g,PreAdmin.28g. DWELLING UNIT: peeling paint: Pre-election
+v082028h,PreAdmin.28h. DWELLING UNIT: broken siding: Pre-election
+v082028j,PreAdmin.28j. DWELLING UNIT: unkept yard: Pre-election
+v082028k,PreAdmin.28k. DWELLING UNIT: litter/trash: Pre-election
+v082029,PreAdmin.29. DWELLING UNIT:SUMMARY: area view: Pre-election
+v082029a,PreAdmin.29a. DWELLING UNIT: area boarded hses: Pre-election
+v082029b,PreAdmin.29b. DWELLING UNIT: area graffiti: Pre-election
+v082029c,PreAdmin.29c. DWELLING UNIT: area aband cars: Pre-election
+v082029d,PreAdmin.29d. DWELLING UNIT: area demolish hses: Pre-electn
+v082029e,PreAdmin.29e. DWELLING UNIT: trash in road: Pre-election
+v082029f,PreAdmin.29f. DWELLING UNIT: trash by bldgs: Pre-election
+v082029g,PreAdmin.29g. DWELLING UNIT: factories near: Pre-election
+v082029h,PreAdmin.29h. DWELLING UNIT: stores near: Pre-election
+v082030,PreAdmin.30. DWELLING UNIT: relative condition: Pre-electn
+v082251,PreIWR.1. Interviewer ID: Pre-election IW
+v082252,PreIWR.2. Interviewer gender: Pre-election IW
+v082253,PreIWR.3. Interviewer education: Pre-election IW
+v082254,PreIWR.4. Interviewer race: Pre-election IW
+v082255,PreIWR.5. Interviewer ethnicity: Pre-election IW
+v082256,PreIWR.6. Interviewer languages: Pre-election IW
+v082257,PreIWR.7. Interviewer years experience: Pre-election IW
+v082258,PreIWR.8. Interviewer age group: Pre-election IW
+v082401,PreRandom.1. Forward or reverse coding
+v082402,PreRandom.2. OLD or NEW subset of questions
+v082403,PreRandom.3. VERSION A or B campaign interest
+v082404,PreRandom.4. Order of Presidential candidate likes-dislikes
+v082405,PreRandom.5. Order Presidential candidate thermometers
+v082406a,PreRandom.6a. Order Dem Vice Presidential thermometer
+v082406b,PreRandom.6b. Order Rep Vice Presidential thermometer
+v082406c,PreRandom.6c. Order Hillary Clinton thermometer
+v082406d,PreRandom.6d. Order Bill Clinton thermometer
+v082406e,PreRandom.6e. Order Condoleezza thermometer
+v082406f,PreRandom.6f. Order Rush Limbaugh thermometer
+v082407,PreRandom.7. Order Party thermometers
+v082408,PreRandom.6a. Order Party Likes-Dislikes
+v082409,PreRandom.10. Order Pres cands in affects
+v082410a,PreRandom.10a. Order of Pres cand affect ANGRY
+v082410b,PreRandom.10b. Order of Pres cand affect HOPEFUL
+v082410c,PreRandom.10c. Order of Pres cand affect AFRAID
+v082410d,PreRandom.10d. Order of Pres cand affect PROUD
+v082411,PreRandom.11. Order of Dem-Rep Pres cand libcon placements
+v082412,PreRandom.12. Order of Dem-Rep party libcon placements
+v082413,PreRandom.13. VERSION C or D efficacy items
+v082414,PreRandom.14. VERSION E or F economy items
+v082415,PreRandom.15. Order Dem-Rep Pres cands- Version F econ items
+v082416,PreRandom.16. Order of unempl/inflation economy items
+v082417,PreRandom.17. VERSION G or H social trust items
+v082418,PreRandom.18. Order of parties in text of party performance
+v082419,PreRandom.19. VERSION P or Q party war performance question
+v082420,PreRandom.20. Order of parties in text of party id question
+v082421,PreRandom.21. VERSION J or K traits questions
+v082422,PreRandom.22. Order of Dem and Rep Pres cands for traits
+v082423a,PreRandom.23a. Order of Pres cand trait MORAL
+v082423b,PreRandom.23b. Order of Pres cand trait STRONG LEADERSHIP
+v082423c,PreRandom.23c. Order of Pres cand trait REALLY CARES
+v082423d,PreRandom.23d. Order of Pres cand trait KNOWLEDGEABLE
+v082423e,PreRandom.23e. Order of Pres cand trait INTELLIGENT
+v082423f,PreRandom.23f. Order of Pres cand trait HONEST
+v082423g,PreRandom.23g. Order of Pres cand trait OPTIMISTIC
+v082424,PreRandom.24. Order of Dem-Rep Pres service-spend placements
+v082425,PreRandom.25. Order of Dem-Rep Pres defense spend placements
+v082426,PreRandom.26. Order of Dem-Rep Pres health ins placements
+v082427,PreRandom.27. Order of Dem-Rep Pres guar jobs placements
+v082428,PreRandom.28. Order of Dem-Rep Pres aid to blacks placements
+v082429a,PreRandom.29a. Order of SOCIAL SECURITY federal spend item
+v082429b,PreRandom.29b. Order of PUBLIC SCHOOLS federal spending item
+v082429c,PreRandom.29c. Order of SCIENCE-TECHNGY federal spend item
+v082429d,PreRandom.29d. Order of CRIME federal spending item
+v082429e,PreRandom.29e. Order of WELFARE federal spending item
+v082429f,PreRandom.29f. Order of CHILD CARE federal spending item
+v082429g,PreRandom.29g. Order of FOREIGN AID federal spending item
+v082429h,PreRandom.29h. Order of AID TO POOR federal spending item
+v082429j,PreRandom.29j. Order of BORDER SECURIty federal spend item
+v082429k,PreRandom.29k. Order of WAR ON TERRORISM federal spend item
+v082429m,PreRandom.29m. Order of ENVIRONMENTfederal spend item
+v082430,PreRandom.30. Order of Dem-Rep Pres envirnmt-jobs placements
+v082431,PreRandom.31. Order of Dem-Rep Pres womens role placements
+v082432,PreRandom.32. VERSION R or S election of black President
+v082433a,PreRandom.33a. Order stereotype racial group BLACKS
+v082433b,PreRandom.33b. Order stereotype racial group HISPANICS
+v082433c,PreRandom.33c. Order stereotype racial group ASIANS
+v082434,PreRandom.34. VERSION M or N marital status question
+v083001a,A1a. Interested in following campaigns [VERSION A]
+v083001b,A1b. Interested in following campaigns [VERSION B]
+v083002,A2. How much has R thought about election for President
+v083003,A3. Does R know where to go to vote in neighborhood
+v083004,A4. Has R ever voted in precinct or election district
+v083005,A5. How often does R vote
+v083006,A6. How definite is R's intention to vote or not
+v083007,A7. Did R vote for President in 2004
+v083007a,A7a. Recall of last (2004) Presidential vote choice
+v083008,A8a. Is there anything R likes about Democratic Pres cand
+v083009,A8b. What is it that R likes about Democratic Pres cand
+v083010,A8c. Is there anything R dislikes about Democratic Pres cand
+v083011,A8d. What is it that R dislikes about Democratic Pres cand
+v083012,A9a. Is there anything R likes about Republican Pres cand
+v083013,A9b. What is it that R likes about Republican Pres cand
+v083014,A9c. Is there anything R dislikes about Republican Pres cand
+v083015,A9d. What is it that R dislikes about Republican Pres cand
+v083016,A10a. Will R feel happy or sad if Democratic Pres cand won
+v083016a,A10a1. How happy/sad will R be if Democratic Pres cand won
+v083016x,A10a1x. SUMMARY: R happy/sad if Democratic Pres cand won
+v083017,A10b. Will R feel happy or sad if Republican Pres cand won
+v083017a,A10b1a. How happy/sad will R be if Republican Pres cand won
+v083017x,A10b1x. SUMMARY: R happy/sad if Republican Pres cand won
+v083018,A11. Does R have access to the internet
+v083019,A11b. Days past week watched natl news on TV [OLD]
+v083019a,A11b1. Attention to national (network) news [OLD]
+v083020a,A11c1a. Days past wk watched loc TV news aft/early eve [OLD]
+v083020b,A11c1b. Days past wk watched local TV news late eve [OLD]
+v083020c,A11c2. Attention to local news [OLD]
+v083021a,A11d1a. Days in past week read a daily newspaper [OLD]
+v083021b,A11d1b. Days past week read a daily online newspaper [OLD]
+v083021c,A11d2. Did R read about campaign in newspaper [OLD]
+v083021d,A11d2a. Attention to newspaper articles [OLD]
+v083022,A11e. Days in past week listen to radio news [OLD]
+v083022a,A11e1. Attention to radio news [OLD]
+v083023,A12a1. Days in typical week review news on internet [NEW]
+v083023a,A12a1a. Time in typical day review news on internet [NEW]
+v083023b,A12a1a1. Attention to internet news [NEW]
+v083024,A12b. Days in typical week watch news on TV [NEW]
+v083024a,A12b1. Time in typical day watch news on TV [NEW]
+v083024b,A12b1a. Attention to TV news [NEW]
+v083025,A12c. Days in typical wk read news in print newspaper [NEW]
+v083025a,A12c1. Time in typical day read news in print newpaper [NEW]
+v083025b,A12c1a. Attention to printed newspaper news [NEW]
+v083026,A12d. Days in typical week listen news on radio [NEW]
+v083026a,A12d1. Time in typical day listen news on radio [NEW]
+v083026b,A12d1a. Attention to radio news [NEW]
+v083027,A13. Are things in the country on right track
+v083028,A14a. Approve/disapprove President handling job as Pres
+v083028a,A14a1. How much approve/disapp Pres handling job
+v083028x,A14a1x. SUMMARY: R approve/disapp Pres handling job
+v083029,A14b. Approve/disapprove President handling economy
+v083029a,A14b1. How much approve/disapprove Pres handling economy
+v083029x,A14b1x. SUMMARY: R approve/disapp Pres handling economy
+v083030,A14c. Approve/disapprove President handling foreign relation
+v083030a,A14c1. How much approve/disapprove Pres handling foreign rel
+v083030x,A14c1x. SUMMARY: R approve/disapp Pres handling foreign rel
+v083031,A14d. Approve/disapprove President handling the environment
+v083031a,A14d1. How much approve/disapprove Pres handling environment
+v083031x,A14d1x. SUMMARY: R approve/disapp Pres handling environment
+v083032,A14e. Approve/disapprove President handling health care
+v083032a,A14e1. How much approve/disapprove Pres handling health care
+v083032x,A14e1x. SUMMARY: R approve/disapp Pres handling health care
+v083033,A14f. Approve/disapprove President handling war in Iraq
+v083033a,A14f1. How much approve/disapprove Pres handling war in Iraq
+v083033x,A14f1x. SUMMARY: R approve/disapp Pres handling war in Iraq
+v083034,A15. Care who wins House election
+v083035,A16. Approval of Congress handling its job
+v083035a,A16a. Strength appr/disapprove Congress handling its job
+v083035x,A16ax. SUMMARY: R approve/disapp Congress handling job
+v083036,B1a. Feeling Thermometer: President
+v083037a,B1b1. Feeling Thermometer: Democratic Presidential cand
+v083037b,B1b2. Feeling Thermometer: Republican Presidential cand
+v083038,B1c. Names: Feeling Thermometer Vice Presidential cands
+v083039a,B1c1. Feeling Thermometer: Democratic Vice-Pres cand
+v083039b,B1c2. Feeling Thermometer: Republican Vice-Pres cand
+v083040,B1d. Feeling Thermometer: Hillary Clinton
+v083041,B1e. Feeling Thermometer: Bill Clinton
+v083042,B1f. Feeling Thermometer: Condoleezza Rice
+v083043,B1g. Feeling Thermometer: Rush Limbaugh
+v083044a,B1h. Feeling Thermometer: Democratic Party
+v083044b,B1j. Feeling Thermometer: Republican Party
+v083045,C1a. Is there anything R likes about Democratic Party
+v083046,C1b. What does R like about Democratic party
+v083047,C1c. Is there anything R dislikes about Democratic Party
+v083048,C1d. What does R dislike about the Democratic party
+v083049,C2a. Is there anything R likes about Republican Party
+v083050,C2b. What does R like about Republican party
+v083051,C2c. Is there anything R dislikes about Republican Party
+v083052,C2d. What does R dislike about the Republican party
+v083053,C3. Is it better when one party controls presidency and Cong
+v083054,C4a. How similar are Republicans to one another
+v083055,C4b. How similar are Democrats to one another
+v083056,C5_. R living with family members
+v083057,C5. R better/worse off than 1 year ago
+v083057a,C5a. R how much better/worse off than 1 year ago
+v083057x,C5ax. SUMMARY: R better/worse off than 1 year ago
+v083058,C6. Will R be financially better/worse off one year from now
+v083058a,C6a. R how much better/worse off 1 year from now
+v083058x,C6x. SUMMARY: R better/worse off 1 year from now
+v083059,C7. Does R or spouse have any money invested in stock market
+v083060,C8. Does R have health insurance
+v083061,D1a. Affect for Democratic Pres cand: angry
+v083061a,D1a1. How often affect angry about Democratic Pres cand
+v083062,D1b. Affect for Democratic Pres cand: hopeful
+v083062a,D1b1. How often affect hopeful about Democratic Pres cand
+v083063,D1c. Affect for Democratic Pres cand: afraid
+v083063a,D1c1. How often affect afraid about Democratic Pres cand
+v083064,D1d. Affect for Democratic Pres cand: proud
+v083064a,D1d1. How often affect proud about Democratic Pres cand
+v083065,D2a. Affect for Republican Pres cand: angry
+v083065a,D2a1. How often affect angry about Republican Pres cand
+v083066,D2b. Affect for Republican Pres cand: hopeful
+v083066a,D2b1. How often affect hopeful about Republican Pres cand
+v083067,D2c. Affect for Republican Pres cand: afraid
+v083067a,D2c1. How often affect afraid about Republican Pres cand
+v083068,D2d. Affect for Republican Pres cand: proud
+v083068a,D2d1. How often affect proud about Republican Pres cand
+v083069,E1a. Liberal/conservative self-placement -7-point scale
+v083069a,E1b. If R had to choose liberal or conservative self-placemt
+v083070a,E2a. Liberal/conservative - Dem Pres cand
+v083070b,E2b. Liberal/conservative - Rep Pres cand
+v083071a,E3a. Liberal/conservative Dem party
+v083071b,E3b. Liberal/conservative Rep party
+v083072,E4. Care who wins Presidential Election
+v083073,E5. Who does R think will be elected President
+v083074,E5a. Will Pres race be a close or will (winner) win by a lot
+v083075,E6. Which Pres cand will carry state
+v083076,E6a. Will Pres race be close in state
+v083077,E7. Did R vote in the Presidential primary or caucus
+v083077a,E7a. For which candidate did R vote in Presidential primary
+v083078,E8. Does R believe in duty to vote in every natl election
+v083079a,E9a. Politics/govt too complicated to understand [VERSION C]
+v083079b,E9b. Good understanding of political issues [VERSION C]
+v083079c,E9c. Publ officials don't care what people think [VERSION C]
+v083079d,E9d. Have no say about what govt does [VERSION C]
+v083080a,E10a. Politics/govt too complicatd to understand [VERSION D]
+v083080b,E10b. Good understanding of political issues [VERSION D]
+v083080c,E10c. Publ officials don't care what peopl think [VERSION D]
+v083080d,E10d. Have no say about what govt does [VERSION D]
+v083081,E11. Extent successfully defend opinion
+v083082,E12. How often see both disagreeing parties as right
+v083083,F1. National economy better/worse in last year
+v083083a,F1a. How much economy better/worse in last year
+v083083x,F1ax. SUMMARY: economy better worse in last year
+v083084,F2a. Economy better or worse in next 12 months [VERSION E]
+v083084a,F2a1. How much econ better/worse next 12 months [VERSION E]
+v083084x,F2a1x. SUMMARY: economy better/worse next 12 mos [VERSION E]
+v083085,F2b1. Economy better/worse if Dem Pres cand wins [VERSION F]
+v083085a,F2b1a. How much econ bett/worse if Dem Pres wins [VERSION F]
+v083085x,F2b1ax. SUMMARY: bett/wrse if Dem Pres cand win [VERSION F]
+v083086,F2b2. Economy better/worse if Rep Pres cand wins [VERSION F]
+v083086a,F2b2a. How much econ bett/worse if Rep Pres wins [VERSION F]
+v083086x,F2b2ax. SUMMARY: bett/wrse if Rep Pres cand win [VERSION F]
+v083087,F3. Unemployment better or worse in last year
+v083087a,F3a. How much unemployment better or worse in last year
+v083087x,F3ax. SUMMARY: unemployment better/worse in last year
+v083088,F4. More or less unemployment in next year
+v083089,F5. Inflation better or worse in last year
+v083089a,F5a. How much inflation better or worse in last year
+v083089x,F5ax. SUMMARY: inflation better/worse in last year
+v083090,F6. More or less inflation in next year
+v083091,F7. Could R borrow money if R needed to
+v083091a,F7a. How much money could R borrow if R needed to
+v083092a,F8a. Can people be trusted [VERSION G]
+v083092b,F8b. Can people be trusted [VERSION H]
+v083093,G1. Which party better: handling nations economy
+v083094a,G2a. Which party better: keeping out of war [VERSION P]
+v083094b,G2b. Which party better: keeping out of war [VERSION Q]
+v083095,"H1. During last year, U.S. position in world weaker/stronger"
+v083096,H2. Country would be better off if we just stayed home
+v083097,"J1. Party ID: Does R think of self as Dem, Rep, Ind or what"
+v083098a,J1a. Party Identification strong - Democrat/Republican
+v083098b,J1b. No Party Identification - closer to Dems or Reps
+v083099a,K1a1. Pres Dem cand trait moral [VERSION J]
+v083099b,K1a2. Pres Dem cand trait strong leadership [VERSION J]
+v083099c,K1a3. Pres Dem cand trait really cares [VERSION J]
+v083099d,K1a4. Pres Dem cand trait knowledgeable [VERSION J]
+v083099e,K1a5. Pres Dem cand trait intelligent [VERSION J]
+v083099f,K1a6. Pres Dem cand trait honest [VERSION J]
+v083099g,K1a7. Pres Dem cand trait optimistic [VERSION J]
+v083100a,K1b1. Pres Dem cand trait moral [VERSION K]
+v083100b,K1b2. Pres Dem cand trait strong leadership [VERSION K]
+v083100c,K1b3. Pres Dem cand trait really cares[VERSION K]
+v083100d,K1b4. Pres Dem cand trait knowledgeable [VERSION K]
+v083100e,K1b5. Pres Dem cand trait intelligent [VERSION K]
+v083100f,K1b6. Pres Dem cand trait honest [VERSION K]
+v083100g,K1b7. Pres Dem cand trait optimistic [VERSION K]
+v083101a,K2a1. Pres Rep cand trait moral [VERSION J]
+v083101b,K2a2. Pres Rep cand trait strong leadership [VERSION J]
+v083101c,K2a3. Pres Rep cand trait really cares [VERSION J]
+v083101d,K2a4. Pres Rep cand trait knowledgeable [VERSION J]
+v083101e,K2a5. Pres Rep cand trait intelligent [VERSION J]
+v083101f,K2a6. Pres Rep cand trait honest [VERSION J]
+v083101g,K2a7. Pres Rep cand trait optimistic [VERSION J]
+v083102a,K2b1. Pres Rep cand trait moral [VERSION K]
+v083102b,K2b2. Pres Rep cand trait strong leadership [VERSION K]
+v083102c,K2b3. Pres Rep cand trait really cares [VERSION K]
+v083102d,K2b4. Pres Rep cand trait knowledgeable [VERSION K]
+v083102e,K2b5. Pres Rep cand trait intelligent [VERSION K]
+v083102f,K2b6. Pres Rep cand trait honest [VERSION K]
+v083102g,K2b7. Pres Rep cand trait optimistic [VERSION K]
+v083103,M1a. Was Iraq war worth the cost
+v083104,M2. Iraq war increased or decreased threat of terrorism
+v083105,N1a. Spending and Services - 7-point scale self [OLD]
+v083106,N1b. Importance of spending-services issue to R [OLD]
+v083107a,N1c1. Spending and Services: Dem Pres cand [OLD]
+v083107b,N1c2. Spending and Services: Rep Pres cand [OLD]
+v083108,N1d. Spending and Services - self [NEW]
+v083108a,N1d1. Amount more/less spending and Services - self [NEW]
+v083108x,N1d1x. SUMMARY: R position on services-spending [NEW]
+v083109,N1e. Importance of spending-services issue to R [NEW]
+v083110,N1f1. Spending and Services: Dem Pres cand [NEW]
+v083110a,N1f1a. Amt more/less spending-services: Dem Pres cand [NEW]
+v083110x,N1f1ax. SUMMARY: Dem Pres cand position on serv-spend [NEW]
+v083111,N1f2. Spending and Services: Rep Pres cand [NEW]
+v083111a,N1f2a. Amt more/less spending-services: Rep Pres cand [NEW]
+v083111x,N1f2ax. SUMMARY: Rep Pres cand position on serv-spend [NEW]
+v083112,N2a. Defense spending - 7-point scale self [OLD]
+v083113,N2b. Importance of defense spending issue to R [OLD]
+v083114a,N2c1. Defense spending scale: Dem Pres cand [OLD]
+v083114b,N2c2. Defense spending scale: Rep Pres cand [OLD]
+v083115,N2d. Defense spending - self [NEW]
+v083115a,N2d1. Amount more/less defense spending - self [NEW]
+v083115x,N2d1x. SUMMARY: R position on def spend [NEW]
+v083116,N2e. Importance of defense spend issue to R [NEW]
+v083117,N2f1. Defense spending: Dem Pres cand [NEW]
+v083117a,N2f1a. Amt more/less defense spend: Dem Pres cand [NEW]
+v083117x,N2f1ax. SUMMARY: Dem Pres cand position on def spend [NEW]
+v083118,N2f2. Defense spending: Rep Pres cand [NEW]
+v083118a,N2f2a. Amt more/less defense spend: Rep Pres cand [NEW]
+v083118x,N2f2ax. SUMMARY: Rep Pres cand position on def spend [NEW]
+v083119,N3a. Govt/private medical insur scale: self-placement [OLD]
+v083120,N3b. Importance of govt insurance issue to R [OLD]
+v083121a,N3c1. Insurance scale: Dem Pres cand [OLD]
+v083121b,N3c2. Insurance scale: Rep Pres cand [OLD]
+v083122,N3d. Favor/opp prescription drug coverage for seniors [NEW]
+v083122a,N3d1. How much favor/opp prescr drug cover for seniors [NEW]
+v083122x,N3d1x. SUMMARY: R position on senior prescr drug cover [NEW]
+v083123,N3e. Importance of prescript drug coverage for seniors [NEW]
+v083124,N3f. Favor/oppose universal health coverage [NEW]
+v083124a,N3f1. How much favor/oppose universal health coverage [NEW]
+v083124x,N3f1x. SUMMARY: R position on universal health care [NEW]
+v083125,N3g. Importance of universal health coverage [NEW]
+v083126,N3h1. Dem pres cand favor/opp universal health cover [NEW]
+v083126a,N3h1a. How mch Dem Pres cand fav/opp univ health cover [NEW]
+v083126x,N3h1ax. SUMMARY: Dem Pres cand posn on univ healthcare [NEW]
+v083127,N3h2. Rep pres cand favor/opp universal health cover [NEW]
+v083127a,N3h2a. How mch Rep Pres cand fav/opp univ health cover [NEW]
+v083127x,N3h2ax. SUMMARY: Rep Pres cand posn on univ healthcare [NEW]
+v083128,N4a. Guaranteed job-income scale: self-placement [OLD]
+v083129,N4b. Importance of guaranteed job-income issue to [OLD]
+v083130a,N4c1. Guar job scale: Dem Pres cand [OLD]
+v083130b,N4c2. Guar job scale: Rep Pres cand [OLD]
+v083131,N4d. Favor/oppose illegal immigrant work period [NEW]
+v083131a,N4d1. How much favor/opp illegal immigrant work period [NEW]
+v083131x,N4d1x. SUMMARY: R on illegal immigr work period [NEW]
+v083132,N4e. Importance of illegal immigrant work period [NEW]
+v083133,N4f. Favor/opp citizenshp process for illeg immigrants [NEW]
+v083133a,N4f1. How much favor/oppose citizenship illegals [NEW]
+v083133x,N4f1x. SUMMARY: R on illegal immigr citizenship process[NEW]
+v083134,N4g. Importance of citizenship illegals issue [NEW]
+v083135,N4h1. Dem Pres cand favor/oppose citizenship illegals [NEW]
+v083135a,N4h1a. How mch Dem Pres cand fav/opp citznshp illegals [NEW]
+v083135x,N4h1ax. SUMMARY: Dem Pres cand on illeg immigr citznshp[NEW]
+v083136,N4h2. 2nd pres cand favor/oppose citizenship illegals [NEW]
+v083136a,N4h2a. How mch Rep Pres cand fav/opp citznshp illegals [NEW]
+v083136x,N4h2ax. SUMMARY: Dem Pres cand on illeg immigr citznshp[NEW]
+v083137,N5a. Govt assistance to blacks scale: self-placement
+v083138a,N5b1. Importance of aid to blacks issue to R [OLD]
+v083138b,N5b2. Importance of aid to blacks issue to R [NEW]
+v083139a,N5c1. Aid to blacks Placement: Dem Pres cand
+v083139b,N5c2. Aid to blacks Placement: Rep Pres cand
+v083140,P1a. Federal Budget Spending: building-repairing highways
+v083140a,P1a1. How much increase or decrease spending on highways
+v083140x,P1a1x. SUMMARY: increase or decrease spending on highways
+v083141,P1b. Federal Budget Spending: Social Security
+v083141a,P1b1. How much increase or decrease spend on Soc Security
+v083141x,P1b1x. SUMMARY: increase or decrease spend on Soc Security
+v083142,P1c. Federal Budget Spending: public schools
+v083142a,P1c1. How much increase or decrease spend on public schools
+v083142x,P1c1x. SUMMARY: increase or decrease spend on public schools
+v083143,P1d. Federal Budget Spending: science and technology
+v083143a,P1d1. How much increase/decrease spend on science and techn
+v083143x,P1d1x. SUMMARY: increase/decrease spend on science and techn
+v083144,P1e. Federal Budget Spending: dealing with crime
+v083144a,P1e1. How much increase or decrease spending on crime
+v083144x,P1e1x. SUMMARY: increase or decrease spending on crime
+v083145,P1f. Federal Budget Spending: welfare programs
+v083145a,P1f1. How much increase or decrease spending on welfare
+v083145x,P1f1x. SUMMARY: increase or decrease spending on welfare
+v083146,P1g. Federal Budget Spending: child care
+v083146a,P1g1. How much increase or decrease spending on child care
+v083146x,P1g1x. SUMMARY: increase or decrease spending on child care
+v083147,P1h. Federal Budget Spending: foreign aid
+v083147a,P1h1. How much increase or decrease spending on foreign aid
+v083147x,P1h1x. SUMMARY: increase or decrease spending on foreign aid
+v083148,P1j. Federal Budget Spending: aid to the poor
+v083148a,P1j1. How much increase or decrease spending on aid to poor
+v083148x,P1j1x. SUMMARY: increase or decrease spending on aid to poor
+v083149,P1k. Federal Budget Spending: border security
+v083149a,P1k1. How much increase or decrease spending on border
+v083149x,P1k1x. SUMMARY: increase or decrease spending on border
+v083150,P1m. Federal Budget Spending: war on terrorism
+v083150a,P1m1. How much increase/decrease spendg on war on terrorism
+v083150x,P1m1x. SUMMARY: increase/decrease spendg on war on terrorism
+v083151,P1n. Federal Budget Spending: protecting the environment
+v083151a,P1n1. How much increase or decrease spending on environment
+v083151x,P1n1x. SUMMARY: increase or decrease spending on environment
+v083152,P2. Statement best agrees with R about graduated tax
+v083153,P3. Big companies pay larger or smaller perc of profits
+v083154,P4a. Environment vs. jobs tradeoff scale - self-place [OLD]
+v083155,P4b. Importance of environment/jobs issue to R [OLD]
+v083156a,P4c1. Protect Environment/Jobs: Dem Pres cand [OLD]
+v083156b,P4c2. Protect Environment/Jobs: Rep Pres cand [OLD]
+v083157,P4d. Favor/oppose lower emission stds [NEW]
+v083157a,P4d1. How much favor/oppose lower emission stds [NEW]
+v083157x,P4d1x. SUMMARY: favor/oppose lower emission stds [NEW]
+v083158,P4e. Importance of emission std issue [NEW]
+v083159,P4f1. Favor/oppose lower emission stds: Dem Pres cand [NEW]
+v083159a,P4f1a. How much Dem Pres cand fav/opp lower emissions [NEW]
+v083159x,P4f1ax. SUMMARY: Dem Pres cand fav/opp lower emissions [NEW]
+v083160,P4f2. Favor/oppose lower emission stds: Rep Pres cand [NEW]
+v083160a,P4f2a. How much Rep Pres cand fav/opp lower emissions [NEW]
+v083160x,P4f2ax. SUMMARY: Rep Pres cand fav/opp lower emissions [NEW]
+v083161,P4g. Favor/oppose higher fuel standards [NEW]
+v083161a,P4g1. How much favor/oppose higher fuel std [NEW]
+v083161x,P4g1x. SUMMARY: favor/oppose higher fuel std [NEW]
+v083162,P4h. Favor/oppose higher gas taxes [NEW]
+v083162a,P4h1. How much favor/oppose higher tas taxes [NEW]
+v083162x,P4h1x. SUMMARY: favor/oppose higher tas taxes [NEW]
+v083163,P5. R favor/oppose death penalty
+v083163a,P5a. Strength R favors/opposes death penalty
+v083163x,P5ax. SUMMARY: favor/oppose death penalty
+v083164,P6. Should fed govt make it more difficult to buy a gun
+v083164a,P6a1. Importance of gun access issue to R [OLD]
+v083164b,P6a2. Importance of gun access issue to R [NEW]
+v083165,P6b. Does R have a gun in his or her home or garage
+v083166,P7a. Womens role self-placement [OLD]
+v083167,P7b. Importance of women's role to R [OLD]
+v083168a,P7c1. Women's role scale: Dem Pres cand [OLD]
+v083168b,P7c2. Women's role scale: Rep Pres cand [OLD]
+v083169,Q1. Does R think will vote this November
+v083169a,Q1a. Who does R think will/would vote for President
+v083169b,Q1a1. Strength of preference for Pres cand R will/would vote
+v083170a,Q2a1a. Black President make R uncomfortable [VERSION R]
+v083170b,Q2a1b. Black President make R uncomfortable [VERSION S]
+v083170x,Q2a1x. SUMMARY: Black President make R uncomfortable
+v083171a,Q2a2a. Black President make R pleased [VERSION R]
+v083171b,Q2a2b. Black President make R pleased [VERSION S]
+v083171x,Q2a2x. SUMMARY: Black President make R pleased
+v083172,Q3. Hope that US has African-American President
+v083173,Q4. US ready for African-American President
+v083174,R1a. Affect for GW Bush: angry
+v083174a,R1a1. How often GW Bush affect angry
+v083175,R1b. Affect for GW Bush: hopeful
+v083175a,R1b1. How often GW Bush affect
+v083176,R1c. Affect for GW Bush: afraid
+v083176a,R1c1. How often GW Bush affect
+v083177,R1d. Affect for GW Bush: proud
+v083177a,R1d1. How often GW Bush affect proud
+v083178a,R2a1. President trait: moral [VERSION J]
+v083178b,R2a2. President trait: strong leadership [VERSION J]
+v083178c,R2a3. President trait: really cares [VERSION J]
+v083178d,R2a4. President trait: knowledgeable [VERSION J]
+v083178e,R2a5. President trait: intelligent [VERSION J]
+v083178f,R2a6. President trait: honest [VERSION J]
+v083178g,R2a7. President trait: optimistic [VERSION J]
+v083179a,R2b1. President trait: moral [VERSION K]
+v083179b,R2b2. President trait: strong leadership [VERSION K]
+v083179c,R2b3. President trait: really cares [VERSION K]
+v083179d,R2b4. President trait: knowledgeable [VERSION K]
+v083179e,R2b5. President trait: intelligent [VERSION K]
+v083179f,R2b6. President trait: honest [VERSION K]
+v083179g,R2b7. President trait: optimistic [VERSION K]
+v083180,R3. U.S. more or less secure than when Pres took office
+v083180a,R3a. How much U.S. more/less secure than when Pres took ofc
+v083180x,R3ax. SUMMARY: U.S. more/less secure than when Pres took ofc
+v083181,W1. Is religion important part of R life
+v083182,W2. Religion provides some guidance in day-to-day living
+v083183,W3. How often does R pray
+v083184,W4. Bible is word of God or men
+v083185,X1. Ever attend church/religious services
+v083186,X1a. Attend religious services how often
+v083186a,X1a1. Attend church more often than once a week
+v083187,X3. Ever think of self as part of church or denomination
+v083188a,X3a. (Attends church) R major religious group
+v083188b,X3b. (Nonattendance) R major religious group
+v083188x,X3x. SUMMARY: initial mention major religious group
+v083189,X4. Major relig denomination
+v083190,X4a. Specific Baptist denomination
+v083190a,X4a1. Specific indep. Baptist denomination
+v083191,X4b. Specific Lutheran denomination
+v083192,X4c. Specific Methodist denomination
+v083193,X4d. Specific Presbyterian denomination
+v083194,X4e. Specific Reformed denomination
+v083195,X4f. Specific Brethren denomination
+v083196,X4g. Specific Disciples denomination
+v083197,X4h. Specific Church of Christ denomination
+v083198,X4j. Specific Church of God denomination
+v083199,X4k. Specific Holiness/Pentacostal denomination
+v083200,X5a. Specific other denomination
+v083201,X5b. Specific other denomination Christian
+v083202a,X6a. (Attends) Specific Jewish denomination
+v083202b,X6b. (Nonattendance) Specific Jewish denomination
+v083202x,X6bx. SUMMARY: Specific Jewish denomination
+v083203,X7. R consider self born again
+v083204,X8. R belief in transsubstantiation
+v083205,X8a. Importance of belief in transsubstantiation [NEW]
+v083206,X9. R tried to be good Christian
+v083206a,X9a. In what way R tried to be good Christian
+v083207a,X10a. Stereotype: whites hardworking
+v083207b,X10b. Stereotype: blacks hardworking
+v083207c,X10c. Stereotype: Hispanic-Americans hardworking
+v083207d,X10d. Stereotype: Asian-Americans hardworking
+v083208a,X11a. Stereotype: whites intelligent
+v083208b,X11b. Stereotype: blacks intelligent
+v083208c,X11c. Stereotype: Hispanic-Americans intelligent
+v083208d,X11d. Stereotype: Asian-Americans intelligent
+v083209,X12. Sexual orientation of R
+v083210,X12a. Sexual orientation of family and friends
+v083211,X13. Should laws protect homosexuals against job discrim
+v083211a,X13a. How much fav/opp laws protect gays against job discrim
+v083211x,X13x. SUMMARY: fav/opp laws protect gays against job discrim
+v083212,X14. Should homosexuals serve in U.S. armed forces
+v083212a,X14a. Strength favor/opp allowing gays to serve in military
+v083212x,X14x. SUMMARY: favor/opp allowing gays to serve in military
+v083213,X15. Should homosexual couples be allowed to adopt
+v083214,X16. R position on gay marriage
+v083215a,Y1a. Birthdate Year
+v083215b,Y1b. Birthdate Month
+v083215c,Y1c. Birthdate Day
+v083215x,Y1x. Age of Respondent
+v083216a,Y2a. Marital status [VERSION M]
+v083216b,Y2b. Marital status [VERSION N]
+v083216x,Y2x. SUMMARY: Marital status
+v083217,Y3. Highest grade of school or year of college R completed
+v083218a,Y3a. Did R get high school diploma
+v083218b,Y3b. Highest degree R has earned
+v083219,Y4. Spouse: highest grade or year of college
+v083220a,Y4a. Did spouse get high school diploma
+v083220b,Y4b. Highest degree spouse has earned
+v083221,Y5. Is R or has R ever been in the military
+v083222,Y6. Employment status
+v083223,Y7a. Initial status Homemaker/student: working now
+v083224,Y7b. Initial status Homemaker/student: job in last 6 months
+v083225a,Y8a. Initial status retiree - when retired Year
+v083225b,Y8b. Initial status retiree - when retired Month
+v083225c,Y8c. Initial status retiree - when retired Day
+v083226,Y9. Initial status unemployed/disabled: R ever work for pay
+v083227,Y10a. Past occupation (R ret/dis/unemp/hmkr/stud)
+v083228,Y10c. Past industry (R ret/dis/unemp/hmkr/stud)
+v083229,Y10d. Past self-empl status (R ret/dis/unemp/hmkr/stud)
+v083230,Y10e. Past occupation: govt work (R ret/dis/unemp/hmkr/std)
+v083231,Y11a. Initial status unempl/ret/disabled: job in last 6 mos
+v083232,Y12. Past/recent occupation: how many hours worked avg week
+v083233,Y13a. Initial status retired/disabled: working now
+v083233a,Y14. Init status nonworkg ret/dis/unemp/hmkr/st: look for wk
+v083233b,Y15. Init status nonworkg ret/dis/unemp/hmkr/st: worry find
+v083234,Y16a. Working/TLO now - occupation
+v083235,Y16c. Working/TLO - industry
+v083236,Y16d. Working/TLO now - work for self
+v083237,Y16e. Working/TLO now - work for govt
+v083238,Y16f. Working/TLO now - how many hours R works
+v083239,Y16g. Working/TLO now - hours works OK
+v083240,Y16h. Working/TLO now: worry about losing job in near future
+v083241,Y16j. Working now: out of work or laid off in last 6 mos
+v083242,Y16k. Working now: had reduction in work hrs or pay cut
+v083244a,Y18a. Spouse/partner working status mention 1
+v083244b,Y18b. Spouse/partner working status mention 2
+v083244c,Y18c. Spouse/partner working status mention 3
+v083245,Y19. Anyone in HH belong to labor union
+v083246,Y19a. Who in HH belongs to union
+v083247,Y20. IWR INCOME CHECKPOINT- persons in HH age 14 or older
+v083248,Y21a. Household income
+v083249,Y21b. R income
+v083250,Y22. Think of self as belonging to class
+v083250a,Y22a. Social Class: Working or Middle
+v083250b,Y22b. Social Class: had to choose working/Middle
+v083250c,Y23. Social class: average or upper working/middle class
+v083251a,Y24a. Race of Respondent
+v083251b,Y24b. Race of Respondent
+v083251c,Y24c. Race of Respondent
+v083251d,Y24d. Race of Respondent
+v083251e,Y24e. Race of Respondent
+v083252,Y25. Main ethnic or nationality group
+v083253,Y26. IWR CHECKPOINT: number of ethnic mentions
+v083254,Y26a. Ethnic group most close
+v083255,Y27. IWR CHECKPOINT: MENTION ETHNIC HISPANIC
+v083256,Y28a. No ethnic mention Hispanic: is R of Hispanic descent
+v083256a,Y28b. Hispanic: type Hispanic
+v083257,Y29a. Native status of parents
+v083258,"Y29b. LATINO Rs: born U.S., Puerto Rico, or some other count"
+v083259,Y29c. LATINO Rs: how many grandparents born outside the U.S.
+v083260,Y29d. LATINO Rs: country of Latino heritage
+v083261,Y29g. LATINO Rs: When did R arrive in U.S.
+v083262,Y29h. LATINO Rs: In what year did R become a U.S. citizen
+v083263,Y29j. LATINO Rs: language at home
+v083264,Y30. Where R grew up
+v083265a,Y31a. How many children in HH age 10 and younger
+v083265b,Y31b. How many children in HH age 11-17
+v083266a,Y32a. How long lived in this community: years
+v083266b,Y32b. How long lived in this community - Months
+v083267,Y33. Where R lived previously
+v083268,Y34. Distance where R used to live (miles)
+v083269a,Y35a. How long lived in this dwelling unit: years
+v083269b,Y35b. How long lived in this dwelling unit - Months
+v083270,Y36a. How many telephone numbers in HH
+v083271a,Y36b1. Business use - multiple HH phones
+v083271b,Y36b2. Business use - 1 HH phone
+v083272a,Y36c1. Computer or fax - multiple phones
+v083272b,Y36c2. Computer or fax - 1 phone
+v083273a,Y36d1. Answered computer or fax - multiple phones
+v083273b,Y36d2. Answered computer or fax - 1 phone
+v083274a,Y36f1. Cell phone - multiple HH phones
+v083274b,Y36f2. Cell phone - 1 HH phone
+v083275a,Y36g1. Cell phone business use - multiple phones
+v083275b,Y36g2. Cell phone business use - 1 phone
+v083276a,Y36h1. Non-business-only cell phones with use as modem/fax
+v083276b,Y36h2. 1 Non-business-only cell phone with use as modem/fax
+v083277a,Y36j1. Answered non-bus-only cell phones w/use as modem/fax
+v083277b,Y36j2. Answered non-bus-only cell phone w/use as modem/fax
+v083278,Y36k. Phone discrepancy
+v083279,Y36k1. Phone discrepancy - set number
+v083280,Y36x. Verification of landlines
+v083281,Y37. Does R family own/rent home
+v083301a,ZZ1a. PRE IWR OBS: others present
+v083302,ZZ2. PRE IWR OBS: R cooperation
+v083303,ZZ3. PRE IWR OBS: R level of information
+v083304,ZZ4. PRE IWR OBS: R intelligence
+v083305,ZZ5. PRE IWR OBS: R suspicious
+v083306,ZZ6. PRE IWR OBS: R interest in IW
+v083307,ZZ7. PRE IWR OBS: R sincere
+v083308,ZZ8. PRE IWR OBS: places where doubted sincerity
+v083309,ZZ9. PRE IWR OBS: R seem to report income accurately
+v083309a,ZZ9a. PRE IWR OBS: estimate of family income
+v083310,ZZ10. PRE IWR OBS: R age estimate
+v083311,ZZ11. PRE IWR OBS: R gender
+v083312,ZZ12. PRE IWR OBS: R education estimate
+v083313a,ZZ13a. PRE IWR OBS: R reactions to IW
+v084001a,PostAdmin.1a. Beginning Date of Post-election IW: month
+v084001b,PostAdmin.1b. Beginning Date of Post-election IW: day
+v084001c,PostAdmin.1c. Beginning Date of Post-election IW: date MMDD
+v084002a,PostAdmin.2a. Ending Date of Post-election IW: month
+v084002b,PostAdmin.2b. Ending Date of Post-election IW: day
+v084002c,PostAdmin.2c. Ending Date of Post-election IW: date MMDD
+v084003a,PostAdmin.3a. No.days since electn: Post-electn IW beg date
+v084003b,PostAdmin.3b. No.days since electn: Post-electn IW end date
+v084004,PostAdmin.4. Total no. IW sessions: Post-election IW
+v084005,PostAdmin.5. Total no. interviewers: Post-election IW
+v084006,PostAdmin.6. Version: Post-election IW
+v084007,PostAdmin.7. Total no. calls: Post-election
+v084008,PostAdmin.8. Interviewer IW number: Post-electn IW (nth IW)
+v084009,PostAdmin.9. Mode of interview: Post-election IW
+v084010,PostAdmin.10. Length of interview: Post-election IW
+v084011,PostAdmin.11. Language of interview: Post-election IW
+v084012a,PostAdmin.12a. Interview verification: Post-election IW
+v084012b,PostAdmin.12b. Interview evaluation: Post-election IW
+v084013,PostAdmin.13. Result (Post-election)
+v084014,PostAdmin.14. Interview recorded: Post-election IW
+v084015,PostAdmin.15. Respondent payment amount: Post-election IW
+v084016,PostAdmin.16. Respondent payment mode: Post-election IW
+v084017a,PostAdmin.17a. Refusal made: Post-election IW
+v084017b,PostAdmin.17b. Refusal conversion: Post-election IW
+v084018,PostAdmin.18. Respondent incentive: Post-election IW
+v084019,PostAdmin.19. Beginning time of IW: Post-election IW
+v084020,PostAdmin.20. Persuasion letter: Post-election IW
+v084021a,PostAdmin.21a. COMMENT:SUMMARY: positive comment
+v084021b,PostAdmin.21b. COMMENT:SUMMARY: time-delay comment
+v084021c,PostAdmin.21c. COMMENT:SUMMARY: negative comment
+v084021d,PostAdmin.21d. COMMENT:SUMMARY: eligibility comment
+v084021e,PostAdmin.21e. COMMENT:SUMMARY: privacy comment
+v084022a,PostAdmin.22a. Comment: positive - help community
+v084022b,PostAdmin.22b. Comment: positive - enjoy surveys
+v084022c,PostAdmin.22c. Comment: other positive
+v084022d,PostAdmin.22d. Comment: time delay - too busy
+v084022e,PostAdmin.22e. Comment: time delay - bad time
+v084022f,PostAdmin.22f. Comment: time delay - think about it
+v084022g,PostAdmin.22g. Comment: other time delay
+v084022h,PostAdmin.22h. Comment: negative - waste of time
+v084022j,PostAdmin.22j. Comment: negative - don't trust surveys
+v084022k,PostAdmin.22k. Comment: negative - surveys waste money
+v084022m,PostAdmin.22m. Comment: negative - never do surveys
+v084022n,PostAdmin.22n. Comment: negative - not interested
+v084022p,PostAdmin.22p. Comment: other negative
+v084022q,PostAdmin.2qa. Comment: eligibility - don't know about topic
+v084022r,PostAdmin.22r. Comment: eligibility - no spouse/parn/child
+v084022s,PostAdmin.22s. Comment: eligibility - too young/too old
+v084022t,PostAdmin.22t. Comment: eligibility - don't vote
+v084022u,PostAdmin.22u. Comment: other eligibility
+v084022v,PostAdmin.22v. Comment: privacy - personal questions
+v084022w,PostAdmin.22w. Comment: privacy - govt knows everything
+v084022y,PostAdmin.22y. Comment: other privacy
+v084023,PostAdmin.23. DWELLING UNIT: type of structure: Post-electn
+v084024,PostAdmin.24. DWELLING UNIT: structure descript: Post-electn
+v084024a,PostAdmin.24a. DWELLING UNIT: struct residentl: Post-electn
+v084025,PostAdmin.25. DWELLING UNIT: observe urbanicity: Post-electn
+v084026a,PostAdmin.26a. DWELLING UNIT: window pol signs: Post-electn
+v084026b,PostAdmin.26b. DWELLING UNIT: outside pol signs: Post-electn
+v084026c,PostAdmin.26c. DWELLING UNIT: type polit signs: Post-electn
+v084027,PostAdmin.27. DWELLING UNIT:SUMMARY:access: Post-election
+v084027a,PostAdmin.27a. DWELLING UNIT: bars on windows: Post-election
+v084027b,PostAdmin.27b. DWELLING UNIT: crimewtch/secsys: Post-electn
+v084027c,PostAdmin.27c. DWELLING UNIT: no trespassing: Post-election
+v084027d,PostAdmin.27d. DWELLING UNIT: beware of dog: Post-election
+v084027e,PostAdmin.27e. DWELLING UNIT: no solicitors: Post-election
+v084027f,PostAdmin.27f. DWELLING UNIT: security door: Post-election
+v084027g,PostAdmin.27g. DWELLING UNIT: call guard: Post-election
+v084027h,PostAdmin.27h. DWELLING UNIT: access guard: Post-election
+v084027j,PostAdmin.27j. DWELLING UNIT: gate guard: Post-election
+v084027k,PostAdmin.27k. DWELLING UNIT: staff/manager: Post-election
+v084027m,PostAdmin.27m. DWELLING UNIT: no buzzer lockd: Post-election
+v084027n,PostAdmin.27n. DWELLING UNIT: buzzer no address: Post-electn
+v084027p,PostAdmin.27p. DWELLING UNIT: buzzer w/address: Post-electn
+v084027q,PostAdmin.27q. DWELLING UNIT: threateng animal: Post-electn
+v084028,PostAdmin.28. DWELLING UNIT:SUMMARY: building: Post-election
+v084028a,PostAdmin.28a. DWELLING UNIT: roofing missing: Post-election
+v084028b,PostAdmin.28b. DWELLING UNIT: boarded windows: Post-election
+v084028c,PostAdmin.28c. DWELLING UNIT: broken windows: Post-election
+v084028d,PostAdmin.28d. DWELLING UNIT: missing siding: Post-election
+v084028e,PostAdmin.28e. DWELLING UNIT: torn screens: Post-election
+v084028f,PostAdmin.28f. DWELLING UNIT: doors off hinges: Post-electn
+v084028g,PostAdmin.28g. DWELLING UNIT: peeling paint: Post-election
+v084028h,PostAdmin.28h. DWELLING UNIT: broken siding: Post-election
+v084028j,PostAdmin.28j. DWELLING UNIT: unkept yard: Post-election
+v084028k,PostAdmin.28k. DWELLING UNIT: litter/trash: Post-election
+v084029,PostAdmin.29. DWELLING UNIT:SUMMARY: area view: Pist-electn
+v084029a,PostAdmin.29a. DWELLING UNIT: area boarded hses: Post-electn
+v084029b,PostAdmin.29b. DWELLING UNIT: area graffiti: Post-election
+v084029c,PostAdmin.29c. DWELLING UNIT: area aband cars: Post-election
+v084029d,PostAdmin.29d. DWELLING UNIT: area demolish hss: Post-electn
+v084029e,PostAdmin.29e. DWELLING UNIT: trash in road: Post-election
+v084029f,PostAdmin.29f. DWELLING UNIT: trash by bldgs: Post-election
+v084029g,PostAdmin.29g. DWELLING UNIT: factories near: Post-election
+v084029h,PostAdmin.29h. DWELLING UNIT: stores near: Post-election
+v084030,PostAdmin.30. DWELLING UNIT: relative condition: Post-electn
+v084251,PostIWR.1. Interviewer ID: Pre-election IW
+v084252,PostIWR.2. Interviewer gender: Pre-election IW
+v084253,PostIWR.3. Interviewer education: Pre-election IW
+v084254,PostIWR.4. Interviewer race: Pre-election IW
+v084255,PostIWR.5. Interviewer ethnicity: Pre-election IW
+v084256,PostIWR.6. Interviewer languages: Pre-election IW
+v084257,PostIWR.7. Interviewer years experience: Pre-election IW
+v084258,PostIWR.8. Interviewer age group: Pre-election IW
+v084401,PostRandom.1. Forward or reverse coding
+v084402,PostRandom.2. VERSION OLD or VERSION NEW subset of questions
+v084403,PostRandom.3. Order Presidential candidate thermometers
+v084404a,PostRandom.4a. Order CINDY MCCAIN thermometer
+v084404b,PostRandom.4b. Order MICHELLE OBAMA cand thermometer
+v084404c,PostRandom.4c. Order HOUSE DEMOCRATIC CAND thermometer
+v084404d,PostRandom.4d. Order HOUSE REPUBLICAN CAND thermometer
+v084404e,PostRandom.4e. Order HOUSE IND/3rd-PARTY CAND thermometer
+v084404f,PostRandom.4f. Order SENATE DEMOCRATIC CAND thermometer
+v084404g,PostRandom.4g. Order SENATE REPUBLICAN CAND thermometer
+v084404h,PostRandom.4h. Order SENATE IND/3rd-PARTY CAND thermometer
+v084404j,PostRandom.4j. Order SENATOR 1 thermometer
+v084404k,PostRandom.4k. Order SENATOR 2 thermometer
+v084404m,PostRandom.4m. Order SENATOR NOT RUNNING thermometer
+v084404n,PostRandom.4n. Order 2nd DEMOCRATIC SENATE CAND thermometer
+v084404p,PostRandom.4p. Order 2nd REPUBLICAN SENATE CAND thermometer
+v084404q,PostRandom.4q. Order JOE BIDEN thermometer
+v084404r,PostRandom.4r. Order SARAH PALIN thermometer
+v084404s,PostRandom.4s. Order HILLARY CLINTON thermometer
+v084405a,PostRandom.5a. Order HISPANICS thermometer
+v084405b,PostRandom.5b. Order CHRISTIAN FUNDAMENTALISTS thermometer
+v084405c,PostRandom.5c. Order CATHOLICS thermometer
+v084405d,PostRandom.5d. Order FEMINISTS thermometer
+v084405e,PostRandom.5e. Order FEDERAL GOVERNMENT thermometer
+v084405f,PostRandom.5f. Order JEWS thermometer
+v084405g,PostRandom.5g. Order LIBERALS thermometer
+v084405h,PostRandom.5h. Order MIDDLE CLASS thermometer
+v084405j,PostRandom.5j. Order LABOR UNIONS thermometer
+v084405k,PostRandom.5k. Order POOR PEOPLE thermometer
+v084405m,PostRandom.5m. Order MILITARY thermometer
+v084405n,PostRandom.5n. Order BIG BUSINESS thermometer
+v084405p,PostRandom.5p. Order PEOPLE ON WELFARE thermometer
+v084405q,PostRandom.5q. Order CONSERVATIVES thermometer
+v084405r,PostRandom.5r. Order WORKING CLASS thermometer
+v084405s,PostRandom.5s. Order ENVIRONMENTALISTS thermometer
+v084405t,PostRandom.5t. Order U.S. SUPREME COURT thermometer
+v084405u,PostRandom.5u. Order GAYS AND LESBIANS thermometer
+v084405v,PostRandom.5v. Order ASIAN-AMERICANS thermometer
+v084405w,PostRandom.5w. Order CONGRESS thermometer
+v084405y,PostRandom.5y. Order BLACKS thermometer
+v084405z,PostRandom.5z. Order SOUTHERNERS thermometer
+v084406a,PostRandom.6a. Order ILLEGAL IMMIGRANTS thermometer
+v084406b,PostRandom.6b. Order RICH PEOPLE thermometer
+v084406c,PostRandom.6c. Order WHITES thermometer
+v084406d,PostRandom.6d. Order ISRAEL thermometer
+v084406e,PostRandom.6e. Order MUSLIMS thermometer
+v084406f,PostRandom.6f. Order HINDUS thermometer
+v084406g,PostRandom.6g. Order CHRISTIANS thermometer
+v084406h,PostRandom.6h. Order ATHEISTS thermometer
+v084407a,PostRandom.7a. Order US policy goal: prevent nuclear weapons
+v084407b,PostRandom.7b. Order U.S. policy goal: promote human rights
+v084407c,PostRandom.7c. Order U.S. policy goal: strengthen U.N.
+v084407d,PostRandom.7d. Order U.S. policy goal: combat world hunger
+v084407e,PostRandom.7e. Order U.S. policy goal: protect U.S. jobs
+v084407f,PostRandom.7f. Order U.S. policy goal: promote democracy
+v084407g,PostRandom.7g. Order U.S. policy goal: reduce illegal immigr
+v084407h,PostRandom.7h. Order U.S. policy goal: promote market econ
+v084407j,PostRandom.7j. Order U.S. policy goal: combat intl terrorism
+v084408,PostRandom.8. Order Presidential cand liberal-conservative
+v084409,PostRandom.9. Order Presidential candidate abortion placemt
+v084410,PostRandom.10. Order House cand abortion placements
+v084411,PostRandom.11. Order party abortion placements
+v084412a,PostRandom.12a. Order abortion scenario: nonfatal hlth risk
+v084412b,PostRandom.12b. Order abortion scenario: fatal health risk
+v084412c,PostRandom.12c. Order abortion scenario: incest
+v084412d,PostRandom.12d. Order abortion scenario: rape
+v084412e,PostRandom.12e. Order abortion scenario: birth defect
+v084412f,PostRandom.12f. Order abortion scenario: financial hardship
+v084412g,PostRandom.12g. Order abortion scenario: 'wrong' gender
+v084413,PostRandom.13. Order Presidential candidate abortion placemt
+v084414a,PostRandom.14a. Order stereotype racial group BLACKS
+v084414b,PostRandom.14b. Order stereotype racial group HISPANICS
+v084414c,PostRandom.14c. Order stereotype racial group ASIANS
+v084415,PostRandom.15. Question placement R1/R8
+v084416a,PostRandom.16a. Order federal government affects: angry
+v084416b,PostRandom.16b. Order federal government affects: hopeful
+v084416c,PostRandom.16c. Order federal government affects: afraid
+v084416d,PostRandom.16d. Order federal government affects: proud
+v084417a,PostRandom.17a. Order war questions: war in Afghanistan
+v084417b,PostRandom.17b. Order war questions: war in Iraq
+v084417c,PostRandom.17c. Order war questions: war on terror
+v084418,PostRandom.18. VERSION 1A/1B/2A/2B nominee/winner affects
+v084419,PostRandom.19. VERSION 2A/VERSION 2B bailout question
+v084420,PostRandom.20. Order party favorableness placements
+v084500,PostCand.0. Candidate preload failure
+v084501,PostCand.1. House Democratic candidate NAME
+v084501a,PostCand.1a. House Democratic candidate CODE
+v084501b,PostCand.1b. House Democratic candidate GENDER
+v084502,PostCand.2. House Republican candidate NAME
+v084502a,PostCand.2a. House Republican candidate CODE
+v084502b,PostCand.2b. House Republican candidate GENDER
+v084503,PostCand.3. House independent/3rd-party candidate NAME
+v084503a,PostCand.3a. House independent/3rd party candidate CODE
+v084503b,PostCand.3b. House independent/3rd party candidate GENDER
+v084504,PostCand.4. House incumbent NAME
+v084504a,PostCand.4a. House incumbent CODE
+v084504b,PostCand.4b. House incumbent GENDER
+v084505,PostCand.5. Senate Democratic candidate NAME
+v084505a,PostCand.5a. Senate Democratic candidate CODE
+v084505b,PostCand.5b. Senate Democratic candidate GENDER
+v084506,PostCand.6. Senate Repubican candidate NAME
+v084506a,PostCand.6a. Senate Republican candidate CODE
+v084506b,PostCand.6b. Senate Republican candidate GENDER
+v084507,PostCand.7. Senate independent/3rd-party candidate NAME
+v084507a,PostCand.7a. Senate independent/3rd party candidate CODE
+v084507b,PostCand.6b. Senate independent/3rd party candidate GENDER
+v084508,PostCand.8. Senator not running in state with race NAME
+v084508a,PostCand.8a. Senate not running in state with race CODE
+v084508b,PostCand.8b. Senate not running in state with race GENDER
+v084509,PostCand.9. Senator 1 in state without race NAME
+v084509a,PostCand.9a. Senator 1 in state without race CODE
+v084509b,PostCand.9b. Senator 1 in state without race GENDER
+v084510,PostCand.10. Senator 2 in state without race NAME
+v084510a,PostCand.10a. Senator 2 in state without race CODE
+v084510b,PostCand.10b. Senator 2 in state without race GENDER
+v084511,"PostCand.11. 2nd Democratic Senate candidate NAME (MS,WY)"
+v084512,"PostCand.12. 2nd Republican Senate candidate NAME (MS,WY)"
+v084513,PostCand.13. House type race
+v084514,PostCand.14. Senate type race
+v085001a,A1a. Interested in following campaigns [VERSION OLD]
+v085001b,A1b. Interested in following campaigns [VERSION NEW]
+v085002,A2a1. Watch campaign programs on TV [OLD]
+v085002a,A2a2. How many campaign programs on TV [OLD]
+v085003,A2a3. Attention to TV news about Presidential campaign [OLD]
+v085004,A2b1. Read about Presidential campaign in magazines [OLD]
+v085004a,A2b2. How many Pres campaign articles in magazines [OLD]
+v085005,A2b3. Attention to magazine about Pres campaign [OLD]
+v085006,A2c1. Hear radio speeches/discussn about Pres campaign [OLD]
+v085006a,A2c2. How many radio speech/discussn abt Pres campaign [OLD]
+v085007,A2c3. Attention to radio about Presidential campaign [OLD]
+v085008,A2d1. Read about campaign in newspaper [OLD]
+v085008a,A2d2. How many stories about campaign in newspaper [OLD]
+v085009,A2d3. Attention to newspaper about Pres campaign [OLD]
+v085010,A2e1. View/hear internet information abt Pres campaign [OLD]
+v085010a,A2e2. How often internet info about Pres campaign [OLD]
+v085011,A2e3. Attention to internet info about Pres campaign [OLD]
+v085012,A2f. General attention to Presidential campaign news [OLD]
+v085013,A3a1. Watch campaign programs on TV [NEW]
+v085013a,A3a2. How many campaign programs on TV [NEW]
+v085014,A3a3. Attention to TV news about Presidential campaign [NEW]
+v085015,A3b1. Read about Presidential campaign in magazines [NEW]
+v085015a,A3b2. How many Pres campaign articles in magazines [NEW]
+v085016,A3b3. Attention to magazine about Pres campaign [NEW]
+v085017,A3c1. Hear radio speeches/discussn about Pres campaign [NEW]
+v085017a,A3c2. How many radio speech/discussn abt Pres campaign [NEW]
+v085018,A3c3. Attention to radio about Presidential campaign [NEW]
+v085019,A3d1. Read about Presidential campaign in newspaper [NEW]
+v085019a,A3d2. How many stories abt Presc ampaign in newspaper [NEW]
+v085020,A3d3. Attention to newspaper about Pres campaign [NEW]
+v085021,A3e1. View/hear internet information abt Pres campaign [NEW]
+v085021a,A3e2. How often internet info about Pres campaign [NEW]
+v085022,A3e3. Attention to internet info about Pres campaign [NEW]
+v085023,A3f. General attention to Presidential campaign news [NEW]
+v085024,A4. How often trust the media to report news fairly
+v085025,B1. Did party contact R about 2008 campaign
+v085025a,B1a. Which party contacted R about 2008 campaign
+v085026,B2. Did anyone other than parties contact R about campaign
+v085027,B2_. HISPANIC (PRELOAD)
+v085027a,B2a. LATINO Rs: Was contact by Latino person(s)
+v085027b,B2b. LATINO Rs: Was contact in Spanich or English
+v085028,B3. Anyone talk to R abt registering or getting out to vote
+v085029,B4. R talk to anyone about voting for or against a candidate
+v085030,"B5. R go to any political meetings, rallies, speeches"
+v085031,B6. R wear campaign button or post sign or bumper sticker
+v085032,B7. R do any (other) work for party or candidate
+v085033,B8. R contribute money to specific candidate campaign
+v085033a,B8a. Party of candidate for whom R contributed money
+v085034,B9. R contribute money to political party
+v085034a,B9a. Party to which R contributed
+v085035,B10. R contribute to any other group for/against a candidate
+v085036a,C1a. R vote turnout [OLD]
+v085036b,C1b1. R usually vote during the past 6 years [NEW]
+v085036c,C1b2. R plan to vote during 6 months before election [NEW]
+v085036d,C1b3. R vote turnout [NEW]
+v085036e,"C1b3a. If not sure whether voted, did R probably vote [OLD]"
+v085036x,C1x. SUMMARY: R VOTE TURNOUT [OLD and NEW]
+v085037,C2. R registered to vote in 2008 election
+v085038,C4. R registered to vote in preload county (residence)
+v085038a,C4a2. State of R Registration
+v085038b,C4a1. County of R Registration
+v085039a,C4x1. SUMMARY: REPORTED VOTE AND REGISTRATION STATUS
+v085039b,C4x2. SUMMARY: SENATE RACE STATUS
+v085039c,"C4x3. SUMMARY: VOTE, REGISTRATION, AND SENATE RACE STATUS"
+v085040,C4x4. CORRECTED CONGRESSIONAL DISTRICT
+v085041,C4x5. SUMMARY: INCORRECT CONGRESSIONAL DISTRICT ASSIGNMENT
+v085042,C5. Did R vote on election day or before election day
+v085042a,C5a. How many days before election did R vote
+v085043,C5a1. Did R vote in person or by absentee ballot
+v085044,C6. Did R vote for candidate for President
+v085044a,C6a. For whom did R vote for President
+v085044b,C6a1. Preference strong for candidate for whom R voted
+v085045,C6b. How long before election R made decision Pres vote
+v085046,C6c. NONVOTER: Did R prefer candidate for President
+v085046a,C6c1. NONVOTER: Who did R prefer for President
+v085046b,C6c2. NONVOTER: Preference strong for Pres candidate
+v085047,C7. Ballot Card Type
+v085048,C7a1. Did R vote for House of Representatives
+v085049a,C7a2. REGISTERED IN PRELOAD COUNTY: R's vote for House
+v085049b,C7a3. NOT REGISTERED IN PRELOAD COUNTY: R's vote for House
+v085049x,C7a3x1. SUMMARY: Party of R's vote for House
+v085050x,C7a3x1. SUMMARY: House vote candidate number
+v085051,C7b1. NONVOTER: Did R prefer House candidate
+v085052,C7b1a. NONVOTER: Who did R prefer for House election
+v085053,C8a1. Did R vote for Senate
+v085054a,C8a1a. REGISTERED IN PRELOAD COUNTY: R's vote for Senate 1
+v085054b,C8a1b. REGISTERED IN PRELOAD COUNTY: R's vote for Senate 2
+v085055,C8a2a. NOT REGISTERED IN PRELOAD COUNTY: R's vote Senate 1
+v085056a,C8a1x1. SUMMARY: Party of R's vote for Senate 1
+v085056b,C8a1x2. SUMMARY: Party of R's vote for Senate 2
+v085057a,C8a2x1. SUMMARY: Senate vote 1 candidate number
+v085057b,C8a2x2. SUMMARY: Senate vote 2 candidate number
+v085058,C8b1. NONVOTER: Did R prefer Senate candidate
+v085059,C8b1a1. NONVOTER: Who did R prefer for Senate election 1
+v085059x,C8b1a1x. SUMMARY: Senate nonvoter pref 1 candidate number
+v085060,C8b1a2. NONVOTER: Who did R prefer for Senate election 2
+v085060x,C8b1a2x. SUMMARY: Senate nonvoter pref 1 candidate number
+v085061,C9. Is R optimistic or pessimisted about personal future
+v085061a,C9a.How optimistic is R about personal future
+v085061b,C9b.How pessimistic is R about personal future
+v085061c,C9c. Does R lean toward optimism or pessimism about self
+v085061x,C9x. SUMMARY: PERSONAL OPTIMISM
+v085062,C10. Is R optimistic or pessimistic about the U.S.
+v085062a,C10a. How optimistic is R about the U.S.
+v085062b,C10b. How pessimistic is R about the U.S.
+v085062c,C10c. Does R lean toward optimism/pessimism about U.S.
+v085062x,C10x. SUMMARY: OPTIMISM/PESSIMISM ABOUT THE U.S.
+v085063a,Dia. Feeling thermometer: President George W. Bush
+v085063b,D1b. Feeling thermometer: Democratic Presidential candidate
+v085063c,D1c. Feeling thermometer: Republican Presidential candidate
+v085063d,D1d. Feeling thermometer: CINDY MCCAIN
+v085063e,D1e. Feeling thermometer: MICHELLE OBAMA
+v085063f,D1f. Feeling thermometer: HOUSE DEMOCRATIC CANDIDATE
+v085063g,D1g. Feeling thermometer: HOUSE REPUBLICAN CANDIDATE
+v085063h,D1h. Feeling thermometer: HOUSE IND/3rd-PARTY CANDIDATE
+v085063j,D1j. Feeling thermometer: SENATE DEMOCRATIC CANDIDATE
+v085063k,D1k. Feeling thermometer: SENATE REPUBLICAN CANDIDATE
+v085063m,D1m. Feeling thermometer: SENATE IND/3rd-PARTY CANDIDATE
+v085063n,D1m. Feeling thermometer: SENATOR 1 IN STATE WITHOUT RACE
+v085063p,D1p. Feeling thermometer: SENATOR 2 IN STATE WITHOUT RACE
+v085063q,D1q. Feeling thermometer: NONRUNNING SENATOR IN STATE W/RACE
+v085063r,D1r. Feeling thermometer: 2nd DEMOCRATIC SENATE CANDIDATE
+v085063s,D1s. Feeling thermometer: 2nd REPUBLICAN SENATE CANDIDATE
+v085063t,D1t. Feeling thermometer: JOE BIDEN
+v085063u,D1u. Feeling thermometer: SARAH PALIN
+v085063v,D1v. Feeling thermometer: HILLARY CLINTON
+v085064a,D2a. Feeling thermometer: HISPANICS
+v085064b,D2b. Feeling thermometer: CHRISTIAN FUNDAMENTALISTS
+v085064c,D2c. Feeling thermometer: CATHOLICS
+v085064d,D2d. Feeling thermometer: FEMINISTS
+v085064e,D2e. Feeling thermometer: FEDERAL GOVERNMENT IN WASHINGTON
+v085064f,D2f. Feeling thermometer: JEWS
+v085064g,D2g. Feeling thermometer: LIBERALS
+v085064h,D2h. Feeling thermometer: MIDDLE CLASS PEOPLE
+v085064j,D2j. Feeling thermometer: LABOR UNIONS
+v085064k,D2k. Feeling thermometer: POOR PEOPLE
+v085064m,D2m. Feeling thermometer: THE MILITARY
+v085064n,D2n. Feeling thermometer: BIG BUSINESS
+v085064p,D2p. Feeling thermometer: PEOPLE ON WELFARE
+v085064q,D2q. Feeling thermometer: CONSERVATIVES
+v085064r,D2r. Feeling thermometer: WORKING CLASS PEOPLE
+v085064s,D2s. Feeling thermometer: ENVIRONMENTALISTS
+v085064t,D2t. Feeling thermometer: THE U.S. SUPREME COURT
+v085064u,D2u. Feeling thermometer: GAY MEN AND LESBIANS (HOMOSEXUALS)
+v085064v,D2v. Feeling thermometer: ASIAN-AMERICANS
+v085064w,D2w. Feeling thermometer: CONGRESS
+v085064y,D2y. Feeling thermometer: BLACKS
+v085064z,D2z. Feeling thermometer: SOUTHERNERS
+v085065a,D3a. Feeling thermometer: ILLEGAL IMMIGRANTS
+v085065b,D3b. Feeling thermometer: RICH PEOPLE
+v085065c,D3c. Feeling thermometer: WHITES
+v085065d,D3d. Feeling thermometer: ISRAEL
+v085065e,D3e. Feeling thermometer: MUSLIMS
+v085065f,D3f. Feeling thermometer: HINDUS
+v085065g,D3g. Feeling thermometer: CHRISTIANS
+v085065h,D3h. Feeling thermometer: ATHEISTS
+v085066,E1a. Know party with most members in House before election
+v085067,E1b. Know party with most members in Senate before election
+v085068,E2. Approve/disapprove of House incumbent
+v085068a,E2a. How much approve House incumbent
+v085068b,E2b. How much disapprove House incumbent
+v085068x,E2x. SUMMARY: APPROVE/DISAPPROVE HOUSE INCUMBENT
+v085069,E3. How good a job does House incumbent do
+v085070,E4a. What is current unemployment rate
+v085071,E4b. What is current average price of gas
+v085072,E5a. Interest in politics and elections [VERSION OLD]
+v085073a,E5b1. How close attn to politics and elections [VERSION NEW]
+v085073b,E5b2. How often attn to politics and elections [VERSION NEW]
+v085074,E6a. Favor or oppose reducing federal deficit
+v085074a,E6a1. How strongly favor reducing deficit
+v085074b,E6a2. How strongly oppose reducing deficit
+v085074c,E6a3. Lean to favor or oppose deficit reduction
+v085074x,E6a3x. SUMMARY: REDUCING THE BUDGET DEFICIT
+v085075,E6b. Favor or oppose cut budget defict by raising taxes
+v085075a,E6b1. How much favor cut budget defict by raising taxes
+v085075b,E6b2. How much oppose cut budget defict by raising taxes
+v085075c,E6b3. Lean to favor/oppose cut budg defict by raising taxes
+v085075x,E6b3x. SUMMARY: REDUCE DEFICIT BY RAISING TAXES
+v085076,E6c. Favor or oppose cut deficit by less military spending
+v085076a,E6c1. How much favor cut deficit by less military spending
+v085076b,E6c2. How much oppose cut deficit by less military spending
+v085076c,E6c3. Lean favor/oppose cut deficit by less military spendg
+v085076x,E6c3x. SUMMARY: CUT DEFICT BY REDUCING MILIT SPENDING
+v085077,E6d. Favor or oppose cut deficit by cutting other programs
+v085077a,E6d1. How much favor cut defict by cutting other programs
+v085077b,E6d2. How much oppose cut defict by cutting other programs
+v085077c,E6d3. Lean favor/oppose cut deficit by cutting other program
+v085077x,E6d3x. SUMMARY: CUT DEFICIT BY CUTTING OTHER PROGRAMS
+v085078a,F1a. U.S. policy goal: preventing nuclea weapons
+v085078b,F1b. U.S. policy goal: defending human rights
+v085078c,F1c. U.S. policy goal: strengthen United Nations
+v085078d,F1d. U.S. policy goal: combat world hunger
+v085078e,F1e. U.S. policy goal: protect American jobs
+v085078f,F1f. U.S. policy goal: bring democracy to world
+v085078g,F1g. U.S. policy goal: control illegal immigration
+v085078h,F1h. U.S. policy goal: promote market economies abroad
+v085078j,F1j. U.S. policy goal: combat intl terrorism
+v085079,F2. Interest in issue of govt ensuring fair jobs for blacks
+v085079a,F2a. Opinion about govt ensuring fair jobs for blacks
+v085079b,F2a1. How much feel govt should ensure fair jobs for blacks
+v085079c,F2a2. How much feel govt not ensure fair jobs for blacks
+v085080,F3. Income gap today more or less than 20 years ago
+v085080a,F3a. How much larger is income gap today
+v085080b,F3b. How much smaller is income gap today
+v085080x,F3x. SUMMARY: INCOME GAP COMPARED TO 20 YRS AGO
+v085081,F4. Favor/oppose limits on foreign imports
+v085082,F5. What should immigration levels be
+v085083,F6. How likely immigration take away jobs
+v085084,G1a. Liberal-Conservate: self placement
+v085084a,"G1b. If had to choose, liberal or conservative"
+v085085a,G2a. Liberal-conservative: Democratic House cand
+v085085b,G2b. Liberal-conservative: Republican House cand
+v085086,G3a. Abortion: self-placement [OLD]
+v085087,G3b. How important is abortion issue [OLD]
+v085088,G3c. Abortion: President placement [OLD]
+v085089a,G3d1. Abortion: Democratic Pres cand placement [OLD]
+v085089b,G3d2. Abortion: Republican Pres cand placement [OLD]
+v085090a,G3e1. Abortion: Democratic House cand placement [OLD]
+v085090b,G3e2. Abortion: Republican House cand placement [OLD]
+v085091a,G3f1. Abortion: Democratic party placement [OLD]
+v085091b,G3f2. Abortion: Republican party placement [OLD]
+v085092,G4a. Abortion: favor/oppose when nonfatal health risk [NEW]
+v085092a,G4a1. How much favor abortion for nonfatal health risk [NEW]
+v085092b,G4a2. How much oppose abortn for nonfatal health risk [NEW]
+v085092c,G4a3. Lean favor/opp abortion for nonfatal health risk [NEW]
+v085092x,G4ax. SUMMARY: ABORTION WHEN NONFATAL HEALTH RISK [NEW]
+v085093,G4b. Abortion: favor/oppose when fatal health risk [NEW]
+v085093a,G4b1. How much favor abortion for fatal health risk [NEW]
+v085093b,G4b2. How much oppose abortion for fatal health risk [NEW]
+v085093c,G4b3. Lean favor/oppose abortion for fatal health risk [NEW]
+v085093x,G4bx. SUMMARY: ABORTION WHEN FATAL HEALTH RISK [NEW]
+v085094,G4c. Abortion: favor/oppose in incest cases [NW]
+v085094a,G4c1. How much favor abortion in incest cases [NEW]
+v085094b,G4c2. How much oppose abortion in incest cases [NEW]
+v085094c,G4c3. Lean favor/oppose abortion in incest cases [NEW]
+v085094x,G4cx. SUMMARY: ABORTION IN CASES OF INCEST [NEW]
+v085095,G4d. Abortion: favor/oppose in rape cases [NEW]
+v085095a,G4d1. How much favor abortion in rape cases [NEW]
+v085095b,G4d2. How much oppose abortion in rape cases [NEW]
+v085095c,G4d3. Lean favor/oppose abortion in rape cases [NEW]
+v085095x,G4dx. SUMMARY: ABORTION IN CASES OF RAPE [NEW]
+v085096,G4e. Abortion: favor/oppose in birth defect cases [NEW]
+v085096a,G4e1. How much favor abortion in birth defect cases [NEW]
+v085096b,G4e2. How much oppose abortion in birth defect cases [NEW]
+v085096c,G4e3. Lean favor/oppose abortion in birth defect cases [NEW]
+v085096x,G4ex. SUMMARY: ABORTION IN CASES OF BIRTH DEFECT [NEW]
+v085097,G4f. Abortion: favor/oppose in financial hardshp cases [NEW]
+v085097a,G4f1. How much favor abortion in finan hardship cases [NEW]
+v085097b,G4f2. How much oppose abortion in finan hardship cases [NEW]
+v085097c,G4f3. Lean fav/oppose abortion in finan hardship cases [NEW]
+v085097x,G4fx. SUMMARY: ABORTION IN CASES OF FINANCIAL HARDSHIP [NEW]
+v085098,G4g. Abortion: favor/oppose when child gender 'wrong' [NEW]
+v085098a,G4g1. How much favor abortn when child gender 'wrong' [NEW]
+v085098b,G4g2. How much oppose abortn when child gender 'wrong' [NEW]
+v085098c,G4g3. Lean favor/opp abortn when child gender 'wrong' [NEW]
+v085098x,G4gx. SUMMARY: ABORTION WHEN CHILD GENDER 'WRONG' [NEW]
+v085099,G5a. Dem PC abortion: fav/opp if nonfatal health risk [NEW]
+v085099a,G5a1. Dem PC favor abortion if nonfatal health risk [NEW]
+v085099b,G5a2. Dem PC opp abortion if nonfatal health risk [NEW]
+v085099c,G5a3. Dem PC lean abortion if nonfatal health risk [NEW]
+v085099x,G5ax. SUMMARY: DEM PC ABORTION NONFATAL HEALTH RISK [NEW]
+v085100,G5b. Dem PC abortn: fav/opp when child gender 'wrong' [NEW]
+v085100a,G5b1. Dem PC favor abortion when child gender 'wrong' [NEW]
+v085100b,G5b2. Dem PC oppose abortion when child gender 'wrong' [NEW]
+v085100c,G5b3. Dem PC lean abortion when child gender 'wrong' [NEW]
+v085100x,G5bx. SUMMARY: DEM PC ABORTION IF CHILD GENDER 'WRONG' [NEW]
+v085101,G6a. Rep PC abortion: fav/opp if nonfatal health risk [NEW]
+v085101a,G6a1. Rep PC favor abortion if nonfatal health risk [NEW]
+v085101b,G6a2. Rep PC opp abortion if nonfatal health risk [NEW]
+v085101c,G6a3. Rep PC lean abortion if nonfatal health risk [NEW]
+v085101x,G6ax. SUMMARY: REP PC ABORTION NONFATAL HEALTH RISK [NEW]
+v085102,G6b. Rep PC abortn: fav/opp when child gender 'wrong' [NEW]
+v085102a,G6b1. Rep PC favor abortion when child gender 'wrong' [NEW]
+v085102b,G6b2. Rep PC oppose abortion when child gender 'wrong' [NEW]
+v085102c,G6b3. Rep PC lean abortion when child gender 'wrong' [NEW]
+v085102x,G6bx. SUMMARY: REP PC ABORTION IF CHILD GENDER 'WRONG' [NEW]
+v085103,H1. Should govt enourage/discourage outsourcing
+v085103a,H1a. How much should govt encourage/discourage outsourcing
+v085103x,H1x. SUMMARY: GOVT ENCOURAGE/DISCOURAGE OUTSOURCING
+v085104,H2. Favor or oppose Social Security in stocks and bonds
+v085104a,H2a. How much favor Social Security in stocks and bonds
+v085104b,H2b. How much oppose Social Security in stocks and bonds
+v085104c,H2c. Lean favor/oppose Social Security in stocks and bonds
+v085104x,H2x. SUMMARY: INVEST SOCIAL SECURITY IN STOCKS AND BONDS
+v085105,H3a. Govt bigger because too involved OR bigger problems
+v085106,H3b. Need strong govt for complex problems OR free market
+v085107,H3c. Less govt better OR more that govt should be doing
+v085108,H4a. Ever discuss politics with family or friends [OLD]
+v085108a,H4a1. Days in past week discussed politics [OLD]
+v085109,H4b. Days in typical week discusses politics [NEW]
+v085110,H5. White/black cands better suited as elected officials
+v085110a,H5a. How much white/black cands better suited to be elected
+v085110x,H5x. SUMMARY: WHITE/BLACK CANDS BETTER SUITED OFFICIALS
+v085111,H6. White/black cand intell better for elected officials
+v085111a,H6a. How much white/black intell better for elected offic
+v085111x,H6x. SUMMARY: WHITE/BLACK CAND INTELL BETTER OFFICIALS
+v085112a,H7a1. Better in foreign affairs: Dem man or woman in House
+v085112b,H7a2. Better handle education: Dem man or woman in House
+v085113a,H7b1. Better in foreign affairs: Repub man or woman in House
+v085113b,H7b2. Better handle education: Repub man or woman in House
+v085114,H8. How much influence do blacks have in U.S. politics
+v085115,H9. How often has felt sympathy for blacks
+v085116,H10. How often has felt admiration for blacks
+v085117,H10. Hope the U.S. has a woman present in R's lifetime
+v085118,J1. Important differences in what major parties stand for
+v085119,J2. Is one of the parties more conservative than the other
+v085119a,J2a. Which is the party that is more conservative
+v085120,J3a. Office recognition: Speaker of the House (PELOSI)
+v085120a,J3a1. Office recognition probe: Speaker of the House
+v085121,J3b. Office recognition: Vice-President (CHENEY)
+v085121a,J3b1. Office recognition probe: Vice-President
+v085122,J3c. Office recognition: Prime Minister of England (BROWN)
+v085122a,J3c1. Office recognition probe: Prime Minister of England
+v085123,J3d. Office recognition: US Supreme Ct Chf Justice (ROBERTS)
+v085123a,J3d1. Office recognition probe: US Supreme Ct Chief Justice
+v085124,J4a. Has R done community work in past 12 months
+v085125,J4b. Has R contacted official to express view in past 12 mos
+v085126,J4c. Did R attend meeting on school/commun issue past 12 mos
+v085127,J5a. Number of organizations in which R is a member
+v085128,J6. Has R done any volunteer work in past 12 months
+v085129,J7. Has R contributed to church or charity in past 12 months
+v085130,J8. Has R been an active member at place of worship
+v085130a,J8a. Has R planned or chaired meeting at place of worship
+v085130b,J8b. Has R given speech/presentation at place of worship
+v085131,J9a. Working status
+v085131a,J9a. WORKING Rs: Has R given speech/presentation at work
+v085131b,J9b. WORKING Rs: Has R planned or chaired meeting at work
+v085132,J9a. Black respondent
+v085133,K1a. BLACKS Rs: life be affected by what happens to blacks
+v085133a,K1a1. BLACK Rs: amt life affected by what happens to blacks
+v085134,K1b. HISPANIC (PRELOAD)
+v085135,K1b. HISPANIC Rs: life affected by what happens to Hispanics
+v085135a,K1b1. HISPANIC Rs: amt life affect by what happens to Hisps
+v085136,K2a. Do women seek equality or special favors
+v085137,K2b. Do women miss out on jobs because of discrimination
+v085138,K2c. Do women's harassment complaints cause more trouble
+v085139,L1a. Agree/disagree: world is changing and we should adjust
+v085140,L1b. Agree/disagree: newer lifestyles breaking down society
+v085141,L1c. Agree/disagree: be more tolerant of other moral stds
+v085142,L1d. Agree/disagree: more emphasis on traditionl family ties
+v085143,L2a. Agree/disagree: blacks shd work way up w/o special fav
+v085144,L2b. Agree/disagree: past slavery make more diff for blacks
+v085145,L2c. Agree/disagree: blacks have gotten less than deserve
+v085146,L2d. Agree/disagree: blacks must try harder to get ahead
+v085147a,M1a1. How often trust govt in Wash to do what is right [OLD]
+v085147b,M1a2. How oft trust govt in Wash to make fair decision [NEW]
+v085148,M1b. Govt run by a few big interests or for benefit of all
+v085149,M1c. Does government waste much tax money
+v085150,M1d. How many in government are crooked
+v085151a,M2a1. Politics/govt too complicatd to understand [VERSION C]
+v085151b,M2a2. Good understanding of political issues [VERSION C]
+v085151c,M2a3. Publ officials dont care what people think [VERSION C]
+v085151d,M2a4. Have no say about what govt does [VERSION C]
+v085152a,M2b1. Politics/govt too complicatd to understand [VERSION D]
+v085152b,M2b2. Good understanding of political issues [VERSION D]
+v085152c,M2b3. Publ officials don't care what peopl think [VERSION D]
+v085152d,M2b4. Have no say about what govt does [VERSION D]
+v085153a,M3a1. Public officials don't care [VERSION OLD]
+v085153b,M3a2. Public officials don't care [VERSION NEW]
+v085154,M3b. Elections make govt pay ttention [VERSION NEW]
+v085155,M4a. Working mother can bond as well as nonworking mother
+v085156,M4b. Better if man achieves and woman takes care of home
+v085157,M4a. For or against preferential hiring/promotion of blacks
+v085157a,M4a1. Strength favor preferential hiring/promotion of blacks
+v085157b,M4a2. Strength oppose preferential hiring/promotion blacks
+v085158,N1a. Child trait more important: independence or respect
+v085159,N1b. Child trait more important: curiosity or good manners
+v085160,N1c. Child trait more important: obedience or self-reliance
+v085161,N1d. Child trait more important: considerate or well-behaved
+v085162,N2a. Society should make sure everyone has equal opporunity
+v085163,N2b. We have gone too far pushing equal rights
+v085164,N2c. Its a big problem that we dont give equal chance to all
+v085165,N2d. We'd be better off if worried less about equality
+v085166,N2e. Not a big problem is some have more chance in life
+v085167,N2f. If people were treated more fairly would be fewer probs
+v085168,"P1a. Does R have opinions about many, some or few things"
+v085169,P1b. Does R have fewer or more opinions than average person
+v085169a,P1b1. R have a lot or somewhat fewer opinions than average
+v085169b,P1b2. R have a lot or somewhat more opinions than average
+v085169x,P1bx. SUMMARY: R MORE OR FEWER OPINIONS THAN AVERAGE PERSON
+v085170,P2a. R like responsibility for handling a lot ofthinking
+v085170a,P2a1. How much R likes responsibility for thinking
+v085170b,P2a2. How much R dislikes responsibility for thinking
+v085170x,P2ax. SUMMARY: LIKES OR DISLIKES RESPONSIBLITY FOR THINKING
+v085171,P3. Does R prefer simple problems or complex problems
+v085172,P4. How much can people change the kind of person they are
+v085173,P5. How likely is an earthly catastrophe in next 100 years
+v085174a,Q1a. Stereptype: Whites hardworking
+v085174b,Q1b. Stereptype: Blacks hardworking
+v085174c,Q1c. Stereptype: Hispanics hardworking
+v085174d,Q1d. Stereptype: Asians hardworking
+v085175a,Q2a. Stereptype: Whites intelligent
+v085175b,Q2b. Stereptype: Blacks intelligent
+v085175c,Q2c. Stereptype: Hispanics intelligent
+v085175d,Q2d. Stereptype: Asians intelligent
+v085176,Q3a1. Most important issue to R personally
+v085177,Q3a2. 2nd most important issue to R personally
+v085178,Q3b1. Most important political problem
+v085179,Q3b2. 2nd most important political problem
+v085180,Q3b3. Which party best: most important political problem
+v085181,Q3b4. Which party best: 2nd most important political problem
+v085182,Q4. Does/doesn't make a difference who is in power
+v085183,Q5. Does/doesn't make a difference who one votes for
+v085184,Q6. How good a job govt in Washington has done past 4 years
+v085185,Q7. Does any party represent R's views reasonably well
+v085185a,Q7a. Which party represents R's views reasonably well
+v085186,Q8. Does any 2008 Pres cand represent R's view reasonab well
+v085186a,Q8a. Which 2008 Pres cand represents R's view reasonab well
+v085187a,Q9a1. Like-dislike: Democratic Party
+v085187b,Q9a2. Like-dislike: Republican Party
+v085188a,Q9b1. Like-dislike: John McCain
+v085188b,Q9b2. Like-dislike: Barack Obama
+v085189a,Q10a1. Left-right: Democratic Party
+v085189b,Q10a2. Left-right: Republican Party
+v085190a,Q10b1. Left-right: John McCain
+v085190b,Q10b2. Left-right: Barack Obama
+v085191,Q10c. Left-right: self
+v085192,Q11. Were there major differences between Pres cands
+v085193,Q12. How closely did R follow the election campaign
+v085194,Q13. How satisfied with way democracy works in the U.S.
+v085195,Q14_. PRESIDENTIAL CANDIDATE FOR WHOM R VOTED
+v085196,Q14. Did R consider voting for any other Presidential cand
+v085196a,Q14a. #1 Which other Pres cand(s) did R consider voting for
+v085196b,Q14b. #2 Which other Pres cand(s) did R consider voting for
+v085197,Q15. Were there any Pres cands R would never vote for
+v085197a,Q15a. #1 Which were the Pres cands R would never vote for
+v085197b,Q15b. #2 Which were the Pres cands R would never vote for
+v085197c,Q15c. #3 Which were the Pres cands R would never vote for
+v085198,R1. Federal govt pose an threat to citizens [PLACEMENT 1]
+v085199a,R2a. How likely is R to: join in a protest march or rally
+v085199b,R2b. How likely is R to: attend a city or school board meetg
+v085199c,R2c. How likely is R to: sign internet petition about issue
+v085199d,R2d. How likely is R to: sign paper petition about issue
+v085199e,R2e. How likely is R to: give money to religious organizatn
+v085199f,R2f. How likely is R to: give money to social/polit organizn
+v085199g,R2g. How likely is R to: attend meetg abt social/polit issue
+v085199h,R2h. How likely is R to: invite other to social/polit meetg
+v085199j,R2j. How likely is R to: distribute social/polit group info
+v085200a,R3a. US adults have ever: joined a protest march or rally
+v085200b,R3b. US adults have ever: attended city/school brd meeting
+v085200c,R3c. US adults have ever: signed internet petition on issue
+v085200d,R3d. US adults have ever: signed paper petition on issue
+v085200e,R3e. US adults have ever: gave money to religious organizn
+v085200f,R3f. US adults have ever: gave money to social/polit org
+v085200g,R3g. US adults have ever: attended meetg on soc/polit issue
+v085200h,R3h. US adults have ever: invited other to soc/polit meetg
+v085201a,R4a. Has R ever: joined a protest march or rally
+v085201b,R4b. Has R ever: attended city/school brd meeting
+v085201c,R4c. Has R ever: signed internet petition on issue
+v085201d,R4d. Has R ever: signed paper petition on issue
+v085201e,R4e. Has R ever: gave money to religious organizn
+v085201f,R4f. Has R ever: gave money to social/polit org
+v085201g,R4g. Has R ever: attended meetg on soc/polit issue
+v085201h,R4h. Has R ever: invited other to soc/polit meetg
+v085201j,R4j. Has R ever: distributed social/polit group info
+v085202a,R4a1. Worry about arrest when R joined protest march
+v085202b,R4e1. Worry abt arrest when gave money to relig organization
+v085202c,R4f1. Worry abt arrest when gave money to social/polit org
+v085202d,R4g1. Worry abt arrest when attended social/polit meeting
+v085202e,R4j1. Worry abt arrest when distributed soc/polit group info
+v085203,R5a. Are people more angry with federal govt than used to be
+v085204,R5b. Is R more angry with federal govt than used to be
+v085205,R6a. Angry abt what federal govt has done during last 4 yrs
+v085205a,R6a1. Angry at what federal govt has done to self or others
+v085206,R6b. Hopeful abt what federl govt has done during last 4 yrs
+v085206a,R6b1. Hopeful abt what fed govt has done to self or others
+v085207,R6c. Afraid abt what federal govt has done during last 4 yrs
+v085207a,R6c1. Afraid abt what fedl govt has done to self or others
+v085208,R6d. Proud abt what federal govt has done during last 4 yrs
+v085208a,R6d1. Proud abt what federal govt has done to self or others
+v085209,R7a. Approve/disapprove govt handling war in Afghanistan
+v085209a,R7a1. How much approve handling of war in Afghanistan
+v085209b,R7a2. How much disapprove handling of war in Afghanistan
+v085209x,R7ax. SUMMARY: APPROVE-DISAPPROVE HANDLING AFGHANISTAN WAR
+v085210,R7b. Approve/disapprove govt handling war in Iraq
+v085210a,R7b1. How much approve handling of war in Iraq
+v085210b,R7b2. How much disapprove handling of war in Iraq
+v085210x,R7bx. SUMMARY: APPROVE-DISAPPROVE HANDLING IRAQ WAR
+v085211,R7c. Approve/disapprove govt efforts to reduce terrorism
+v085211a,R7c1. How much approve efforts to reduce terrorism
+v085211b,R7c2. How much disapprove efforts to reduce terrorism
+v085211x,R7cx. SUMMARY: APPROVE-DISAPP EFFORTS TO REDUCE TERRORISM
+v085212,R8. Federal govt pose an threat to citizens [PLACEMENT 2]
+v085213,S1. What were 9/11 terrorist trying to accomplish
+v085214,S2a. Violent crime in city compared to 1 year ago
+v085214a,S2a1. How much more crime in city compared to 1 year ago
+v085214b,S2a2. How much less crime in city compared to 1 year ago
+v085214x,S2ax. SUMMARY: AMT OF CRIME IN CITY COMPARED TO 1 YR AGO
+v085215,S2b. Violent crime in U.S. compared to 1 year ago
+v085215a,S2b1. How much more crime in U.S. compared to 1 year ago
+v085215b,S2b2. How much less crime in U.S. compared to 1 year ago
+v085215x,S2bx. SUMMARY: AMT OF CRIME IN U.S. COMPARED TO 1 YR AGO
+v085216,S3a. Chances of terrorist attack compared to 1 year ago
+v085216a,S3a1. How much more chance of terrorist attack than 1 yr ago
+v085216b,S3a2. How much less chance of terrorist attack than 1 yr ago
+v085216x,S3ax. SUMMARY: CHANCE OF TERRORIST ATTACK COMPARED TO YR AGO
+v085217,S3b. Likely terrorist attack killing 100 or more in next yr
+v085218,S3c. How well govt reduced chance terror attack in last yr
+v085219,S4a. Effect on terrorist attacks: decreasing oil imports
+v085219a,S4a1. How much increase terror chance: cut oil imports
+v085219b,S4a2. How much decrease terror chance: cut oil imports
+v085219x,S4ax. SUMMARY: CUT OIL IMPORTS REDUCE TERRORIST ATTACKS
+v085220,S4b. Effect on terrorist attacks: Middle East democracies
+v085220a,S4b1.How much increase terror chance: MidEast democracy
+v085220b,S4b2.How much decrease terror chance: MidEast democracy
+v085220x,S4bx. SUMMARY: MIDEAST DEMOCRACY REDUCE TERRORIST ATTACKS
+v085221,S4c. Effect on terrorist attacks: prevent nuclear weapons
+v085221a,S4c1. How much increase terror chance: stop nuclear weapons
+v085221b,S4c2. How much decrease terror chance: stop nuclear weapons
+v085221x,S4cx. SUMMARY: STOP NUCLEAR REDUCE TERRORIST ATTACKS
+v085222,S4d. Effect on terrorist attacks: more spending on military
+v085222a,S4d1. How much increase terror chance: more military money
+v085222b,S4d2. How much decrease terror chance: more military money
+v085222x,S4dx. SUMMARY: MORE MILITARY REDUCE TERRORIST ATTACKS
+v085223,S4e. Effect on terrorist attacks: aid Middle East poverty
+v085223a,S4e1. How much increase terror chance: aid MidEast poverty
+v085223b,S4e2. How much decrease terror chance: aid MidEast poverty
+v085223x,S4ex. SUMMARY: AID MIDEAST POVERTY REDUCE TERRORIST ATTACKS
+v085224,S4f. Effect on terrorist attacks: stop solving others' probs
+v085224a,S4f1. How much increase terror chance: stay out others probs
+v085224b,S4f2. How much decrease terror chance: stay out others probs
+v085224x,S4fx. SUMMARY: STAY OUT OTHERS PROBS REDUCE TERRORST ATTACKS
+v085225,S4g. Effect on terrorist attacks: stop terrorist US entrance
+v085225a,S4g1. How much increase terror chance: stop entrance to US
+v085225b,S4g2. How much decrease terror chance: stop entrance to US
+v085225x,S4gx. SUMMARY: STOP US ENTRANCE REDUCE TERRORIST ATTACKS
+v085226,S4h. Effect on terrorist attacks: no terrorist plane boardg
+v085226a,S4h1. How much increase terror chance: stop plane boarding
+v085226b,S4h2. How much decrease terror chance: stop plane boarding
+v085226x,S4hx. SUMMARY: STOP PLANE BOARDING REDUCE TERRORIST ATTACKS
+v085227,S4j. Effect on terrorist attacks: stop weapons into US
+v085227a,S4j1. How much increase terror chance: stop weapons to US
+v085227b,S4j2. How much decrease terror chance: stop weapons to US
+v085227x,S4jx. SUMMARY: STOP WEAPONS TO US REDUCE TERRORIST ATTACKS
+v085228,S4k. Effect on terrorist attacks: strengthening allise
+v085228a,S4k1. How much increase terror chance: strengthen allies
+v085228b,S4k2. How much decrease terror chance: strengthen allies
+v085228x,S4kx. SUMMARY: STRENGTHEN ALLIES REDUCE TERRORIST ATTACKS
+v085229,S4m. Effect on terrorist attacks: helping exports
+v085229a,S4m1. How much increase terror chance: helping US exports
+v085229b,S4m2. How much decrease terror chance: helping US exports
+v085229x,S4mx. SUMMARY: HELPING US EXPORTS REDUCE TERRORIST ATTACKS
+v085230,S4n. Effect on terrorist attacks: make easier to move to US
+v085230a,S4n1. How much increase terror chance: easier to move to US
+v085230b,S4n2. How much decrease terror chance: easier to move to US
+v085230x,S4nx. SUMMARY: EASIER TO MOVE TO US REDUCE TERRORIST ATTACKS
+v085231a,S5a. Likelihood terrorist attack: suicide bombing
+v085231b,S5b. Likelihood terrorist attack: non-suicide bombing
+v085231c,S5c. Likelihood terrorist attack: radioactive material
+v085231d,S5d. Likelihood terrorist attack: nuclear bomb
+v085231e,S5e. Likelihood terrorist attack: sniper attack
+v085231f,S5f. Likelihood terrorist attack: biologic weapons
+v085231g,S5g. Likelihood terrorist attack: chemical weapons
+v085231h,S5h. Likelihood terrorist attack: other type of attack
+v085232,S6. Favor or oppose torture for suspected terrorists
+v085232a,S6a. How much favor torture for suspected terrorists
+v085232b,S6b. How much oppose torture for suspected terrorists
+v085232x,S6x. SUMMARY: FAVOR-OPPOSE TORTURE FOR SUSPECTED TERRORISTS
+v085233,T1a. Was R proud learning Obama won Democratic nomination
+v085233a,T1a1. How proud was R learning Obama won Dem nomination
+v085234,T1b. Was R angry learning Obama won Democratic nomination
+v085234a,T1b1. How angry was R learning Obama won Dem nomination
+v085235,T1c. Was R disappointed learning Obama won Dem nomination
+v085235a,T1c1. How disappointed was R learning Obama won Dem nominatn
+v085236,T1d. Was R afraid learning Obama won Democratic nomination
+v085236a,T1d1. How afraid was R learning Obama won Dem nomination
+v085237,T1e. Was R happy learning Obama won Democratic nomination
+v085237a,T1e1. How happy was R learning Obama won Dem nomination
+v085238,T1f. Was R hopeful learning Obama won Democratic nomination
+v085238a,T1f1. How hopeful was R learning Obama won Dem nomination
+v085239,T2. Why does R think Obama won Democratic nomination
+v085240,T3. Why does R think Hillary Clinton lost Dem nomination
+v085241,T4a. Was R proud learning Obama won the Pres election
+v085241a,T4a1. How proud was R learning Obama won the Pres election
+v085242,T4b. Was R angry learning Obama won the Pres election
+v085242a,T4b1. How angry was R learning Obama won the Pres election
+v085243,T4c. Was R disappointed learning Obama won the Pres election
+v085243a,T4c1. How disappointed was R learning Obama won Pres electn
+v085244,T4d. Was R afraid learning Obama won the Pres election
+v085244a,T4d1. How afraid was R learning Obama won the Pres election
+v085245,T4e. Was R happy learning Obama won the Pres election
+v085245a,T4e1. How happy was R learning Obama won the Pres election
+v085246,T4f. Was R hopeful learning Obama won the Pres election
+v085246a,T4f1. How hopeful was R learning Obama won the Pres election
+v085247,T5. Why does R think Obama won the Presidential election
+v085248,T6. Why does R think McCain lost the Presidential election
+v085249,V1_. No identification with religion (PRELOAD)
+v085250,V1. NO RELIGIOUS IDENTIFICATION: consider self Jewish
+v085250a,"V1a. NO RELIGIOUS IDENTIFICATION: if Jewish, type"
+v085251a,V2_1. Major religion group (PRELOAD)
+v085251b,V2_2. Religious denomination (PRELOAD)
+v085252,V2. Was R raised in PRELOAD religion
+v085252a,V3. Raised in other/no religion: what major religion group
+v085253,V4. Raised in other religion: what denomination
+v085254,V4a. Raised in other religion: Baptist
+v085254a,V4b. Raised in other religion: independent Baptist
+v085255,V4c. Raised in other religion: Lutheran
+v085256,V4d. Raised in other religion: Methodist
+v085257,V4e. Raised in other religion: Presbyterian
+v085258,V4f. Raised in other religion: Reformed
+v085259,V4g. Raised in other religion: Brethren
+v085260,V4h. Raised in other religion: 'Christian'
+v085261,V4j. Raised in other religion: Church of Christ
+v085262,V4k. Raised in other religion: Church of God
+v085263,V4m. Raised in no religion: raised as a Jew
+v085263a,"V4n. Raised in no religion: if raised as a Jew, type"
+v085264,V5_. Marital status (PRELOAD)
+v085265,V5. Spouse religion: same as PRELOAD religion
+v085266,V6. Spouse religion not PRELOAD religion: major religion
+v085267,V7. Spouse religion not PRELOAD religion: denomination
+v085268,V7a. Spouse religion not PRELOAD religion: Baptist
+v085268a,V7b. Spouse religion not PRELOAD religion: ind Baptist
+v085269,V7c. Spouse religion not PRELOAD religion: Lutheran
+v085270,V7d. Spouse religion not PRELOAD religion: Methodist
+v085271,V7e. Spouse religion not PRELOAD religion: Presbyterian
+v085272,V7f. Spouse religion not PRELOAD religion: Reformed
+v085273,V7g. Spouse religion not PRELOAD religion: Brethren
+v085274,V7h. Spouse religion not PRELOAD religion: 'Christian'
+v085275,V7j. Spouse religion not PRELOAD religion: Church of Christ
+v085276,V7k. Spouse religion not PRELOAD religion: Church of God
+v085277,V7m. Spouse religion none: is spouse Jewish
+v085277a,"V7n. Spouse religion none: if spouse Jewish, type"
+v085278,W1. HISPANIC (PRELOAD)
+v085279,W1. HISPANIC: news in English or Spanish
+v085280,W2. HISPANIC SPANISH LANG IW: converse well in English
+v085281,W3. HISPANIC NOT SPANISH LANG IW: converse well in Spanish
+v085282,W4. HISPANIC: how important to speak Spanish
+v085283,W5a. HISPANIC: how important to read and write English in US
+v085284,W5b. HISPANIC: how important to speak English in US
+v085285a,W6a. HISPANIC: Hispanics in common with blacks econ/educ
+v085285b,W6b. HISPANIC: Hispanics in common with whites econ/educ
+v085286a,W7a. HISPANIC: Hispanics in common with blacks political
+v085286b,W7b. HISPANIC: Hispanics in common with whites political
+v085287,W8. HISPANIC: Hispanics doing well if blacks doing well
+v085288a,w9a. HISPANIC: compete with blacks in jobs
+v085288b,W9b. HISPANIC: com[pete with blacks in education
+v085288c,W9c. HISPANIC: compete with blacks in government
+v085288d,W9d. HISPANIC: compete with blacks in govt jobs
+v085289a,W10a. HISPANIC: how important to blend in
+v085289b,W10b. HISPANIC: how important to maintain culture
+v085290,W11. HISPANIC: R doing well depend upon Hispanics doing well
+v085291,W12. Country of Hispanic ancestry (PRELOAD)
+v085292,W12. HISPANIC: how often contact with ancestral country
+v085293,W13. HISPANIC: how often visit ancestral country
+v085294,W14. HISPANIC: how often send money to ancestral country
+v085295,W15. HISPANIC: attn to politics in ancestral country
+v085296,W16. HISPANIC: did R ever vote in ancestral country
+v085297a,Y1a. Is govt economic bailout the right step [VERSION Y1a]
+v085297b,Y1b. Is govt economic bailout the right step [VERSION Y1b]
+v085298,Y2. Should R have sent troops to Iraq in 2003
+v085299,Y3. Should number of troops in Iraq be more or less in 3 mos
+v085299a,Y3a. How much more troops in Iraq in 3 months
+v085299b,Y3b. How much fewer troops in Iraq in 3 months
+v085299x,Y3x. SUMMARY: TROOPS IN IRAQ IN 3 MONTHS
+v085300,Y3c. How important is issue of troop level
+v085301,Y4. Favor or oppose deadline for withdrawal of Iraq troops
+v085301a,Y4a. How much favor/oppose withdrawal deadline for troops
+v085301x,Y4x. SUMMARY: DEADLINE FOR WITHDRAWAL OF IRAQ TROOPS
+v085302,Y4b. How important is withdrawal deadline for Iraq troops
+v085303,Y5a1. Does R have favorable reaction to Democratic Party
+v085303a,Y5a1a. How favorable about Democratic Party
+v085304,Y5a2. Does R have unfavorable reaction to Democratic Party
+v085304a,Y5a2a. How unfavorable about Republican Party
+v085305,Y5b1. Does R have favorable reaction to Republican Party
+v085305a,Y5b1a. How favorable about Republican Party
+v085306,Y5b2. Does R have favorable reaction to Republican Party
+v085306a,Y5b2a. How favorable about Republican Party
+v085307,Y6. How often does R put on a show
+v085308,Y7. Would R be a good actor
+v085309,Y8. Is R often the center of attention in a group
+v085310,Y9. How satisfied is R with life
+v085311,AMP.1. 1st BLACK FACE PHOTO: response (P or Q)
+v085311a,AMP.1a. 1st BLACK FACE PHOTO: response time (sec)
+v085311b,AMP.1b. 1st BLACK FACE PHOTO: photograph (letter)
+v085311c,AMP.1c. 1st BLACK FACE PHOTO: Chinese character
+v085311d,AMP.1d. 1st BLACK FACE PHOTO: nth in sequence
+v085312,AMP.2. 2nd BLACK FACE PHOTO: response (P or Q)
+v085312a,AMP.2a. 2nd BLACK FACE PHOTO: response time (sec)
+v085312b,AMP.2b. 2nd BLACK FACE PHOTO: photograph (sec)
+v085312c,AMP.2c. 2nd BLACK FACE PHOTO: Chinese character
+v085312d,AMP.2d. 2nd BLACK FACE PHOTO: nth in sequence
+v085313,AMP.3. 3rd BLACK FACE PHOTO: response (P or Q)
+v085313a,AMP.3a. 3rd BLACK FACE PHOTO: response time (sec)
+v085313b,AMP.3b. 3rd BLACK FACE PHOTO: photograph (letter)
+v085313c,AMP.3c. 3rd BLACK FACE PHOTO: Chinese character
+v085313d,AMP.3d. 3rd BLACK FACE PHOTO: nth in sequence
+v085314,AMP.4. 4th BLACK FACE PHOTO: response (P or Q)
+v085314a,AMP.4a. 4th BLACK FACE PHOTO: response time (sec)
+v085314b,AMP.4b. 4th BLACK FACE PHOTO: photograph (letter)
+v085314c,AMP.4c. 4th BLACK FACE PHOTO: Chinese character
+v085314d,AMP.4d. 4th BLACK FACE PHOTO: nth in sequence
+v085315,AMP.5. 5th BLACK FACE PHOTO: response (P or Q)
+v085315a,AMP.5a. 5th BLACK FACE PHOTO: response time (sec)
+v085315b,AMP.5b. 5th BLACK FACE PHOTO: photograph (letter)
+v085315c,AMP.5c. 5th BLACK FACE PHOTO: Chinese character
+v085315d,AMP.5d. 5th BLACK FACE PHOTO: nth in sequence
+v085316,AMP.6. 6th BLACK FACE PHOTO: response (P or Q)
+v085316a,AMP.6a. 6th BLACK FACE PHOTO: response time (sec)
+v085316b,AMP.6b. 6th BLACK FACE PHOTO: photograph (letter)
+v085316c,AMP.6c. 6th BLACK FACE PHOTO: Chinese character
+v085316d,AMP.6d. 6th BLACK FACE PHOTO: nth in sequence
+v085317,AMP.7. 7th BLACK FACE PHOTO: response (P or Q)
+v085317a,AMP.7a. 7th BLACK FACE PHOTO: response time (sec)
+v085317b,AMP.7b. 7th BLACK FACE PHOTO: photograph (letter)
+v085317c,AMP.7c. 7th BLACK FACE PHOTO: Chinese character
+v085317d,AMP.7d. 7th BLACK FACE PHOTO: nth in sequence
+v085318,AMP.8. 8th BLACK FACE PHOTO: response (P or Q)
+v085318a,AMP.8a. 8th BLACK FACE PHOTO: response time (sec)
+v085318b,AMP.8b. 8th BLACK FACE PHOTO: photograph (letter)
+v085318c,AMP.8c. 8th BLACK FACE PHOTO: Chinese character
+v085318d,AMP.8d. 8th BLACK FACE PHOTO: nth in sequence
+v085319,AMP.9. 9th BLACK FACE PHOTO: response (P or Q)
+v085319a,AMP.9a. 9th BLACK FACE PHOTO: response time (sec)
+v085319b,AMP.9b. 9th BLACK FACE PHOTO: photograph (letter)
+v085319c,AMP.9c. 9th BLACK FACE PHOTO: Chinese character
+v085319d,AMP.9d. 9th BLACK FACE PHOTO: nth in sequence
+v085320,AMP.10. 10th BLACK FACE PHOTO: response (P or Q)
+v085320a,AMP.10a. 10th BLACK FACE PHOTO: response time (sec)
+v085320b,AMP.10b. 10th BLACK FACE PHOTO: photograph (letter)
+v085320c,AMP.10c. 10th BLACK FACE PHOTO: Chinese character
+v085320d,AMP.20d. 10th BLACK FACE PHOTO: nth in sequence
+v085321,AMP.11. 11th BLACK FACE PHOTO: response (P or Q)
+v085321a,AMP.11a. 11th BLACK FACE PHOTO: response time (sec)
+v085321b,AMP.11b. 11th BLACK FACE PHOTO: photograph (letter)
+v085321c,AMP.11c. 11th BLACK FACE PHOTO: Chinese character
+v085321d,AMP.11d. 11th BLACK FACE PHOTO: nth in sequence
+v085322,AMP.12. 12th BLACK FACE PHOTO: response (P or Q)
+v085322a,AMP.12a. 12th BLACK FACE PHOTO: response time (sec)
+v085322b,AMP.12b. 12th BLACK FACE PHOTO: photograph (letter)
+v085322c,AMP.12c. 12th BLACK FACE PHOTO: Chinese character
+v085322d,AMP.12d. 12th BLACK FACE PHOTO: nth in sequence
+v085323,AMP.13. 13th BLACK FACE PHOTO: response (P or Q)
+v085323a,AMP.13a. 13th BLACK FACE PHOTO: response time (sec)
+v085323b,AMP.13b. 13th BLACK FACE PHOTO: photograph (letter)
+v085323c,AMP.13c. 13th BLACK FACE PHOTO: Chinese character
+v085323d,AMP.13d. 13th BLACK FACE PHOTO: nth in sequence
+v085324,AMP.14. 14th BLACK FACE PHOTO: response (P or Q)
+v085324a,AMP.14a. 14th BLACK FACE PHOTO: response time (sec)
+v085324b,AMP.14b. 14th BLACK FACE PHOTO: photograph (letter)
+v085324c,AMP.14c. 14th BLACK FACE PHOTO: Chinese character
+v085324d,AMP.14d. 14th BLACK FACE PHOTO: nth in sequence
+v085325,AMP.15. 15th BLACK FACE PHOTO: response (P or Q)
+v085325a,AMP.15a. 15th BLACK FACE PHOTO: response time (sec)
+v085325b,AMP.15b. 15th BLACK FACE PHOTO: photograph (letter)
+v085325c,AMP.15c. 15th BLACK FACE PHOTO: Chinese character
+v085325d,AMP.15d. 15th BLACK FACE PHOTO: nth in sequence
+v085326,AMP.16. 16th BLACK FACE PHOTO: response (P or Q)
+v085326a,AMP.16a. 16th BLACK FACE PHOTO: response time (sec)
+v085326b,AMP.16b. 16th BLACK FACE PHOTO: photograph (letter)
+v085326c,AMP.16c. 16th BLACK FACE PHOTO: Chinese character
+v085326d,AMP.16d. 16th BLACK FACE PHOTO: nth in sequence
+v085327,AMP.17. 17th BLACK FACE PHOTO: response (P or Q)
+v085327a,AMP.17a. 17th BLACK FACE PHOTO: response time (sec)
+v085327b,AMP.17b. 17th BLACK FACE PHOTO: photograph (letter)
+v085327c,AMP.17c. 17th BLACK FACE PHOTO: Chinese character
+v085327d,AMP.17d. 17th BLACK FACE PHOTO: nth in sequence
+v085328,AMP.18. 18th BLACK FACE PHOTO: response (P or Q)
+v085328a,AMP.18a. 18th BLACK FACE PHOTO: response time (sec)
+v085328b,AMP.18b. 18th BLACK FACE PHOTO: photograph (letter)
+v085328c,AMP.18c. 18th BLACK FACE PHOTO: Chinese character
+v085328d,AMP.18d. 18th BLACK FACE PHOTO: nth in sequence
+v085329,AMP.19. 19th BLACK FACE PHOTO: response (P or Q)
+v085329a,AMP.19a. 19th BLACK FACE PHOTO: response time (sec)
+v085329b,AMP.19b. 19th BLACK FACE PHOTO: photograph (letter)
+v085329c,AMP.19c. 19th BLACK FACE PHOTO: Chinese character
+v085329d,AMP.19d. 19th BLACK FACE PHOTO: nth in sequence
+v085330,AMP.20. 20th BLACK FACE PHOTO: response (P or Q)
+v085330a,AMP.20a. 20th BLACK FACE PHOTO: response time (sec)
+v085330b,AMP.20b. 20th BLACK FACE PHOTO: photograph (letter)
+v085330c,AMP.20c. 20th BLACK FACE PHOTO: Chinese character
+v085330d,AMP.20d. 20th BLACK FACE PHOTO: nth in sequence
+v085331,AMP.21. 21st BLACK FACE PHOTO: response (P or Q)
+v085331a,AMP.21a. 21st BLACK FACE PHOTO: response time (sec)
+v085331b,AMP.21b. 21st BLACK FACE PHOTO: photograph (letter)
+v085331c,AMP.21c. 21st BLACK FACE PHOTO: Chinese character
+v085331d,AMP.21d. 31st BLACK FACE PHOTO: nth in sequence
+v085332,AMP.22. 22nd BLACK FACE PHOTO: response (P or Q)
+v085332a,AMP.22a. 22nd BLACK FACE PHOTO: response time (sec)
+v085332b,AMP.22b. 22nd BLACK FACE PHOTO: photograph (letter)
+v085332c,AMP.22c. 22nd BLACK FACE PHOTO: Chinese character
+v085332d,AMP.22d. 22nd BLACK FACE PHOTO: nth in sequence
+v085333,AMP.23. 23rd BLACK FACE PHOTO: response (P or Q)
+v085333a,AMP.23a. 23rd BLACK FACE PHOTO: response time (sec)
+v085333b,AMP.23b. 23rd BLACK FACE PHOTO: photograph (letter)
+v085333c,AMP.23c. 23rd BLACK FACE PHOTO: Chinese character
+v085333d,AMP.23d. 23rd BLACK FACE PHOTO: nth in sequence
+v085334,AMP.24. 24th BLACK FACE PHOTO: response (P or Q)
+v085334a,AMP.24a. 24th BLACK FACE PHOTO: response time (sec)
+v085334b,AMP.24b. 24th BLACK FACE PHOTO: photograph (letter)
+v085334c,AMP.24c. 24th BLACK FACE PHOTO: Chinese character
+v085334d,AMP.24d. 24th BLACK FACE PHOTO: nth in sequence
+v085335,AMP.25. 1st WHITE FACE PHOTO: response (P or Q)
+v085335a,AMP.25a. 1st WHITE FACE PHOTO: response time (sec)
+v085335b,AMP.25b. 1st WHITE FACE PHOTO: photograph (letter)
+v085335c,AMP.25c. 1st WHITE FACE PHOTO: Chinese character
+v085335d,AMP.25d. 1st WHITE FACE PHOTO: nth in sequence
+v085336,AMP.26. 2nd WHITE FACE PHOTO: response (P or Q)
+v085336a,AMP.26a. 2nd WHITE FACE PHOTO: response time (sec)
+v085336b,AMP.26b. 2nd WHITE FACE PHOTO: photograph (letter)
+v085336c,AMP.26c. 2nd WHITE FACE PHOTO: Chinese character
+v085336d,AMP.26d. 2nd WHITE FACE PHOTO: nth in sequence
+v085337,AMP.27. 3rd WHITE FACE PHOTO: response (P or Q)
+v085337a,AMP.27a. 3rd WHITE FACE PHOTO: response time (sec)
+v085337b,AMP.27b. 3rd WHITE FACE PHOTO: photograph (letter)
+v085337c,AMP.27c. 3rd WHITE FACE PHOTO: Chinese character
+v085337d,AMP.27d. 3rd WHITE FACE PHOTO: nth in sequence
+v085338,AMP.28. 4th WHITE FACE PHOTO: response (P or Q)
+v085338a,AMP.28a. 4th WHITE FACE PHOTO: response time (sec)
+v085338b,AMP.28b. 4th WHITE FACE PHOTO: photograph (letter)
+v085338c,AMP.28c. 4th WHITE FACE PHOTO: Chinese character
+v085338d,AMP.28d. 4th WHITE FACE PHOTO: nth in sequence
+v085339,AMP.29. 5th WHITE FACE PHOTO: response (P or Q)
+v085339a,AMP.29a. 5th WHITE FACE PHOTO: response time (sec)
+v085339b,AMP.29b. 5th WHITE FACE PHOTO: photograph (letter)
+v085339c,AMP.29c. 5th WHITE FACE PHOTO: Chinese character
+v085339d,AMP.29d. 5th WHITE FACE PHOTO: nth in sequence
+v085340,AMP.30. 6th WHITE FACE PHOTO: response (P or Q)
+v085340a,AMP.30a. 6th WHITE FACE PHOTO: response time (sec)
+v085340b,AMP.30b. 6th WHITE FACE PHOTO: photograph (letter)
+v085340c,AMP.30c. 6th WHITE FACE PHOTO: Chinese character
+v085340d,AMP.30d. 6th WHITE FACE PHOTO: nth in sequence
+v085341,AMP.31. 7th WHITE FACE PHOTO: response (P or Q)
+v085341a,AMP.31a. 7th WHITE FACE PHOTO: response time (sec)
+v085341b,AMP.31b. 7th WHITE FACE PHOTO: photograph (letter)
+v085341c,AMP.31c. 7th WHITE FACE PHOTO: Chinese character
+v085341d,AMP.31d. 7th WHITE FACE PHOTO: nth in sequence
+v085342,AMP.32. 8th WHITE FACE PHOTO: response (P or Q)
+v085342a,AMP.32a. 8th WHITE FACE PHOTO: response time (sec)
+v085342b,AMP.32b. 8th WHITE FACE PHOTO: photograph (letter)
+v085342c,AMP.32c. 8th WHITE FACE PHOTO: Chinese character
+v085342d,AMP.32d. 8th WHITE FACE PHOTO: nth in sequence
+v085343,AMP.33. 9th WHITE FACE PHOTO: response (P or Q)
+v085343a,AMP.33a. 9th WHITE FACE PHOTO: response time (sec)
+v085343b,AMP.33b. 9th WHITE FACE PHOTO: photograph (letter)
+v085343c,AMP.33c. 9th WHITE FACE PHOTO: Chinese character
+v085343d,AMP.33d. 9th WHITE FACE PHOTO: nth in sequence
+v085344,AMP.34. 10th WHITE FACE PHOTO: response (P or Q)
+v085344a,AMP.34a. 10th WHITE FACE PHOTO: response time (sec)
+v085344b,AMP.34b. 10th WHITE FACE PHOTO: photograph (letter)
+v085344c,AMP.34c. 10th WHITE FACE PHOTO: Chinese character
+v085344d,AMP.34d. 10th WHITE FACE PHOTO: nth in sequence
+v085345,AMP.35. 11th WHITE FACE PHOTO: response (P or Q)
+v085345a,AMP.35a. 11th WHITE FACE PHOTO: response time (sec)
+v085345b,AMP.35b. 11th WHITE FACE PHOTO: photograph (letter)
+v085345c,AMP.35c. 11th WHITE FACE PHOTO: Chinese character
+v085345d,AMP.35d. 11th WHITE FACE PHOTO: nth in sequence
+v085346,AMP.36. 12th WHITE FACE PHOTO: response (P or Q)
+v085346a,AMP.36a. 12th WHITE FACE PHOTO: response time (sec)
+v085346b,AMP.36b. 12th WHITE FACE PHOTO: photograph (letter)
+v085346c,AMP.36c. 12th WHITE FACE PHOTO: Chinese character
+v085346d,AMP.36d. 12th WHITE FACE PHOTO: nth in sequence
+v085347,AMP.37. 13th WHITE FACE PHOTO: response (P or Q)
+v085347a,AMP.37a. 13th WHITE FACE PHOTO: response time (sec)
+v085347b,AMP.37b. 13th WHITE FACE PHOTO: photograph (letter)
+v085347c,AMP.37c. 13th WHITE FACE PHOTO: Chinese character
+v085347d,AMP.37d. 13th WHITE FACE PHOTO: nth in sequence
+v085348,AMP.38. 14th WHITE FACE PHOTO: response (P or Q)
+v085348a,AMP.38a. 14th WHITE FACE PHOTO: response time (sec)
+v085348b,AMP.38b. 14th WHITE FACE PHOTO: photograph (letter)
+v085348c,AMP.38c. 14th WHITE FACE PHOTO: Chinese character
+v085348d,AMP.38d. 14th WHITE FACE PHOTO: nth in sequence
+v085349,AMP.39. 15th WHITE FACE PHOTO: response (P or Q)
+v085349a,AMP.39a. 15th WHITE FACE PHOTO: response time (sec)
+v085349b,AMP.39b. 15th WHITE FACE PHOTO: photograph (letter)
+v085349c,AMP.39c. 15th WHITE FACE PHOTO: nth in sequence
+v085349d,AMP.39d. 15th WHITE FACE PHOTO: Chinese character
+v085350,AMP.40. 16th WHITE FACE PHOTO: response (P or Q)
+v085350a,AMP.40a. 16th WHITE FACE PHOTO: response time (sec)
+v085350b,AMP.40b. 16th WHITE FACE PHOTO: photograph (letter)
+v085350c,AMP.40c. 16th WHITE FACE PHOTO: Chinese character
+v085350d,AMP.40d. 16th WHITE FACE PHOTO: nth in sequence
+v085351,AMP.41. 17th WHITE FACE PHOTO: response (P or Q)
+v085351a,AMP.41a. 17th WHITE FACE PHOTO: response time (sec)
+v085351b,AMP.41b. 17th WHITE FACE PHOTO: photograph (letter)
+v085351c,AMP.41c. 17th WHITE FACE PHOTO: Chinese character
+v085351d,
+v085352,AMP.42. 18th WHITE FACE PHOTO: response (P or Q)
+v085352a,AMP.42a. 18th WHITE FACE PHOTO: response time (sec)
+v085352b,AMP.42b. 18th WHITE FACE PHOTO: photograph (letter)
+v085352c,AMP.42c. 18th WHITE FACE PHOTO: Chinese character
+v085352d,AMP.42d. 18th WHITE FACE PHOTO: nth in sequence
+v085353,AMP.43. 19th WHITE FACE PHOTO: response (P or Q)
+v085353a,AMP.43a. 19th WHITE FACE PHOTO: response time (sec)
+v085353b,AMP.43b. 19th WHITE FACE PHOTO: photograph (letter)
+v085353c,AMP.43c. 19th WHITE FACE PHOTO: Chinese character
+v085353d,AMP.43d. 19th WHITE FACE PHOTO: nth in sequence
+v085354,AMP.44. 20th WHITE FACE PHOTO: response (P or Q)
+v085354a,AMP.44a. 20th WHITE FACE PHOTO: response time (sec)
+v085354b,AMP.44b. 20th WHITE FACE PHOTO: photograph (letter)
+v085354c,AMP.44c. 20th WHITE FACE PHOTO: Chinese character
+v085354d,AMP.44d. 20th WHITE FACE PHOTO: nth in sequence
+v085355,AMP.45. 21st WHITE FACE PHOTO: response (P or Q)
+v085355a,AMP.45a. 21st WHITE FACE PHOTO: response time (sec)
+v085355b,AMP.45b. 21st WHITE FACE PHOTO: photograph (letter)
+v085355c,AMP.45c. 21st WHITE FACE PHOTO: Chinese character
+v085355d,AMP.45d. 21st WHITE FACE PHOTO: nth in sequence
+v085356,AMP.46. 22nd WHITE FACE PHOTO: response (P or Q)
+v085356a,AMP.46a. 22nd WHITE FACE PHOTO: response time (sec)
+v085356b,AMP.46b. 22nd WHITE FACE PHOTO: photograph (letter)
+v085356c,AMP.46c. 22nd WHITE FACE PHOTO: Chinese character
+v085356d,AMP.46d. 22nd WHITE FACE PHOTO: nth in sequence
+v085357,AMP.47. 23rd WHITE FACE PHOTO: response (P or Q)
+v085357a,AMP.47a. 23rd WHITE FACE PHOTO: response time (sec)
+v085357b,AMP.47b. 23rd WHITE FACE PHOTO: photograph (letter)
+v085357c,AMP.47c. 23rd WHITE FACE PHOTO: Chinese character
+v085357d,AMP.47d. 23rd WHITE FACE PHOTO: nth in sequence
+v085358,AMP.48. 24th WHITE FACE PHOTO: response (P or Q)
+v085358a,AMP.48a. 24th WHITE FACE PHOTO: response time (sec)
+v085358b,AMP.48b. 24th WHITE FACE PHOTO: photograph (letter)
+v085358c,AMP.48c. 24th WHITE FACE PHOTO: Chinese character
+v085358d,AMP.48d. 24th WHITE FACE PHOTO: nth in sequence
+v085359,AMP.49. R able to read Chinese
+v085360a,AMP.50a. Pre-administration IWR checkpoint
+v085360b,AMP.50b. Post-administration IWR checkpoint
+v085401a,ZZ1a. POST IWR OBS: others present
+v085402,ZZ2. POST IWR OBS: R cooperation
+v085403,ZZ3. POST IWR OBS: R level of information
+v085404,ZZ4. POST IWR OBS: R intelligence
+v085405,ZZ5. POST IWR OBS: R suspicious
+v085406,ZZ6. POST IWR OBS: R interest in IW
+v085407,ZZ7. POST IWR OBS: R sincere
+v085408,ZZ8. POST IWR OBS: places where doubted sincerity
+v085409a,ZZ09a. POST IWR OBS: Mention reactions to IW
