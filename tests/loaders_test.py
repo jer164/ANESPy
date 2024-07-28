@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import patch
-from ..core.loaders import Requester
-from ..core.constants import DATA_DICT, DUMMY_AGENT
+from anespy.core.loaders import Requester
+from anespy.core.constants import DATA_DICT, DUMMY_AGENT
 from io import BytesIO
 from zipfile import ZipFile
 import requests

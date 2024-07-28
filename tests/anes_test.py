@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import patch, MagicMock
-from ..core.anes import ANESTimeSeriesSupplement
-from ..core.constants import DATA_DICT
+from anespy.core.anes import ANESTimeSeriesSupplement
+from anespy.core.constants import DATA_DICT
 from pandas import DataFrame as PandasDF
 from polars import DataFrame as PolarsDF
 

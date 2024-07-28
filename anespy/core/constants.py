@@ -1,3 +1,5 @@
+__all__ = ["DATA_DICT", "DUPED_VARS", "DUMMY_AGENT"]
+
 DATA_DICT = {
     "cumulative": {
         "url": "2022/09/anes_timeseries_cdf_csv_20220916.zip",
