@@ -1,7 +1,7 @@
 from typing import Union, List, overload
 from pandas import DataFrame as PandasDF
 from polars import DataFrame as PolarsDF
-from .constants import DATA_DICT, DUPED_VARS
+from .constants import DATA_DICT
 from .loaders import Requester, Transformer
 
 class ANESTimeSeriesSupplement:
